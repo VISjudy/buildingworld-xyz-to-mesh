@@ -1,0 +1,74 @@
+{
+  "version": "v0.1.0-baseline",
+  "main_models": 3,
+  "files": [
+    {
+      "path": "docs/ALGORITHM_CURRENT_CONTEXT.md",
+      "sha256": "aecaa723bf906f14dfb8577c8e32ce5c0f380a0b194da619848d42977abf161f"
+    },
+    {
+      "path": "docs/README.md",
+      "sha256": "bbda06f0d7f9cc6d593cf5ad99e962c75435ad3df4681295be30e25abe6b7e5f"
+    },
+    {
+      "path": "docs/validation_rules.json",
+      "sha256": "63dd3d177ce3f0e4f944c90f82873f11c5ea094332269e30caa4bc97f45f92a0"
+    },
+    {
+      "path": "index.html",
+      "sha256": "b73b23c27a846bead7411d6777c4f700499d697f2fd0052e17fa614fe75b4a5f"
+    },
+    {
+      "path": "models/1000_lod2.obj",
+      "sha256": "0c783af21d98cfc6f4e9776aa224b7bbaede82ee9cb098debd40e1b05077fafe"
+    },
+    {
+      "path": "models/1000_model.json",
+      "sha256": "37190ca6a98cebc7b9602115e48b5a3423851dac4e5a7922a92e3b96b5eb0699"
+    },
+    {
+      "path": "models/10_lod2.obj",
+      "sha256": "fa1f23b9f9df140497523134def6a3ab0cab19a596afe7d4c42a1d8573b81d2a"
+    },
+    {
+      "path": "models/10_model.json",
+      "sha256": "1163475c418513074d1381a6d902949d8f3ee7753e57f53c541add16af8b65f0"
+    },
+    {
+      "path": "models/2000_lod2.obj",
+      "sha256": "2856de9d40085af7cd8e9dcaeaca7e47b966fa12676d6fd23b494899e99cd3f8"
+    },
+    {
+      "path": "models/2000_model.json",
+      "sha256": "5215a6d8d4750ebb88fb133189ac81cc9641e5eaf4696551c8805b7cb5c7f5b7"
+    },
+    {
+      "path": "packages/models.zip",
+      "sha256": "f6459c80ea3323016d7262191aada582f575aa5b41fd287527da07d4066a433e"
+    },
+    {
+      "path": "renders/blender_preview.png",
+      "sha256": "7aae7b19847771a99fc83babdb7500a6c9fa72a7a903e13de2b39ffd1c0b9caf"
+    },
+    {
+      "path": "renders/reconstruction_comparison.png",
+      "sha256": "038b04aec5f15118619cc521fdd3c5d7add52bfeff30aa9f15edb123467c11f0"
+    },
+    {
+      "path": "reports/blender_mesh_qa.json",
+      "sha256": "444ddce6737a8ad600850dd1db19b9369634b05cd693fb137e831fe9ed1c2a74"
+    },
+    {
+      "path": "scenes/README.md",
+      "sha256": "ca53ac97719a1494a8fadb9bfafdc59f99e63a30052db365d31160516d0560c3"
+    },
+    {
+      "path": "source/README.md",
+      "sha256": "2f1fce9a0b889447c471230481119ed13ff8c896dc253cf9966e1c46b335f361"
+    },
+    {
+      "path": "source/reconstruct_baseline.py",
+      "sha256": "8b69b7e4f842d9628085adacdc7b27f73c5772f77b1f3c7f10f053c20458053a"
+    }
+  ]
+}

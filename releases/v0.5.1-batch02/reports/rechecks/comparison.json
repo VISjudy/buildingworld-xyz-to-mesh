@@ -1,0 +1,259 @@
+[
+  {
+    "id": "1321",
+    "planes": 7,
+    "noise": {
+      "mode": "conservative",
+      "input_points": 4032,
+      "used_points": 4031,
+      "excluded_points": 1,
+      "excluded_indices": [
+        551
+      ],
+      "suspected_isolated_points": 1,
+      "median_nearest_spacing": 0.11550551888076094,
+      "rule": "12-neighbor mean > global median + 6 robust MAD AND > 2.5 local mean-distance median AND nearest distance > max(3 median spacing, 0.05); no point movement"
+    },
+    "topology": {
+      "vertices": 438,
+      "faces": 540,
+      "nonmanifold_edges": 47,
+      "open_edges": 32,
+      "degenerate_faces": 1,
+      "signed_volume": 615.229526602399
+    },
+    "gates": {
+      "all_points": false,
+      "each_roof_patch": false,
+      "each_observed_facade": true,
+      "outline": false,
+      "topology": false
+    },
+    "all_points": {
+      "n": 4032,
+      "mean": 0.056337805410899694,
+      "median": 0.025048690423568984,
+      "p95": 0.24546590929488796,
+      "max": 1.379679941106607,
+      "coverage_at_0_15": 0.9196428571428571,
+      "count_over_0_15": 324
+    }
+  },
+  {
+    "id": "144",
+    "planes": 8,
+    "noise": {
+      "mode": "conservative",
+      "input_points": 4267,
+      "used_points": 4264,
+      "excluded_points": 3,
+      "excluded_indices": [
+        2304,
+        2468,
+        3177
+      ],
+      "suspected_isolated_points": 3,
+      "median_nearest_spacing": 0.10180942981864619,
+      "rule": "12-neighbor mean > global median + 6 robust MAD AND > 2.5 local mean-distance median AND nearest distance > max(3 median spacing, 0.05); no point movement"
+    },
+    "topology": {
+      "vertices": 303,
+      "faces": 390,
+      "nonmanifold_edges": 65,
+      "open_edges": 45,
+      "degenerate_faces": 0,
+      "signed_volume": 508.2243186335665
+    },
+    "gates": {
+      "all_points": false,
+      "each_roof_patch": false,
+      "each_observed_facade": true,
+      "outline": true,
+      "topology": false
+    },
+    "all_points": {
+      "n": 4267,
+      "mean": 0.1315278102223807,
+      "median": 0.030684320467345795,
+      "p95": 0.6656181464097911,
+      "max": 1.6920227750620898,
+      "coverage_at_0_15": 0.7925943285680807,
+      "count_over_0_15": 885
+    }
+  },
+  {
+    "id": "1048",
+    "planes": 2,
+    "noise": {
+      "mode": "conservative",
+      "input_points": 8295,
+      "used_points": 8281,
+      "excluded_points": 14,
+      "excluded_indices": [
+        8,
+        27,
+        55,
+        77,
+        82,
+        137,
+        141,
+        176,
+        180,
+        284,
+        4044,
+        4067,
+        4096,
+        4113
+      ],
+      "suspected_isolated_points": 14,
+      "median_nearest_spacing": 0.08241031463102991,
+      "rule": "12-neighbor mean > global median + 6 robust MAD AND > 2.5 local mean-distance median AND nearest distance > max(3 median spacing, 0.05); no point movement"
+    },
+    "topology": {
+      "vertices": 12,
+      "faces": 14,
+      "nonmanifold_edges": 0,
+      "open_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 977.5566903219826
+    },
+    "gates": {
+      "all_points": true,
+      "each_roof_patch": true,
+      "each_observed_facade": true,
+      "outline": true,
+      "topology": true
+    },
+    "all_points": {
+      "n": 8295,
+      "mean": 0.028834637015774017,
+      "median": 0.022369328660242268,
+      "p95": 0.0784995974524266,
+      "max": 0.1658051615841925,
+      "coverage_at_0_15": 0.9977094635322483,
+      "count_over_0_15": 19
+    }
+  },
+  {
+    "id": "10",
+    "planes": 3,
+    "noise": {
+      "mode": "conservative",
+      "input_points": 5277,
+      "used_points": 5276,
+      "excluded_points": 1,
+      "excluded_indices": [
+        2279
+      ],
+      "suspected_isolated_points": 1,
+      "median_nearest_spacing": 0.10144361735509919,
+      "rule": "12-neighbor mean > global median + 6 robust MAD AND > 2.5 local mean-distance median AND nearest distance > max(3 median spacing, 0.05); no point movement"
+    },
+    "topology": {
+      "vertices": 36,
+      "faces": 50,
+      "nonmanifold_edges": 0,
+      "open_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 1531.1547141121116
+    },
+    "gates": {
+      "all_points": true,
+      "each_roof_patch": true,
+      "each_observed_facade": true,
+      "outline": true,
+      "topology": true
+    },
+    "all_points": {
+      "n": 5277,
+      "mean": 0.0323484372663707,
+      "median": 0.02495928639944534,
+      "p95": 0.08855664161057436,
+      "max": 0.29291451581987105,
+      "coverage_at_0_15": 0.9950729581201441,
+      "count_over_0_15": 26
+    }
+  },
+  {
+    "id": "1000",
+    "planes": 2,
+    "noise": {
+      "mode": "conservative",
+      "input_points": 3658,
+      "used_points": 3658,
+      "excluded_points": 0,
+      "excluded_indices": [],
+      "suspected_isolated_points": 0,
+      "median_nearest_spacing": 0.08650378026928224,
+      "rule": "12-neighbor mean > global median + 6 robust MAD AND > 2.5 local mean-distance median AND nearest distance > max(3 median spacing, 0.05); no point movement"
+    },
+    "topology": {
+      "vertices": 16,
+      "faces": 20,
+      "nonmanifold_edges": 0,
+      "open_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 884.7534033810174
+    },
+    "gates": {
+      "all_points": true,
+      "each_roof_patch": true,
+      "each_observed_facade": true,
+      "outline": true,
+      "topology": true
+    },
+    "all_points": {
+      "n": 3658,
+      "mean": 0.019296144966587634,
+      "median": 0.014510438903059066,
+      "p95": 0.050513389145815095,
+      "max": 0.17030301122850697,
+      "coverage_at_0_15": 0.9975396391470749,
+      "count_over_0_15": 9
+    }
+  },
+  {
+    "id": "2000",
+    "planes": 3,
+    "noise": {
+      "mode": "conservative",
+      "input_points": 4922,
+      "used_points": 4917,
+      "excluded_points": 5,
+      "excluded_indices": [
+        29,
+        186,
+        211,
+        277,
+        311
+      ],
+      "suspected_isolated_points": 5,
+      "median_nearest_spacing": 0.10104495735295019,
+      "rule": "12-neighbor mean > global median + 6 robust MAD AND > 2.5 local mean-distance median AND nearest distance > max(3 median spacing, 0.05); no point movement"
+    },
+    "topology": {
+      "vertices": 50,
+      "faces": 66,
+      "nonmanifold_edges": 3,
+      "open_edges": 3,
+      "degenerate_faces": 0,
+      "signed_volume": 615.9752729861088
+    },
+    "gates": {
+      "all_points": true,
+      "each_roof_patch": true,
+      "each_observed_facade": true,
+      "outline": true,
+      "topology": false
+    },
+    "all_points": {
+      "n": 4922,
+      "mean": 0.02410209965641616,
+      "median": 0.017086703508766045,
+      "p95": 0.07500933143661075,
+      "max": 0.1964446706739965,
+      "coverage_at_0_15": 0.9983746444534742,
+      "count_over_0_15": 8
+    }
+  }
+]

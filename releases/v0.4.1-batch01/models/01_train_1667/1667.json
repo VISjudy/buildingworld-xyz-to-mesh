@@ -1,0 +1,243 @@
+{
+  "id": "1667",
+  "source": "data/inputs/xyz/1667.xyz",
+  "vertices": [
+    [
+      -2.419463437861353,
+      0.3847737554097509,
+      1.5638730482978098
+    ],
+    [
+      0.2984748212504641,
+      -2.3199323246766284,
+      1.5615956709095231
+    ],
+    [
+      2.4193385211763236,
+      -0.18869276603081647,
+      1.5633510144736023
+    ],
+    [
+      -0.29859973793549355,
+      2.5160133140555625,
+      1.565628391861889
+    ],
+    [
+      2.4193385211763236,
+      -0.18869276603081647,
+      -1.5368659750000486
+    ],
+    [
+      -0.29859973793549355,
+      2.5160133140555625,
+      -1.5368659750000486
+    ],
+    [
+      -2.419463437861353,
+      0.3847737554097509,
+      -1.5368659750000486
+    ],
+    [
+      0.2984748212504641,
+      -2.3199323246766284,
+      -1.5368659750000486
+    ]
+  ],
+  "faces": [
+    [
+      0,
+      1,
+      2
+    ],
+    [
+      0,
+      2,
+      3
+    ],
+    [
+      3,
+      2,
+      4,
+      5
+    ],
+    [
+      0,
+      3,
+      5,
+      6
+    ],
+    [
+      1,
+      0,
+      6,
+      7
+    ],
+    [
+      2,
+      1,
+      7,
+      4
+    ],
+    [
+      7,
+      5,
+      4
+    ],
+    [
+      7,
+      6,
+      5
+    ]
+  ],
+  "semantics": [
+    "roof",
+    "roof",
+    "facade_completed",
+    "facade_completed",
+    "facade_completed",
+    "facade_completed",
+    "ground_assumed",
+    "ground_assumed"
+  ],
+  "patch_ids": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    -1,
+    -1
+  ],
+  "metrics": {
+    "provisional_base_z": -1.5368659750000486,
+    "base_rule": "z quantile 0.001; not verified terrain"
+  },
+  "surface_evidence": [
+    {
+      "kind": "roof_plane",
+      "candidate": 0,
+      "support_points": 391,
+      "coefficients": [
+        -0.0005838106775132574,
+        -0.0005939331807549575,
+        1.5635303855580445
+      ]
+    }
+  ],
+  "facade_evidence": [
+    {
+      "axis": 0,
+      "coord": -1.572753143396013,
+      "range": [
+        -1.7636339828051157,
+        1.6624657730019434
+      ],
+      "n": 41,
+      "zrange": [
+        -1.4688960750000546,
+        0.8301239249999298
+      ]
+    },
+    {
+      "axis": 1,
+      "coord": -1.9864231077649128,
+      "range": [
+        -1.122315597511061,
+        1.3417129310578617
+      ],
+      "n": 30,
+      "zrange": [
+        -1.488469075000043,
+        0.9844939249999393
+      ]
+    }
+  ],
+  "footprint_uv": [
+    [
+      -1.5728,
+      1.848
+    ],
+    [
+      1.4339,
+      1.848
+    ],
+    [
+      1.4339,
+      -1.9864
+    ],
+    [
+      -1.5728,
+      -1.9864
+    ],
+    [
+      -1.5728,
+      1.848
+    ]
+  ],
+  "footprints_uv": [
+    {
+      "exterior": [
+        [
+          -1.5728,
+          1.848
+        ],
+        [
+          1.4339,
+          1.848
+        ],
+        [
+          1.4339,
+          -1.9864
+        ],
+        [
+          -1.5728,
+          -1.9864
+        ],
+        [
+          -1.5728,
+          1.848
+        ]
+      ],
+      "holes": []
+    }
+  ],
+  "uv_basis": [
+    [
+      -0.7053792197179165,
+      0.7088301322532383
+    ],
+    [
+      -0.7088301322532383,
+      -0.7053792197179165
+    ]
+  ],
+  "inference": "Vertical wall continuation at locally observed boundaries; orthogonal corner completion; fitted local roof steps; roof fixture sides inferred. No windows or material details inferred.",
+  "algorithm_version": "0.4.1",
+  "input_sha256": "ce410c3a902659174cd94d828a168940b8d9d562cf64d8cfa069802e06ee1b5e",
+  "topology": {
+    "vertices": 8,
+    "faces": 8,
+    "nonmanifold_edges": 0,
+    "open_edges": 0,
+    "degenerate_faces": 0,
+    "signed_volume": 35.745071371270114
+  },
+  "official_metrics": {
+    "CD": null,
+    "ECD": null,
+    "NC": null,
+    "V_Ratio": null,
+    "F_Ratio": null,
+    "FINAL_SCORE": null,
+    "reason": "Ground-truth mesh and official sampling/normalization convention unavailable"
+  },
+  "warnings": [
+    "Ground plane inferred from lowest observed returns",
+    "Input coordinate units must match the current near-meter parameter scale",
+    "Complex compound roofs are experimental: review all point, edge and local-patch residuals"
+  ],
+  "discarded_footprint_area": 0.0,
+  "elapsed_seconds": 0.29711510008201003,
+  "candidate_status": "exported_pending_geometric_review"
+}

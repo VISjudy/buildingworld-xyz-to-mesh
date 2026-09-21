@@ -1,0 +1,29 @@
+{
+  "version": "2.0-contour-and-local-evidence",
+  "coordinate_unit": "input coordinate unit; meter convention remains unverified",
+  "acceptance": {
+    "all_points_distance_p95_max": 0.15,
+    "all_points_coverage_at_0_15_min": 0.95,
+    "each_supported_roof_patch_coverage_at_0_15_min": 0.9,
+    "each_observed_facade_segment_coverage_at_0_15_min": 0.9,
+    "outline_bidirectional_distance_p95_max": 0.2,
+    "outline_iou_min": 0.96,
+    "unsupported_footprint_area_fraction_max": 0.01,
+    "nonmanifold_edges_max": 0,
+    "open_edges_max": 0,
+    "positive_volume_required": true,
+    "degenerate_faces_max": 0
+  },
+  "requirements": [
+    "Use every finite input XYZ point for the headline point-to-mesh diagnostic; report max and outliers as well as percentiles.",
+    "A good global average cannot excuse a failed observed facade segment or roof patch.",
+    "Do not use normal filtering, global plane support rank or a rectangular footprint to delete a supported local feature.",
+    "Preserve supported concave corners, setbacks, steps and roof fixtures; complexity reduction is secondary to fit.",
+    "Footprint validation uses a separately derived unsimplified alpha boundary and a 0.15-unit support band for unsupported area.",
+    "Roof-patch checks include locally matched points, including high residual features; facade checks use normal-aligned observed segments.",
+    "Mesh-to-point distances on unobserved facades/ground must be reported separately from observed-surface fitting; missing scan returns are not proof of empty space.",
+    "Verticality and local planar continuation may fill occlusions only while consistent with observed boundaries; do not add unobserved windows or facade ornament.",
+    "Do not equate watertight topology with geometric accuracy, and do not label same-input diagnostics as official CD/ECD/NC.",
+    "These are provisional engineering gates, not official benchmark thresholds; never relax gates merely to make the current outputs pass."
+  ]
+}

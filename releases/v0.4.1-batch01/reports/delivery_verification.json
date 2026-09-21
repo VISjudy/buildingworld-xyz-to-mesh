@@ -1,0 +1,158 @@
+{
+  "algorithm_version": "0.4.1",
+  "engine_sha256": "f881c4799eada5680ea329c6202fbd2ec0aabcd52842abc8a29dd447cb23b208",
+  "tested": 20,
+  "obj_exported": 20,
+  "all_proxy_gates_passed": 1,
+  "topology_gate_passed": 7,
+  "gate_failure_counts": {
+    "outline": 8,
+    "all_points": 12,
+    "topology": 13,
+    "each_observed_facade": 9,
+    "each_roof_patch": 7
+  },
+  "official_CD_ECD_final_score": null,
+  "obj_round_trip_checks": [
+    {
+      "review_id": 1,
+      "obj": "work/legacy_output/train20_review/01_train_1667/1667.obj",
+      "vertices": 8,
+      "faces": 8,
+      "round_trip_matches": true
+    },
+    {
+      "review_id": 2,
+      "obj": "work/legacy_output/train20_review/02_train_2811/2811.obj",
+      "vertices": 10,
+      "faces": 11,
+      "round_trip_matches": true
+    },
+    {
+      "review_id": 3,
+      "obj": "work/legacy_output/train20_review/03_train_2879/2879.obj",
+      "vertices": 76,
+      "faces": 98,
+      "round_trip_matches": true
+    },
+    {
+      "review_id": 4,
+      "obj": "work/legacy_output/train20_review/04_train_1936/1936.obj",
+      "vertices": 352,
+      "faces": 441,
+      "round_trip_matches": true
+    },
+    {
+      "review_id": 5,
+      "obj": "work/legacy_output/train20_review/05_train_2623/2623.obj",
+      "vertices": 185,
+      "faces": 243,
+      "round_trip_matches": true
+    },
+    {
+      "review_id": 6,
+      "obj": "work/legacy_output/train20_review/06_train_944/944.obj",
+      "vertices": 236,
+      "faces": 320,
+      "round_trip_matches": true
+    },
+    {
+      "review_id": 7,
+      "obj": "work/legacy_output/train20_review/07_train_1321/1321.obj",
+      "vertices": 547,
+      "faces": 682,
+      "round_trip_matches": true
+    },
+    {
+      "review_id": 8,
+      "obj": "work/legacy_output/train20_review/08_train_144/144.obj",
+      "vertices": 975,
+      "faces": 1212,
+      "round_trip_matches": true
+    },
+    {
+      "review_id": 9,
+      "obj": "work/legacy_output/train20_review/09_train_2078/2078.obj",
+      "vertices": 34,
+      "faces": 45,
+      "round_trip_matches": true
+    },
+    {
+      "review_id": 10,
+      "obj": "work/legacy_output/train20_review/10_train_480/480.obj",
+      "vertices": 1546,
+      "faces": 1934,
+      "round_trip_matches": true
+    },
+    {
+      "review_id": 11,
+      "obj": "work/legacy_output/train20_review/11_train_945/945.obj",
+      "vertices": 1124,
+      "faces": 1415,
+      "round_trip_matches": true
+    },
+    {
+      "review_id": 12,
+      "obj": "work/legacy_output/train20_review/12_train_1102/1102.obj",
+      "vertices": 99,
+      "faces": 139,
+      "round_trip_matches": true
+    },
+    {
+      "review_id": 13,
+      "obj": "work/legacy_output/train20_review/13_train_1751/1751.obj",
+      "vertices": 227,
+      "faces": 303,
+      "round_trip_matches": true
+    },
+    {
+      "review_id": 14,
+      "obj": "work/legacy_output/train20_review/14_train_1048/1048.obj",
+      "vertices": 8,
+      "faces": 8,
+      "round_trip_matches": true
+    },
+    {
+      "review_id": 15,
+      "obj": "work/legacy_output/train20_review/15_train_46/46.obj",
+      "vertices": 446,
+      "faces": 579,
+      "round_trip_matches": true
+    },
+    {
+      "review_id": 16,
+      "obj": "work/legacy_output/train20_review/16_train_1985/1985.obj",
+      "vertices": 46,
+      "faces": 64,
+      "round_trip_matches": true
+    },
+    {
+      "review_id": 17,
+      "obj": "work/legacy_output/train20_review/17_train_1710/1710.obj",
+      "vertices": 208,
+      "faces": 279,
+      "round_trip_matches": true
+    },
+    {
+      "review_id": 18,
+      "obj": "work/legacy_output/train20_review/18_train_2754/2754.obj",
+      "vertices": 576,
+      "faces": 751,
+      "round_trip_matches": true
+    },
+    {
+      "review_id": 19,
+      "obj": "work/legacy_output/train20_review/19_train_1725/1725.obj",
+      "vertices": 1212,
+      "faces": 1565,
+      "round_trip_matches": true
+    },
+    {
+      "review_id": 20,
+      "obj": "work/legacy_output/train20_review/20_train_1572/1572.obj",
+      "vertices": 901,
+      "faces": 1180,
+      "round_trip_matches": true
+    }
+  ]
+}

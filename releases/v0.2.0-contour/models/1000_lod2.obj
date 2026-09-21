@@ -1,0 +1,57 @@
+# Evidence-constrained XYZ reconstruction; provisional ground.
+v -4.88217430 -4.27575004 5.23806139
+v 1.65848122 -1.24616303 5.23885168
+v 1.76959540 -0.69799311 5.23890855
+v -2.83370307 5.83016400 5.23910985
+v 4.98235749 4.24584662 5.23959900
+v 2.93388626 -5.86006742 5.23855054
+v 2.33183518 -0.81195925 5.23894373
+v 2.22072101 -1.36012917 5.23888686
+v 1.65848122 -1.24616303 5.49779565
+v 2.33183518 -0.81195925 5.49779565
+v 1.76959540 -0.69799311 5.49779565
+v 2.22072101 -1.36012917 5.49779565
+v -2.83370307 5.83016400 -5.51921613
+v -4.88217430 -4.27575004 -5.51921613
+v 2.93388626 -5.86006742 -5.51921613
+v 4.98235749 4.24584662 -5.51921613
+g roof
+f 1 2 3
+g roof
+f 3 4 1
+g roof
+f 5 4 3
+g roof
+f 1 6 2
+g roof
+f 3 7 5
+g roof
+f 6 8 2
+g roof
+f 6 5 7
+g roof
+f 7 8 6
+g roof_fixture
+f 9 10 11
+g roof_fixture
+f 10 9 12
+g facade_completed
+f 1 4 13 14
+g facade_completed
+f 6 1 14 15
+g facade_completed
+f 5 6 15 16
+g facade_completed
+f 4 5 16 13
+g roof_step_or_fixture_side
+f 9 11 3 2
+g roof_step_or_fixture_side
+f 11 10 7 3
+g roof_step_or_fixture_side
+f 10 12 8 7
+g roof_step_or_fixture_side
+f 12 9 2 8
+g ground_assumed
+f 15 13 16
+g ground_assumed
+f 13 15 14

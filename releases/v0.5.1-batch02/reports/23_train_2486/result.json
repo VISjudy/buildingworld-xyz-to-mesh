@@ -1,0 +1,192 @@
+{
+  "status": "complete",
+  "seconds": 1.8748447895050049,
+  "algorithm_version": "0.5.1",
+  "topology": {
+    "vertices": 33,
+    "faces": 47,
+    "nonmanifold_edges": 6,
+    "open_edges": 4,
+    "degenerate_faces": 0,
+    "signed_volume": 618.4716099934437
+  },
+  "noise": {
+    "mode": "conservative",
+    "input_points": 1694,
+    "used_points": 1694,
+    "excluded_points": 0,
+    "excluded_indices": [],
+    "suspected_isolated_points": 0,
+    "median_nearest_spacing": 0.13747652512895894,
+    "rule": "12-neighbor mean > global median + 6 robust MAD AND > 2.5 local mean-distance median AND nearest distance > max(3 median spacing, 0.05); no point movement"
+  },
+  "official_metrics": {
+    "CD": null,
+    "ECD": null,
+    "NC": null,
+    "V_Ratio": null,
+    "F_Ratio": null,
+    "FINAL_SCORE": null,
+    "reason": "Ground-truth mesh and official sampling/normalization convention unavailable"
+  },
+  "validation": {
+    "all_points": {
+      "n": 1694,
+      "mean": 0.04541222782018025,
+      "median": 0.017864302035150756,
+      "p95": 0.26885058670946954,
+      "max": 0.41534111083980124,
+      "coverage_at_0_15": 0.922668240850059,
+      "count_over_0_15": 131
+    },
+    "roof_patches": [
+      {
+        "patch": 0,
+        "kind": "roof_plane",
+        "n": 410,
+        "mean": 0.03494035895230565,
+        "median": 0.015168759698734796,
+        "p95": 0.19722584891621375,
+        "max": 0.38253373751844194,
+        "coverage_at_0_15": 0.9365853658536586,
+        "count_over_0_15": 26
+      },
+      {
+        "patch": 1,
+        "kind": "roof_plane",
+        "n": 291,
+        "mean": 0.03727087208239239,
+        "median": 0.03416423058160401,
+        "p95": 0.07854742852665707,
+        "max": 0.09705444279767206,
+        "coverage_at_0_15": 1.0,
+        "count_over_0_15": 0
+      },
+      {
+        "patch": 2,
+        "kind": "roof_plane",
+        "n": 248,
+        "mean": 0.03546924288670977,
+        "median": 0.01703999082023444,
+        "p95": 0.1658815852402567,
+        "max": 0.3341716454209052,
+        "coverage_at_0_15": 0.9395161290322581,
+        "count_over_0_15": 15
+      },
+      {
+        "patch": 3,
+        "kind": "roof_plane",
+        "n": 60,
+        "mean": 0.023749806137311747,
+        "median": 0.015308519937614378,
+        "p95": 0.06406130834101789,
+        "max": 0.07914962149618777,
+        "coverage_at_0_15": 1.0,
+        "count_over_0_15": 0
+      }
+    ],
+    "observed_facades": [
+      {
+        "axis": 0,
+        "coord": -3.8506732549984486,
+        "range": [
+          -2.58349830226337,
+          2.1888024833898316
+        ],
+        "n": 185,
+        "zrange": [
+          -7.767801999999998,
+          4.5747240000000025
+        ],
+        "mean": 0.028985776772239354,
+        "median": 0.020043630125716902,
+        "p95": 0.07071044754199567,
+        "max": 0.07626098239781993,
+        "coverage_at_0_15": 1.0,
+        "count_over_0_15": 0
+      },
+      {
+        "axis": 1,
+        "coord": 2.653732701514892,
+        "range": [
+          -3.779471981148743,
+          3.893189321866609
+        ],
+        "n": 421,
+        "zrange": [
+          -7.789858999999998,
+          4.686788000000003
+        ],
+        "mean": 0.012461788511964805,
+        "median": 0.009520077376218943,
+        "p95": 0.030390684261944002,
+        "max": 0.11971819117435233,
+        "coverage_at_0_15": 1.0,
+        "count_over_0_15": 0
+      }
+    ],
+    "outline": {
+      "iou": 0.9613813250537255,
+      "bidirectional_boundary_p95": 0.13747723441115328,
+      "boundary_max": 0.2736623820580117,
+      "unsupported_area_fraction": 0.0007131796575038067
+    },
+    "mesh_samples_to_input_by_evidence": {
+      "observed_roof": {
+        "n": 316,
+        "mean": 0.137473773981075,
+        "median": 0.1301831473853322,
+        "p95": 0.2604105571025904,
+        "max": 0.33162176617201117,
+        "coverage_at_0_15": 0.5632911392405063,
+        "count_over_0_15": 138
+      },
+      "inferred_occluded_facade": {
+        "n": 1010,
+        "mean": 2.8689613423513407,
+        "median": 2.8362904231276356,
+        "p95": 5.363742260451814,
+        "max": 5.378327743663347,
+        "coverage_at_0_15": 0.0029702970297029703,
+        "count_over_0_15": 1007
+      },
+      "observed_facade_region": {
+        "n": 858,
+        "mean": 0.2329799712598959,
+        "median": 0.23682950373049624,
+        "p95": 0.39170549800004684,
+        "max": 0.5422321367453266,
+        "coverage_at_0_15": 0.22494172494172493,
+        "count_over_0_15": 665
+      },
+      "inferred_ground": {
+        "n": 218,
+        "mean": 2.061924407726015,
+        "median": 1.8102120282033138,
+        "p95": 4.860184101605557,
+        "max": 5.352925840634424,
+        "coverage_at_0_15": 0.009174311926605505,
+        "count_over_0_15": 216
+      }
+    },
+    "topology": {
+      "nonmanifold_edges": 6,
+      "open_edges": 4,
+      "degenerate_faces": 0,
+      "signed_volume": 618.4716099934437,
+      "vertices": 33,
+      "faces": 47
+    },
+    "gates": {
+      "all_points": false,
+      "each_roof_patch": true,
+      "each_observed_facade": true,
+      "outline": true,
+      "topology": false,
+      "all_footprint_components_retained": true,
+      "resolved_partition_adjacency": true
+    },
+    "accepted": false
+  },
+  "accepted": false
+}

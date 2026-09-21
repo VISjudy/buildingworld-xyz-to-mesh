@@ -1,0 +1,25 @@
+# pointcloud_to_mesh 0.5.1; candidate requires geometry validation; coordinates preserved
+v 0.354611834 1.428329845 1.229228199
+v -1.024692569 -1.055949047 1.229228199
+v -0.354466210 -1.428067560 1.229228199
+v 1.024838193 1.056211332 1.229228199
+v -0.354466210 -1.428067560 -1.211202611
+v 1.024838193 1.056211332 -1.211202611
+v 0.354611834 1.428329845 -1.211202611
+v -1.024692569 -1.055949047 -1.211202611
+g roof
+f 1 2 3
+g roof
+f 1 3 4
+g facade_completed
+f 4 3 5 6
+g facade_completed
+f 1 4 6 7
+g facade_completed
+f 2 1 7 8
+g facade_completed
+f 3 2 8 5
+g ground_assumed
+f 8 6 5
+g ground_assumed
+f 8 7 6

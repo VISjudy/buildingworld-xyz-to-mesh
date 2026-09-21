@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>BuildingWorld · 点云重建工作台</title><link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22><path fill=%22%2323b8ac%22 d=%22M3 15L16 3l13 12v14H3z%22/></svg>"><link rel="stylesheet" href="/style.css"></head>
+<body><header class="topbar"><a class="brand" href="/"><span class="brand-icon">◈</span><span>BuildingWorld<small>点云重建工作台</small></span></a><div class="top-meta"><span class="dot"></span>本地计算 <span class="version" id="version">XYZ → OBJ</span></div></header>
+<main><section class="intro"><div><div class="eyebrow">BUILDING RECONSTRUCTION LAB</div><h1>从点云，看见建筑。</h1><p>上传单栋建筑的 XYZ 点云，检查轮廓与屋面，生成可下载的 OBJ 网格。</p></div><a class="subtle-link" href="/review/index.html" target="_blank" rel="noopener">第二批 20 栋对照图 ↗</a></section>
+<div class="workspace"><aside class="panel controls"><div class="panel-title"><span>01 / 输入与重建</span><span class="muted">XYZ ONLY</span></div>
+<label class="dropzone" id="dropzone" for="file"><span class="upload-symbol">↑</span><strong id="fileLabel">拖入点云，或点击选择</strong><span> .xyz / .txt · 三列 X Y Z · 最大 24 MB</span><input id="file" type="file" accept=".xyz,.txt" aria-label="上传 XYZ 点云"></label>
+<div id="fileInfo" class="file-info">所有文件只在这台电脑上处理。</div>
+<label class="field">噪声处理<select id="noise"><option value="conservative">保守过滤 · 仅排除孤立点</option><option value="off">关闭过滤 · 使用全部点</option></select></label>
+<p class="field-help">不对点云做整体平滑。小屋面、凹角和连贯的稀疏结构仍会保留；被排除的点可在预览中标红。</p>
+<label class="field">可信底高 <span class="optional">可选 / 源坐标单位</span><input id="ground" type="number" step="any" placeholder="留空：从最低回波推断"></label>
+<button id="generate" class="primary" disabled>生成建筑网格 <span>→</span></button>
+<div id="status" class="status" role="status" aria-live="polite">选择文件开始，也可以先查看下方样例。</div>
+<div class="separator"></div><div class="examples-head"><h2>检查样例</h2><button id="refresh" class="text-button">刷新</button></div>
+<label class="sr-only" for="example">选择建筑样例</label><select id="example"><option value="">载入样例列表…</option></select><button id="loadExample" class="secondary">打开样例</button>
+<div class="note"><strong>原型结果，需要检查</strong><p>屋面分区和接缝可能仍不正确。生成 OBJ 不等于重建合格，验收始终使用全部原始点。</p></div>
+</aside>
+<section class="viewer-panel panel"><div class="viewer-top"><div><span class="live-tag">3D VIEW</span><strong id="sceneName">等待点云</strong></div><div class="segmented" role="group" aria-label="预览模式"><button data-mode="points">点云</button><button data-mode="mesh">网格</button><button data-mode="overlay" class="active">叠加</button></div></div>
+<div class="canvas-wrap"><canvas id="viewport" aria-label="可旋转的点云与建筑网格三维预览"></canvas><div class="canvas-empty" id="empty"><span>◈</span><strong>你的建筑，从这里开始</strong><p>上传点云，或打开一个检查样例</p></div><div class="canvas-caption"><span><i class="key-dot cyan"></i>原始点云</span><span><i class="key-dot orange"></i>推断网格</span><span><i class="key-dot red"></i>疑似孤立点</span></div><div class="view-buttons"><button id="perspective">斜视</button><button id="top">俯视</button><button id="front">立面</button><button id="reset">复位</button></div><div class="interaction-hint">拖动旋转 · 滚轮缩放 · Shift + 拖动平移</div></div>
+<div class="viewer-bottom"><label><input id="showNoise" type="checkbox" checked> 标出排除点</label><label><input id="showEdges" type="checkbox" checked> 结构边</label><span id="displayCount">原坐标输出 · 等比预览</span></div>
+<div class="metrics"><div><span>输入点数</span><strong id="pointCount">—</strong></div><div><span>排除孤立点</span><strong id="noiseCount">—</strong></div><div><span>网格 V / F</span><strong id="meshCount">—</strong></div><div><span>全点距离 P95</span><strong id="p95">—</strong></div></div>
+<div class="result-bar"><div><strong id="quality">尚未生成网格</strong><p id="qualityDetail">原始点云与网格使用同一坐标变换进行预览。</p></div><div class="downloads"><a id="report" class="secondary disabled" aria-disabled="true">检查报告</a><a id="download" class="primary disabled" aria-disabled="true">下载 OBJ ↓</a></div></div>
+</section></div>
+<footer><span>观测轮廓优先 · 局部屋面 · 立面推断</span><span>目标：0.6 × CD + 0.4 × ECD。缺少真值时，不计算官方分数。</span></footer>
+</main><script type="module" src="/app.js"></script></body></html>

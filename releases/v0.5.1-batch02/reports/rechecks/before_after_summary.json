@@ -1,0 +1,29 @@
+[
+  {
+    "id": "1321",
+    "excluded": 1,
+    "points": 4032,
+    "before_p95": 0.12883949455821112,
+    "after_p95": 0.24546590929488796,
+    "before_faces": 682,
+    "after_faces": 540
+  },
+  {
+    "id": "144",
+    "excluded": 3,
+    "points": 4267,
+    "before_p95": 0.5760959243432261,
+    "after_p95": 0.6656181464097911,
+    "before_faces": 1212,
+    "after_faces": 390
+  },
+  {
+    "id": "1048",
+    "excluded": 14,
+    "points": 8295,
+    "before_p95": 0.17929003803389879,
+    "after_p95": 0.0784995974524266,
+    "before_faces": 8,
+    "after_faces": 14
+  }
+]

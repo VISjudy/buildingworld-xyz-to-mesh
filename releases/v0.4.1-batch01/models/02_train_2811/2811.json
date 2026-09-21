@@ -1,0 +1,297 @@
+{
+  "id": "2811",
+  "source": "data/inputs/xyz/2811.xyz",
+  "vertices": [
+    [
+      -4.129588425003713,
+      -2.683635617977105,
+      4.590516771857392
+    ],
+    [
+      -2.346646383472884,
+      -4.341904500439138,
+      4.599409806238178
+    ],
+    [
+      4.142456892174882,
+      2.6350671863299477,
+      4.585297205533329
+    ],
+    [
+      2.3504350193101238,
+      4.3017809881490505,
+      4.576358882382441
+    ],
+    [
+      0.5231996455183318,
+      2.3371690954934117,
+      4.5803327817224115
+    ],
+    [
+      4.142456892174882,
+      2.6350671863299477,
+      -4.350731500000002
+    ],
+    [
+      2.3504350193101238,
+      4.3017809881490505,
+      -4.350731500000002
+    ],
+    [
+      0.5231996455183318,
+      2.3371690954934117,
+      -4.350731500000002
+    ],
+    [
+      -4.129588425003713,
+      -2.683635617977105,
+      -4.350731500000002
+    ],
+    [
+      -2.346646383472884,
+      -4.341904500439138,
+      -4.350731500000002
+    ]
+  ],
+  "faces": [
+    [
+      0,
+      1,
+      2
+    ],
+    [
+      0,
+      2,
+      3
+    ],
+    [
+      0,
+      3,
+      4
+    ],
+    [
+      3,
+      2,
+      5,
+      6
+    ],
+    [
+      4,
+      3,
+      6,
+      7
+    ],
+    [
+      0,
+      4,
+      7,
+      8
+    ],
+    [
+      1,
+      0,
+      8,
+      9
+    ],
+    [
+      2,
+      1,
+      9,
+      5
+    ],
+    [
+      9,
+      6,
+      5
+    ],
+    [
+      9,
+      7,
+      6
+    ],
+    [
+      9,
+      8,
+      7
+    ]
+  ],
+  "semantics": [
+    "roof",
+    "roof",
+    "roof",
+    "facade_completed",
+    "facade_completed",
+    "facade_completed",
+    "facade_completed",
+    "facade_completed",
+    "ground_assumed",
+    "ground_assumed",
+    "ground_assumed"
+  ],
+  "patch_ids": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    -1,
+    -1,
+    -1
+  ],
+  "metrics": {
+    "provisional_base_z": -4.350731500000002,
+    "base_rule": "z quantile 0.001; not verified terrain"
+  },
+  "surface_evidence": [
+    {
+      "kind": "roof_plane",
+      "candidate": 0,
+      "support_points": 352,
+      "coefficients": [
+        0.0014811402683455085,
+        0.0036523201695288776,
+        4.587809529612162
+      ]
+    }
+  ],
+  "facade_evidence": [
+    {
+      "axis": 0,
+      "coord": -4.7507403025917805,
+      "range": [
+        -1.3252716279187104,
+        0.8233624236577125
+      ],
+      "n": 43,
+      "zrange": [
+        -4.307646500000002,
+        3.7798274999999983
+      ],
+      "position_uncertainty": 0.14787882569007707
+    },
+    {
+      "axis": 0,
+      "coord": 4.777484314704893,
+      "range": [
+        -0.8505938513333978,
+        -0.04267555262868064
+      ],
+      "n": 16,
+      "zrange": [
+        -4.0510255000000015,
+        3.4822194999999976
+      ]
+    },
+    {
+      "axis": 1,
+      "coord": 1.2386781834226164,
+      "range": [
+        -4.2540493044130345,
+        4.526884654236046
+      ],
+      "n": 234,
+      "zrange": [
+        -4.285486500000002,
+        3.8219454999999973
+      ]
+    }
+  ],
+  "footprint_uv": [
+    [
+      -4.7507,
+      1.2387
+    ],
+    [
+      4.7775,
+      1.2387
+    ],
+    [
+      4.7775,
+      -1.1962
+    ],
+    [
+      -2.0677,
+      -1.2086
+    ],
+    [
+      -4.7507,
+      -1.2086
+    ],
+    [
+      -4.7507,
+      1.2387
+    ]
+  ],
+  "footprints_uv": [
+    {
+      "exterior": [
+        [
+          -4.7507,
+          1.2387
+        ],
+        [
+          4.7775,
+          1.2387
+        ],
+        [
+          4.7775,
+          -1.1962
+        ],
+        [
+          -2.0677,
+          -1.2086
+        ],
+        [
+          -4.7507,
+          -1.2086
+        ],
+        [
+          -4.7507,
+          1.2387
+        ]
+      ],
+      "holes": []
+    }
+  ],
+  "uv_basis": [
+    [
+      -0.6810418836346598,
+      0.7322444624135813
+    ],
+    [
+      -0.7322444624135813,
+      -0.6810418836346598
+    ]
+  ],
+  "inference": "Vertical wall continuation at locally observed boundaries; orthogonal corner completion; fitted local roof steps; roof fixture sides inferred. No windows or material details inferred.",
+  "algorithm_version": "0.4.1",
+  "input_sha256": "76ced57a441d8f5b43d43779f1e479ac28828d41b381e1a3919a5467844706ee",
+  "topology": {
+    "vertices": 10,
+    "faces": 11,
+    "nonmanifold_edges": 0,
+    "open_edges": 0,
+    "degenerate_faces": 0,
+    "signed_volume": 208.05457265084902
+  },
+  "official_metrics": {
+    "CD": null,
+    "ECD": null,
+    "NC": null,
+    "V_Ratio": null,
+    "F_Ratio": null,
+    "FINAL_SCORE": null,
+    "reason": "Ground-truth mesh and official sampling/normalization convention unavailable"
+  },
+  "warnings": [
+    "Ground plane inferred from lowest observed returns",
+    "Input coordinate units must match the current near-meter parameter scale",
+    "Complex compound roofs are experimental: review all point, edge and local-patch residuals"
+  ],
+  "discarded_footprint_area": 0.0,
+  "elapsed_seconds": 0.34905669989529997,
+  "candidate_status": "exported_pending_geometric_review"
+}

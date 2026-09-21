@@ -1,0 +1,123 @@
+{
+  "tested": 20,
+  "obj_exported": 20,
+  "all_proxy_gates_passed": 4,
+  "passed_review_ids": [
+    26,
+    30,
+    33,
+    35
+  ],
+  "topology_passed": 9,
+  "total_input_points": 180398,
+  "total_excluded_points": 130,
+  "engine_version": "0.5.1",
+  "engine_sha256": "c8021924dc9649c70e1f60a92ad1efefeab3b5f1e89042487fe870ed141c188a",
+  "official_score": null,
+  "round_trip_checks": [
+    {
+      "review_id": 21,
+      "source_id": "3316",
+      "round_trip_matches": true
+    },
+    {
+      "review_id": 22,
+      "source_id": "1296",
+      "round_trip_matches": true
+    },
+    {
+      "review_id": 23,
+      "source_id": "2486",
+      "round_trip_matches": true
+    },
+    {
+      "review_id": 24,
+      "source_id": "2959",
+      "round_trip_matches": true
+    },
+    {
+      "review_id": 25,
+      "source_id": "1647",
+      "round_trip_matches": true
+    },
+    {
+      "review_id": 26,
+      "source_id": "1339",
+      "round_trip_matches": true
+    },
+    {
+      "review_id": 27,
+      "source_id": "2326",
+      "round_trip_matches": true
+    },
+    {
+      "review_id": 28,
+      "source_id": "2289",
+      "round_trip_matches": true
+    },
+    {
+      "review_id": 29,
+      "source_id": "1161",
+      "round_trip_matches": true
+    },
+    {
+      "review_id": 30,
+      "source_id": "763",
+      "round_trip_matches": true
+    },
+    {
+      "review_id": 31,
+      "source_id": "3465",
+      "round_trip_matches": true
+    },
+    {
+      "review_id": 32,
+      "source_id": "1475",
+      "round_trip_matches": true
+    },
+    {
+      "review_id": 33,
+      "source_id": "2043",
+      "round_trip_matches": true
+    },
+    {
+      "review_id": 34,
+      "source_id": "1645",
+      "round_trip_matches": true
+    },
+    {
+      "review_id": 35,
+      "source_id": "3178",
+      "round_trip_matches": true
+    },
+    {
+      "review_id": 36,
+      "source_id": "1983",
+      "round_trip_matches": true
+    },
+    {
+      "review_id": 37,
+      "source_id": "1358",
+      "round_trip_matches": true
+    },
+    {
+      "review_id": 38,
+      "source_id": "1817",
+      "round_trip_matches": true
+    },
+    {
+      "review_id": 39,
+      "source_id": "229",
+      "round_trip_matches": true
+    },
+    {
+      "review_id": 40,
+      "source_id": "321",
+      "round_trip_matches": true
+    }
+  ],
+  "web_test": {
+    "upload_reconstruction_preview": "verified through browser using xyz/1667.xyz",
+    "browser_download": "not verified; automatic approval review timed out and denied the browser action"
+  }
+}

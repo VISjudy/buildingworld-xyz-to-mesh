@@ -1,0 +1,726 @@
+{
+  "engine_version": "0.4.1",
+  "engine_sha256": "f881c4799eada5680ea329c6202fbd2ec0aabcd52842abc8a29dd447cb23b208",
+  "samples": [
+    {
+      "review_id": 1,
+      "source_id": "1667",
+      "source": "data/inputs/xyz/1667.xyz",
+      "points": 488,
+      "directory": "01_train_1667",
+      "status": "mesh_exported",
+      "topology": {
+        "vertices": 8,
+        "faces": 8,
+        "nonmanifold_edges": 0,
+        "open_edges": 0,
+        "degenerate_faces": 0,
+        "signed_volume": 35.745071371270114
+      },
+      "warnings": [
+        "Ground plane inferred from lowest observed returns",
+        "Input coordinate units must match the current near-meter parameter scale",
+        "Complex compound roofs are experimental: review all point, edge and local-patch residuals"
+      ],
+      "roof_patch_count": 1,
+      "accepted": false,
+      "gates": {
+        "all_points": true,
+        "each_roof_patch": true,
+        "each_observed_facade": true,
+        "outline": false,
+        "topology": true,
+        "all_footprint_components_retained": true
+      },
+      "point_p95": 0.05993609118189725,
+      "point_mean": 0.02047968833369678,
+      "point_coverage_0_15": 0.9979508196721312,
+      "outline_iou": 0.9484728215282877,
+      "seconds": 0.4120922088623047
+    },
+    {
+      "review_id": 2,
+      "source_id": "2811",
+      "source": "data/inputs/xyz/2811.xyz",
+      "points": 796,
+      "directory": "02_train_2811",
+      "status": "mesh_exported",
+      "topology": {
+        "vertices": 10,
+        "faces": 11,
+        "nonmanifold_edges": 0,
+        "open_edges": 0,
+        "degenerate_faces": 0,
+        "signed_volume": 208.05457265084902
+      },
+      "warnings": [
+        "Ground plane inferred from lowest observed returns",
+        "Input coordinate units must match the current near-meter parameter scale",
+        "Complex compound roofs are experimental: review all point, edge and local-patch residuals"
+      ],
+      "roof_patch_count": 1,
+      "accepted": false,
+      "gates": {
+        "all_points": false,
+        "each_roof_patch": true,
+        "each_observed_facade": true,
+        "outline": false,
+        "topology": true,
+        "all_footprint_components_retained": true
+      },
+      "point_p95": 0.17098865950678982,
+      "point_mean": 0.047714264619130246,
+      "point_coverage_0_15": 0.9334170854271356,
+      "outline_iou": 0.9444502950600067,
+      "seconds": 0.5424785614013672
+    },
+    {
+      "review_id": 3,
+      "source_id": "2879",
+      "source": "data/inputs/xyz/2879.xyz",
+      "points": 1938,
+      "directory": "03_train_2879",
+      "status": "mesh_exported",
+      "topology": {
+        "vertices": 76,
+        "faces": 98,
+        "nonmanifold_edges": 0,
+        "open_edges": 0,
+        "degenerate_faces": 0,
+        "signed_volume": 369.15201628755153
+      },
+      "warnings": [
+        "Ground plane inferred from lowest observed returns",
+        "Input coordinate units must match the current near-meter parameter scale",
+        "Complex compound roofs are experimental: review all point, edge and local-patch residuals"
+      ],
+      "roof_patch_count": 4,
+      "accepted": false,
+      "gates": {
+        "all_points": true,
+        "each_roof_patch": true,
+        "each_observed_facade": true,
+        "outline": false,
+        "topology": true,
+        "all_footprint_components_retained": true
+      },
+      "point_p95": 0.08628908808915073,
+      "point_mean": 0.035939253511326805,
+      "point_coverage_0_15": 0.9824561403508771,
+      "outline_iou": 0.956723350602162,
+      "seconds": 1.6599719524383545
+    },
+    {
+      "review_id": 4,
+      "source_id": "1936",
+      "source": "data/inputs/xyz/1936.xyz",
+      "points": 1991,
+      "directory": "04_train_1936",
+      "status": "mesh_exported",
+      "topology": {
+        "vertices": 352,
+        "faces": 441,
+        "nonmanifold_edges": 15,
+        "open_edges": 8,
+        "degenerate_faces": 1,
+        "signed_volume": 252.0723613428896
+      },
+      "warnings": [
+        "Ground plane inferred from lowest observed returns",
+        "Input coordinate units must match the current near-meter parameter scale",
+        "Complex compound roofs are experimental: review all point, edge and local-patch residuals"
+      ],
+      "roof_patch_count": 7,
+      "accepted": false,
+      "gates": {
+        "all_points": true,
+        "each_roof_patch": true,
+        "each_observed_facade": true,
+        "outline": true,
+        "topology": false,
+        "all_footprint_components_retained": true
+      },
+      "point_p95": 0.08579181824494013,
+      "point_mean": 0.03497421335173638,
+      "point_coverage_0_15": 0.9773982923154194,
+      "outline_iou": 0.9604669956598112,
+      "seconds": 2.8805856704711914
+    },
+    {
+      "review_id": 5,
+      "source_id": "2623",
+      "source": "data/inputs/xyz/2623.xyz",
+      "points": 2807,
+      "directory": "05_train_2623",
+      "status": "mesh_exported",
+      "topology": {
+        "vertices": 185,
+        "faces": 243,
+        "nonmanifold_edges": 13,
+        "open_edges": 10,
+        "degenerate_faces": 0,
+        "signed_volume": 1300.8924865721283
+      },
+      "warnings": [
+        "Ground plane inferred from lowest observed returns",
+        "Input coordinate units must match the current near-meter parameter scale",
+        "Complex compound roofs are experimental: review all point, edge and local-patch residuals"
+      ],
+      "roof_patch_count": 4,
+      "accepted": false,
+      "gates": {
+        "all_points": false,
+        "each_roof_patch": true,
+        "each_observed_facade": false,
+        "outline": true,
+        "topology": false,
+        "all_footprint_components_retained": true
+      },
+      "point_p95": 0.2348050321579158,
+      "point_mean": 0.06288620807944505,
+      "point_coverage_0_15": 0.8785179907374421,
+      "outline_iou": 0.9610716560651463,
+      "seconds": 2.818981409072876
+    },
+    {
+      "review_id": 6,
+      "source_id": "944",
+      "source": "data/inputs/xyz/944.xyz",
+      "points": 3110,
+      "directory": "06_train_944",
+      "status": "mesh_exported",
+      "topology": {
+        "vertices": 236,
+        "faces": 320,
+        "nonmanifold_edges": 40,
+        "open_edges": 31,
+        "degenerate_faces": 1,
+        "signed_volume": 1081.8985816442098
+      },
+      "warnings": [
+        "Ground plane inferred from lowest observed returns",
+        "Input coordinate units must match the current near-meter parameter scale",
+        "Complex compound roofs are experimental: review all point, edge and local-patch residuals"
+      ],
+      "roof_patch_count": 6,
+      "accepted": false,
+      "gates": {
+        "all_points": true,
+        "each_roof_patch": false,
+        "each_observed_facade": true,
+        "outline": true,
+        "topology": false,
+        "all_footprint_components_retained": true
+      },
+      "point_p95": 0.10833587658751594,
+      "point_mean": 0.04673180687846883,
+      "point_coverage_0_15": 0.9655948553054663,
+      "outline_iou": 0.9721941691883369,
+      "seconds": 3.1566617488861084
+    },
+    {
+      "review_id": 7,
+      "source_id": "1321",
+      "source": "data/inputs/xyz/1321.xyz",
+      "points": 4032,
+      "directory": "07_train_1321",
+      "status": "mesh_exported",
+      "topology": {
+        "vertices": 547,
+        "faces": 682,
+        "nonmanifold_edges": 88,
+        "open_edges": 50,
+        "degenerate_faces": 4,
+        "signed_volume": 614.13656975437
+      },
+      "warnings": [
+        "Ground plane inferred from lowest observed returns",
+        "Input coordinate units must match the current near-meter parameter scale",
+        "Complex compound roofs are experimental: review all point, edge and local-patch residuals"
+      ],
+      "roof_patch_count": 7,
+      "accepted": false,
+      "gates": {
+        "all_points": true,
+        "each_roof_patch": true,
+        "each_observed_facade": true,
+        "outline": false,
+        "topology": false,
+        "all_footprint_components_retained": true
+      },
+      "point_p95": 0.12883949455821112,
+      "point_mean": 0.04635350762391392,
+      "point_coverage_0_15": 0.9578373015873016,
+      "outline_iou": 0.9572792747755011,
+      "seconds": 5.029728174209595
+    },
+    {
+      "review_id": 8,
+      "source_id": "144",
+      "source": "data/inputs/xyz/144.xyz",
+      "points": 4267,
+      "directory": "08_train_144",
+      "status": "mesh_exported",
+      "topology": {
+        "vertices": 975,
+        "faces": 1212,
+        "nonmanifold_edges": 181,
+        "open_edges": 120,
+        "degenerate_faces": 1,
+        "signed_volume": 519.9858097107447
+      },
+      "warnings": [
+        "Ground plane inferred from lowest observed returns",
+        "Input coordinate units must match the current near-meter parameter scale",
+        "Complex compound roofs are experimental: review all point, edge and local-patch residuals"
+      ],
+      "roof_patch_count": 9,
+      "accepted": false,
+      "gates": {
+        "all_points": false,
+        "each_roof_patch": false,
+        "each_observed_facade": false,
+        "outline": true,
+        "topology": false,
+        "all_footprint_components_retained": true
+      },
+      "point_p95": 0.5760959243432261,
+      "point_mean": 0.1054437655387442,
+      "point_coverage_0_15": 0.8310288258729787,
+      "outline_iou": 0.9732954241578875,
+      "seconds": 7.950584411621094
+    },
+    {
+      "review_id": 9,
+      "source_id": "2078",
+      "source": "data/inputs/xyz/2078.xyz",
+      "points": 4802,
+      "directory": "09_train_2078",
+      "status": "mesh_exported",
+      "topology": {
+        "vertices": 34,
+        "faces": 45,
+        "nonmanifold_edges": 0,
+        "open_edges": 0,
+        "degenerate_faces": 0,
+        "signed_volume": 1354.6605831891613
+      },
+      "warnings": [
+        "Ground plane inferred from lowest observed returns",
+        "Input coordinate units must match the current near-meter parameter scale",
+        "Complex compound roofs are experimental: review all point, edge and local-patch residuals"
+      ],
+      "roof_patch_count": 3,
+      "accepted": false,
+      "gates": {
+        "all_points": false,
+        "each_roof_patch": true,
+        "each_observed_facade": false,
+        "outline": true,
+        "topology": true,
+        "all_footprint_components_retained": true
+      },
+      "point_p95": 0.18663093171238826,
+      "point_mean": 0.0445168814356277,
+      "point_coverage_0_15": 0.9446064139941691,
+      "outline_iou": 0.9715083501077783,
+      "seconds": 2.946852207183838
+    },
+    {
+      "review_id": 10,
+      "source_id": "480",
+      "source": "data/inputs/xyz/480.xyz",
+      "points": 5847,
+      "directory": "10_train_480",
+      "status": "mesh_exported",
+      "topology": {
+        "vertices": 1546,
+        "faces": 1934,
+        "nonmanifold_edges": 473,
+        "open_edges": 327,
+        "degenerate_faces": 6,
+        "signed_volume": 1663.9503091058314
+      },
+      "warnings": [
+        "Ground plane inferred from lowest observed returns",
+        "Input coordinate units must match the current near-meter parameter scale",
+        "Complex compound roofs are experimental: review all point, edge and local-patch residuals"
+      ],
+      "roof_patch_count": 12,
+      "accepted": false,
+      "gates": {
+        "all_points": false,
+        "each_roof_patch": true,
+        "each_observed_facade": true,
+        "outline": false,
+        "topology": false,
+        "all_footprint_components_retained": true
+      },
+      "point_p95": 0.36579156046206884,
+      "point_mean": 0.07916753570700692,
+      "point_coverage_0_15": 0.8614674191893279,
+      "outline_iou": 0.9813213732319529,
+      "seconds": 12.633053302764893
+    },
+    {
+      "review_id": 11,
+      "source_id": "945",
+      "source": "data/inputs/xyz/945.xyz",
+      "points": 6439,
+      "directory": "11_train_945",
+      "status": "mesh_exported",
+      "topology": {
+        "vertices": 1124,
+        "faces": 1415,
+        "nonmanifold_edges": 87,
+        "open_edges": 41,
+        "degenerate_faces": 0,
+        "signed_volume": 6242.097053922108
+      },
+      "warnings": [
+        "Ground plane inferred from lowest observed returns",
+        "Input coordinate units must match the current near-meter parameter scale",
+        "Complex compound roofs are experimental: review all point, edge and local-patch residuals"
+      ],
+      "roof_patch_count": 10,
+      "accepted": false,
+      "gates": {
+        "all_points": false,
+        "each_roof_patch": true,
+        "each_observed_facade": false,
+        "outline": true,
+        "topology": false,
+        "all_footprint_components_retained": true
+      },
+      "point_p95": 0.5063816190202316,
+      "point_mean": 0.0867050735420335,
+      "point_coverage_0_15": 0.8968783972666563,
+      "outline_iou": 0.9839461155112538,
+      "seconds": 11.07766580581665
+    },
+    {
+      "review_id": 12,
+      "source_id": "1102",
+      "source": "data/inputs/xyz/1102.xyz",
+      "points": 6944,
+      "directory": "12_train_1102",
+      "status": "mesh_exported",
+      "topology": {
+        "vertices": 99,
+        "faces": 139,
+        "nonmanifold_edges": 0,
+        "open_edges": 0,
+        "degenerate_faces": 0,
+        "signed_volume": 737.8298543117351
+      },
+      "warnings": [
+        "Ground plane inferred from lowest observed returns",
+        "Input coordinate units must match the current near-meter parameter scale",
+        "Complex compound roofs are experimental: review all point, edge and local-patch residuals"
+      ],
+      "roof_patch_count": 3,
+      "accepted": true,
+      "gates": {
+        "all_points": true,
+        "each_roof_patch": true,
+        "each_observed_facade": true,
+        "outline": true,
+        "topology": true,
+        "all_footprint_components_retained": true
+      },
+      "point_p95": 0.12527573635266157,
+      "point_mean": 0.0365431136883213,
+      "point_coverage_0_15": 0.971918202764977,
+      "outline_iou": 0.9773089446037488,
+      "seconds": 4.437879323959351
+    },
+    {
+      "review_id": 13,
+      "source_id": "1751",
+      "source": "data/inputs/xyz/1751.xyz",
+      "points": 7302,
+      "directory": "13_train_1751",
+      "status": "mesh_exported",
+      "topology": {
+        "vertices": 227,
+        "faces": 303,
+        "nonmanifold_edges": 1,
+        "open_edges": 0,
+        "degenerate_faces": 0,
+        "signed_volume": 1954.6060293603084
+      },
+      "warnings": [
+        "Ground plane inferred from lowest observed returns",
+        "Input coordinate units must match the current near-meter parameter scale",
+        "Complex compound roofs are experimental: review all point, edge and local-patch residuals"
+      ],
+      "roof_patch_count": 4,
+      "accepted": false,
+      "gates": {
+        "all_points": false,
+        "each_roof_patch": true,
+        "each_observed_facade": true,
+        "outline": true,
+        "topology": false,
+        "all_footprint_components_retained": true
+      },
+      "point_p95": 0.30379480370490225,
+      "point_mean": 0.06428156694836111,
+      "point_coverage_0_15": 0.9142700629964393,
+      "outline_iou": 0.977277790462558,
+      "seconds": 5.890567779541016
+    },
+    {
+      "review_id": 14,
+      "source_id": "1048",
+      "source": "data/inputs/xyz/1048.xyz",
+      "points": 8295,
+      "directory": "14_train_1048",
+      "status": "mesh_exported",
+      "topology": {
+        "vertices": 8,
+        "faces": 8,
+        "nonmanifold_edges": 0,
+        "open_edges": 0,
+        "degenerate_faces": 0,
+        "signed_volume": 986.8332595708995
+      },
+      "warnings": [
+        "Ground plane inferred from lowest observed returns",
+        "Input coordinate units must match the current near-meter parameter scale",
+        "Complex compound roofs are experimental: review all point, edge and local-patch residuals"
+      ],
+      "roof_patch_count": 2,
+      "accepted": false,
+      "gates": {
+        "all_points": false,
+        "each_roof_patch": false,
+        "each_observed_facade": true,
+        "outline": true,
+        "topology": true,
+        "all_footprint_components_retained": true
+      },
+      "point_p95": 0.17929003803389879,
+      "point_mean": 0.05797291296469221,
+      "point_coverage_0_15": 0.8963230861965039,
+      "outline_iou": 0.9788785768016992,
+      "seconds": 5.2073655128479
+    },
+    {
+      "review_id": 15,
+      "source_id": "46",
+      "source": "data/inputs/xyz/46.xyz",
+      "points": 9012,
+      "directory": "15_train_46",
+      "status": "mesh_exported",
+      "topology": {
+        "vertices": 446,
+        "faces": 579,
+        "nonmanifold_edges": 84,
+        "open_edges": 60,
+        "degenerate_faces": 0,
+        "signed_volume": 1503.662804134144
+      },
+      "warnings": [
+        "Ground plane inferred from lowest observed returns",
+        "Input coordinate units must match the current near-meter parameter scale",
+        "Complex compound roofs are experimental: review all point, edge and local-patch residuals"
+      ],
+      "roof_patch_count": 7,
+      "accepted": false,
+      "gates": {
+        "all_points": false,
+        "each_roof_patch": false,
+        "each_observed_facade": true,
+        "outline": true,
+        "topology": false,
+        "all_footprint_components_retained": true
+      },
+      "point_p95": 0.20690138797007476,
+      "point_mean": 0.04796431032039852,
+      "point_coverage_0_15": 0.9375277407900577,
+      "outline_iou": 0.9830875145617224,
+      "seconds": 9.56025743484497
+    },
+    {
+      "review_id": 16,
+      "source_id": "1985",
+      "source": "data/inputs/xyz/1985.xyz",
+      "points": 9996,
+      "directory": "16_train_1985",
+      "status": "mesh_exported",
+      "topology": {
+        "vertices": 46,
+        "faces": 64,
+        "nonmanifold_edges": 0,
+        "open_edges": 0,
+        "degenerate_faces": 0,
+        "signed_volume": 2156.8732435941733
+      },
+      "warnings": [
+        "Ground plane inferred from lowest observed returns",
+        "Input coordinate units must match the current near-meter parameter scale",
+        "Complex compound roofs are experimental: review all point, edge and local-patch residuals"
+      ],
+      "roof_patch_count": 4,
+      "accepted": false,
+      "gates": {
+        "all_points": false,
+        "each_roof_patch": true,
+        "each_observed_facade": false,
+        "outline": false,
+        "topology": true,
+        "all_footprint_components_retained": true
+      },
+      "point_p95": 0.45797331134935737,
+      "point_mean": 0.0923572436916306,
+      "point_coverage_0_15": 0.8820528211284514,
+      "outline_iou": 0.9641568363734181,
+      "seconds": 5.7159974575042725
+    },
+    {
+      "review_id": 17,
+      "source_id": "1710",
+      "source": "data/inputs/xyz/1710.xyz",
+      "points": 11982,
+      "directory": "17_train_1710",
+      "status": "mesh_exported",
+      "topology": {
+        "vertices": 208,
+        "faces": 279,
+        "nonmanifold_edges": 3,
+        "open_edges": 0,
+        "degenerate_faces": 0,
+        "signed_volume": 1756.2609177616234
+      },
+      "warnings": [
+        "Ground plane inferred from lowest observed returns",
+        "Input coordinate units must match the current near-meter parameter scale",
+        "Complex compound roofs are experimental: review all point, edge and local-patch residuals"
+      ],
+      "roof_patch_count": 5,
+      "accepted": false,
+      "gates": {
+        "all_points": false,
+        "each_roof_patch": false,
+        "each_observed_facade": false,
+        "outline": false,
+        "topology": false,
+        "all_footprint_components_retained": true
+      },
+      "point_p95": 1.3912037054199422,
+      "point_mean": 0.27939054982687067,
+      "point_coverage_0_15": 0.6506426306125855,
+      "outline_iou": 0.9761005892934572,
+      "seconds": 7.939775466918945
+    },
+    {
+      "review_id": 18,
+      "source_id": "2754",
+      "source": "data/inputs/xyz/2754.xyz",
+      "points": 17737,
+      "directory": "18_train_2754",
+      "status": "mesh_exported",
+      "topology": {
+        "vertices": 576,
+        "faces": 751,
+        "nonmanifold_edges": 5,
+        "open_edges": 1,
+        "degenerate_faces": 0,
+        "signed_volume": 13689.26548049405
+      },
+      "warnings": [
+        "Ground plane inferred from lowest observed returns",
+        "Input coordinate units must match the current near-meter parameter scale",
+        "Complex compound roofs are experimental: review all point, edge and local-patch residuals"
+      ],
+      "roof_patch_count": 7,
+      "accepted": false,
+      "gates": {
+        "all_points": true,
+        "each_roof_patch": false,
+        "each_observed_facade": false,
+        "outline": true,
+        "topology": false,
+        "all_footprint_components_retained": true
+      },
+      "point_p95": 0.12013505214478262,
+      "point_mean": 0.039799758770688067,
+      "point_coverage_0_15": 0.9662287872808254,
+      "outline_iou": 0.9820543616090461,
+      "seconds": 16.298003673553467
+    },
+    {
+      "review_id": 19,
+      "source_id": "1725",
+      "source": "data/inputs/xyz/1725.xyz",
+      "points": 29466,
+      "directory": "19_train_1725",
+      "status": "mesh_exported",
+      "topology": {
+        "vertices": 1212,
+        "faces": 1565,
+        "nonmanifold_edges": 21,
+        "open_edges": 10,
+        "degenerate_faces": 0,
+        "signed_volume": 31112.79627045871
+      },
+      "warnings": [
+        "Ground plane inferred from lowest observed returns",
+        "Input coordinate units must match the current near-meter parameter scale",
+        "Complex compound roofs are experimental: review all point, edge and local-patch residuals"
+      ],
+      "roof_patch_count": 11,
+      "accepted": false,
+      "gates": {
+        "all_points": false,
+        "each_roof_patch": false,
+        "each_observed_facade": false,
+        "outline": false,
+        "topology": false,
+        "all_footprint_components_retained": true
+      },
+      "point_p95": 1.097996039975539,
+      "point_mean": 0.2353948185098781,
+      "point_coverage_0_15": 0.7178442951197991,
+      "outline_iou": 0.9492080298417789,
+      "seconds": 38.62815999984741
+    },
+    {
+      "review_id": 20,
+      "source_id": "1572",
+      "source": "data/inputs/xyz/1572.xyz",
+      "points": 57978,
+      "directory": "20_train_1572",
+      "status": "mesh_exported",
+      "topology": {
+        "vertices": 901,
+        "faces": 1180,
+        "nonmanifold_edges": 136,
+        "open_edges": 67,
+        "degenerate_faces": 0,
+        "signed_volume": 38798.02535205635
+      },
+      "warnings": [
+        "Ground plane inferred from lowest observed returns",
+        "Input coordinate units must match the current near-meter parameter scale",
+        "Complex compound roofs are experimental: review all point, edge and local-patch residuals"
+      ],
+      "roof_patch_count": 5,
+      "accepted": false,
+      "gates": {
+        "all_points": true,
+        "each_roof_patch": true,
+        "each_observed_facade": false,
+        "outline": true,
+        "topology": false,
+        "all_footprint_components_retained": true
+      },
+      "point_p95": 0.09257098386606082,
+      "point_mean": 0.04494954991009174,
+      "point_coverage_0_15": 0.9667805029493945,
+      "outline_iou": 0.9927493028629983,
+      "seconds": 89.50667476654053
+    }
+  ]
+}

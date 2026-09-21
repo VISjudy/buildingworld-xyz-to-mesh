@@ -1,0 +1,98 @@
+{
+  "version": "v0.2.0-contour",
+  "main_models": 3,
+  "files": [
+    {
+      "path": "docs/ALGORITHM_CURRENT_CONTEXT.md",
+      "sha256": "aecaa723bf906f14dfb8577c8e32ce5c0f380a0b194da619848d42977abf161f"
+    },
+    {
+      "path": "docs/README.md",
+      "sha256": "49fc46e003c030007881522f587a922f34a5ebfb7ba10a6711a53ed2ab824db2"
+    },
+    {
+      "path": "docs/validation_rules.json",
+      "sha256": "63dd3d177ce3f0e4f944c90f82873f11c5ea094332269e30caa4bc97f45f92a0"
+    },
+    {
+      "path": "docs/\u4fee\u6539\u8bf4\u660e.md",
+      "sha256": "c0bd78131b65e1bf14586c273e6afcd17d7f494f0e837385ef223a4e73b196c7"
+    },
+    {
+      "path": "index.html",
+      "sha256": "88f4299add4c367dacf1f10df41dd7011293ae0ba99ac2e0db32663cf25b80be"
+    },
+    {
+      "path": "models/1000_lod2.obj",
+      "sha256": "ff3385e9ee12a7d180da2aa7e1746668529b16b28f500a8e55e3702363ebe2a9"
+    },
+    {
+      "path": "models/1000_model.json",
+      "sha256": "a4666123e679409584895c635121ea4b3d9b5edd31e45125526c647784988b7f"
+    },
+    {
+      "path": "models/10_lod2.obj",
+      "sha256": "3608f3403039734c9014aac6bdeeb84dbe05719a598f121bcb8410822738d2e7"
+    },
+    {
+      "path": "models/10_model.json",
+      "sha256": "6dd5f677ff1123e7faf09b53e2c9d983efe288fd764e7a5aad35c26b2c9a1adb"
+    },
+    {
+      "path": "models/2000_lod2.obj",
+      "sha256": "6672ea0fb95be550a07f857c81cb9a893116e46d79e826648f10443c54cd4513"
+    },
+    {
+      "path": "models/2000_model.json",
+      "sha256": "8a8d5e099e152b2bfcfaedd8473fca853786931e1d1794e1a2d36922b1934d03"
+    },
+    {
+      "path": "packages/models.zip",
+      "sha256": "ee363a44a58fa8d8e5ebd3c364e1b789e6013568d7f6be969790f46a95595e90"
+    },
+    {
+      "path": "renders/before_after.png",
+      "sha256": "60dfe76e92928aa6a41ce81675688433b86633a1da3c3cf638e1076e55956a63"
+    },
+    {
+      "path": "renders/blender_detail_preview.png",
+      "sha256": "34ea1577e4d28110dbd6cf1b39d4ef064e068a567adb959bfc46b64fd46d5b03"
+    },
+    {
+      "path": "renders/facade_probe.png",
+      "sha256": "a7549286b292781d46dcf637f99bdacf6fb6a70c66751e6b613a3a6b95cbb6e3"
+    },
+    {
+      "path": "renders/surface_evidence.png",
+      "sha256": "efb8cd2bfcf433d8f13c30479692758ebb0a988c6190b3769c497bbed4e2b575"
+    },
+    {
+      "path": "reports/blender_independent_validation.json",
+      "sha256": "100e8312828d5c888d21e8e4393e8626d9281e99142cbaba2a9004ef7831f3e7"
+    },
+    {
+      "path": "reports/blender_mesh_qa.json",
+      "sha256": "c00b7632248a7a9a74ed5f3b900fac394fc3c91c2ac48f169e04650acdcdafb0"
+    },
+    {
+      "path": "reports/validation_comparison.json",
+      "sha256": "1035cbbd8ca6c51658af97c987c3c4d1581552265a30e936350b9c6556e73847"
+    },
+    {
+      "path": "scenes/README.md",
+      "sha256": "ca53ac97719a1494a8fadb9bfafdc59f99e63a30052db365d31160516d0560c3"
+    },
+    {
+      "path": "source/README.md",
+      "sha256": "2f1fce9a0b889447c471230481119ed13ff8c896dc253cf9966e1c46b335f361"
+    },
+    {
+      "path": "source/reconstruct_baseline.py",
+      "sha256": "8b69b7e4f842d9628085adacdc7b27f73c5772f77b1f3c7f10f053c20458053a"
+    },
+    {
+      "path": "source/reconstruct_detail.py",
+      "sha256": "fe2702bb7bd52293e28c3be5bf4dea79e1f79654518c484d24ebb8876061f0cb"
+    }
+  ]
+}

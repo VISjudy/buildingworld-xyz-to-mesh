@@ -1,0 +1,26 @@
+[
+  {
+    "id": "10",
+    "vertices": 36,
+    "faces": 50,
+    "nonmanifold_edges": 0,
+    "boundary_edges": 0,
+    "volume": 1531.1512068738812
+  },
+  {
+    "id": "1000",
+    "vertices": 16,
+    "faces": 20,
+    "nonmanifold_edges": 0,
+    "boundary_edges": 0,
+    "volume": 884.7588166706822
+  },
+  {
+    "id": "2000",
+    "vertices": 26,
+    "faces": 35,
+    "nonmanifold_edges": 0,
+    "boundary_edges": 0,
+    "volume": 615.9361393810105
+  }
+]

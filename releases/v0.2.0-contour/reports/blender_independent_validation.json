@@ -1,0 +1,26 @@
+[
+  {
+    "id": "10",
+    "bvh_distance_p95": 0.08852223604917527,
+    "max_difference_vs_numpy_validator": 4.1807027253173284e-05,
+    "nonadjacent_triangle_overlap_candidates": [],
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "id": "1000",
+    "bvh_distance_p95": 0.05049097295850507,
+    "max_difference_vs_numpy_validator": 7.944722830079826e-07,
+    "nonadjacent_triangle_overlap_candidates": [],
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "id": "2000",
+    "bvh_distance_p95": 0.07502734586596486,
+    "max_difference_vs_numpy_validator": 7.012158202797034e-07,
+    "nonadjacent_triangle_overlap_candidates": [],
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  }
+]

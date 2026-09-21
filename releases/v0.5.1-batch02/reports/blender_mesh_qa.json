@@ -1,0 +1,182 @@
+[
+  {
+    "review_id": 21,
+    "source_id": "3316",
+    "vertices": 12,
+    "faces": 14,
+    "nonmanifold_edges": 0,
+    "boundary_edges": 0,
+    "signed_volume": 20.21171067613243
+  },
+  {
+    "review_id": 22,
+    "source_id": "1296",
+    "vertices": 55,
+    "faces": 69,
+    "nonmanifold_edges": 12,
+    "boundary_edges": 8,
+    "signed_volume": 107.56666821508489
+  },
+  {
+    "review_id": 23,
+    "source_id": "2486",
+    "vertices": 33,
+    "faces": 47,
+    "nonmanifold_edges": 6,
+    "boundary_edges": 4,
+    "signed_volume": 618.4716142941567
+  },
+  {
+    "review_id": 24,
+    "source_id": "2959",
+    "vertices": 34,
+    "faces": 47,
+    "nonmanifold_edges": 0,
+    "boundary_edges": 0,
+    "signed_volume": 155.59012429095833
+  },
+  {
+    "review_id": 25,
+    "source_id": "1647",
+    "vertices": 165,
+    "faces": 215,
+    "nonmanifold_edges": 36,
+    "boundary_edges": 28,
+    "signed_volume": 1750.1430917925575
+  },
+  {
+    "review_id": 26,
+    "source_id": "1339",
+    "vertices": 12,
+    "faces": 14,
+    "nonmanifold_edges": 0,
+    "boundary_edges": 0,
+    "signed_volume": 243.34572971747247
+  },
+  {
+    "review_id": 27,
+    "source_id": "2326",
+    "vertices": 16,
+    "faces": 20,
+    "nonmanifold_edges": 0,
+    "boundary_edges": 0,
+    "signed_volume": 959.2251141091097
+  },
+  {
+    "review_id": 28,
+    "source_id": "2289",
+    "vertices": 24,
+    "faces": 32,
+    "nonmanifold_edges": 0,
+    "boundary_edges": 0,
+    "signed_volume": 1075.2185005942442
+  },
+  {
+    "review_id": 29,
+    "source_id": "1161",
+    "vertices": 176,
+    "faces": 225,
+    "nonmanifold_edges": 45,
+    "boundary_edges": 37,
+    "signed_volume": 566.5466431082351
+  },
+  {
+    "review_id": 30,
+    "source_id": "763",
+    "vertices": 12,
+    "faces": 14,
+    "nonmanifold_edges": 0,
+    "boundary_edges": 0,
+    "signed_volume": 636.6218923554195
+  },
+  {
+    "review_id": 31,
+    "source_id": "3465",
+    "vertices": 28,
+    "faces": 38,
+    "nonmanifold_edges": 0,
+    "boundary_edges": 0,
+    "signed_volume": 630.5637983369164
+  },
+  {
+    "review_id": 32,
+    "source_id": "1475",
+    "vertices": 503,
+    "faces": 645,
+    "nonmanifold_edges": 192,
+    "boundary_edges": 147,
+    "signed_volume": 1345.0029717640036
+  },
+  {
+    "review_id": 33,
+    "source_id": "2043",
+    "vertices": 36,
+    "faces": 48,
+    "nonmanifold_edges": 0,
+    "boundary_edges": 0,
+    "signed_volume": 1474.5253810544382
+  },
+  {
+    "review_id": 34,
+    "source_id": "1645",
+    "vertices": 667,
+    "faces": 816,
+    "nonmanifold_edges": 85,
+    "boundary_edges": 55,
+    "signed_volume": 6589.663844832816
+  },
+  {
+    "review_id": 35,
+    "source_id": "3178",
+    "vertices": 8,
+    "faces": 8,
+    "nonmanifold_edges": 0,
+    "boundary_edges": 0,
+    "signed_volume": 5.315975285480775
+  },
+  {
+    "review_id": 36,
+    "source_id": "1983",
+    "vertices": 370,
+    "faces": 477,
+    "nonmanifold_edges": 113,
+    "boundary_edges": 83,
+    "signed_volume": 934.3009907020873
+  },
+  {
+    "review_id": 37,
+    "source_id": "1358",
+    "vertices": 651,
+    "faces": 830,
+    "nonmanifold_edges": 180,
+    "boundary_edges": 148,
+    "signed_volume": 2853.0734183034037
+  },
+  {
+    "review_id": 38,
+    "source_id": "1817",
+    "vertices": 138,
+    "faces": 170,
+    "nonmanifold_edges": 3,
+    "boundary_edges": 1,
+    "signed_volume": 5884.467279872316
+  },
+  {
+    "review_id": 39,
+    "source_id": "229",
+    "vertices": 905,
+    "faces": 1249,
+    "nonmanifold_edges": 51,
+    "boundary_edges": 25,
+    "signed_volume": 23398.12276983751
+  },
+  {
+    "review_id": 40,
+    "source_id": "321",
+    "vertices": 1197,
+    "faces": 1445,
+    "nonmanifold_edges": 205,
+    "boundary_edges": 144,
+    "signed_volume": 8286.414727090656
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "isolated_point_flagged": true,
+  "small_coherent_fixture_retained": true,
+  "off_mode_retains_all": true,
+  "input_coordinates_unchanged": true,
+  "diagnostics": {
+    "mode": "conservative",
+    "input_points": 651,
+    "used_points": 650,
+    "excluded_points": 1,
+    "excluded_indices": [
+      650
+    ],
+    "suspected_isolated_points": 1,
+    "median_nearest_spacing": 0.19999999999999973,
+    "rule": "12-neighbor mean > global median + 6 robust MAD AND > 2.5 local mean-distance median AND nearest distance > max(3 median spacing, 0.05); no point movement"
+  },
+  "scope": "Synthetic filter behavior only, not proof that real outliers are noise"
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "version": "v0.1.0-baseline",
+    "title": "初始简化基线（追溯用编号）",
+    "models": 3,
+    "accepted_proxy": null
+  },
+  {
+    "version": "v0.2.0-contour",
+    "title": "轮廓与立面证据修订（追溯用编号）",
+    "models": 3,
+    "accepted_proxy": null
+  },
+  {
+    "version": "v0.4.1-batch01",
+    "title": "第一批固定 20 栋",
+    "models": 20,
+    "accepted_proxy": 1
+  },
+  {
+    "version": "v0.5.1-batch02",
+    "title": "第二批固定 20 栋",
+    "models": 20,
+    "accepted_proxy": 4
+  }
+]
