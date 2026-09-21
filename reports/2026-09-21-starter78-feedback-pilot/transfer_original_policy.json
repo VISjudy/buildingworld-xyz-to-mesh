@@ -1,0 +1,10 @@
+{
+  "feedback_order": [
+    "geometric_metrics",
+    "topology",
+    "failures",
+    "localized_issues"
+  ],
+  "proposal_instructions": "Use the external evidence and common building knowledge to propose one bounded general improvement. Do not change evaluator/data or use building IDs.",
+  "lessons": []
+}

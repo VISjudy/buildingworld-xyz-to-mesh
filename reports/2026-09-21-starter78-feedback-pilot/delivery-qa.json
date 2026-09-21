@@ -1,0 +1,39 @@
+{
+  "releases": [
+    {
+      "version": "v0.1.0-starter78-standard-v001",
+      "files": 944,
+      "all_sha256_match": true
+    },
+    {
+      "version": "v0.1.2-pilot-f0-v001",
+      "files": 947,
+      "all_sha256_match": true
+    },
+    {
+      "version": "v0.1.2-pilot-f3-v001",
+      "files": 1025,
+      "all_sha256_match": true
+    },
+    {
+      "version": "v0.1.2-transfer-original-v001",
+      "files": 364,
+      "all_sha256_match": true
+    },
+    {
+      "version": "v0.1.2-transfer-evolved-v001",
+      "files": 364,
+      "all_sha256_match": true
+    }
+  ],
+  "tests": "27 passed",
+  "source_coordinate_roundtrips": 271,
+  "frozen_F3_replay": {
+    "id": "point2building_03060_z4cd103de00000004",
+    "mesh_bytes_identical": true,
+    "CD_ECD_NC_identical": true
+  },
+  "raw_data_in_release": false,
+  "diagnostic_buildings": 78,
+  "visual_review": "Desktop/mobile screenshots and representative seven-view comparison reviewed; browser-qa.json stores functional checks."
+}

@@ -1,0 +1,30 @@
+{
+  "hypothesis": "The fixed 60-return support floor and strict exclusion of height-quantile ties can starve otherwise planar roof candidates in sparse or flat scans. A single input-only recovery attempt, gated on complete baseline plane failure, may recover supported meshes while preserving successful baseline reconstructions.",
+  "rule_ids": [
+    "K03",
+    "K06",
+    "K08"
+  ],
+  "changed_behavior": [
+    "Only after baseline plane extraction returns zero planes, retry the existing normal and curvature filter with inclusive numerical ties at the input z 25th percentile.",
+    "Use a retry support floor max(12, min(60, ceil(0.15 * retry_candidate_count))), while retaining the original 7.5-percent floor, slope and residual limits, 550 hypotheses, eight-stage limit, and deterministic seed 739.",
+    "Record whether recovery was used and its support floor. Preserve inferred base/wall labels, existing metrics, dependencies, and module.run interface."
+  ],
+  "expected_benefit": "Potentially reduce complete No roof plane supported failures for sparse or tied-height roofs. No expected change for inputs whose baseline extracts at least one plane.",
+  "risks": [
+    "Feedback provides the failure category, not proof of candidate starvation; other causes may remain.",
+    "Lower support can admit accidental planes and smaller structures into convex global-envelope selection.",
+    "Including cutoff ties can admit low horizontal surfaces; no terrain claim follows.",
+    "This does not address the localized real-data footprint and multi-height mismatches or prove improved geometric accuracy."
+  ],
+  "feedback_used": {
+    "scope": "Provided F3 structured external discovery24 feedback only",
+    "observations": [
+      "Two synthetic_mini localized failures report No roof plane supported at the zero-plane guard.",
+      "Other evaluated examples have closed topology yet observed-surface mismatches, so topology success alone does not establish geometric quality."
+    ],
+    "selection_reason": "Address the directly reported complete-fit failure using a bounded, failure-gated operator; no point coordinates, case identifiers, or aggregate metric values enter inference."
+  },
+  "model_configuration": "inherited parent runtime; exact provider snapshot unavailable",
+  "validation": "One syntax-only check permitted; no reconstruction, scoring, ground-truth access, or post-evaluation tuning. This isolated one-candidate pilot is not evidence of general self-improvement."
+}

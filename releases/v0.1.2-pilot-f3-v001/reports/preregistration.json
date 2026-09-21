@@ -1,0 +1,22 @@
+{
+  "id": "starter78-feedback-transfer-pilot-v001",
+  "source_manifest_sha256": "c96041ef934c5bf11de2ced7dcfb27170547787ea86bb533410b19d3b4acf455",
+  "partition_counts": {
+    "discovery": 24,
+    "selection": 24,
+    "transfer": 30
+  },
+  "budget": "one proposal per independent model condition; one fixed seed; feasibility pilot, not full matrix",
+  "feedback_conditions": [
+    "F0 no reconstruction outcome",
+    "F3 external localized geometric/GT feedback"
+  ],
+  "knowledge": "same fixed rules in both groups; feedback is the manipulated factor",
+  "discovery": "Only discovery outcomes are sent to proposal agents",
+  "selection": "Evaluate frozen candidates independently; do not feed scores back during the first round",
+  "transfer": "Compare original/evolved improvement policies restarted from the exact same initial algorithm; summarize policy on discovery/selection only",
+  "primary": "Per-source paired CD/ECD/NC, failures and topology; report all failures, no official score",
+  "acceptance": "No increased failure count or topology failures in either source, mean CD and ECD non-increasing per source, at least one strict decrease; descriptive pilot only",
+  "limitations": "One candidate per arm and one seed cannot establish general LLM feedback efficacy or recursive self-improvement. Model snapshot and token budgets depend on runtime observability.",
+  "complete_train_and_test": "remain stage-locked; not used for inference or feedback"
+}

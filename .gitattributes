@@ -5,3 +5,12 @@ reports/2026-09-21-stage01/** -text
 harness/** text eol=lf
 tests/** text eol=lf
 config/** text eol=lf
+releases/*starter78*/*/** -text
+releases/*pilot*/*/** -text
+releases/*transfer*/*/** -text
+releases/*starter78*/manifest.json -text
+releases/*pilot*/manifest.json -text
+releases/*transfer*/manifest.json -text
+reports/2026-09-21-starter78-feedback-pilot/** -text
+releases/v0.1.0-starter78-standard-v001/** -text
+releases/v0.1.2-*-v001/** -text

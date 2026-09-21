@@ -1,0 +1,75 @@
+{
+  "arms": [
+    {
+      "condition": "F0",
+      "agent_task": "/root/pilot_f0",
+      "fork_turns": "none",
+      "model_override": null,
+      "reasoning_override": null,
+      "candidate_budget": 1,
+      "tool_call_limit": 6,
+      "syntax_check_limit": 1,
+      "changed_lines_limit": 80,
+      "initial_sha256": "8b69b7e4f842d9628085adacdc7b27f73c5772f77b1f3c7f10f053c20458053a",
+      "candidate_sha256": "fa003a63cd6ef697e3442442ff64a3cb14d4a6b9505339cabc1d63f8af08a24a",
+      "feedback_sha256": "6c6b4ee64bb99bbacfb08ed5e146762a7667497723286379f14ce13567f1d8e9",
+      "knowledge_sha256": "81f53accdbf924b9d292d4110fe2ae08304353404f1e7699438693023c3b0d8e"
+    },
+    {
+      "condition": "F3",
+      "agent_task": "/root/pilot_f3",
+      "fork_turns": "none",
+      "model_override": null,
+      "reasoning_override": null,
+      "candidate_budget": 1,
+      "tool_call_limit": 6,
+      "syntax_check_limit": 1,
+      "changed_lines_limit": 80,
+      "initial_sha256": "8b69b7e4f842d9628085adacdc7b27f73c5772f77b1f3c7f10f053c20458053a",
+      "candidate_sha256": "2dd562abfb525d8d76ce1bd50043c50f73401cf32261cff471931df81b4d9125",
+      "feedback_sha256": "23cc8aeaf55f57ec5c35833dca8f581fe7d5e478e64ccc3a93f47a3073a6ed54",
+      "knowledge_sha256": "81f53accdbf924b9d292d4110fe2ae08304353404f1e7699438693023c3b0d8e"
+    },
+    {
+      "condition": "transfer_original",
+      "agent_task": "/root/transfer_original",
+      "fork_turns": "none",
+      "model_override": null,
+      "reasoning_override": null,
+      "candidate_budget": 1,
+      "tool_call_limit": 6,
+      "syntax_check_limit": 1,
+      "changed_lines_limit": 80,
+      "initial_sha256": "8b69b7e4f842d9628085adacdc7b27f73c5772f77b1f3c7f10f053c20458053a",
+      "candidate_sha256": "304f46dcc9ad35c72a2939bcf7e819aea905b0b5140a48a8f2b9ee416fe081c7",
+      "feedback_sha256": "5a854d26ab024437cc10a204389840b11682773b351c9e5c1654fa46e4695081",
+      "knowledge_sha256": "81f53accdbf924b9d292d4110fe2ae08304353404f1e7699438693023c3b0d8e"
+    },
+    {
+      "condition": "transfer_evolved",
+      "agent_task": "/root/transfer_evolved",
+      "fork_turns": "none",
+      "model_override": null,
+      "reasoning_override": null,
+      "candidate_budget": 1,
+      "tool_call_limit": 6,
+      "syntax_check_limit": 1,
+      "changed_lines_limit": 80,
+      "initial_sha256": "8b69b7e4f842d9628085adacdc7b27f73c5772f77b1f3c7f10f053c20458053a",
+      "candidate_sha256": "ab5d8c703f9a6d96bedfd315e0f7d69b20593e78a7b93811088a09729a9788c6",
+      "feedback_sha256": "f6b283966fe29e7524264d9abcb7ce7d77b3870b2231755c09bd9bce64eadd2e",
+      "knowledge_sha256": "81f53accdbf924b9d292d4110fe2ae08304353404f1e7699438693023c3b0d8e"
+    }
+  ],
+  "meta_agent": {
+    "task": "/root/pilot_meta",
+    "fork_turns": "none",
+    "experience_scope": "discovery24 + selection24 only",
+    "tool_call_limit": 4
+  },
+  "model_configuration": "same inherited runtime configuration; provider snapshot not exposed",
+  "tokens": null,
+  "costs": null,
+  "baseline_algorithm_seed": 739,
+  "changes_reviewed_before_external_execution": true
+}

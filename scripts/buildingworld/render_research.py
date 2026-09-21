@@ -34,7 +34,7 @@ def render(request):
     scene.display.shading.show_object_outline=True
     scene.display.shading.background_type='WORLD'
     scene.world.color=(.92,.94,.96)
-    scene.render.resolution_x=480;scene.render.resolution_y=420;scene.render.resolution_percentage=100
+    scene.render.resolution_x=int(request.get('width',480));scene.render.resolution_y=int(request.get('height',420));scene.render.resolution_percentage=100
     scene.render.image_settings.file_format='PNG'
     scene.render.film_transparent=False
     camera_data=bpy.data.cameras.new('ResearchCamera');camera=bpy.data.objects.new('ResearchCamera',camera_data)
@@ -75,6 +75,8 @@ def render(request):
         views={'oblique':Vector((1,-1,.8)), 'opposite':Vector((-1,1,.8)), 'top':Vector((0,0,1))}
         if request.get('seven_views',False):
             views.update(front=Vector((0,-1,0)),back=Vector((0,1,0)),left=Vector((-1,0,0)),right=Vector((1,0,0)))
+        if request.get('view_names'):
+            views={name:views[name] for name in request['view_names']}
         for view,direction in views.items():
             camera.location=direction.normalized()*extent*3
             camera.rotation_euler=(-camera.location).to_track_quat('-Z','Y').to_euler()

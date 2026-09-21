@@ -1,0 +1,55 @@
+{
+  "hypothesis": "A subset of the four no-supported-roof failures may result from the strict z > q25 filter excluding normal-qualified roof points whose heights equal q25, including quantized flat roof-only scans. The observed failure is established; the tie mechanism is a code-derived hypothesis, not a diagnosed property of the failed inputs.",
+  "evidence": {
+    "failures": "Four synthetic_mini cases fail with No roof plane supported. No real_zurich failure is reported.",
+    "localized_issues": "Three successful real_zurich cases have observed_surface_mismatch at supplied locations, including repeated XY at different heights and mismatches on polygons 0 and 2. This supports a separate unresolved geometric defect; it does not diagnose height ties or justify combining a footprint operator with recovery.",
+    "geometric_metrics": "Baseline real_zurich has 14/14 successes (CD 1.2386472949634142, ECD 1.7951725067806703, NC 0.7241485259070192, p95 0.290259278468365); synthetic_mini has 12/16 successes (CD 0.42782936796658655, ECD 0.6813794034997199, NC 0.9081260441568412, p95 0.6310457677455046). These are baseline success-only aggregates, not paired evidence of benefit. No candidate performance is available or inspected.",
+    "topology": "All 26 baseline successes pass topology. This is independent validity evidence and does not resolve localized mismatch or predict topology for recoveries.",
+    "code_mechanism": "Initial roofmask requires z strictly above q25. If otherwise qualified planar roof returns equal q25, they are excluded before unchanged RANSAC support checks. The retry adds only those equality ties after the initial RANSAC returns no plane."
+  },
+  "knowledge_ids": [
+    "K03",
+    "K04",
+    "K06",
+    "K08"
+  ],
+  "change": {
+    "operator": "One failure-gated quantile-tie retry, using >= instead of > only inside the recovery branch; all existing normal, curvature, residual, slope, and minimum-support rules stay unchanged.",
+    "activation_conditions": "Initial planes_ransac returns zero planes, inclusive q25 mask adds at least one normal-qualified point, and unchanged planes_ransac on the retry set returns a supported plane. Otherwise the original failure remains.",
+    "activation_record": "Recovered output metrics contain failure_recovery with operator name, added tied-point count and original roof-candidate count. Baseline successful outputs receive no additional field.",
+    "interface": "run, normals, planes_ransac, preview, CLI arguments and adapter-facing data shape retained; no reconstruct function exists in the initial script to modify. Scoring and acceptance are untouched.",
+    "changed_line_count_additions_plus_deletions": 16
+  },
+  "expected_effect": {
+    "coverage": "Possible recovery only for failures caused by excluded q25 ties; no expected improvement for insufficient support, missing roofs, or nonplanar roofs.",
+    "common_success_geometry": "Original successful reconstruction path remains identical; expected paired geometric deltas are zero. This is a control-flow expectation, not measured evidence.",
+    "recovered_and_new_failures": "Future validation must report recovered cases separately from common successes and count newly failed cases; changing success-only populations must not be called geometric improvement.",
+    "topology": "Recovered outputs still use existing assembly checks. No topology improvement or validity guarantee is claimed."
+  },
+  "regression_risks": [
+    "A normal-qualified horizontal slab at q25 may be terrain or a lower structure rather than roof; the retry cannot disambiguate semantic role without additional observations.",
+    "Newly recovered cases can have poor geometry, degenerate height, or invalid topology and require independent assessment.",
+    "Exact equality deliberately limits activation; nearly equal noisy heights and fewer than 60 supported points remain unresolved.",
+    "Successful-case localized geometry defects, concavity, missing returns, local annex support and uncertain terrain remain unresolved."
+  ],
+  "budget_used": {
+    "exec_invocations": 2,
+    "nested_shell_tool_invocations": 2,
+    "total_tool_invocations_including_exec_wrappers": 4,
+    "maximum_tool_invocations": 6,
+    "candidate_count": 1,
+    "syntax_checks": 1,
+    "syntax_result": "passed using compile on candidate source without imports or execution",
+    "reconstruction_runs": 0,
+    "evaluation_runs": 0,
+    "authorized_input_files_read": [
+      "initial_algorithm.py",
+      "knowledge.json",
+      "feedback.json",
+      "policy.json"
+    ],
+    "other_files_read": 0,
+    "network_calls": 0,
+    "subagents": 0
+  }
+}

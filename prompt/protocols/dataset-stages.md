@@ -8,6 +8,8 @@
 - 使用 `../dataset/processed/complete_pairs_v001/manifests/starter78_development.json` 的固定 78 对做算法开发。它与前阶段同名清单哈希相同，指向原 `facade_pairs_v001` 文件，不改变该样例集。
 - 入门 78 全部作为开发集，包括作者原 test 标签。真实 38 / 仿真 40 分开报告。
 - 每次算法修改遵守原基准、上一版、当前版的冻结和横向渲染协议。主线仍从 v0.1.0 出发。
+- 统一分析坐标入口现为 `../dataset/processed/standardized_pairs_v001/manifests/starter78.json`，保留同一78个建筑；完整562对标准化仅属数据准备。其他清单仍锁定。方法与源坐标恢复见 `docs/DATASET_METHODS_V001.md`。
+- 首轮78小试已完成，迁移策略无收益且仍有失败/几何误差，阶段切换条件尚未成立。用户短暂提出的直接启用完整训练池已被后续78优先指令取代，期间没有运行432实验。
 
 ## 当前暂缓
 

@@ -1,0 +1,38 @@
+{
+  "feedback_order": [
+    "failures",
+    "localized_issues",
+    "geometric_metrics",
+    "topology"
+  ],
+  "proposal_instructions": "Start the new task from its initial algorithm. Read only feedback authorized for that task, in the stated order, and inspect all supplied categories before choosing a change. First separate complete reconstruction failures from geometric defects among successful reconstructions. Use localized evidence to state one plausible mechanism, distinguishing observation from causal hypothesis. Use geometric metrics to assess that hypothesis on common-success pairs and separately account for recovered and newly failed cases; do not infer improvement from changing success-only populations. Treat topology as an independent validity check, not evidence of geometric fidelity. Propose exactly one bounded change justified by the new task's evidence. A reported failure with a plausible input-derived mechanism may justify a recovery operator gated on that failure; otherwise, localized shape mismatch may justify a geometric operator. Neither operator class is mandatory, and do not combine historical candidates automatically. Explain expected benefit, activation conditions, plausible adverse cases, and what remains unresolved. Preserve successful behavior where the proposed scope permits, and describe how activation can be recorded. Keep decisions input-derived: no case IDs, ground truth at inference, copied historical thresholds, or tuning against held-out outcomes. Retain the existing scoring and acceptance rules unchanged. Separate coverage, paired geometric quality, and topology claims. If evidence is insufficient, state the uncertainty instead of inventing a remedy. This policy is a development-evidence hypothesis, not demonstrated self-improvement.",
+  "lessons": [
+    {
+      "lesson": "Failure-gated recovery can improve coverage while leaving already successful outputs unchanged.",
+      "evidence_scope": "The supplied discovery24 plus selection24 development evidence reports one real and two synthetic recoveries for the recovery proposal, no new failures or topology failures, and zero paired metric deltas on the 45 common successes.",
+      "counterexample": "The same proposal produced no measured geometric improvement on those common successes; recovery alone does not resolve their localized shape mismatches."
+    },
+    {
+      "lesson": "A targeted geometric change can help successful cases without solving complete failures.",
+      "evidence_scope": "In the supplied development evidence, the convex-support footprint proposal improved mean paired CD, ECD, NC, and p95 in each source group, without new failures or topology failures.",
+      "counterexample": "All three initial complete failures remained. The proposal also explicitly identifies concavity and incomplete boundary observations as unresolved risks, not validated successes."
+    },
+    {
+      "lesson": "Coverage and geometric quality require separate denominators and claims.",
+      "evidence_scope": "The recovery proposal had exactly zero metric deltas on common-success pairs, while success-only mean CD increased in both sources after recovering previously failed cases.",
+      "counterexample": "Reading those aggregate increases as degradation of previously successful reconstructions would contradict the supplied paired results."
+    },
+    {
+      "lesson": "Topology validity does not establish geometric fidelity or distinguish every useful change.",
+      "evidence_scope": "All 45 initially successful reconstructions already passed topology, yet the footprint proposal improved their paired geometric means; the supplied feedback also reports localized mismatches on closed meshes.",
+      "counterexample": "Both proposals preserved topology outcomes but had different effects on coverage and paired geometry, so topology alone cannot choose between them."
+    }
+  ],
+  "confidence": "Low for transfer to a new task; moderate for the descriptive distinctions supported by this development summary.",
+  "limitations": [
+    "Only the supplied discovery24 plus selection24 experience was read; no transfer or test outcomes were inspected.",
+    "Two isolated proposals and aggregate paired summaries cannot establish causal superiority of feedback order or statistically proven self-improvement.",
+    "Per-case metric distributions, uncertainty estimates, recovered-case paired geometry, and direct mechanism diagnostics are unavailable.",
+    "The proposed reading order and selection policy require independent evaluation starting from an initial algorithm; they are not a reconstruction change or a revised acceptance rule."
+  ]
+}

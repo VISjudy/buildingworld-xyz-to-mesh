@@ -14,6 +14,7 @@ Start new conversations with `memory.md`, then load only the matching L2 entries
 | Literature | 文献, 知识库, City3D, BWFormer | docs/LITERATURE_REVIEW_RSI.md |
 | Data audit | 数据集, 立面, 屋顶, GT, Point2Building, PolyGNN | prompt/registers/datasets.md |
 | Dataset stages | 78, 完整集, 封存, 稳定, 测试集 | prompt/protocols/dataset-stages.md |
+| Dataset methods / pilot | 预处理, 标准化, 筛选规则, 迁移, starter78 | docs/DATASET_METHODS_V001.md; experiments/2026-09-21/starter78-feedback-pilot/summary.md |
 | Experience | 经验, 成功, 失败, 回归 | prompt/knowledge/experience-index.md |
 | Memory updates | memory, 记忆, 记录, 接续 | prompt/protocols/memory-management.md |
 

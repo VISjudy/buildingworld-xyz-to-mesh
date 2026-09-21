@@ -1,0 +1,201 @@
+{
+  "id": "input",
+  "source": "D:\\codex\\lidar2building\\buildingworld-xyz-to-mesh\\work\\experiments\\2026-09-21\\starter78-feedback-pilot\\transfer_original\\samples\\polygnn_mini_DEBY_LOD2_4967349\\staged\\LiDAR_xyz\\input.xyz",
+  "vertices": [
+    [
+      -5.961936924568548,
+      9.83774534993589,
+      1.9838050728886252
+    ],
+    [
+      -7.455051837778488,
+      -8.707894585890504,
+      1.9853139937574822
+    ],
+    [
+      -0.7806641100710987,
+      -9.245251500360396,
+      8.567598420780831
+    ],
+    [
+      0.7179599665557177,
+      9.299944891102712,
+      8.571522639556273
+    ],
+    [
+      5.8970618059095115,
+      -9.782877173347716,
+      1.9801980130743342
+    ],
+    [
+      7.3901767191194505,
+      8.762762762478678,
+      1.9895568761875477
+    ],
+    [
+      -5.961936924568548,
+      9.83774534993589,
+      -8.273177457702507
+    ],
+    [
+      -7.455051837778488,
+      -8.707894585890504,
+      -8.273177457702507
+    ],
+    [
+      -0.7806641100710987,
+      -9.245251500360396,
+      -8.273177457702507
+    ],
+    [
+      5.8970618059095115,
+      -9.782877173347716,
+      -8.273177457702507
+    ],
+    [
+      7.3901767191194505,
+      8.762762762478678,
+      -8.273177457702507
+    ],
+    [
+      0.7179599665557177,
+      9.299944891102712,
+      -8.273177457702507
+    ]
+  ],
+  "faces": [
+    [
+      0,
+      1,
+      2,
+      3
+    ],
+    [
+      2,
+      4,
+      5,
+      3
+    ],
+    [
+      1,
+      0,
+      6,
+      7
+    ],
+    [
+      2,
+      1,
+      7,
+      8
+    ],
+    [
+      0,
+      3,
+      11,
+      6
+    ],
+    [
+      4,
+      2,
+      8,
+      9
+    ],
+    [
+      5,
+      4,
+      9,
+      10
+    ],
+    [
+      3,
+      5,
+      10,
+      11
+    ],
+    [
+      11,
+      10,
+      9,
+      8,
+      7,
+      6
+    ]
+  ],
+  "semantics": [
+    "roof",
+    "roof",
+    "wall",
+    "wall",
+    "wall",
+    "wall",
+    "wall",
+    "wall",
+    "ground_assumed"
+  ],
+  "metrics": {
+    "input_points": 11007,
+    "roof_candidate_points": 7600,
+    "plane_supports": [
+      3035,
+      3024
+    ],
+    "plane_coefficients_z_eq_ax_by_c": [
+      [
+        0.9798426868923414,
+        -0.07896878481061975,
+        8.602440163701296
+      ],
+      [
+        -0.9800801948178703,
+        0.0794111836115432,
+        8.53666135212504
+      ]
+    ],
+    "active_roof_planes": [
+      0,
+      1
+    ],
+    "candidate_planes": [
+      [
+        0.9798426868923414,
+        -0.07896878481061975,
+        8.602440163701296
+      ],
+      [
+        -0.9800801948178703,
+        0.0794111836115432,
+        8.53666135212504
+      ]
+    ],
+    "candidate_supports": [
+      3035,
+      3024
+    ],
+    "selected_candidate_indices": [
+      0,
+      1
+    ],
+    "vertices": 12,
+    "polygon_faces": 9,
+    "roof_faces": 2,
+    "nonmanifold_edges": 0,
+    "euler_characteristic": 2,
+    "signed_volume_coordinate_units_cubed": 3377.1259971769173,
+    "surface_area_coordinate_units_squared": 1343.46631453887,
+    "roof_vertical_residual_median": 0.05215488613206065,
+    "roof_vertical_residual_p95": 0.15021870987289526,
+    "roof_within_020_coordinate_units": 0.9906578947368421,
+    "xy_points_within_rectangle": 0.99164168256564,
+    "prototype_fit_status": "main_roof_supported",
+    "provisional_base_z": -8.273177457702507,
+    "base_rule": "input z quantile 0.001; lowest observed returns, NOT verified ground",
+    "footprint_rule": "minimum rotated rectangle orientation + projected quantiles 0.002, 0.998",
+    "limitations": [
+      "Convex single-volume roof only; concave footprints/courtyards/extensions unsupported",
+      "Small roof details below 7.5 percent support omitted",
+      "Input unit assumed meter for Blender display only",
+      "Residual is same-input fitting diagnostic, NOT ground-truth CD/ECD/NC",
+      "Lowest returns do not prove terrain elevation; flat base and vertical walls are completion priors"
+    ]
+  }
+}

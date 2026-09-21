@@ -1,0 +1,16 @@
+{
+  "desktop": [
+    1440,
+    1080
+  ],
+  "mobile": [
+    390,
+    844
+  ],
+  "firstCount": 78,
+  "transferCount": 30,
+  "queryAndURLRestore": true,
+  "mobileOverflow": false,
+  "missingImages": [],
+  "pageErrors": []
+}

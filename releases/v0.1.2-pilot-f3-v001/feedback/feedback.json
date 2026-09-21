@@ -1,0 +1,177 @@
+{
+  "condition": "F3",
+  "scope": "External discovery24 only; local reference metrics, canonical bbox diagonal30 units; not official",
+  "by_source": {
+    "real_zurich": {
+      "total": 12,
+      "failures": 0,
+      "topology_pass": 12,
+      "CD": 1.590503569806909,
+      "ECD": 2.25333761718346,
+      "NC": 0.6569507400166018,
+      "p95": 0.529284109017074,
+      "open_edges": 0.0,
+      "winding_edges": 0.0
+    },
+    "synthetic_mini": {
+      "total": 12,
+      "failures": 2,
+      "topology_pass": 10,
+      "CD": 0.3111606327627948,
+      "ECD": 0.5934012315797244,
+      "NC": 0.9019117080468453,
+      "p95": 0.9401778730029122,
+      "open_edges": 0.0,
+      "winding_edges": 0.0
+    }
+  },
+  "localized_examples": [
+    {
+      "status": "failed",
+      "stratum": "synthetic_mini",
+      "error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"D:\\codex\\lidar2building\\buildingworld-xyz-to-mesh\\work\\experiments\\2026-09-21\\starter78-feedback-pilot\\baseline\\source\\harness\\pilot_worker.py\", line 47, in <module>\n    work(p.parse_args().task)\n  File \"D:\\codex\\lidar2building\\buildingworld-xyz-to-mesh\\work\\experiments\\2026-09-21\\starter78-feedback-pilot\\baseline\\source\\harness\\pilot_worker.py\", line 17, in work\n    model = reconstruct(task['source'], sample['points'], out, localize=False)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\codex\\lidar2building\\buildingworld-xyz-to-mesh\\work\\experiments\\2026-09-21\\starter78-feedback-pilot\\baseline\\source\\harness\\adapter.py\", line 34, in reconstruct\n    data, _, _ = module.run(\"input\")\n                 ^^^^^^^^^^^^^^^^^^^\n  File \"D:\\codex\\lidar2building\\buildingworld-xyz-to-mesh\\work\\experiments\\2026-09-21\\starter78-feedback-pilot\\baseline\\source\\algorithm.py\", line 67, in run\n    if len(coef)==0: raise RuntimeError('No roof plane supported')\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: No roof plane supported\n",
+      "case": 1
+    },
+    {
+      "status": "failed",
+      "stratum": "synthetic_mini",
+      "error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"D:\\codex\\lidar2building\\buildingworld-xyz-to-mesh\\work\\experiments\\2026-09-21\\starter78-feedback-pilot\\baseline\\source\\harness\\pilot_worker.py\", line 47, in <module>\n    work(p.parse_args().task)\n  File \"D:\\codex\\lidar2building\\buildingworld-xyz-to-mesh\\work\\experiments\\2026-09-21\\starter78-feedback-pilot\\baseline\\source\\harness\\pilot_worker.py\", line 17, in work\n    model = reconstruct(task['source'], sample['points'], out, localize=False)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\codex\\lidar2building\\buildingworld-xyz-to-mesh\\work\\experiments\\2026-09-21\\starter78-feedback-pilot\\baseline\\source\\harness\\adapter.py\", line 34, in reconstruct\n    data, _, _ = module.run(\"input\")\n                 ^^^^^^^^^^^^^^^^^^^\n  File \"D:\\codex\\lidar2building\\buildingworld-xyz-to-mesh\\work\\experiments\\2026-09-21\\starter78-feedback-pilot\\baseline\\source\\algorithm.py\", line 67, in run\n    if len(coef)==0: raise RuntimeError('No roof plane supported')\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: No roof plane supported\n",
+      "case": 2
+    },
+    {
+      "status": "evaluated",
+      "stratum": "real_zurich",
+      "CD": 2.7000996221929476,
+      "ECD": 3.905527636892285,
+      "NC": 0.56759613648493,
+      "p95": 0.4475304502943842,
+      "open_edges": 0,
+      "winding_edges": 0,
+      "case": 3,
+      "localized_issues": [
+        {
+          "kind": "observed_surface_mismatch",
+          "edge_vertex_ids": [],
+          "locations": [
+            {
+              "index": 5,
+              "xyz": [
+                9.669773690953319,
+                -2.8109807241143367,
+                -6.296596822016114
+              ],
+              "distance": 1.9181991920161137,
+              "polygon_id": 5
+            },
+            {
+              "index": 202,
+              "xyz": [
+                -3.373176868937204,
+                -7.083671424768129,
+                1.9969492554326793
+              ],
+              "distance": 1.2110080985607488,
+              "polygon_id": 1
+            }
+          ],
+          "rule_ids": [
+            "K01",
+            "K02",
+            "K03",
+            "K06"
+          ]
+        }
+      ]
+    },
+    {
+      "status": "evaluated",
+      "stratum": "real_zurich",
+      "CD": 2.3571891148347683,
+      "ECD": 3.3191704570164067,
+      "NC": 0.4400185654289187,
+      "p95": 0.8416886032256264,
+      "open_edges": 0,
+      "winding_edges": 0,
+      "case": 4,
+      "localized_issues": [
+        {
+          "kind": "observed_surface_mismatch",
+          "edge_vertex_ids": [],
+          "locations": [
+            {
+              "index": 452,
+              "xyz": [
+                9.163348026538152,
+                -2.5506226465621658,
+                1.6324012614025702
+              ],
+              "distance": 1.1263842702428843,
+              "polygon_id": 0
+            },
+            {
+              "index": 473,
+              "xyz": [
+                5.951452841978387,
+                7.273997917973584,
+                1.6172716999863304
+              ],
+              "distance": 1.109031255075372,
+              "polygon_id": 0
+            }
+          ],
+          "rule_ids": [
+            "K01",
+            "K02",
+            "K03",
+            "K06"
+          ]
+        }
+      ]
+    },
+    {
+      "status": "evaluated",
+      "stratum": "real_zurich",
+      "CD": 2.1224056648049743,
+      "ECD": 2.7774181624902154,
+      "NC": 0.6446654076601767,
+      "p95": 0.4950434244901378,
+      "open_edges": 0,
+      "winding_edges": 0,
+      "case": 5,
+      "localized_issues": [
+        {
+          "kind": "observed_surface_mismatch",
+          "edge_vertex_ids": [],
+          "locations": [
+            {
+              "index": 170,
+              "xyz": [
+                1.9560353862955195,
+                -7.335132698608198,
+                -2.0472469973257965
+              ],
+              "distance": 0.9450846166191164,
+              "polygon_id": 1
+            },
+            {
+              "index": 172,
+              "xyz": [
+                1.9560353862955195,
+                -7.335132698608198,
+                0.14342349308634247
+              ],
+              "distance": 0.9450846166191164,
+              "polygon_id": 1
+            }
+          ],
+          "rule_ids": [
+            "K01",
+            "K02",
+            "K03",
+            "K06"
+          ]
+        }
+      ]
+    }
+  ]
+}

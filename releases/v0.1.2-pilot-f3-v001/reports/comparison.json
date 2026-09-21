@@ -1,0 +1,38 @@
+{
+  "by_source": {
+    "real_zurich": {
+      "attempted": 38,
+      "common_success": 37,
+      "recovered": 1,
+      "new_failures": 0,
+      "baseline_failures": 1,
+      "candidate_failures": 0,
+      "new_topology_failures_on_common": 0,
+      "recovered_with_topology_failure": 0,
+      "paired_mean_delta": {
+        "CD": 0.0,
+        "ECD": 0.0,
+        "NC": 0.0,
+        "p95": 0.0
+      }
+    },
+    "synthetic_mini": {
+      "attempted": 40,
+      "common_success": 34,
+      "recovered": 5,
+      "new_failures": 0,
+      "baseline_failures": 6,
+      "candidate_failures": 1,
+      "new_topology_failures_on_common": 0,
+      "recovered_with_topology_failure": 0,
+      "paired_mean_delta": {
+        "CD": 0.0,
+        "ECD": 0.0,
+        "NC": 0.0,
+        "p95": 0.0
+      }
+    }
+  },
+  "decision": "eligible_pilot_candidate",
+  "scope": "paired development evidence, not official score or generalization proof"
+}

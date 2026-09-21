@@ -1,0 +1,11 @@
+{
+  "buildings": 78,
+  "all_input_points_used": true,
+  "shared_distance_color_range": [
+    0,
+    1
+  ],
+  "distance_units": "canonical, not metres",
+  "metric_scores_unchanged": true,
+  "projection": "top view, height ambiguity retained"
+}

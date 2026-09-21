@@ -1,0 +1,57 @@
+{
+  "hypothesis": "A nearly constant-height roof-only input can fail before RANSAC because the strict greater-than 25th-height-quantile filter excludes every equal-height point. Retaining such points while preserving normal, curvature, slope and support checks may recover that bounded input class.",
+  "evidence": [
+    {
+      "source": "feedback.json/geometric_metrics",
+      "observation": "Real inputs succeed 14/14 with CD 1.2386472949634142; synthetic inputs succeed 12/16 with CD 0.42782936796658655. Aggregate scores do not identify a specific geometry correction."
+    },
+    {
+      "source": "feedback.json/topology",
+      "observation": "Topology passes equal successful cases (14 real and 12 synthetic); no evidence here motivates changing mesh assembly."
+    },
+    {
+      "source": "feedback.json/failures",
+      "observation": "All four listed failures report No roof plane supported. No source points or case-specific causes were inspected; constant-height filtering is a code-supported hypothesis, not a confirmed explanation of those failures."
+    },
+    {
+      "source": "feedback.json/localized_issues",
+      "observation": "Observed surface mismatches are present but do not establish a supported footprint or plane-domain replacement from these permitted inputs alone."
+    },
+    {
+      "source": "initial_algorithm.py/run",
+      "observation": "For exactly constant z, z > quantile(z, 0.25) is false for all points, so roof candidates are empty regardless of valid horizontal normals."
+    }
+  ],
+  "knowledge_ids": [
+    "K02",
+    "K03",
+    "K08"
+  ],
+  "change": "Bypass only the height-quantile gate when the total input z range is within 32 machine epsilons scaled by maximum absolute z. Keep normal/curvature filtering, RANSAC support, plane selection, completion labels, CLI and run interface unchanged. No building IDs, GT, data or evaluator changes.",
+  "expected_effect": "Potentially allow supported exactly planar horizontal scans to reach plane fitting; nonconstant-height inputs retain the prior height filter. Performance is unmeasured and the four failures are not claimed resolved.",
+  "regression_risks": [
+    "A constant-height ground-only scan remains indistinguishable from a roof-only scan without terrain evidence; the existing provisional base warning remains necessary.",
+    "A roof-only constant-height scan may produce zero-height walls/base and invalid solid topology because full building height is unobserved; this proposal addresses candidate exclusion only.",
+    "Existing minimum support, triangle-area and normal-estimation constraints can still prevent a plane from being fitted.",
+    "At extremely large absolute z coordinates, the machine-precision-scaled gate can admit a very thin height range."
+  ],
+  "budget_used": {
+    "tool_calls": 2,
+    "tool_call_limit": 6,
+    "candidate_count": 1,
+    "changed_lines_added_plus_removed": 7,
+    "changed_line_limit": 80,
+    "syntax_checks": 1,
+    "syntax_check_passed": true,
+    "reconstruction_runs": 0,
+    "evaluation_runs": 0,
+    "network_calls": 0,
+    "subagents": 0,
+    "input_files_read": [
+      "policy.json",
+      "knowledge.json",
+      "feedback.json",
+      "initial_algorithm.py"
+    ]
+  }
+}

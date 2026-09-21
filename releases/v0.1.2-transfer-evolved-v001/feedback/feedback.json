@@ -1,0 +1,166 @@
+{
+  "failures": [
+    {
+      "stratum": "synthetic_mini",
+      "error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"D:\\codex\\lidar2building\\buildingworld-xyz-to-mesh\\work\\experiments\\2026-09-21\\starter78-feedback-pilot\\baseline\\source\\harness\\pilot_worker.py\", line 47, in <module>\n    work(p.parse_args().task)\n  File \"D:\\codex\\lidar2building\\buildingworld-xyz-to-mesh\\work\\experiments\\2026-09-21\\starter78-feedback-pilot\\baseline\\source\\harness\\pilot_worker.py\", line 17, in work\n    model = reconstruct(task['source'], sample['points'], out, localize=False)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\codex\\lidar2building\\buildingworld-xyz-to-mesh\\work\\experiments\\2026-09-21\\starter78-feedback-pilot\\baseline\\source\\harness\\adapter.py\", line 34, in reconstruct\n    data, _, _ = module.run(\"input\")\n                 ^^^^^^^^^^^^^^^^^^^\n  File \"D:\\codex\\lidar2building\\buildingworld-xyz-to-mesh\\work\\experiments\\2026-09-21\\starter78-feedback-pilot\\baseline\\source\\algorithm.py\", line 67, in run\n    if len(coef)==0: raise RuntimeError('No roof plane supported')\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: No roof plane supported\n"
+    },
+    {
+      "stratum": "synthetic_mini",
+      "error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"D:\\codex\\lidar2building\\buildingworld-xyz-to-mesh\\work\\experiments\\2026-09-21\\starter78-feedback-pilot\\baseline\\source\\harness\\pilot_worker.py\", line 47, in <module>\n    work(p.parse_args().task)\n  File \"D:\\codex\\lidar2building\\buildingworld-xyz-to-mesh\\work\\experiments\\2026-09-21\\starter78-feedback-pilot\\baseline\\source\\harness\\pilot_worker.py\", line 17, in work\n    model = reconstruct(task['source'], sample['points'], out, localize=False)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\codex\\lidar2building\\buildingworld-xyz-to-mesh\\work\\experiments\\2026-09-21\\starter78-feedback-pilot\\baseline\\source\\harness\\adapter.py\", line 34, in reconstruct\n    data, _, _ = module.run(\"input\")\n                 ^^^^^^^^^^^^^^^^^^^\n  File \"D:\\codex\\lidar2building\\buildingworld-xyz-to-mesh\\work\\experiments\\2026-09-21\\starter78-feedback-pilot\\baseline\\source\\algorithm.py\", line 67, in run\n    if len(coef)==0: raise RuntimeError('No roof plane supported')\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: No roof plane supported\n"
+    },
+    {
+      "stratum": "synthetic_mini",
+      "error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"D:\\codex\\lidar2building\\buildingworld-xyz-to-mesh\\work\\experiments\\2026-09-21\\starter78-feedback-pilot\\baseline\\source\\harness\\pilot_worker.py\", line 47, in <module>\n    work(p.parse_args().task)\n  File \"D:\\codex\\lidar2building\\buildingworld-xyz-to-mesh\\work\\experiments\\2026-09-21\\starter78-feedback-pilot\\baseline\\source\\harness\\pilot_worker.py\", line 17, in work\n    model = reconstruct(task['source'], sample['points'], out, localize=False)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\codex\\lidar2building\\buildingworld-xyz-to-mesh\\work\\experiments\\2026-09-21\\starter78-feedback-pilot\\baseline\\source\\harness\\adapter.py\", line 34, in reconstruct\n    data, _, _ = module.run(\"input\")\n                 ^^^^^^^^^^^^^^^^^^^\n  File \"D:\\codex\\lidar2building\\buildingworld-xyz-to-mesh\\work\\experiments\\2026-09-21\\starter78-feedback-pilot\\baseline\\source\\algorithm.py\", line 67, in run\n    if len(coef)==0: raise RuntimeError('No roof plane supported')\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: No roof plane supported\n"
+    },
+    {
+      "stratum": "synthetic_mini",
+      "error": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"D:\\codex\\lidar2building\\buildingworld-xyz-to-mesh\\work\\experiments\\2026-09-21\\starter78-feedback-pilot\\baseline\\source\\harness\\pilot_worker.py\", line 47, in <module>\n    work(p.parse_args().task)\n  File \"D:\\codex\\lidar2building\\buildingworld-xyz-to-mesh\\work\\experiments\\2026-09-21\\starter78-feedback-pilot\\baseline\\source\\harness\\pilot_worker.py\", line 17, in work\n    model = reconstruct(task['source'], sample['points'], out, localize=False)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\codex\\lidar2building\\buildingworld-xyz-to-mesh\\work\\experiments\\2026-09-21\\starter78-feedback-pilot\\baseline\\source\\harness\\adapter.py\", line 34, in reconstruct\n    data, _, _ = module.run(\"input\")\n                 ^^^^^^^^^^^^^^^^^^^\n  File \"D:\\codex\\lidar2building\\buildingworld-xyz-to-mesh\\work\\experiments\\2026-09-21\\starter78-feedback-pilot\\baseline\\source\\algorithm.py\", line 67, in run\n    if len(coef)==0: raise RuntimeError('No roof plane supported')\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: No roof plane supported\n"
+    }
+  ],
+  "localized_issues": [
+    {
+      "case": 1,
+      "stratum": "real_zurich",
+      "CD": 2.2382803476898365,
+      "ECD": 3.2142226987051212,
+      "issues": [
+        {
+          "kind": "observed_surface_mismatch",
+          "locations": [
+            {
+              "index": 27,
+              "xyz": [
+                -4.2326044267214,
+                -8.817925889002915,
+                -2.694763318433704
+              ],
+              "distance": 1.0112869736723078,
+              "polygon_id": 2
+            },
+            {
+              "index": 28,
+              "xyz": [
+                -4.2326044267214,
+                -8.817925889002915,
+                -0.2962702541122862
+              ],
+              "distance": 1.0112869736723065,
+              "polygon_id": 2
+            }
+          ],
+          "rule_ids": [
+            "K01",
+            "K02",
+            "K03",
+            "K06"
+          ]
+        }
+      ]
+    },
+    {
+      "case": 2,
+      "stratum": "real_zurich",
+      "CD": 1.9279714430693513,
+      "ECD": 3.229352401278184,
+      "issues": [
+        {
+          "kind": "observed_surface_mismatch",
+          "locations": [
+            {
+              "index": 415,
+              "xyz": [
+                -5.419158840059628,
+                2.3561560174172294,
+                1.0178755060605897
+              ],
+              "distance": 1.885790848692057,
+              "polygon_id": 2
+            },
+            {
+              "index": 416,
+              "xyz": [
+                -5.419158840059628,
+                3.063002822642398,
+                0.9424048836276943
+              ],
+              "distance": 1.714355316893614,
+              "polygon_id": 2
+            }
+          ],
+          "rule_ids": [
+            "K01",
+            "K02",
+            "K03",
+            "K06"
+          ]
+        }
+      ]
+    },
+    {
+      "case": 3,
+      "stratum": "real_zurich",
+      "CD": 1.7885860269512333,
+      "ECD": 2.6098018889956225,
+      "issues": [
+        {
+          "kind": "observed_surface_mismatch",
+          "locations": [
+            {
+              "index": 4416,
+              "xyz": [
+                -9.33282632014613,
+                6.121531242246387,
+                -0.2087175199015214
+              ],
+              "distance": 1.284327862299212,
+              "polygon_id": 0
+            },
+            {
+              "index": 4379,
+              "xyz": [
+                -8.530002550671194,
+                4.515883703296515,
+                -0.19266986459811083
+              ],
+              "distance": 1.2824489598106081,
+              "polygon_id": 0
+            }
+          ],
+          "rule_ids": [
+            "K01",
+            "K02",
+            "K03",
+            "K06"
+          ]
+        }
+      ]
+    }
+  ],
+  "geometric_metrics": {
+    "real_zurich": {
+      "total": 14,
+      "success": 14,
+      "CD": 1.2386472949634142,
+      "ECD": 1.7951725067806703,
+      "NC": 0.7241485259070192,
+      "p95": 0.290259278468365
+    },
+    "synthetic_mini": {
+      "total": 16,
+      "success": 12,
+      "CD": 0.42782936796658655,
+      "ECD": 0.6813794034997199,
+      "NC": 0.9081260441568412,
+      "p95": 0.6310457677455046
+    }
+  },
+  "topology": {
+    "real_zurich": {
+      "topology_pass": 14
+    },
+    "synthetic_mini": {
+      "topology_pass": 12
+    }
+  },
+  "scope": "new transfer30 development task baseline outcomes only; no results of F0/F3 here"
+}

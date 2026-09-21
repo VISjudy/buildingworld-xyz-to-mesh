@@ -1,0 +1,19 @@
+{
+  "source_sha256": "fa003a63cd6ef697e3442442ff64a3cb14d4a6b9505339cabc1d63f8af08a24a",
+  "input_sha256": "c301ebd1b103f22b77dceedbaff0062b8dfe4e59558efa9f454327b7c32381e8",
+  "columns": [
+    0,
+    1,
+    2
+  ],
+  "origin": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "output_sha256": "c72e936d6a87af0d3130afd5ebb80520c0a185be3d0f963c2eda293c73ea3c2d",
+  "roundtrip_vertices": 44,
+  "roundtrip_faces": 24,
+  "adapter_does_not_modify_source": true,
+  "localize": false
+}

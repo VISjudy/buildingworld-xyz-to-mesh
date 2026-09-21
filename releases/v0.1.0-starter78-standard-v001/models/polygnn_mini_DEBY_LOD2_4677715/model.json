@@ -1,0 +1,201 @@
+{
+  "id": "input",
+  "source": "D:\\codex\\lidar2building\\buildingworld-xyz-to-mesh\\work\\experiments\\2026-09-21\\starter78-feedback-pilot\\baseline\\samples\\polygnn_mini_DEBY_LOD2_4677715\\staged\\LiDAR_xyz\\input.xyz",
+  "vertices": [
+    [
+      5.008547203816614,
+      -9.13792354261362,
+      2.261213997393802
+    ],
+    [
+      9.333651842761682,
+      7.057687272082364,
+      2.2453597689852858
+    ],
+    [
+      2.213871321576752,
+      8.959054013527226,
+      7.502692107289913
+    ],
+    [
+      -2.088552151538652,
+      -7.242613900012944,
+      7.501798287604538
+    ],
+    [
+      -4.924930545928393,
+      10.865500483927658,
+      2.2397327147105965
+    ],
+    [
+      -9.250035184873461,
+      -5.330110330768328,
+      2.2221175940347555
+    ],
+    [
+      5.008547203816614,
+      -9.13792354261362,
+      -7.515169055198308
+    ],
+    [
+      9.333651842761682,
+      7.057687272082364,
+      -7.515169055198308
+    ],
+    [
+      2.213871321576752,
+      8.959054013527226,
+      -7.515169055198308
+    ],
+    [
+      -4.924930545928393,
+      10.865500483927658,
+      -7.515169055198308
+    ],
+    [
+      -9.250035184873461,
+      -5.330110330768328,
+      -7.515169055198308
+    ],
+    [
+      -2.088552151538652,
+      -7.242613900012944,
+      -7.515169055198308
+    ]
+  ],
+  "faces": [
+    [
+      0,
+      1,
+      2,
+      3
+    ],
+    [
+      2,
+      4,
+      5,
+      3
+    ],
+    [
+      1,
+      0,
+      6,
+      7
+    ],
+    [
+      2,
+      1,
+      7,
+      8
+    ],
+    [
+      0,
+      3,
+      11,
+      6
+    ],
+    [
+      4,
+      2,
+      8,
+      9
+    ],
+    [
+      5,
+      4,
+      9,
+      10
+    ],
+    [
+      3,
+      5,
+      10,
+      11
+    ],
+    [
+      11,
+      10,
+      9,
+      8,
+      7,
+      6
+    ]
+  ],
+  "semantics": [
+    "roof",
+    "roof",
+    "wall",
+    "wall",
+    "wall",
+    "wall",
+    "wall",
+    "wall",
+    "ground_assumed"
+  ],
+  "metrics": {
+    "input_points": 12781,
+    "roof_candidate_points": 5711,
+    "plane_supports": [
+      2491,
+      2296
+    ],
+    "plane_coefficients_z_eq_ax_by_c": [
+      [
+        -0.6894998742044895,
+        0.18315486275909532,
+        7.388261796723109
+      ],
+      [
+        0.6884262161788393,
+        -0.1827594114452804,
+        7.615956488888694
+      ]
+    ],
+    "active_roof_planes": [
+      0,
+      1
+    ],
+    "candidate_planes": [
+      [
+        -0.6894998742044895,
+        0.18315486275909532,
+        7.388261796723109
+      ],
+      [
+        0.6884262161788393,
+        -0.1827594114452804,
+        7.615956488888694
+      ]
+    ],
+    "candidate_supports": [
+      2491,
+      2296
+    ],
+    "selected_candidate_indices": [
+      0,
+      1
+    ],
+    "vertices": 12,
+    "polygon_faces": 9,
+    "roof_faces": 2,
+    "nonmanifold_edges": 0,
+    "euler_characteristic": 2,
+    "signed_volume_coordinate_units_cubed": 3064.5704883795506,
+    "surface_area_coordinate_units_squared": 1243.9702659065404,
+    "roof_vertical_residual_median": 0.049770797430618074,
+    "roof_vertical_residual_p95": 0.14171063059795763,
+    "roof_within_020_coordinate_units": 0.9959726842934687,
+    "xy_points_within_rectangle": 0.9918629215241374,
+    "prototype_fit_status": "main_roof_supported",
+    "provisional_base_z": -7.515169055198308,
+    "base_rule": "input z quantile 0.001; lowest observed returns, NOT verified ground",
+    "footprint_rule": "minimum rotated rectangle orientation + projected quantiles 0.002, 0.998",
+    "limitations": [
+      "Convex single-volume roof only; concave footprints/courtyards/extensions unsupported",
+      "Small roof details below 7.5 percent support omitted",
+      "Input unit assumed meter for Blender display only",
+      "Residual is same-input fitting diagnostic, NOT ground-truth CD/ECD/NC",
+      "Lowest returns do not prove terrain elevation; flat base and vertical walls are completion priors"
+    ]
+  }
+}

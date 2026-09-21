@@ -1,0 +1,144 @@
+{
+  "id": "input",
+  "source": "D:\\codex\\lidar2building\\buildingworld-xyz-to-mesh\\work\\experiments\\2026-09-21\\starter78-feedback-pilot\\baseline\\samples\\point2building_04198_z4cf7a30100000000\\staged\\LiDAR_xyz\\input.xyz",
+  "vertices": [
+    [
+      -12.007687583293153,
+      -1.0785230285360208,
+      0.21982002216279595
+    ],
+    [
+      0.24810169208630573,
+      -11.583485264575561,
+      0.22760829546913958
+    ],
+    [
+      11.271797334665163,
+      1.2774929850997674,
+      -0.38349166507163784
+    ],
+    [
+      -0.9839919407142967,
+      11.782455221139307,
+      -0.3912799383779814
+    ],
+    [
+      -12.007687583293153,
+      -1.0785230285360208,
+      -0.441713372493921
+    ],
+    [
+      0.24810169208630573,
+      -11.583485264575561,
+      -0.441713372493921
+    ],
+    [
+      11.271797334665163,
+      1.2774929850997674,
+      -0.441713372493921
+    ],
+    [
+      -0.9839919407142967,
+      11.782455221139307,
+      -0.441713372493921
+    ]
+  ],
+  "faces": [
+    [
+      0,
+      1,
+      2,
+      3
+    ],
+    [
+      1,
+      0,
+      4,
+      5
+    ],
+    [
+      2,
+      1,
+      5,
+      6
+    ],
+    [
+      3,
+      2,
+      6,
+      7
+    ],
+    [
+      0,
+      3,
+      7,
+      4
+    ],
+    [
+      7,
+      6,
+      5,
+      4
+    ]
+  ],
+  "semantics": [
+    "roof",
+    "wall",
+    "wall",
+    "wall",
+    "wall",
+    "ground_assumed"
+  ],
+  "metrics": {
+    "input_points": 453,
+    "roof_candidate_points": 331,
+    "plane_supports": [
+      293
+    ],
+    "plane_coefficients_z_eq_ax_by_c": [
+      [
+        -0.02311207259255577,
+        -0.027705474629836135,
+        -0.08758351733580473
+      ]
+    ],
+    "active_roof_planes": [
+      0
+    ],
+    "candidate_planes": [
+      [
+        -0.02311207259255577,
+        -0.027705474629836135,
+        -0.08758351733580473
+      ]
+    ],
+    "candidate_supports": [
+      293
+    ],
+    "selected_candidate_indices": [
+      0
+    ],
+    "vertices": 8,
+    "polygon_faces": 6,
+    "roof_faces": 1,
+    "nonmanifold_edges": 0,
+    "euler_characteristic": 2,
+    "signed_volume_coordinate_units_cubed": 98.3994998624724,
+    "surface_area_coordinate_units_squared": 570.8378293828946,
+    "roof_vertical_residual_median": 0.02306042710819651,
+    "roof_vertical_residual_p95": 0.32467990347364595,
+    "roof_within_020_coordinate_units": 0.9244712990936556,
+    "xy_points_within_rectangle": 0.9933774834437086,
+    "prototype_fit_status": "main_roof_supported",
+    "provisional_base_z": -0.441713372493921,
+    "base_rule": "input z quantile 0.001; lowest observed returns, NOT verified ground",
+    "footprint_rule": "minimum rotated rectangle orientation + projected quantiles 0.002, 0.998",
+    "limitations": [
+      "Convex single-volume roof only; concave footprints/courtyards/extensions unsupported",
+      "Small roof details below 7.5 percent support omitted",
+      "Input unit assumed meter for Blender display only",
+      "Residual is same-input fitting diagnostic, NOT ground-truth CD/ECD/NC",
+      "Lowest returns do not prove terrain elevation; flat base and vertical walls are completion priors"
+    ]
+  }
+}

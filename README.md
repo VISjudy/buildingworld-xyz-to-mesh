@@ -2,6 +2,8 @@
 
 新对话接续：[分层项目记忆](memory.md) → 按任务读取状态、数据与经验。原 `PROJECT_MEMORY.md` 已保留历史副本并转为入口，避免旧环境数据数量误导当前工作。
 
+**最新小试：** 全562对已按[筛选与统一预处理规范](docs/DATASET_METHODS_V001.md)整理。仅对固定78对运行首轮独立模型反馈实验：基准/F0成功71对，F3成功77对；30对同起点策略迁移两组均成功26对，未观察到演化收益。见[可视化结果与全部模型对比](reports/2026-09-21-starter78-feedback-pilot/index.html)、[实验记录](experiments/2026-09-21/starter78-feedback-pilot/summary.md)。5个算法版本独立冻结，完整训练432/封存130尚未重建；单候选单种子不构成机制已证实的结论。
+
 **立面数据已入库：** Point2Building Zurich 28,415 对真实 ALS/参考 Mesh、PolyGNN mini 200 对仿真 ALS/Mesh，原始数据仅保存在本地。已整理 78 对经过当前质量筛选的入门样例；见[数据说明](docs/DATA_ACQUISITION.md)和[立面数据审核报告](reports/2026-09-21-dataset-audit/index.html)。这些作者参考模型不等于已获取比赛测试真值。
 
 **2026-09-21 研究分支：** 新增 [LoD2 RSI 完整研究协议](docs/RSI_RESEARCH_PLAN.md)、[Harness 用法](docs/HARNESS_USAGE.md)、[文献证据矩阵](docs/LITERATURE_REVIEW_RSI.md)及[第一阶段可视化报告](reports/2026-09-21-stage01/index.html)。从 v0.1.0 重新固定基准；第一轮凹轮廓候选 11 改善、6 持平、2 退化、1 失败，未采用。当前是流程实测，尚未证明递归自我改进或完成正式消融。

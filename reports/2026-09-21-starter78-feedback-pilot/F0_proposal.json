@@ -1,0 +1,33 @@
+{
+  "hypothesis": "A rectangular footprint imposes unsupported corner wedges on observed convex buildings with oblique or clipped corners. A convex hull of the same robustly bounded observed XY support can reduce this geometric over-completion while preserving the convex clipping pipeline.",
+  "rule_ids": [
+    "K01",
+    "K05"
+  ],
+  "changed_behavior": [
+    "Keep the existing minimum-rectangle orientation and projected quantile bounds.",
+    "When retained XY support has at least three distinct non-collinear points, replace the rectangle footprint with its counterclockwise convex hull.",
+    "Retain the rectangle fallback for insufficient support and record the selected footprint rule in model metrics."
+  ],
+  "expected_benefit": "Avoid imposing orthogonal rectangular corners where the input supports a different convex boundary; roof clipping, walls and base all use the same selected footprint.",
+  "risks": [
+    "Concave footprints and courtyards remain unsupported; K01 is addressed only for observed convex boundary shape.",
+    "Incomplete boundary observations may shrink the hull below the true building footprint.",
+    "Spurious points inside the existing quantile bounds can still expand the hull.",
+    "Additional boundary vertices can increase mesh complexity."
+  ],
+  "feedback_used": {
+    "condition": "F0",
+    "outcomes_supplied": false,
+    "basis": "Only initial_algorithm.py, knowledge.json and the no-outcome feedback.json were read."
+  },
+  "model_configuration": "inherited parent runtime; exact provider snapshot unavailable",
+  "validation": {
+    "syntax_check": "one ast.parse check passed",
+    "reconstruction_executed": false,
+    "scoring_executed": false,
+    "changed_lines_additions_plus_deletions": 10,
+    "seed": 739
+  },
+  "scope": "One isolated candidate proposal; not proof of general self-improvement."
+}

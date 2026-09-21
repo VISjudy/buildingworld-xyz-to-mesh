@@ -1,0 +1,39 @@
+{
+  "id": "paired-lod2-data-v001",
+  "scope": "Zurich real + downloaded PolyGNN mini; all qualifying pairs, source strata separate",
+  "selection": {
+    "strict_topology": "watertight, consistent winding, triangle area > 1e-12 in author coordinates; no mesh repair",
+    "wall_angle_from_vertical_degrees": 10,
+    "wall_low_max_fraction_height": 0.1,
+    "wall_min_vertical_extent_fraction_height": 0.25,
+    "base_min_abs_normal_z": 0.9,
+    "base_high_max_fraction_height": 0.05,
+    "support_max_distance_fraction_diagonal": 0.005,
+    "support_wall_interior_fraction": [0.1, 0.9],
+    "support_min_points": 10,
+    "support_min_fraction_all_input": 0.005,
+    "support_min_vertical_span_fraction_height": 0.15,
+    "max_all_input_p95_fraction_mesh_diagonal": 0.05,
+    "independent_check": "Blender boundary/nonmanifold/winding/degenerate counts zero, signed volume positive, no nonadjacent BVH overlap candidate; not a full intersection proof"
+  },
+  "preprocessing": {
+    "input": "finite float64 Nx3 XYZ; preserve all points and order",
+    "origin": "midpoint of input point bounding box, never derived from GT",
+    "scale": "input bounding-box diagonal / 30",
+    "target_diagonal": 30.0,
+    "forward": "canonical = (source - origin) / scale",
+    "inverse": "source = canonical * scale + origin",
+    "orientation": "source Z-up retained; no rotation",
+    "ground_truth": "apply exactly the input-derived transform to all GT vertices and wireframe vertices",
+    "filtering": "no denoising, point removal, augmentation, downsampling, inferred ground points or GT repair",
+    "units": "canonical analysis units, not metres; original source units retained in provenance",
+    "point_roundtrip_atol_source": 1e-8,
+    "mesh_roundtrip_atol_source": 1e-5
+  },
+  "usage": {
+    "active": "starter78 development only",
+    "locked": "complete train432 and test130",
+    "metrics": "report real/simulated separately, fixed local evaluator; not official challenge metrics",
+    "reference_bias": "GT-informed quality curation, single-city real data and mini synthetic selection restrict generalization"
+  }
+}

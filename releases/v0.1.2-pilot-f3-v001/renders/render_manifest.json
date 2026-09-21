@@ -1,0 +1,1942 @@
+{
+  "blender": "5.2.2 LTS",
+  "same_camera_per_sample": true,
+  "render_engine": "workbench",
+  "samples": [
+    {
+      "id": "point2building_03060_z4cd103de00000004",
+      "display_origin": [
+        0.38499051332473755,
+        -0.04034039378166199,
+        0.0
+      ],
+      "ortho_scale": 35.41653060913086,
+      "source_hashes": {
+        "baseline": "289406a9ba346653d183ea2023fa7f028e3e9141f9f1e954ac1779166e75b4b1",
+        "previous": "722d22bd399a507bbd02d4d69eb383312ec74b6a9e78e3a74d96cfdc13ec2893",
+        "current": "289406a9ba346653d183ea2023fa7f028e3e9141f9f1e954ac1779166e75b4b1",
+        "reference": "9339b47ffde90392ab7dd7ac8cce6e684e4a19a6cda8a0a6e7b97769bc4c5b12"
+      },
+      "views": [
+        "oblique",
+        "opposite",
+        "top",
+        "front",
+        "back",
+        "left",
+        "right"
+      ],
+      "point_render_decimated": false
+    },
+    {
+      "id": "point2building_02648_z478b924900000293",
+      "display_origin": [
+        -0.07257144898176193,
+        0.41930168867111206,
+        -1.8125040531158447
+      ],
+      "ortho_scale": 37.96242141723633,
+      "source_hashes": {
+        "baseline": "cdc189aeb15d255af678e855d78d8d777e2bce82b01b8cad3cc8882a44e70b9e",
+        "previous": "6222b50c7f5c190076359e5eeb7dbbd6382eda93a1341a32865e975e0ee427d6",
+        "current": "cdc189aeb15d255af678e855d78d8d777e2bce82b01b8cad3cc8882a44e70b9e",
+        "reference": "5d140b351f8b4d85ce8afebc714470209c88d4522f862a7899aaeb6416e126a4"
+      },
+      "views": [
+        "oblique",
+        "opposite",
+        "top",
+        "front",
+        "back",
+        "left",
+        "right"
+      ],
+      "point_render_decimated": false
+    },
+    {
+      "id": "point2building_03177_z57b4146355ea0033",
+      "display_origin": [
+        -0.12764209508895874,
+        0.040083155035972595,
+        -2.428650379180908
+      ],
+      "ortho_scale": 36.29561996459961,
+      "source_hashes": {
+        "baseline": "48815c35eb4779bdd2fa35ba0732d48fb3daa822804d7ab06d04a48eb51da558",
+        "previous": "75b8e3c4908f744282fe750726bb5f07bcc42338b27aeb2b978c89e6b8999587",
+        "current": "48815c35eb4779bdd2fa35ba0732d48fb3daa822804d7ab06d04a48eb51da558",
+        "reference": "686a7ed0587a0138fd462e2f8185192eaf7c70a8fca59b4eee7ecdbcef113904"
+      },
+      "views": [
+        "oblique",
+        "opposite",
+        "top",
+        "front",
+        "back",
+        "left",
+        "right"
+      ],
+      "point_render_decimated": false
+    },
+    {
+      "id": "point2building_01020_z41af1c5900042690",
+      "display_origin": [
+        -0.0572073832154274,
+        -0.06326670944690704,
+        -1.2742220163345337
+      ],
+      "ortho_scale": 35.60825729370117,
+      "source_hashes": {
+        "baseline": "503cda59eedc209690c38cb00c93890c12e739c03048d7170e1bba43ebb4c2da",
+        "previous": "162b4215157eaeb68afe58682ed420c8fb62abf8d4d8819d04ac9a8b59c7135f",
+        "current": "503cda59eedc209690c38cb00c93890c12e739c03048d7170e1bba43ebb4c2da",
+        "reference": "3df1fc1ad4a6e7097f8850fe5a64c34703c44a006fa06e6bbcfce113349161d9"
+      },
+      "views": [
+        "oblique",
+        "opposite",
+        "top",
+        "front",
+        "back",
+        "left",
+        "right"
+      ],
+      "point_render_decimated": false
+    },
+    {
+      "id": "point2building_02308_z45b11b8c000050a2",
+      "display_origin": [
+        -0.15768633782863617,
+        0.3033578097820282,
+        -1.9753199815750122
+      ],
+      "ortho_scale": 36.9080696105957,
+      "source_hashes": {
+        "baseline": "d1bc55e1a62b44798d48946ea40eaf7526d610720ad07d702d0b7fb9012d8754",
+        "previous": "3f9608df32373298a6c068c1a6c6012f5a498ffd249097d01d7038155102e1f5",
+        "current": "d1bc55e1a62b44798d48946ea40eaf7526d610720ad07d702d0b7fb9012d8754",
+        "reference": "7550c044befd463dd70abd6132be8f17b19c62384af79edf426a7e821b2a8fd5"
+      },
+      "views": [
+        "oblique",
+        "opposite",
+        "top",
+        "front",
+        "back",
+        "left",
+        "right"
+      ],
+      "point_render_decimated": false
+    },
+    {
+      "id": "point2building_02420_z4631e26b00000002",
+      "display_origin": [
+        0.1774214655160904,
+        -0.27392351627349854,
+        -0.2564089894294739
+      ],
+      "ortho_scale": 35.13492202758789,
+      "source_hashes": {
+        "baseline": "0a9c367848434666803dba7c119ab3113f7df056a0c7c9f62938c9b2a4c31c8a",
+        "previous": "882a9b9d701feb451427be8489cc4ec65872e70fcab94dcbb2d0bd83bfd34a00",
+        "current": "0a9c367848434666803dba7c119ab3113f7df056a0c7c9f62938c9b2a4c31c8a",
+        "reference": "778c3bae6c26f4378e377566da20ad055a2a38f8cb79979eaf33069192700953"
+      },
+      "views": [
+        "oblique",
+        "opposite",
+        "top",
+        "front",
+        "back",
+        "left",
+        "right"
+      ],
+      "point_render_decimated": false
+    },
+    {
+      "id": "point2building_02926_z478b9252000004a9",
+      "display_origin": [
+        -0.8291661739349365,
+        -0.39103028178215027,
+        -3.7598612308502197
+      ],
+      "ortho_scale": 40.271278381347656,
+      "source_hashes": {
+        "baseline": "9495b3d033bb83450c358b8064027da097c81d4ea49ebae05cc964f178db0caf",
+        "previous": "f5e622545cac870b42a25a16d5d5d42fed87a7e040cdc87dc00155cf04454a9f",
+        "current": "9495b3d033bb83450c358b8064027da097c81d4ea49ebae05cc964f178db0caf",
+        "reference": "f2da1603ffdf9f65a2a0c770e7e17160868342286a80f73008e2b9cc7a7dc069"
+      },
+      "views": [
+        "oblique",
+        "opposite",
+        "top",
+        "front",
+        "back",
+        "left",
+        "right"
+      ],
+      "point_render_decimated": false
+    },
+    {
+      "id": "point2building_02762_z478b924b00000309",
+      "display_origin": [
+        0.12589074671268463,
+        0.024407509714365005,
+        -3.4195914268493652
+      ],
+      "ortho_scale": 39.052608489990234,
+      "source_hashes": {
+        "baseline": "aedeb9d7b0fcb77728734e64b91dff172c04af12b67c60f2f9a361ad26334531",
+        "previous": "76c0b268081f245ea67a0332ca2a8b6c95456f88247b8bb3329c9968a93adff5",
+        "current": "aedeb9d7b0fcb77728734e64b91dff172c04af12b67c60f2f9a361ad26334531",
+        "reference": "a416367bb0f0ae77d9ed70aaf091d54ef4eacf35cdca138d8c07f121ead159d2"
+      },
+      "views": [
+        "oblique",
+        "opposite",
+        "top",
+        "front",
+        "back",
+        "left",
+        "right"
+      ],
+      "point_render_decimated": false
+    },
+    {
+      "id": "point2building_01231_z43d783460000001b",
+      "display_origin": [
+        -0.9154043197631836,
+        0.04486170411109924,
+        -3.2423346042633057
+      ],
+      "ortho_scale": 42.213356018066406,
+      "source_hashes": {
+        "baseline": "056f725a187187951e7ab2f67f60a16931a45170907ecede250af0d670b0516b",
+        "previous": "96cf3dac181c4cdf0e47cad4c12a3318a5a16c9c784f01e3067dede1ab39aaf8",
+        "current": "056f725a187187951e7ab2f67f60a16931a45170907ecede250af0d670b0516b",
+        "reference": "167e06bb6bea93ea174ed9aa4372d3aa6d8e4991b0206a7f85b04243c867fa39"
+      },
+      "views": [
+        "oblique",
+        "opposite",
+        "top",
+        "front",
+        "back",
+        "left",
+        "right"
+      ],
+      "point_render_decimated": false
+    },
+    {
+      "id": "point2building_02842_z478b924d00000360",
+      "display_origin": [
+        0.060214608907699585,
+        -0.09253935515880585,
+        -1.2030123472213745
+      ],
+      "ortho_scale": 37.76070785522461,
+      "source_hashes": {
+        "baseline": "5fdd2d67984c0649797ab3a6a30f9421670386e2a1934e09b4db6bc3c4e904b3",
+        "previous": "d0e00c50589d3dbe3bc2e2a3a5640ff819706438ac336935d0817b7bffa63cdb",
+        "current": "5fdd2d67984c0649797ab3a6a30f9421670386e2a1934e09b4db6bc3c4e904b3",
+        "reference": "feb9b4500f59e379e007c50a7a413b76237755bffdaebdc7642d8e66fe556002"
+      },
+      "views": [
+        "oblique",
+        "opposite",
+        "top",
+        "front",
+        "back",
+        "left",
+        "right"
+      ],
+      "point_render_decimated": false
+    },
+    {
+      "id": "point2building_03096_z5061a3c42f350000",
+      "display_origin": [
+        -0.22880788147449493,
+        0.22349266707897186,
+        -0.019627483561635017
+      ],
+      "ortho_scale": 36.96086120605469,
+      "source_hashes": {
+        "baseline": "e264c341ae9fd7370b4bc255755e0b37980cbe5c6b4286c7be6760752e3c8934",
+        "previous": "744653e607822bf02b8fef899d99bf1c655fa5eb709b71ddcdf28356e390e91d",
+        "current": "e264c341ae9fd7370b4bc255755e0b37980cbe5c6b4286c7be6760752e3c8934",
+        "reference": "573fdfd8611a3f5d136b453f928bbf7fe86d0fced3f33bbc6ecf4daf40d7a9a2"
+      },
+      "views": [
+        "oblique",
+        "opposite",
+        "top",
+        "front",
+        "back",
+        "left",
+        "right"
+      ],
+      "point_render_decimated": false
+    },
+    {
+      "id": "point2building_01226_z434cc37600000036",
+      "display_origin": [
+        -0.06208617985248566,
+        -0.11321327090263367,
+        -3.395479202270508
+      ],
+      "ortho_scale": 38.38057327270508,
+      "source_hashes": {
+        "baseline": "5e41b3b9221ad60aaf8ef72948ca02f80d092f9d9a1ca228fd50407f7b692816",
+        "previous": "390dc9f5b975867592f2a4e52afba0057708f831036340659ebf2b85d562d51b",
+        "current": "5e41b3b9221ad60aaf8ef72948ca02f80d092f9d9a1ca228fd50407f7b692816",
+        "reference": "b3b155de6344153c0f9c9523a0db9fc9ff116fb04e4918bfc2b8a8e54e3bf5f9"
+      },
+      "views": [
+        "oblique",
+        "opposite",
+        "top",
+        "front",
+        "back",
+        "left",
+        "right"
+      ],
+      "point_render_decimated": false
+    },
+    {
+      "id": "point2building_00032_z41aca4f400000f6c",
+      "display_origin": [
+        -0.008571584708988667,
+        -0.009752324782311916,
+        -3.5091938972473145
+      ],
+      "ortho_scale": 37.76480484008789,
+      "source_hashes": {
+        "baseline": "96df4386311312886b540f0b9d044b95ce8c09a35b743637a60cee0586e15fe2",
+        "previous": "de475036f77725c15837a8596c722017e36e3f8b72aac111d9a49cf919149846",
+        "current": "96df4386311312886b540f0b9d044b95ce8c09a35b743637a60cee0586e15fe2",
+        "reference": "fb590d4bf0f7227693eeecb09ad248ceeb98e53eaf30e0e2c15062e92232fd30"
+      },
+      "views": [
+        "oblique",
+        "opposite",
+        "top",
+        "front",
+        "back",
+        "left",
+        "right"
+      ],
+      "point_render_decimated": false
+    },
+    {
+      "id": "point2building_01232_z43d783d80000001d",
+      "display_origin": [
+        -1.1469172239303589,
+        -0.03096889890730381,
+        -6.571798324584961
+      ],
+      "ortho_scale": 49.43490982055664,
+      "source_hashes": {
+        "current": "5b3b1a0b75c855c0ce17499604d8e21d44f199e5216f655792d3524a65059676",
+        "reference": "25c58dfb8fec699e068a900a087fd3702386fd7d3e5b0fbfd593d905f3eadd8c"
+      },
+      "views": [
+        "oblique",
+        "opposite",
+        "top",
+        "front",
+        "back",
+        "left",
+        "right"
+      ],
+      "point_render_decimated": false
+    },
+    {
+      "id": "point2building_01234_z43eaf3bb00000000",
+      "display_origin": [
+        0.0,
+        -0.04574597626924515,
+        -2.0649914741516113
+      ],
+      "ortho_scale": 36.074951171875,
+      "source_hashes": {
+        "baseline": "266331182ff949b07eafe05278acc7246c4685a4d6790ea538516929199524b7",
+        "previous": "fc1886d1351b01ba446b662f16bd625f31857d2749e1694ce56bf6759efc5d66",
+        "current": "266331182ff949b07eafe05278acc7246c4685a4d6790ea538516929199524b7",
+        "reference": "ac470691aac53475986251f50550e602507f8798a3bad146f2390929fac652c7"
+      },
+      "views": [
+        "oblique",
+        "opposite",
+        "top",
+        "front",
+        "back",
+        "left",
+        "right"
+      ],
+      "point_render_decimated": false
+    },
+    {
+      "id": "point2building_02073_z45b11b6f00004d43",
+      "display_origin": [
+        0.264937162399292,
+        -0.66321861743927,
+        -2.8346755504608154
+      ],
+      "ortho_scale": 41.456146240234375,
+      "source_hashes": {
+        "baseline": "1343909349e53ac07e3c6dc02c312a8cb327d2bca0b47a94259ab572beda9736",
+        "previous": "38003fc0794a4964da21eeb1d8f8ce6c87f8dba640a074a7d4278a689776a255",
+        "current": "1343909349e53ac07e3c6dc02c312a8cb327d2bca0b47a94259ab572beda9736",
+        "reference": "39260cb3904355b52c41056a616a51ee5b4b892ce4c64cf9020636a4c80f5019"
+      },
+      "views": [
+        "oblique",
+        "opposite",
+        "top",
+        "front",
+        "back",
+        "left",
+        "right"
+      ],
+      "point_render_decimated": false
+    },
+    {
+      "id": "point2building_02062_z45b11b6e00004d35",
+      "display_origin": [
+        -1.0836259126663208,
+        -0.7669169902801514,
+        -2.1729800701141357
+      ],
+      "ortho_scale": 39.3528938293457,
+      "source_hashes": {
+        "baseline": "fca5b23b55fa1e08b68373a2bde96aa8880db05e1a0ff187a4a26efb9ef56b3b",
+        "previous": "056d6b65fc9c56a323db45b9ec4e1eacdd2e67cc858e08295e1d65b0e79a1ae6",
+        "current": "fca5b23b55fa1e08b68373a2bde96aa8880db05e1a0ff187a4a26efb9ef56b3b",
+        "reference": "46447818b9d180ef894b7851947e414284cd130903ddf40dfedf950ab897cad1"
+      },
+      "views": [
+        "oblique",
+        "opposite",
+        "top",
+        "front",
+        "back",
+        "left",
+        "right"
+      ],
+      "point_render_decimated": false
+    },
+    {
+      "id": "point2building_03024_z4b29d97200000000",
+      "display_origin": [
+        -0.00890761986374855,
+        0.010984822176396847,
+        -0.0988634005188942
+      ],
+      "ortho_scale": 34.687564849853516,
+      "source_hashes": {
+        "baseline": "c3f7cb86e8825221e94409ea0a02bf4f0e0a1492cc36552af66bc3f33a2c9a1a",
+        "previous": "6557811cfb0ab8bc55c5fcc9817ccb2e74f6a87ae24489556f26ec19a6c6a1aa",
+        "current": "c3f7cb86e8825221e94409ea0a02bf4f0e0a1492cc36552af66bc3f33a2c9a1a",
+        "reference": "8356eed4416895110e06a1d126c96d95268bc4b35314a0c6a92c6ad1db34f431"
+      },
+      "views": [
+        "oblique",
+        "opposite",
+        "top",
+        "front",
+        "back",
+        "left",
+        "right"
+      ],
+      "point_render_decimated": false
+    },
+    {
+      "id": "point2building_04198_z4cf7a30100000000",
+      "display_origin": [
+        -0.36794513463974,
+        0.09948498010635376,
+        0.02307995595037937
+      ],
+      "ortho_scale": 37.95405197143555,
+      "source_hashes": {
+        "baseline": "d58fe0db5a7162a87331045de39a1a93bfc12d46dc00dbc79c2fe4a94865f980",
+        "previous": "5c17ea967e3fa959f6d5c8505fe9ce04f1fdd5a854d8463b423c556f1d12c122",
+        "current": "d58fe0db5a7162a87331045de39a1a93bfc12d46dc00dbc79c2fe4a94865f980",
+        "reference": "ab42dd1e64683e057e1cb29c91d4508f8dc254fe543dc46573f10ae540b6fdbd"
+      },
+      "views": [
+        "oblique",
+        "opposite",
+        "top",
+        "front",
+        "back",
+        "left",
+        "right"
+      ],
+      "point_render_decimated": false
+    },
+    {
+      "id": "point2building_04700_z5cd2c7b8e3ae0027",
+      "display_origin": [
+        -0.11883289366960526,
+        0.07432298362255096,
+        -1.303455114364624
+      ],
+      "ortho_scale": 40.84397888183594,
+      "source_hashes": {
+        "baseline": "7d2e80a7d103e7cf59b0a30dcebc5c7da85f4cce4a8ffb4770f5841cf67f45b1",
+        "previous": "24d453db866ca1e701ea171c64b485605b5d1553d743b8e44df0a9687865b2d0",
+        "current": "7d2e80a7d103e7cf59b0a30dcebc5c7da85f4cce4a8ffb4770f5841cf67f45b1",
+        "reference": "cded57e996cd11175228308fe7acbb6be7cfc4b8d65fe895d0b51ce15bca027f"
+      },
+      "views": [
+        "oblique",
+        "opposite",
+        "top",
+        "front",
+        "back",
+        "left",
+        "right"
+      ],
+      "point_render_decimated": false
+    },
+    {
+      "id": "point2building_04435_z5aa795dc967900fa",
+      "display_origin": [
+        0.08622676879167557,
+        0.053224045783281326,
+        -1.609118938446045
+      ],
+      "ortho_scale": 39.25643539428711,
+      "source_hashes": {
+        "baseline": "a721cff40ed59911eec4256bbf570f1b53f17eca273b697f65087092d96e8ebf",
+        "previous": "8f750cff6391bda3d13dccad2f3442e6361f02a6c1be2979b10a173df8566c3c",
+        "current": "a721cff40ed59911eec4256bbf570f1b53f17eca273b697f65087092d96e8ebf",
+        "reference": "bb0885d9aa0d577e5e944affbd0fc2fad7d4ff6693335e7b92042be883ef128a"
+      },
+      "views": [
+        "oblique",
+        "opposite",
+        "top",
+        "front",
+        "back",
+        "left",
+        "right"
+      ],
+      "point_render_decimated": false
+    },
+    {
+      "id": "point2building_00612_z41afb9c5000028d4",
+      "display_origin": [
+        -0.016056476160883904,
+        2.893890142440796,
+        -2.195319175720215
+      ],
+      "ortho_scale": 40.81867599487305,
+      "source_hashes": {
+        "baseline": "178a31ff4031ccc30f15eced4dda4d17b5142949e305480900d7e99ee544e561",
+        "previous": "8a1a52ad12ca354ed844d216a9a344d15abca4d4f3030d04254669be142b57f2",
+        "current": "178a31ff4031ccc30f15eced4dda4d17b5142949e305480900d7e99ee544e561",
+        "reference": "fc4d22dee976907d9897d0c427e993ed01981fc4016cb9c39272abd85adfc820"
+      },
+      "views": [
+        "oblique",
+        "opposite",
+        "top",
+        "front",
+        "back",
+        "left",
+        "right"
+      ],
+      "point_render_decimated": false
+    },
+    {
+      "id": "point2building_02691_z45b11c0900005eba",
+      "display_origin": [
+        0.5230666399002075,
+        1.7330775260925293,
+        -2.646425247192383
+      ],
+      "ortho_scale": 41.984134674072266,
+      "source_hashes": {
+        "baseline": "5dab202ef3ff9e321839b16294ba188fe701ef682c8bc9f3440c836c19c9d046",
+        "previous": "797342b86c6ae2ffdf8f60a238997935d558a4d2ea85ca6838851e0a73a34832",
+        "current": "5dab202ef3ff9e321839b16294ba188fe701ef682c8bc9f3440c836c19c9d046",
+        "reference": "f3db822874902a8b611d4388b87029f9ed88e69b597bd97c8907d67891b1cd92"
+      },
+      "views": [
+        "oblique",
+        "opposite",
+        "top",
+        "front",
+        "back",
+        "left",
+        "right"
+      ],
+      "point_render_decimated": false
+    },
+    {
+      "id": "point2building_01496_z41acfcf900040363",
+      "display_origin": [
+        0.18152305483818054,
+        -0.01697012409567833,
+        -4.69113302230835
+      ],
+      "ortho_scale": 40.910400390625,
+      "source_hashes": {
+        "baseline": "7ecb1808a78b7f69c2202ffdc9ad4f402a795a4b39103a115dfaa6328ce96a10",
+        "previous": "cbe2a2cf4e9a55b4f97942678d7cc2e35e7d06e2b95cb69da9d0e2fdd38dae75",
+        "current": "7ecb1808a78b7f69c2202ffdc9ad4f402a795a4b39103a115dfaa6328ce96a10",
+        "reference": "8887b8c85671cbb858f078dbcb1f64aa90ed5efa4e2cde10e23f9346f22c0ecd"
+      },
+      "views": [
+        "oblique",
+        "opposite",
+        "top",
+        "front",
+        "back",
+        "left",
+        "right"
+      ],
+      "point_render_decimated": false
+    },
+    {
+      "id": "point2building_02888_z5c37184f8d8a0056",
+      "display_origin": [
+        -0.9632713198661804,
+        1.228683352470398,
+        -3.9202609062194824
+      ],
+      "ortho_scale": 42.973289489746094,
+      "source_hashes": {
+        "baseline": "01af0ae3b86e99774db552a624d8ff30470778471d0a1ad82ee354ec622625d2",
+        "previous": "19f601cd02e3c0458f0cd9dc5363a4b2c9a147fda0d92a2f9e96ee406a06fab5",
+        "current": "01af0ae3b86e99774db552a624d8ff30470778471d0a1ad82ee354ec622625d2",
+        "reference": "7d83a71faad0e1cf3caea2331c6c5146e59eacfe66a671336e5476e53f72515b"
+      },
+      "views": [
+        "oblique",
+        "opposite",
+        "top",
+        "front",
+        "back",
+        "left",
+        "right"
+      ],
+      "point_render_decimated": false
+    },
+    {
+      "id": "point2building_03749_z4756d98a00000752",
+      "display_origin": [
+        -0.05363570898771286,
+        0.01254816073924303,
+        -0.9328940510749817
+      ],
+      "ortho_scale": 35.56300735473633,
+      "source_hashes": {
+        "baseline": "2eabb12b2832da19200b64c33949e032297cf9a5a3b4a4ee536ca7aeb68e9445",
+        "previous": "66d2e52f6539ddf878c91b4e6e943e3231787b60e2093dac5ed08d3fbb9b8b97",
+        "current": "2eabb12b2832da19200b64c33949e032297cf9a5a3b4a4ee536ca7aeb68e9445",
+        "reference": "3ef0aab4ed7f891ba0edbfd5d56404c1f21bc93f3201a54fd98b7974afb83ac7"
+      },
+      "views": [
+        "oblique",
+        "opposite",
+        "top",
+        "front",
+        "back",
+        "left",
+        "right"
+      ],
+      "point_render_decimated": true
+    },
+    {
+      "id": "point2building_03331_z4c11dac00000001b",
+      "display_origin": [
+        0.07308169454336166,
+        -0.19578547775745392,
+        -0.06460567563772202
+      ],
+      "ortho_scale": 35.16213607788086,
+      "source_hashes": {
+        "baseline": "3a42e297d177f6866a18bd6b1a57d13f95a09c55a85647e96599a9de385fff68",
+        "previous": "cda2fcfbd2a0f7361e9ab1b77cd56b2d6465f62b46764a442b83586b7307a55d",
+        "current": "3a42e297d177f6866a18bd6b1a57d13f95a09c55a85647e96599a9de385fff68",
+        "reference": "4c6c1bba0712ae82fbef05f3d14e805842b4ac8eadb583e2162854ba6bdda051"
+      },
+      "views": [
+        "oblique",
+        "opposite",
+        "top",
+        "front",
+        "back",
+        "left",
+        "right"
+      ],
+      "point_render_decimated": false
+    },
+    {
+      "id": "point2building_04499_z4961a69d00000000",
+      "display_origin": [
+        0.030460817739367485,
+        1.3423490524291992,
+        -3.616976499557495
+      ],
+      "ortho_scale": 41.4363899230957,
+      "source_hashes": {
+        "baseline": "667f7ebcb4b2412ba678c323983bfecab01bb2b9bcdef26877174809095ea77d",
+        "previous": "4ae0f0fa2bb6cd37214af694afb351f1e1442e0424bcba4efa84f53c16294187",
+        "current": "667f7ebcb4b2412ba678c323983bfecab01bb2b9bcdef26877174809095ea77d",
+        "reference": "860fdbaa1cc328845c99f0d2d765e4b7a04da191be35a6bc5e01311e740c4dc8"
+      },
+      "views": [
+        "oblique",
+        "opposite",
+        "top",
+        "front",
+        "back",
+        "left",
+        "right"
+      ],
+      "point_render_decimated": false
+    },
+    {
+      "id": "point2building_00828_z41aca4f400001a79",
+      "display_origin": [
+        -0.06873273849487305,
+        0.1521638035774231,
+        -1.8590644598007202
+      ],
+      "ortho_scale": 36.44847106933594,
+      "source_hashes": {
+        "baseline": "0307532ab5e18c54021b2d656c45927e56e1b472b3e6ff215fc747d76972c5c6",
+        "previous": "bd56663a8100291e5aa71ead46397a370ce47c06985553005635fcb436b639a2",
+        "current": "0307532ab5e18c54021b2d656c45927e56e1b472b3e6ff215fc747d76972c5c6",
+        "reference": "c1e246a6bea884afceed57b27b8f571de13c05dccda9b20d4df5fa6b41367ad7"
+      },
+      "views": [
+        "oblique",
+        "opposite",
+        "top",
+        "front",
+        "back",
+        "left",
+        "right"
+      ],
+      "point_render_decimated": false
+    },
+    {
+      "id": "point2building_00089_z41ad26d300061d2a",
+      "display_origin": [
+        -0.22347784042358398,
+        -0.11715102940797806,
+        -4.07505464553833
+      ],
+      "ortho_scale": 39.77302551269531,
+      "source_hashes": {
+        "baseline": "8f643e24ffa3586b70855b3601a12f4051e89680d65875f99d428ad4bd779892",
+        "previous": "4ed885edf565bf0c178304aacc14b82f531a43e546c273ab7691ce891eb2b46f",
+        "current": "8f643e24ffa3586b70855b3601a12f4051e89680d65875f99d428ad4bd779892",
+        "reference": "130b4df519f9ed18828a252cf2ca685acd1b818f0a41a5fa314cc5d0309ee7b7"
+      },
+      "views": [
+        "oblique",
+        "opposite",
+        "top",
+        "front",
+        "back",
+        "left",
+        "right"
+      ],
+      "point_render_decimated": false
+    },
+    {
+      "id": "point2building_04264_z463f41f7000004a3",
+      "display_origin": [
+        0.5350378155708313,
+        -0.3810065686702728,
+        -3.159665584564209
+      ],
+      "ortho_scale": 38.968997955322266,
+      "source_hashes": {
+        "baseline": "865ce53ca6a287e742a19821e2c5ffeae2509aa9ccb96cb892a5ab68e16b9031",
+        "previous": "8a022f4134459725443d548bdeaf6a6b553fbab3f599a3fd1a78a57371c34363",
+        "current": "865ce53ca6a287e742a19821e2c5ffeae2509aa9ccb96cb892a5ab68e16b9031",
+        "reference": "7d8cfec922edfc5e3e3a8542d4fafb04998d15da0781b214fbe1a7cdbac6d521"
+      },
+      "views": [
+        "oblique",
+        "opposite",
+        "top",
+        "front",
+        "back",
+        "left",
+        "right"
+      ],
+      "point_render_decimated": false
+    },
+    {
+      "id": "point2building_03215_z47050ae1000007c1",
+      "display_origin": [
+        0.20686618983745575,
+        -0.6062570214271545,
+        -8.016776084899902
+      ],
+      "ortho_scale": 44.657073974609375,
+      "source_hashes": {
+        "baseline": "75154f24a8452dd63f2ca2b53e42f183cbc53dd8a0e662168e94b86913ff4e31",
+        "previous": "dae413428a65c86d210c08828f19cc45adb6e28d1b78ef2cb91ccde1d4e817d1",
+        "current": "75154f24a8452dd63f2ca2b53e42f183cbc53dd8a0e662168e94b86913ff4e31",
+        "reference": "d3d4c94c1a9ac017feab4585ebe0300590f87681dc8dfc03c63cc66a6914df6e"
+      },
+      "views": [
+        "oblique",
+        "opposite",
+        "top",
+        "front",
+        "back",
+        "left",
+        "right"
+      ],
+      "point_render_decimated": false
+    },
+    {
+      "id": "point2building_04146_z54feb0f4c2d60023",
+      "display_origin": [
+        -0.06988697499036789,
+        -0.24870003759860992,
+        -3.389785051345825
+      ],
+      "ortho_scale": 39.93476486206055,
+      "source_hashes": {
+        "baseline": "b04bf5bdc7935c6d67e3f758a207536032b058c69ba330b8f758ca5fd6c3db10",
+        "previous": "b61f1ca022004c04ba99f634ddf38c7801282f73d94e694d4b25dbc9b78ebd86",
+        "current": "b04bf5bdc7935c6d67e3f758a207536032b058c69ba330b8f758ca5fd6c3db10",
+        "reference": "d4d80e4a64215ccbb486649666e8c109cd52f3b03f9b2c20c44962b9408bcbc9"
+      },
+      "views": [
+        "oblique",
+        "opposite",
+        "top",
+        "front",
+        "back",
+        "left",
+        "right"
+      ],
+      "point_render_decimated": false
+    },
+    {
+      "id": "point2building_03120_z47050adb000005fd",
+      "display_origin": [
+        -0.14802753925323486,
+        0.0777214914560318,
+        -2.251622438430786
+      ],
+      "ortho_scale": 39.26810073852539,
+      "source_hashes": {
+        "baseline": "e6820af7ce310bcb45bf6d959dc5885de1679ea3df27934b19c2dd09d3451477",
+        "previous": "6ea0125f9861389e0904ba9daadd945fb1c7827e7fab0c2f5daa018798562e09",
+        "current": "e6820af7ce310bcb45bf6d959dc5885de1679ea3df27934b19c2dd09d3451477",
+        "reference": "6094948fbdc4741633753fb135ef0743784cec07dee46c84a721ac25dee9edfe"
+      },
+      "views": [
+        "oblique",
+        "opposite",
+        "top",
+        "front",
+        "back",
+        "left",
+        "right"
+      ],
+      "point_render_decimated": false
+    },
+    {
+      "id": "point2building_01182_z41ac39cc00001edd",
+      "display_origin": [
+        0.8000698685646057,
+        -0.00378909008577466,
+        -1.4881261587142944
+      ],
+      "ortho_scale": 37.70490646362305,
+      "source_hashes": {
+        "baseline": "fd4d8c367b32ce21ea2987f2402875d6605998355c0810667ac9ffb5abb8b5d1",
+        "previous": "01b1a94960a100eac8a6aab033bb39bc2714a977ebd3d8cf695dd2e1d7f6bc83",
+        "current": "fd4d8c367b32ce21ea2987f2402875d6605998355c0810667ac9ffb5abb8b5d1",
+        "reference": "0324c8dff8a8194a46c6895866c9291b155b2ec5b46817f62555d7c71f548a60"
+      },
+      "views": [
+        "oblique",
+        "opposite",
+        "top",
+        "front",
+        "back",
+        "left",
+        "right"
+      ],
+      "point_render_decimated": false
+    },
+    {
+      "id": "point2building_03541_z54fd6d3616b10066",
+      "display_origin": [
+        0.294740229845047,
+        0.10173896700143814,
+        -2.5930216312408447
+      ],
+      "ortho_scale": 37.90970230102539,
+      "source_hashes": {
+        "baseline": "1a607f15cd67d045b1f117783f004b59e2532c17afb3798d371a0760f91940c7",
+        "previous": "3a63798de5208fcdfb0982a7903011cddcb2dae68028376bec58fdc66b4d47a2",
+        "current": "1a607f15cd67d045b1f117783f004b59e2532c17afb3798d371a0760f91940c7",
+        "reference": "a4e98ba4a947eb543a148db917df4cba9b6fa2bf07abe15b8b7bb120f31657c3"
+      },
+      "views": [
+        "oblique",
+        "opposite",
+        "top",
+        "front",
+        "back",
+        "left",
+        "right"
+      ],
+      "point_render_decimated": false
+    },
+    {
+      "id": "point2building_03584_z45b11bd100005843",
+      "display_origin": [
+        -0.6778448224067688,
+        0.007044995203614235,
+        -4.797994613647461
+      ],
+      "ortho_scale": 41.84040451049805,
+      "source_hashes": {
+        "baseline": "ea85c7baf902c60a058193c1b23c20398499114eec656b8b8d76542123e0fc9f",
+        "previous": "01844a98c392fc40f243decf13ad52ae52d8191a65c5692ebf82f4ab253ee684",
+        "current": "ea85c7baf902c60a058193c1b23c20398499114eec656b8b8d76542123e0fc9f",
+        "reference": "b84930d040400a32e4159162655a1225df8693b80daf24636e0fc4728178087b"
+      },
+      "views": [
+        "oblique",
+        "opposite",
+        "top",
+        "front",
+        "back",
+        "left",
+        "right"
+      ],
+      "point_render_decimated": false
+    },
+    {
+      "id": "point2building_01244_z45b11be700005ac6",
+      "display_origin": [
+        0.5690438151359558,
+        0.1976500153541565,
+        -1.5673184394836426
+      ],
+      "ortho_scale": 37.20425033569336,
+      "source_hashes": {
+        "baseline": "43d553f4407d96bac27d46e3253d4315ce4e8af793d9368e05d68757b2655091",
+        "previous": "1b6ab4fd7019fd9a0d6cc9ec29b34ab2e5b5aa2e1a40c56380ef594a4f64ba10",
+        "current": "43d553f4407d96bac27d46e3253d4315ce4e8af793d9368e05d68757b2655091",
+        "reference": "4b703bad42551d7b9fa07af1cf876ad870826d055527de7ac07c08200dcf142e"
+      },
+      "views": [
+        "oblique",
+        "opposite",
+        "top",
+        "front",
+        "back",
+        "left",
+        "right"
+      ],
+      "point_render_decimated": false
+    },
+    {
+      "id": "polygnn_mini_DEBY_LOD2_4862505",
+      "display_origin": [
+        0.21950329840183258,
+        0.0,
+        0.0
+      ],
+      "ortho_scale": 36.20210647583008,
+      "source_hashes": {
+        "baseline": "cef5f63e7a8b5d20038c49b28e73392cf4d601adf6d76ff5130648e3649d8a66",
+        "previous": "1d9e9e19d25249e41b0c67436eaf228f8ccd5bbbe901b2aa42428b08f07cbcfb",
+        "current": "cef5f63e7a8b5d20038c49b28e73392cf4d601adf6d76ff5130648e3649d8a66",
+        "reference": "72da44d50410ff8ca41c8add2f8c0b77c18cbd6da374101840951e976ce6dd8e"
+      },
+      "views": [
+        "oblique",
+        "opposite",
+        "top",
+        "front",
+        "back",
+        "left",
+        "right"
+      ],
+      "point_render_decimated": true
+    },
+    {
+      "id": "polygnn_mini_DEBY_LOD2_4717633",
+      "display_origin": [
+        0.008493483997881413,
+        0.028049904853105545,
+        0.0
+      ],
+      "ortho_scale": 35.146305084228516,
+      "source_hashes": {
+        "baseline": "d648aeb7a57942c2e1f13b5f94abaf7a0f478e06dd8175a14d2c7d9017e28530",
+        "previous": "f9e034125e75ee084d5f9259d211fc80a3aa1de4ffbbdef67e4c6cd6373faa6d",
+        "current": "d648aeb7a57942c2e1f13b5f94abaf7a0f478e06dd8175a14d2c7d9017e28530",
+        "reference": "4404658b4e807ee60926d5df4edc825926cc73191cf80f8a42b6d7215c41b978"
+      },
+      "views": [
+        "oblique",
+        "opposite",
+        "top",
+        "front",
+        "back",
+        "left",
+        "right"
+      ],
+      "point_render_decimated": false
+    },
+    {
+      "id": "polygnn_mini_DEBY_LOD2_4768530",
+      "display_origin": [
+        -0.020860085263848305,
+        -0.6913027763366699,
+        0.7454155683517456
+      ],
+      "ortho_scale": 36.606773376464844,
+      "source_hashes": {
+        "baseline": "794b6001085b2715436308664d4cb451698b6474f31db0855b41c62566c422ed",
+        "previous": "42a09bc62ed3025f0863662602b207b67b25acc2fe481de5c8292d97a1aefbb7",
+        "current": "794b6001085b2715436308664d4cb451698b6474f31db0855b41c62566c422ed",
+        "reference": "8933ec58917b31b5ecea3490d8aa1df7ca1a2b39013da9e8caacc68e6cd359e8"
+      },
+      "views": [
+        "oblique",
+        "opposite",
+        "top",
+        "front",
+        "back",
+        "left",
+        "right"
+      ],
+      "point_render_decimated": false
+    },
+    {
+      "id": "polygnn_mini_DEBY_LOD2_8573782",
+      "display_origin": [
+        0.0,
+        0.0025583794340491295,
+        0.0
+      ],
+      "ortho_scale": 34.50425720214844,
+      "source_hashes": {
+        "baseline": "76dbd4f6b0f588b33bfc242cd44a7b20f4cd91e92fb62ba07ae2af08a6295819",
+        "previous": "c8bd53b2f9515cb8a2618b279d3e4d2857984f83460b0db95e42980542b28642",
+        "current": "76dbd4f6b0f588b33bfc242cd44a7b20f4cd91e92fb62ba07ae2af08a6295819",
+        "reference": "c65a3c0aff736a866faf347397ec339a625361e99026b08cfbbf17251bc24fc8"
+      },
+      "views": [
+        "oblique",
+        "opposite",
+        "top",
+        "front",
+        "back",
+        "left",
+        "right"
+      ],
+      "point_render_decimated": true
+    },
+    {
+      "id": "polygnn_mini_DEBY_LOD2_104575493",
+      "display_origin": [
+        -0.48456913232803345,
+        1.319249153137207,
+        0.0
+      ],
+      "ortho_scale": 37.98955154418945,
+      "source_hashes": {
+        "baseline": "a68365715d3eaf189459d866bfd951d85e080fad4c44ac80d54634fbc24b9324",
+        "previous": "ea70fe76151b9575fc0191396c842433a9a7959328204b4663586821adba5e75",
+        "current": "a68365715d3eaf189459d866bfd951d85e080fad4c44ac80d54634fbc24b9324",
+        "reference": "d46debf322a7b55198597c77e4c9944cfb361b7c70713a8283bc178199f5a51b"
+      },
+      "views": [
+        "oblique",
+        "opposite",
+        "top",
+        "front",
+        "back",
+        "left",
+        "right"
+      ],
+      "point_render_decimated": true
+    },
+    {
+      "id": "polygnn_mini_DEBY_LOD2_5100005",
+      "display_origin": [
+        -0.041803326457738876,
+        1.0616263151168823,
+        0.0
+      ],
+      "ortho_scale": 36.56366729736328,
+      "source_hashes": {
+        "current": "86b9b331f79cbc50c55a60a749dfcd914680dac7206852134f5f504adf9b4dc1",
+        "reference": "2f6db5503d8da98bd554252829c25e254fa81d3a12cb0a4060d70ed5e12a1a8f"
+      },
+      "views": [
+        "oblique",
+        "opposite",
+        "top",
+        "front",
+        "back",
+        "left",
+        "right"
+      ],
+      "point_render_decimated": false
+    },
+    {
+      "id": "polygnn_mini_DEBY_LOD2_4616699",
+      "display_origin": [
+        0.05925009399652481,
+        -0.014130819588899612,
+        0.0
+      ],
+      "ortho_scale": 34.632049560546875,
+      "source_hashes": {
+        "baseline": "40348401b438e0d479dc755c76b44fa2bcc746209d7a37a63559fbba75e0fa13",
+        "previous": "bfe414879acec61a0b125dbe9f592a27fedc92f79ca0c761a20d29ed14e06b9a",
+        "current": "40348401b438e0d479dc755c76b44fa2bcc746209d7a37a63559fbba75e0fa13",
+        "reference": "5a4c573fd236c5c2f6e6f35119ff5bd0f40d2ef40b9a21ca266aab9902c6bdc8"
+      },
+      "views": [
+        "oblique",
+        "opposite",
+        "top",
+        "front",
+        "back",
+        "left",
+        "right"
+      ],
+      "point_render_decimated": false
+    },
+    {
+      "id": "polygnn_mini_DEBY_LOD2_4869536",
+      "display_origin": [
+        0.13102002441883087,
+        -0.01677210070192814,
+        0.0
+      ],
+      "ortho_scale": 35.023468017578125,
+      "source_hashes": {
+        "current": "c2761d592d413f564f4593d28adce2776f659a3f6df270a3d617428259d9a3a2",
+        "reference": "b00071986edb5e4b5686608aaf9bce36d53fd5f1872cdeb35daea90ecf085fc8"
+      },
+      "views": [
+        "oblique",
+        "opposite",
+        "top",
+        "front",
+        "back",
+        "left",
+        "right"
+      ],
+      "point_render_decimated": false
+    },
+    {
+      "id": "polygnn_mini_DEBY_LOD2_5184618",
+      "display_origin": [
+        -0.055726345628499985,
+        0.05605439841747284,
+        0.0
+      ],
+      "ortho_scale": 37.44319152832031,
+      "source_hashes": {
+        "baseline": "f380d10595ff676520084e156e13492e30dc898ff47cec3969ca3cac2a937dce",
+        "previous": "5fab0578b0d2ba2e73dffd610eb44ce646f6420de104b22de44c5e2e306da4e1",
+        "current": "f380d10595ff676520084e156e13492e30dc898ff47cec3969ca3cac2a937dce",
+        "reference": "f221e1498ec67d2a57f07f92ff66292ba9c8ed12cb9096c2563ec5bd811adbcc"
+      },
+      "views": [
+        "oblique",
+        "opposite",
+        "top",
+        "front",
+        "back",
+        "left",
+        "right"
+      ],
+      "point_render_decimated": true
+    },
+    {
+      "id": "polygnn_mini_DEBY_LOD2_4672969",
+      "display_origin": [
+        0.022092079743742943,
+        0.31556567549705505,
+        0.0
+      ],
+      "ortho_scale": 35.02593231201172,
+      "source_hashes": {
+        "reference": "70078ce832128f0ffd051291ba31c17cff6d9e9e870a81891171df39ef16f40f"
+      },
+      "views": [
+        "oblique",
+        "opposite",
+        "top",
+        "front",
+        "back",
+        "left",
+        "right"
+      ],
+      "point_render_decimated": false
+    },
+    {
+      "id": "polygnn_mini_DEBY_LOD2_4677715",
+      "display_origin": [
+        0.04180832952260971,
+        0.8637884855270386,
+        0.0
+      ],
+      "ortho_scale": 35.99380874633789,
+      "source_hashes": {
+        "baseline": "1112eedff172c89834d2343d8dc72e7963e7d559b37b82116998ca458f3d7219",
+        "previous": "b6a0f162cf3d71df2d41be627ad934aea769cfd3f587c36d025ad759169cb26a",
+        "current": "1112eedff172c89834d2343d8dc72e7963e7d559b37b82116998ca458f3d7219",
+        "reference": "14603fc2262f008a92f3dfb0ec499ca19ec395624bd9493aaae4c63bb1b6172e"
+      },
+      "views": [
+        "oblique",
+        "opposite",
+        "top",
+        "front",
+        "back",
+        "left",
+        "right"
+      ],
+      "point_render_decimated": true
+    },
+    {
+      "id": "polygnn_mini_DEBY_LOD2_5271709",
+      "display_origin": [
+        0.07162796705961227,
+        0.17749707400798798,
+        0.0
+      ],
+      "ortho_scale": 35.019874572753906,
+      "source_hashes": {
+        "baseline": "0b492fe3c70397a09a832b5aafad9faf66da2cca767e3cd7fbc95c318542c9d0",
+        "previous": "23de50dc6b5f95d71f5e78e68ef581e631fd77d4851924e6a47f0c94c6572f75",
+        "current": "0b492fe3c70397a09a832b5aafad9faf66da2cca767e3cd7fbc95c318542c9d0",
+        "reference": "d4bc8043e7fb8cd3a1b3c3eb64ff8c81b6d2602bf176cc346ff2790df2905959"
+      },
+      "views": [
+        "oblique",
+        "opposite",
+        "top",
+        "front",
+        "back",
+        "left",
+        "right"
+      ],
+      "point_render_decimated": false
+    },
+    {
+      "id": "polygnn_mini_DEBY_LOD2_5056401",
+      "display_origin": [
+        0.25877878069877625,
+        -0.38622379302978516,
+        0.003131384728476405
+      ],
+      "ortho_scale": 36.073062896728516,
+      "source_hashes": {
+        "baseline": "5051c85fa914db28486585c563d3c17778053f7ff451ee96d4e639a3bbe950b7",
+        "previous": "af5fc53cdb308de96aa02f241db4f07f1636f6805ebd72024cbe15bbcdc1a969",
+        "current": "5051c85fa914db28486585c563d3c17778053f7ff451ee96d4e639a3bbe950b7",
+        "reference": "7103f1361061921ca327eb7fe6cc17132987c26c56d0b41a85a042f7d732fcd1"
+      },
+      "views": [
+        "oblique",
+        "opposite",
+        "top",
+        "front",
+        "back",
+        "left",
+        "right"
+      ],
+      "point_render_decimated": true
+    },
+    {
+      "id": "polygnn_mini_DEBY_LOD2_18272204",
+      "display_origin": [
+        -0.038376931101083755,
+        -0.00788270216435194,
+        0.0
+      ],
+      "ortho_scale": 34.623260498046875,
+      "source_hashes": {
+        "baseline": "bc85781473056c21c7ab03c88750734d05deb3b3d937849bf71f5fcb3db3d82d",
+        "previous": "812ed0a6cc53e5fa21d87de0b2634623a3f68443c15aaa05b82d833bc191adc0",
+        "current": "bc85781473056c21c7ab03c88750734d05deb3b3d937849bf71f5fcb3db3d82d",
+        "reference": "d6ccb061da6e173027abda6bfcd8700b9094a9d7da16158b36d30bfcb6d911a1"
+      },
+      "views": [
+        "oblique",
+        "opposite",
+        "top",
+        "front",
+        "back",
+        "left",
+        "right"
+      ],
+      "point_render_decimated": true
+    },
+    {
+      "id": "polygnn_mini_DEBY_LOD2_4374954",
+      "display_origin": [
+        -0.014812774956226349,
+        -0.02429460920393467,
+        0.0
+      ],
+      "ortho_scale": 34.6384162902832,
+      "source_hashes": {
+        "baseline": "e62d404a52a3722fbaa1cbf094a9b88c2ea4ce02229b56aa138d65e565cdc4ed",
+        "previous": "f05b7ba67820dd26ec7bd1e62ed42024c98889fe9a1fea74beacbd794202c26d",
+        "current": "e62d404a52a3722fbaa1cbf094a9b88c2ea4ce02229b56aa138d65e565cdc4ed",
+        "reference": "d10af84dc5d742f12913d848301b7af587d53c09baa1b121ec6af9b2dff731ea"
+      },
+      "views": [
+        "oblique",
+        "opposite",
+        "top",
+        "front",
+        "back",
+        "left",
+        "right"
+      ],
+      "point_render_decimated": true
+    },
+    {
+      "id": "polygnn_mini_DEBY_LOD2_4914914",
+      "display_origin": [
+        0.011959364637732506,
+        0.7646698355674744,
+        0.0
+      ],
+      "ortho_scale": 35.38730239868164,
+      "source_hashes": {
+        "baseline": "ebba7be9a3ae44075416820ed85cb1bd22bf5862f9d1a44b9bc75a510d723d1c",
+        "previous": "18d4fc78437865febde139daaa973f8366d0ad5cc41ae8efca79bb7f2413823e",
+        "current": "ebba7be9a3ae44075416820ed85cb1bd22bf5862f9d1a44b9bc75a510d723d1c",
+        "reference": "f4d1ebac1d29cc22ae4e893d42191edaf73cf15d690bbb12a3d1125d16c8489d"
+      },
+      "views": [
+        "oblique",
+        "opposite",
+        "top",
+        "front",
+        "back",
+        "left",
+        "right"
+      ],
+      "point_render_decimated": true
+    },
+    {
+      "id": "polygnn_mini_DEBY_LOD2_5273475",
+      "display_origin": [
+        -0.0678291767835617,
+        0.039857711642980576,
+        0.0
+      ],
+      "ortho_scale": 35.22697448730469,
+      "source_hashes": {
+        "current": "1fe2e0aa8c34158719bcf73cc7d87282eb022e8dd432a3cf5cd6c5e50ea3d1f4",
+        "reference": "6f943bacfef0b247293922faae21859b6201b14f3b9db4a63a5ad766c03d708d"
+      },
+      "views": [
+        "oblique",
+        "opposite",
+        "top",
+        "front",
+        "back",
+        "left",
+        "right"
+      ],
+      "point_render_decimated": false
+    },
+    {
+      "id": "polygnn_mini_DEBY_LOD2_4827110",
+      "display_origin": [
+        0.024276379495859146,
+        -0.02031359262764454,
+        0.0
+      ],
+      "ortho_scale": 34.597137451171875,
+      "source_hashes": {
+        "baseline": "a8fc36ae2bc7f5ac578646b2a96cae5857b646beee8cfe9b21c582895cc0a373",
+        "previous": "f7eacdfbed0700ae99282f6a6198388816f8bbb48108f6e71991971e6eab8bf0",
+        "current": "a8fc36ae2bc7f5ac578646b2a96cae5857b646beee8cfe9b21c582895cc0a373",
+        "reference": "b6d569a364afe6b3e7dcaa453f6266a8d72e743581b213441931d74a4a516eaa"
+      },
+      "views": [
+        "oblique",
+        "opposite",
+        "top",
+        "front",
+        "back",
+        "left",
+        "right"
+      ],
+      "point_render_decimated": true
+    },
+    {
+      "id": "polygnn_mini_DEBY_LOD2_4967349",
+      "display_origin": [
+        -0.032437559217214584,
+        0.00789806991815567,
+        -0.03893192484974861
+      ],
+      "ortho_scale": 34.64826583862305,
+      "source_hashes": {
+        "baseline": "e64443422ed9e409c58d04e70f95742af7b534573f36c938e21c2e906dfdb1e3",
+        "previous": "eac6b5f080a5b3160245eb3767ec99674dcccc8b16f3757b960a400116196d62",
+        "current": "e64443422ed9e409c58d04e70f95742af7b534573f36c938e21c2e906dfdb1e3",
+        "reference": "7d694ab1b357aeb82729033ec14d769f1079c1db14ad8747dfdd47378a9026e5"
+      },
+      "views": [
+        "oblique",
+        "opposite",
+        "top",
+        "front",
+        "back",
+        "left",
+        "right"
+      ],
+      "point_render_decimated": true
+    },
+    {
+      "id": "polygnn_mini_DEBY_LOD2_5056245",
+      "display_origin": [
+        -1.0595462322235107,
+        1.3510174751281738,
+        0.0
+      ],
+      "ortho_scale": 45.25715255737305,
+      "source_hashes": {
+        "baseline": "ee7e0c5c46b05e18f442f73414f4c28958e9bd5a979f5be93f8dc6740a000053",
+        "previous": "2478841b7bb6f766e8b182c2b11120f2ec4fc3342f1b15befd2c29554d632e52",
+        "current": "ee7e0c5c46b05e18f442f73414f4c28958e9bd5a979f5be93f8dc6740a000053",
+        "reference": "5bb58c2d6be8b5bb9d4d17766c0550255be1843173d4c78ac7ae0c02206612c5"
+      },
+      "views": [
+        "oblique",
+        "opposite",
+        "top",
+        "front",
+        "back",
+        "left",
+        "right"
+      ],
+      "point_render_decimated": true
+    },
+    {
+      "id": "polygnn_mini_DEBY_LOD2_21464190",
+      "display_origin": [
+        0.055383775383234024,
+        0.023365924134850502,
+        0.0
+      ],
+      "ortho_scale": 34.69021987915039,
+      "source_hashes": {
+        "current": "7b6f309ef8e0ae6efe4a285339dc682db6ae72dd2aa6fd45f467e9673dce672c",
+        "reference": "0d9c550204cef095f677be04cc7748da4b2c84d2f8cfce53d26b04121640ea1f"
+      },
+      "views": [
+        "oblique",
+        "opposite",
+        "top",
+        "front",
+        "back",
+        "left",
+        "right"
+      ],
+      "point_render_decimated": false
+    },
+    {
+      "id": "polygnn_mini_DEBY_LOD2_4731695",
+      "display_origin": [
+        0.0017072714399546385,
+        -0.009924660436809063,
+        0.0
+      ],
+      "ortho_scale": 34.7084846496582,
+      "source_hashes": {
+        "baseline": "50dc947ddaa3b3145fbfb9a92336b5193bc8a5bf8ee231cc629eaa15cd980dc9",
+        "previous": "22ec038c220095f3ebc8eb28dee318fc68759c4b692d08984e6286a4b2a2b376",
+        "current": "50dc947ddaa3b3145fbfb9a92336b5193bc8a5bf8ee231cc629eaa15cd980dc9",
+        "reference": "fdd979a4b8ce376623e3c63436c4dd5e4df875818b41f6bae268fc75413e3327"
+      },
+      "views": [
+        "oblique",
+        "opposite",
+        "top",
+        "front",
+        "back",
+        "left",
+        "right"
+      ],
+      "point_render_decimated": true
+    },
+    {
+      "id": "polygnn_mini_DEBY_LOD2_8573862",
+      "display_origin": [
+        -0.5443421006202698,
+        1.1672879457473755,
+        0.0
+      ],
+      "ortho_scale": 37.0189208984375,
+      "source_hashes": {
+        "baseline": "1b15ea0d0a560529b1b624bf5d61533328c0ed394fb93f466347f8ab74a01d5d",
+        "previous": "66ed9fd58d69d205dd775d9498fd48881fdbd84077225a0ea25287bb79e55399",
+        "current": "1b15ea0d0a560529b1b624bf5d61533328c0ed394fb93f466347f8ab74a01d5d",
+        "reference": "fc8589c48e665f9985403a58ee427efb326c73e94d8aab3059150db6cde23c9e"
+      },
+      "views": [
+        "oblique",
+        "opposite",
+        "top",
+        "front",
+        "back",
+        "left",
+        "right"
+      ],
+      "point_render_decimated": true
+    },
+    {
+      "id": "polygnn_mini_DEBY_LOD2_5184797",
+      "display_origin": [
+        -0.026842929422855377,
+        -0.778086245059967,
+        0.0
+      ],
+      "ortho_scale": 36.05810546875,
+      "source_hashes": {
+        "baseline": "d292fae75fd963ac010a508e12faaa97ba56698ed76c523e5fe6c4aa1afedbc2",
+        "previous": "4c0a95cf548f5bd7c92d1a3a58b8c466c47e0757e0c75f20a55fadffd5634eae",
+        "current": "d292fae75fd963ac010a508e12faaa97ba56698ed76c523e5fe6c4aa1afedbc2",
+        "reference": "162daf450b18aab88fc3e89e6e5d0a0acd9bcdab0c0b2108ac6c821590707cd9"
+      },
+      "views": [
+        "oblique",
+        "opposite",
+        "top",
+        "front",
+        "back",
+        "left",
+        "right"
+      ],
+      "point_render_decimated": true
+    },
+    {
+      "id": "polygnn_mini_DEBY_LOD2_4735908",
+      "display_origin": [
+        0.028116952627897263,
+        -0.00343507993966341,
+        0.0
+      ],
+      "ortho_scale": 34.58858871459961,
+      "source_hashes": {
+        "baseline": "52cc0584cdd3b696f094e2c14494fa668e0b9fc5205fa588ebeb65b60b07daf3",
+        "previous": "cc40ba5763f4ebf0add682edf3b69e779c57c40f545e51e7f7f7b21e16ab8818",
+        "current": "52cc0584cdd3b696f094e2c14494fa668e0b9fc5205fa588ebeb65b60b07daf3",
+        "reference": "aa4fc64fad0888330bfaa5976b5bb9c15a466ac26dae3e27056a32eef39d82ca"
+      },
+      "views": [
+        "oblique",
+        "opposite",
+        "top",
+        "front",
+        "back",
+        "left",
+        "right"
+      ],
+      "point_render_decimated": true
+    },
+    {
+      "id": "polygnn_mini_DEBY_LOD2_42758236",
+      "display_origin": [
+        -0.07208972424268723,
+        0.05892902985215187,
+        0.1749817132949829
+      ],
+      "ortho_scale": 35.44525909423828,
+      "source_hashes": {
+        "baseline": "4a0bedc703aaa317fe8cbd3164668b6c4bbcd7792b83d02739bc88e8c8a84036",
+        "previous": "b7fa0b1419de139e3dd03e42893044ab11e507539e86d6174428ebdf1a1f578b",
+        "current": "4a0bedc703aaa317fe8cbd3164668b6c4bbcd7792b83d02739bc88e8c8a84036",
+        "reference": "c75e03398b1f7e5dded80b60466dc5ae33f9dd714b9462bc22495a62fd1443d2"
+      },
+      "views": [
+        "oblique",
+        "opposite",
+        "top",
+        "front",
+        "back",
+        "left",
+        "right"
+      ],
+      "point_render_decimated": false
+    },
+    {
+      "id": "polygnn_mini_DEBY_LOD2_4681422",
+      "display_origin": [
+        0.012103050015866756,
+        0.0,
+        0.0
+      ],
+      "ortho_scale": 34.54316711425781,
+      "source_hashes": {
+        "baseline": "81e645152d4743c031c644ec75b6de59577dfe6c95412252ad76ac5b4cf781b9",
+        "previous": "bc0435f685575b6cc3716fdf3cca0ea0ff3ca11323249cdb81ebedeb4fa0ae5b",
+        "current": "81e645152d4743c031c644ec75b6de59577dfe6c95412252ad76ac5b4cf781b9",
+        "reference": "74c36ef1358dfb8ee85cabad33dceac7cd23cde0b4033ddf8ff5940d06c7261c"
+      },
+      "views": [
+        "oblique",
+        "opposite",
+        "top",
+        "front",
+        "back",
+        "left",
+        "right"
+      ],
+      "point_render_decimated": true
+    },
+    {
+      "id": "polygnn_mini_DEBY_LOD2_5055513",
+      "display_origin": [
+        0.013872150331735611,
+        -0.0577961690723896,
+        0.0
+      ],
+      "ortho_scale": 34.783145904541016,
+      "source_hashes": {
+        "baseline": "8528279970f91e7f52355f59092cbe0b35e194d5ff8afc4020ca3f6029c5f3fd",
+        "previous": "6aea7e94da5fa5c9ad1f246f33fb247bb4eb34ccb30782e97f1cc10166b1bf72",
+        "current": "8528279970f91e7f52355f59092cbe0b35e194d5ff8afc4020ca3f6029c5f3fd",
+        "reference": "96c8059f2ac4d06260df461f1fba2adaeb451ee5eea9a7be3c59b24c90c93b03"
+      },
+      "views": [
+        "oblique",
+        "opposite",
+        "top",
+        "front",
+        "back",
+        "left",
+        "right"
+      ],
+      "point_render_decimated": true
+    },
+    {
+      "id": "polygnn_mini_DEBY_LOD2_4322128",
+      "display_origin": [
+        0.27042776346206665,
+        -0.03473924472928047,
+        0.0
+      ],
+      "ortho_scale": 35.56629180908203,
+      "source_hashes": {
+        "baseline": "f381296827ab1b814f13968beb12e07b52e63c36c86bbf0c77824b78bb762c1f",
+        "previous": "28539a7091a6ca3fe896e5f6b78a2b93175d820993298ac387fb7c400deae9c1",
+        "current": "f381296827ab1b814f13968beb12e07b52e63c36c86bbf0c77824b78bb762c1f",
+        "reference": "6f4d1152ef4fc9f79ccd5f1fcb8a3f987c73bb3371c2dfa180e57b28f1486596"
+      },
+      "views": [
+        "oblique",
+        "opposite",
+        "top",
+        "front",
+        "back",
+        "left",
+        "right"
+      ],
+      "point_render_decimated": true
+    },
+    {
+      "id": "polygnn_mini_DEBY_LOD2_4473468",
+      "display_origin": [
+        -0.00946052186191082,
+        0.0,
+        0.0
+      ],
+      "ortho_scale": 34.5074462890625,
+      "source_hashes": {
+        "baseline": "ddbaf82035276c31b92b0ca3936af15ced506d98f330496e45eedf8d120d88c8",
+        "previous": "3356caf1b7a17dbd316c530daa5521a5df277f4705a07da894cb5a715466c592",
+        "current": "ddbaf82035276c31b92b0ca3936af15ced506d98f330496e45eedf8d120d88c8",
+        "reference": "72ff342b2fd6c478b3c427ae16ffbed64d601f9f25780c8bcfd26ef05362e844"
+      },
+      "views": [
+        "oblique",
+        "opposite",
+        "top",
+        "front",
+        "back",
+        "left",
+        "right"
+      ],
+      "point_render_decimated": false
+    },
+    {
+      "id": "polygnn_mini_DEBY_LOD2_5092970",
+      "display_origin": [
+        -0.02242649532854557,
+        -0.199593186378479,
+        0.0
+      ],
+      "ortho_scale": 34.69221878051758,
+      "source_hashes": {
+        "baseline": "bb00695f67f740d7eb78011ab7ff5fb7a00c056bde5a08e5991e39375d88f98f",
+        "previous": "0e38ea8f1d4493eed20191a49a3139cf52f93b6b9cdea4feecdefba51aa468c0",
+        "current": "bb00695f67f740d7eb78011ab7ff5fb7a00c056bde5a08e5991e39375d88f98f",
+        "reference": "93115128d41725fe50367bd50bb080bd7cbb94854c660e23fbb4ee21da24478f"
+      },
+      "views": [
+        "oblique",
+        "opposite",
+        "top",
+        "front",
+        "back",
+        "left",
+        "right"
+      ],
+      "point_render_decimated": true
+    },
+    {
+      "id": "polygnn_mini_DEBY_LOD2_4620050",
+      "display_origin": [
+        0.1069645881652832,
+        0.028118474408984184,
+        0.0
+      ],
+      "ortho_scale": 34.96061706542969,
+      "source_hashes": {
+        "baseline": "b827df890949d2532c54d77d0e468218e201dc78e177a7879c44d3801cc2fe99",
+        "previous": "b5da67e7bc6e0ce6c08b2954a375ffaab077bf56b6c9ec8510bf3e9bccf561b9",
+        "current": "b827df890949d2532c54d77d0e468218e201dc78e177a7879c44d3801cc2fe99",
+        "reference": "067608626a188fd14b8ed2bc055bf9b082ff73df8ddf37a0848c3a92b6e9c6c1"
+      },
+      "views": [
+        "oblique",
+        "opposite",
+        "top",
+        "front",
+        "back",
+        "left",
+        "right"
+      ],
+      "point_render_decimated": false
+    },
+    {
+      "id": "polygnn_mini_DEBY_LOD2_5137190",
+      "display_origin": [
+        0.012179870158433914,
+        0.0,
+        0.0
+      ],
+      "ortho_scale": 34.513126373291016,
+      "source_hashes": {
+        "baseline": "5b9f3f2e150a0a34967cca50502ac91e57b25e915b73dc2562f67790dbc19b0a",
+        "previous": "c72e936d6a87af0d3130afd5ebb80520c0a185be3d0f963c2eda293c73ea3c2d",
+        "current": "5b9f3f2e150a0a34967cca50502ac91e57b25e915b73dc2562f67790dbc19b0a",
+        "reference": "47d7cc9f64975141c63d7ea1106a67fac6a727cecdc7ab8c427854389cacd078"
+      },
+      "views": [
+        "oblique",
+        "opposite",
+        "top",
+        "front",
+        "back",
+        "left",
+        "right"
+      ],
+      "point_render_decimated": true
+    },
+    {
+      "id": "polygnn_mini_DEBY_LOD2_4870013",
+      "display_origin": [
+        0.007135219871997833,
+        -0.01498117484152317,
+        0.0
+      ],
+      "ortho_scale": 34.76344680786133,
+      "source_hashes": {
+        "baseline": "0cba260f92ffdb9b6a94813971cc9c805613ce0ecd07d42b259b2601eeca2c9b",
+        "previous": "bcb252bb537e92a6f404d0fa1212cd57f2ff28c4f0b0330d7d30215d09975b99",
+        "current": "0cba260f92ffdb9b6a94813971cc9c805613ce0ecd07d42b259b2601eeca2c9b",
+        "reference": "42b98738d87300cf50632233572c3bb7292a35c4fe47785bff23e9f87bcc1f08"
+      },
+      "views": [
+        "oblique",
+        "opposite",
+        "top",
+        "front",
+        "back",
+        "left",
+        "right"
+      ],
+      "point_render_decimated": true
+    },
+    {
+      "id": "polygnn_mini_DEBY_LOD2_4773826",
+      "display_origin": [
+        -2.978672981262207,
+        1.5798299312591553,
+        0.0
+      ],
+      "ortho_scale": 40.87458801269531,
+      "source_hashes": {
+        "baseline": "ef9c6841eefb88529e1d5670083ae6f7dd07a4c8d9668a228474116e40ed2c85",
+        "previous": "1060288177aac0f275ff2785da63f27acd969153f7f721f6a6502d2603cde4e4",
+        "current": "ef9c6841eefb88529e1d5670083ae6f7dd07a4c8d9668a228474116e40ed2c85",
+        "reference": "2ea83383c75706061a3af1dfb0a852ea4031e47a4ec69728a9146feb51b258ca"
+      },
+      "views": [
+        "oblique",
+        "opposite",
+        "top",
+        "front",
+        "back",
+        "left",
+        "right"
+      ],
+      "point_render_decimated": true
+    },
+    {
+      "id": "polygnn_mini_DEBY_LOD2_4833066",
+      "display_origin": [
+        -0.010777589865028858,
+        0.05927825719118118,
+        0.0
+      ],
+      "ortho_scale": 34.87788391113281,
+      "source_hashes": {
+        "current": "07e0842db978e7aeb42ead466e79bf26ff5856294b49838b671091c308da00ae",
+        "reference": "c2ce2b7abd7446ce4cbe7590da00bc7d4ef900f785df285dc0230977494c6170"
+      },
+      "views": [
+        "oblique",
+        "opposite",
+        "top",
+        "front",
+        "back",
+        "left",
+        "right"
+      ],
+      "point_render_decimated": false
+    },
+    {
+      "id": "polygnn_mini_DEBY_LOD2_4948910",
+      "display_origin": [
+        0.010883419774472713,
+        0.4467064440250397,
+        0.0
+      ],
+      "ortho_scale": 35.42184066772461,
+      "source_hashes": {
+        "baseline": "664847ab5f02f54e40c70218d6c54d2c0f134aeb695bd8d8cca79e22ced32ee5",
+        "previous": "5dd7b7e18dd1d89c9c9ab113f28aa75b355ac5ce2e3365cc81bffc1fc57aea44",
+        "current": "664847ab5f02f54e40c70218d6c54d2c0f134aeb695bd8d8cca79e22ced32ee5",
+        "reference": "9bd7ad1555b2432877b8b32b82f35b84e0c14aa4bb6bb83d29c14677ff8f23cf"
+      },
+      "views": [
+        "oblique",
+        "opposite",
+        "top",
+        "front",
+        "back",
+        "left",
+        "right"
+      ],
+      "point_render_decimated": true
+    },
+    {
+      "id": "polygnn_mini_DEBY_LOD2_5004510",
+      "display_origin": [
+        0.1499246507883072,
+        0.016177179291844368,
+        0.0
+      ],
+      "ortho_scale": 34.82323455810547,
+      "source_hashes": {
+        "baseline": "002a9219d00c5ac7f096d77b7fa95678a583c3fadfe50e76ad6671f666ab3c53",
+        "previous": "c45a2210ff60c043ca4ce28e268367844bb0dd4765b5bfe596d86bfaa4e201b5",
+        "current": "002a9219d00c5ac7f096d77b7fa95678a583c3fadfe50e76ad6671f666ab3c53",
+        "reference": "ed378e94d10ef95cdaf965cf21b15761254ec1ed0dde35c67fac8e65875072d1"
+      },
+      "views": [
+        "oblique",
+        "opposite",
+        "top",
+        "front",
+        "back",
+        "left",
+        "right"
+      ],
+      "point_render_decimated": true
+    },
+    {
+      "id": "polygnn_mini_DEBY_LOD2_4901641",
+      "display_origin": [
+        0.23439697921276093,
+        -0.1764577031135559,
+        0.0
+      ],
+      "ortho_scale": 36.63425064086914,
+      "source_hashes": {
+        "baseline": "6464bf935fc11b63453451a1a4825b36d76973afbfed89844bad2a7fa910e6ea",
+        "previous": "4f3a4750c4be3f01125dbece71d4b8515aa742a68a3bd7043fe923eadbba4de7",
+        "current": "6464bf935fc11b63453451a1a4825b36d76973afbfed89844bad2a7fa910e6ea",
+        "reference": "929b14e8021728b4038c9eb5bcd88690bf5ed967e8676642be4303acab3700aa"
+      },
+      "views": [
+        "oblique",
+        "opposite",
+        "top",
+        "front",
+        "back",
+        "left",
+        "right"
+      ],
+      "point_render_decimated": true
+    },
+    {
+      "id": "polygnn_mini_DEBY_LOD2_5142315",
+      "display_origin": [
+        -0.003983264788985252,
+        -0.024992089718580246,
+        0.0
+      ],
+      "ortho_scale": 34.646217346191406,
+      "source_hashes": {
+        "baseline": "7371433f005c2137c0395bba1c4c6da80d3df68ed0927097d7cb7c80ab30d354",
+        "previous": "e947ad04c47bf5515a7cfc0f3c9cf102a10a14ca85f2c7d37241c49aa9bff4f8",
+        "current": "7371433f005c2137c0395bba1c4c6da80d3df68ed0927097d7cb7c80ab30d354",
+        "reference": "a1e5ebaf78e08c64ab192acdda558b4a0de25a9add68210e38bb9d9ff2e656e7"
+      },
+      "views": [
+        "oblique",
+        "opposite",
+        "top",
+        "front",
+        "back",
+        "left",
+        "right"
+      ],
+      "point_render_decimated": true
+    }
+  ]
+}

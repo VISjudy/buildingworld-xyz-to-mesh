@@ -1,0 +1,203 @@
+{
+  "id": "input",
+  "source": "D:\\codex\\lidar2building\\buildingworld-xyz-to-mesh\\work\\experiments\\2026-09-21\\starter78-feedback-pilot\\F3\\samples\\polygnn_mini_DEBY_LOD2_4948910\\staged\\LiDAR_xyz\\input.xyz",
+  "vertices": [
+    [
+      9.833352348937918,
+      -3.3712664137339776,
+      -0.018046225469106947
+    ],
+    [
+      3.656070226779283,
+      6.9639925141819266,
+      5.460249194576235
+    ],
+    [
+      -7.482497533804056,
+      0.3678640342359616,
+      5.434477770289289
+    ],
+    [
+      -1.2782278086774777,
+      -10.012548062824823,
+      -0.06775148648449703
+    ],
+    [
+      1.2999946433203262,
+      10.905960960376122,
+      3.4211838832279517
+    ],
+    [
+      -9.81158551429507,
+      4.264679311285276,
+      3.4187688764662796
+    ],
+    [
+      9.833352348937918,
+      -3.3712664137339776,
+      -5.462897190599022
+    ],
+    [
+      3.656070226779283,
+      6.9639925141819266,
+      -5.462897190599022
+    ],
+    [
+      1.2999946433203262,
+      10.905960960376122,
+      -5.462897190599022
+    ],
+    [
+      -9.81158551429507,
+      4.264679311285276,
+      -5.462897190599022
+    ],
+    [
+      -7.482497533804056,
+      0.3678640342359616,
+      -5.462897190599022
+    ],
+    [
+      -1.2782278086774777,
+      -10.012548062824823,
+      -5.462897190599022
+    ]
+  ],
+  "faces": [
+    [
+      0,
+      1,
+      2,
+      3
+    ],
+    [
+      1,
+      4,
+      5,
+      2
+    ],
+    [
+      1,
+      0,
+      6,
+      7
+    ],
+    [
+      3,
+      2,
+      10,
+      11
+    ],
+    [
+      0,
+      3,
+      11,
+      6
+    ],
+    [
+      4,
+      1,
+      7,
+      8
+    ],
+    [
+      5,
+      4,
+      8,
+      9
+    ],
+    [
+      2,
+      5,
+      9,
+      10
+    ],
+    [
+      11,
+      10,
+      9,
+      8,
+      7,
+      6
+    ]
+  ],
+  "semantics": [
+    "roof",
+    "roof",
+    "wall",
+    "wall",
+    "wall",
+    "wall",
+    "wall",
+    "wall",
+    "ground_assumed"
+  ],
+  "metrics": {
+    "input_points": 16318,
+    "roof_candidate_points": 1752,
+    "plane_supports": [
+      1168,
+      440
+    ],
+    "roof_candidate_recovery_used": false,
+    "recovery_min_support": null,
+    "plane_coefficients_z_eq_ax_by_c": [
+      [
+        -0.23012816486110396,
+        0.39251351608485585,
+        3.568152738738108
+      ],
+      [
+        0.2279526795916401,
+        -0.38102577158589057,
+        7.280298810641217
+      ]
+    ],
+    "active_roof_planes": [
+      0,
+      1
+    ],
+    "candidate_planes": [
+      [
+        -0.23012816486110396,
+        0.39251351608485585,
+        3.568152738738108
+      ],
+      [
+        0.2279526795916401,
+        -0.38102577158589057,
+        7.280298810641217
+      ]
+    ],
+    "candidate_supports": [
+      1168,
+      440
+    ],
+    "selected_candidate_indices": [
+      0,
+      1
+    ],
+    "vertices": 12,
+    "polygon_faces": 9,
+    "roof_faces": 2,
+    "nonmanifold_edges": 0,
+    "euler_characteristic": 2,
+    "signed_volume_coordinate_units_cubed": 1860.4158986113318,
+    "surface_area_coordinate_units_squared": 924.1877270454776,
+    "roof_vertical_residual_median": 0.03943290816750844,
+    "roof_vertical_residual_p95": 0.11604341146091382,
+    "roof_within_020_coordinate_units": 0.9994292237442922,
+    "xy_points_within_rectangle": 0.9919107733790906,
+    "prototype_fit_status": "main_roof_supported",
+    "provisional_base_z": -5.462897190599022,
+    "base_rule": "input z quantile 0.001; lowest observed returns, NOT verified ground",
+    "footprint_rule": "minimum rotated rectangle orientation + projected quantiles 0.002, 0.998",
+    "limitations": [
+      "Convex single-volume roof only; concave footprints/courtyards/extensions unsupported",
+      "Small roof details below 7.5 percent support omitted",
+      "Input unit assumed meter for Blender display only",
+      "Residual is same-input fitting diagnostic, NOT ground-truth CD/ECD/NC",
+      "Lowest returns do not prove terrain elevation; flat base and vertical walls are completion priors"
+    ]
+  }
+}

@@ -85,3 +85,11 @@ Point2Building 论文研究 Zurich/Berlin/Tallinn，但实际下载包只包含 
 - 统一入口 `complete_pairs_v001/manifests/starter78_development.json` 与上一版 starter 清单哈希相同。`real_zurich_*`、`synthetic_mini_*` 提供来源分组，`all_*` 用于编排；六份完整运行清单均被门禁阻止提前执行。
 - 真实和仿真不是相同坐标单位，最终按来源分别汇报准确度/失败率/成本，不把距离直接混合平均。
 - 证据：`reports/2026-09-21-real-synthetic-collection/`；前阶段真实组与全部历史数据保留。
+
+## 统一预处理 v001
+
+- 论文方法：`docs/DATASET_METHODS_V001.md`；固定机器协议：`config/data_protocol_v001.json`。包括GT参与筛选偏差、每步分母、阈值、反例和作者划分重叠。
+- 新完整分析数据：`../dataset/processed/standardized_pairs_v001/`，562对；`verification.json`记录全部往返通过。输入定义平移/尺度，XYZ顺序和数量保留，不加地面点，不使用GT确定变换；分析包围盒对角线30，不是米。
+- 当前实验入口 `manifests/starter78.json`；`all_train.json`、`all_test.json`继续锁定。原始/前期导出不覆盖。
+- 长期命令：`export_standard_dataset.py`（新目录导出）、`run_starter78_pilot.py setup/run`（固定开发划分/超时运行）；Frozen release 的 `source/reproduce.py`使用各自冻结评测器。
+- 实验后交付271个成功模型均源坐标OBJ重读核验；失败23次保留在294次尝试中。数据562对往返QA不等于算法271个成功输出质量通过。

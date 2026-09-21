@@ -1,0 +1,2849 @@
+{
+  "same_evaluator": true,
+  "same_transfer_initial_algorithm": true,
+  "same_transfer_evidence_content": true,
+  "roundtrips": [
+    {
+      "arm": "baseline",
+      "id": "point2building_03060_z4cd103de00000004",
+      "max_error_source_units": 4.501547664403915e-06
+    },
+    {
+      "arm": "baseline",
+      "id": "point2building_02648_z478b924900000293",
+      "max_error_source_units": 2.3283064365386963e-09
+    },
+    {
+      "arm": "baseline",
+      "id": "point2building_03177_z57b4146355ea0033",
+      "max_error_source_units": 4.863133653998375e-06
+    },
+    {
+      "arm": "baseline",
+      "id": "point2building_01020_z41af1c5900042690",
+      "max_error_source_units": 4.9176160246133804e-06
+    },
+    {
+      "arm": "baseline",
+      "id": "point2building_02308_z45b11b8c000050a2",
+      "max_error_source_units": 3.9031729102134705e-06
+    },
+    {
+      "arm": "baseline",
+      "id": "point2building_02420_z4631e26b00000002",
+      "max_error_source_units": 4.013534635305405e-06
+    },
+    {
+      "arm": "baseline",
+      "id": "point2building_02926_z478b9252000004a9",
+      "max_error_source_units": 4.417262971401215e-06
+    },
+    {
+      "arm": "baseline",
+      "id": "point2building_02762_z478b924b00000309",
+      "max_error_source_units": 4.914123564958572e-06
+    },
+    {
+      "arm": "baseline",
+      "id": "point2building_01231_z43d783460000001b",
+      "max_error_source_units": 4.773959517478943e-06
+    },
+    {
+      "arm": "baseline",
+      "id": "point2building_02842_z478b924d00000360",
+      "max_error_source_units": 4.990259185433388e-06
+    },
+    {
+      "arm": "baseline",
+      "id": "point2building_03096_z5061a3c42f350000",
+      "max_error_source_units": 4.764879122376442e-06
+    },
+    {
+      "arm": "baseline",
+      "id": "point2building_01226_z434cc37600000036",
+      "max_error_source_units": 4.899222403764725e-06
+    },
+    {
+      "arm": "baseline",
+      "id": "point2building_00032_z41aca4f400000f6c",
+      "max_error_source_units": 4.501082003116608e-06
+    },
+    {
+      "arm": "baseline",
+      "id": "point2building_01234_z43eaf3bb00000000",
+      "max_error_source_units": 4.93926927447319e-06
+    },
+    {
+      "arm": "baseline",
+      "id": "point2building_02073_z45b11b6f00004d43",
+      "max_error_source_units": 3.021908923983574e-06
+    },
+    {
+      "arm": "baseline",
+      "id": "point2building_02062_z45b11b6e00004d35",
+      "max_error_source_units": 4.410743713378906e-06
+    },
+    {
+      "arm": "baseline",
+      "id": "point2building_03024_z4b29d97200000000",
+      "max_error_source_units": 4.714122042059898e-06
+    },
+    {
+      "arm": "baseline",
+      "id": "point2building_04198_z4cf7a30100000000",
+      "max_error_source_units": 4.707369953393936e-06
+    },
+    {
+      "arm": "baseline",
+      "id": "point2building_04700_z5cd2c7b8e3ae0027",
+      "max_error_source_units": 4.898756742477417e-06
+    },
+    {
+      "arm": "baseline",
+      "id": "point2building_04435_z5aa795dc967900fa",
+      "max_error_source_units": 2.7939677238464355e-09
+    },
+    {
+      "arm": "baseline",
+      "id": "point2building_00612_z41afb9c5000028d4",
+      "max_error_source_units": 4.427507519721985e-06
+    },
+    {
+      "arm": "baseline",
+      "id": "point2building_02691_z45b11c0900005eba",
+      "max_error_source_units": 4.706904292106628e-06
+    },
+    {
+      "arm": "baseline",
+      "id": "point2building_01496_z41acfcf900040363",
+      "max_error_source_units": 4.768837243318558e-06
+    },
+    {
+      "arm": "baseline",
+      "id": "point2building_02888_z5c37184f8d8a0056",
+      "max_error_source_units": 4.982110112905502e-06
+    },
+    {
+      "arm": "baseline",
+      "id": "point2building_03749_z4756d98a00000752",
+      "max_error_source_units": 3.493158146739006e-06
+    },
+    {
+      "arm": "baseline",
+      "id": "point2building_03331_z4c11dac00000001b",
+      "max_error_source_units": 4.289206117391586e-06
+    },
+    {
+      "arm": "baseline",
+      "id": "point2building_04499_z4961a69d00000000",
+      "max_error_source_units": 2.6044435799121857e-06
+    },
+    {
+      "arm": "baseline",
+      "id": "point2building_00828_z41aca4f400001a79",
+      "max_error_source_units": 3.885943442583084e-06
+    },
+    {
+      "arm": "baseline",
+      "id": "point2building_00089_z41ad26d300061d2a",
+      "max_error_source_units": 4.827044904232025e-06
+    },
+    {
+      "arm": "baseline",
+      "id": "point2building_04264_z463f41f7000004a3",
+      "max_error_source_units": 4.91458922624588e-06
+    },
+    {
+      "arm": "baseline",
+      "id": "point2building_03215_z47050ae1000007c1",
+      "max_error_source_units": 4.82611358165741e-06
+    },
+    {
+      "arm": "baseline",
+      "id": "point2building_04146_z54feb0f4c2d60023",
+      "max_error_source_units": 2.3283064365386963e-09
+    },
+    {
+      "arm": "baseline",
+      "id": "point2building_03120_z47050adb000005fd",
+      "max_error_source_units": 4.966743290424347e-06
+    },
+    {
+      "arm": "baseline",
+      "id": "point2building_01182_z41ac39cc00001edd",
+      "max_error_source_units": 4.769070073962212e-06
+    },
+    {
+      "arm": "baseline",
+      "id": "point2building_03541_z54fd6d3616b10066",
+      "max_error_source_units": 4.286644980311394e-06
+    },
+    {
+      "arm": "baseline",
+      "id": "point2building_03584_z45b11bd100005843",
+      "max_error_source_units": 4.0011946111917496e-06
+    },
+    {
+      "arm": "baseline",
+      "id": "point2building_01244_z45b11be700005ac6",
+      "max_error_source_units": 4.017725586891174e-06
+    },
+    {
+      "arm": "baseline",
+      "id": "polygnn_mini_DEBY_LOD2_4862505",
+      "max_error_source_units": 4.932443342653414e-13
+    },
+    {
+      "arm": "baseline",
+      "id": "polygnn_mini_DEBY_LOD2_4717633",
+      "max_error_source_units": 4.852784840636559e-13
+    },
+    {
+      "arm": "baseline",
+      "id": "polygnn_mini_DEBY_LOD2_4768530",
+      "max_error_source_units": 4.591882429849647e-13
+    },
+    {
+      "arm": "baseline",
+      "id": "polygnn_mini_DEBY_LOD2_8573782",
+      "max_error_source_units": 4.4692027856285677e-13
+    },
+    {
+      "arm": "baseline",
+      "id": "polygnn_mini_DEBY_LOD2_104575493",
+      "max_error_source_units": 4.688333055113958e-13
+    },
+    {
+      "arm": "baseline",
+      "id": "polygnn_mini_DEBY_LOD2_4616699",
+      "max_error_source_units": 4.851397061855778e-13
+    },
+    {
+      "arm": "baseline",
+      "id": "polygnn_mini_DEBY_LOD2_5184618",
+      "max_error_source_units": 4.517497487199762e-13
+    },
+    {
+      "arm": "baseline",
+      "id": "polygnn_mini_DEBY_LOD2_4677715",
+      "max_error_source_units": 4.1658343441497436e-13
+    },
+    {
+      "arm": "baseline",
+      "id": "polygnn_mini_DEBY_LOD2_5271709",
+      "max_error_source_units": 4.775901896181267e-13
+    },
+    {
+      "arm": "baseline",
+      "id": "polygnn_mini_DEBY_LOD2_5056401",
+      "max_error_source_units": 4.547473508864641e-13
+    },
+    {
+      "arm": "baseline",
+      "id": "polygnn_mini_DEBY_LOD2_18272204",
+      "max_error_source_units": 4.846123502488808e-13
+    },
+    {
+      "arm": "baseline",
+      "id": "polygnn_mini_DEBY_LOD2_4374954",
+      "max_error_source_units": 4.884426196838376e-13
+    },
+    {
+      "arm": "baseline",
+      "id": "polygnn_mini_DEBY_LOD2_4914914",
+      "max_error_source_units": 4.4997339188057595e-13
+    },
+    {
+      "arm": "baseline",
+      "id": "polygnn_mini_DEBY_LOD2_4827110",
+      "max_error_source_units": 4.827804822582493e-13
+    },
+    {
+      "arm": "baseline",
+      "id": "polygnn_mini_DEBY_LOD2_4967349",
+      "max_error_source_units": 4.928696339945304e-13
+    },
+    {
+      "arm": "baseline",
+      "id": "polygnn_mini_DEBY_LOD2_5056245",
+      "max_error_source_units": 4.676259379721159e-13
+    },
+    {
+      "arm": "baseline",
+      "id": "polygnn_mini_DEBY_LOD2_4731695",
+      "max_error_source_units": 4.841127498877995e-13
+    },
+    {
+      "arm": "baseline",
+      "id": "polygnn_mini_DEBY_LOD2_8573862",
+      "max_error_source_units": 4.952704912852823e-13
+    },
+    {
+      "arm": "baseline",
+      "id": "polygnn_mini_DEBY_LOD2_5184797",
+      "max_error_source_units": 3.519962099574059e-13
+    },
+    {
+      "arm": "baseline",
+      "id": "polygnn_mini_DEBY_LOD2_4735908",
+      "max_error_source_units": 4.994893387788579e-13
+    },
+    {
+      "arm": "baseline",
+      "id": "polygnn_mini_DEBY_LOD2_42758236",
+      "max_error_source_units": 4.971578704271451e-13
+    },
+    {
+      "arm": "baseline",
+      "id": "polygnn_mini_DEBY_LOD2_4681422",
+      "max_error_source_units": 4.640732242933154e-13
+    },
+    {
+      "arm": "baseline",
+      "id": "polygnn_mini_DEBY_LOD2_5055513",
+      "max_error_source_units": 4.4708681201655054e-13
+    },
+    {
+      "arm": "baseline",
+      "id": "polygnn_mini_DEBY_LOD2_4322128",
+      "max_error_source_units": 4.595213098923523e-13
+    },
+    {
+      "arm": "baseline",
+      "id": "polygnn_mini_DEBY_LOD2_4473468",
+      "max_error_source_units": 4.793943020331426e-13
+    },
+    {
+      "arm": "baseline",
+      "id": "polygnn_mini_DEBY_LOD2_5092970",
+      "max_error_source_units": 4.5363712786183896e-13
+    },
+    {
+      "arm": "baseline",
+      "id": "polygnn_mini_DEBY_LOD2_4620050",
+      "max_error_source_units": 4.648781359861687e-13
+    },
+    {
+      "arm": "baseline",
+      "id": "polygnn_mini_DEBY_LOD2_5137190",
+      "max_error_source_units": 4.3118286718879517e-13
+    },
+    {
+      "arm": "baseline",
+      "id": "polygnn_mini_DEBY_LOD2_4870013",
+      "max_error_source_units": 4.817257703848554e-13
+    },
+    {
+      "arm": "baseline",
+      "id": "polygnn_mini_DEBY_LOD2_4773826",
+      "max_error_source_units": 4.920508445138694e-13
+    },
+    {
+      "arm": "baseline",
+      "id": "polygnn_mini_DEBY_LOD2_4948910",
+      "max_error_source_units": 4.941047571094259e-13
+    },
+    {
+      "arm": "baseline",
+      "id": "polygnn_mini_DEBY_LOD2_5004510",
+      "max_error_source_units": 4.126698982531707e-13
+    },
+    {
+      "arm": "baseline",
+      "id": "polygnn_mini_DEBY_LOD2_4901641",
+      "max_error_source_units": 4.533040609544514e-13
+    },
+    {
+      "arm": "baseline",
+      "id": "polygnn_mini_DEBY_LOD2_5142315",
+      "max_error_source_units": 4.842792833414933e-13
+    },
+    {
+      "arm": "F0",
+      "id": "point2building_03060_z4cd103de00000004",
+      "max_error_source_units": 3.725290298461914e-09
+    },
+    {
+      "arm": "F0",
+      "id": "point2building_02648_z478b924900000293",
+      "max_error_source_units": 2.7939677238464355e-09
+    },
+    {
+      "arm": "F0",
+      "id": "point2building_03177_z57b4146355ea0033",
+      "max_error_source_units": 4.889443516731262e-09
+    },
+    {
+      "arm": "F0",
+      "id": "point2building_01020_z41af1c5900042690",
+      "max_error_source_units": 6.51925802230835e-09
+    },
+    {
+      "arm": "F0",
+      "id": "point2building_02308_z45b11b8c000050a2",
+      "max_error_source_units": 2.7939677238464355e-09
+    },
+    {
+      "arm": "F0",
+      "id": "point2building_02420_z4631e26b00000002",
+      "max_error_source_units": 1.862645149230957e-09
+    },
+    {
+      "arm": "F0",
+      "id": "point2building_02926_z478b9252000004a9",
+      "max_error_source_units": 2.772081643342972e-06
+    },
+    {
+      "arm": "F0",
+      "id": "point2building_02762_z478b924b00000309",
+      "max_error_source_units": 3.4924596548080444e-09
+    },
+    {
+      "arm": "F0",
+      "id": "point2building_01231_z43d783460000001b",
+      "max_error_source_units": 2.7939677238464355e-09
+    },
+    {
+      "arm": "F0",
+      "id": "point2building_02842_z478b924d00000360",
+      "max_error_source_units": 4.190951585769653e-09
+    },
+    {
+      "arm": "F0",
+      "id": "point2building_03096_z5061a3c42f350000",
+      "max_error_source_units": 1.6298145055770874e-09
+    },
+    {
+      "arm": "F0",
+      "id": "point2building_01226_z434cc37600000036",
+      "max_error_source_units": 2.3283064365386963e-09
+    },
+    {
+      "arm": "F0",
+      "id": "point2building_00032_z41aca4f400000f6c",
+      "max_error_source_units": 4.6566128730773926e-09
+    },
+    {
+      "arm": "F0",
+      "id": "point2building_01234_z43eaf3bb00000000",
+      "max_error_source_units": 3.026798367500305e-09
+    },
+    {
+      "arm": "F0",
+      "id": "point2building_02073_z45b11b6f00004d43",
+      "max_error_source_units": 2.7939677238464355e-09
+    },
+    {
+      "arm": "F0",
+      "id": "point2building_02062_z45b11b6e00004d35",
+      "max_error_source_units": 4.423782229423523e-09
+    },
+    {
+      "arm": "F0",
+      "id": "point2building_03024_z4b29d97200000000",
+      "max_error_source_units": 4.889443516731262e-09
+    },
+    {
+      "arm": "F0",
+      "id": "point2building_04198_z4cf7a30100000000",
+      "max_error_source_units": 2.0954757928848267e-09
+    },
+    {
+      "arm": "F0",
+      "id": "point2building_04700_z5cd2c7b8e3ae0027",
+      "max_error_source_units": 4.695262759923935e-06
+    },
+    {
+      "arm": "F0",
+      "id": "point2building_04435_z5aa795dc967900fa",
+      "max_error_source_units": 5.122274160385132e-09
+    },
+    {
+      "arm": "F0",
+      "id": "point2building_00612_z41afb9c5000028d4",
+      "max_error_source_units": 6.05359673500061e-09
+    },
+    {
+      "arm": "F0",
+      "id": "point2building_02691_z45b11c0900005eba",
+      "max_error_source_units": 2.561137080192566e-09
+    },
+    {
+      "arm": "F0",
+      "id": "point2building_01496_z41acfcf900040363",
+      "max_error_source_units": 1.3969838619232178e-09
+    },
+    {
+      "arm": "F0",
+      "id": "point2building_02888_z5c37184f8d8a0056",
+      "max_error_source_units": 3.259629011154175e-09
+    },
+    {
+      "arm": "F0",
+      "id": "point2building_03749_z4756d98a00000752",
+      "max_error_source_units": 4.479661583900452e-06
+    },
+    {
+      "arm": "F0",
+      "id": "point2building_03331_z4c11dac00000001b",
+      "max_error_source_units": 6.05359673500061e-09
+    },
+    {
+      "arm": "F0",
+      "id": "point2building_04499_z4961a69d00000000",
+      "max_error_source_units": 6.51925802230835e-09
+    },
+    {
+      "arm": "F0",
+      "id": "point2building_00828_z41aca4f400001a79",
+      "max_error_source_units": 3.725290298461914e-09
+    },
+    {
+      "arm": "F0",
+      "id": "point2building_00089_z41ad26d300061d2a",
+      "max_error_source_units": 1.862645149230957e-09
+    },
+    {
+      "arm": "F0",
+      "id": "point2building_04264_z463f41f7000004a3",
+      "max_error_source_units": 3.259629011154175e-09
+    },
+    {
+      "arm": "F0",
+      "id": "point2building_03215_z47050ae1000007c1",
+      "max_error_source_units": 2.3283064365386963e-09
+    },
+    {
+      "arm": "F0",
+      "id": "point2building_04146_z54feb0f4c2d60023",
+      "max_error_source_units": 2.7939677238464355e-09
+    },
+    {
+      "arm": "F0",
+      "id": "point2building_03120_z47050adb000005fd",
+      "max_error_source_units": 4.966743290424347e-06
+    },
+    {
+      "arm": "F0",
+      "id": "point2building_01182_z41ac39cc00001edd",
+      "max_error_source_units": 5.122274160385132e-09
+    },
+    {
+      "arm": "F0",
+      "id": "point2building_03541_z54fd6d3616b10066",
+      "max_error_source_units": 2.7939677238464355e-09
+    },
+    {
+      "arm": "F0",
+      "id": "point2building_03584_z45b11bd100005843",
+      "max_error_source_units": 2.7939677238464355e-09
+    },
+    {
+      "arm": "F0",
+      "id": "point2building_01244_z45b11be700005ac6",
+      "max_error_source_units": 4.6566128730773926e-09
+    },
+    {
+      "arm": "F0",
+      "id": "polygnn_mini_DEBY_LOD2_4862505",
+      "max_error_source_units": 4.916622664552506e-13
+    },
+    {
+      "arm": "F0",
+      "id": "polygnn_mini_DEBY_LOD2_4717633",
+      "max_error_source_units": 4.873879078104437e-13
+    },
+    {
+      "arm": "F0",
+      "id": "polygnn_mini_DEBY_LOD2_4768530",
+      "max_error_source_units": 4.944933351680447e-13
+    },
+    {
+      "arm": "F0",
+      "id": "polygnn_mini_DEBY_LOD2_8573782",
+      "max_error_source_units": 4.866662628444374e-13
+    },
+    {
+      "arm": "F0",
+      "id": "polygnn_mini_DEBY_LOD2_104575493",
+      "max_error_source_units": 4.742733983320591e-13
+    },
+    {
+      "arm": "F0",
+      "id": "polygnn_mini_DEBY_LOD2_4616699",
+      "max_error_source_units": 4.959643806756731e-13
+    },
+    {
+      "arm": "F0",
+      "id": "polygnn_mini_DEBY_LOD2_5184618",
+      "max_error_source_units": 4.880540416252188e-13
+    },
+    {
+      "arm": "F0",
+      "id": "polygnn_mini_DEBY_LOD2_4677715",
+      "max_error_source_units": 4.976019596369952e-13
+    },
+    {
+      "arm": "F0",
+      "id": "polygnn_mini_DEBY_LOD2_5271709",
+      "max_error_source_units": 4.942990461387353e-13
+    },
+    {
+      "arm": "F0",
+      "id": "polygnn_mini_DEBY_LOD2_5056401",
+      "max_error_source_units": 4.956590693439011e-13
+    },
+    {
+      "arm": "F0",
+      "id": "polygnn_mini_DEBY_LOD2_18272204",
+      "max_error_source_units": 4.971578704271451e-13
+    },
+    {
+      "arm": "F0",
+      "id": "polygnn_mini_DEBY_LOD2_4374954",
+      "max_error_source_units": 4.929390229335695e-13
+    },
+    {
+      "arm": "F0",
+      "id": "polygnn_mini_DEBY_LOD2_4914914",
+      "max_error_source_units": 4.792277685794488e-13
+    },
+    {
+      "arm": "F0",
+      "id": "polygnn_mini_DEBY_LOD2_4827110",
+      "max_error_source_units": 4.94326801714351e-13
+    },
+    {
+      "arm": "F0",
+      "id": "polygnn_mini_DEBY_LOD2_4967349",
+      "max_error_source_units": 4.938272013532696e-13
+    },
+    {
+      "arm": "F0",
+      "id": "polygnn_mini_DEBY_LOD2_5056245",
+      "max_error_source_units": 4.92605956026182e-13
+    },
+    {
+      "arm": "F0",
+      "id": "polygnn_mini_DEBY_LOD2_4731695",
+      "max_error_source_units": 4.971856260027607e-13
+    },
+    {
+      "arm": "F0",
+      "id": "polygnn_mini_DEBY_LOD2_8573862",
+      "max_error_source_units": 4.996003610813204e-13
+    },
+    {
+      "arm": "F0",
+      "id": "polygnn_mini_DEBY_LOD2_5184797",
+      "max_error_source_units": 4.701239397775225e-13
+    },
+    {
+      "arm": "F0",
+      "id": "polygnn_mini_DEBY_LOD2_4735908",
+      "max_error_source_units": 4.994893387788579e-13
+    },
+    {
+      "arm": "F0",
+      "id": "polygnn_mini_DEBY_LOD2_42758236",
+      "max_error_source_units": 4.944655795924291e-13
+    },
+    {
+      "arm": "F0",
+      "id": "polygnn_mini_DEBY_LOD2_4681422",
+      "max_error_source_units": 4.994338276276267e-13
+    },
+    {
+      "arm": "F0",
+      "id": "polygnn_mini_DEBY_LOD2_5055513",
+      "max_error_source_units": 4.83779682980412e-13
+    },
+    {
+      "arm": "F0",
+      "id": "polygnn_mini_DEBY_LOD2_4322128",
+      "max_error_source_units": 4.988787161153141e-13
+    },
+    {
+      "arm": "F0",
+      "id": "polygnn_mini_DEBY_LOD2_4473468",
+      "max_error_source_units": 4.848343948538059e-13
+    },
+    {
+      "arm": "F0",
+      "id": "polygnn_mini_DEBY_LOD2_5092970",
+      "max_error_source_units": 4.756195437494171e-13
+    },
+    {
+      "arm": "F0",
+      "id": "polygnn_mini_DEBY_LOD2_4620050",
+      "max_error_source_units": 4.993921942642032e-13
+    },
+    {
+      "arm": "F0",
+      "id": "polygnn_mini_DEBY_LOD2_5137190",
+      "max_error_source_units": 4.979350265443827e-13
+    },
+    {
+      "arm": "F0",
+      "id": "polygnn_mini_DEBY_LOD2_4870013",
+      "max_error_source_units": 4.923839114212569e-13
+    },
+    {
+      "arm": "F0",
+      "id": "polygnn_mini_DEBY_LOD2_4773826",
+      "max_error_source_units": 4.993783164763954e-13
+    },
+    {
+      "arm": "F0",
+      "id": "polygnn_mini_DEBY_LOD2_4948910",
+      "max_error_source_units": 4.924116669968726e-13
+    },
+    {
+      "arm": "F0",
+      "id": "polygnn_mini_DEBY_LOD2_5004510",
+      "max_error_source_units": 4.980460488468452e-13
+    },
+    {
+      "arm": "F0",
+      "id": "polygnn_mini_DEBY_LOD2_4901641",
+      "max_error_source_units": 4.975464484857639e-13
+    },
+    {
+      "arm": "F0",
+      "id": "polygnn_mini_DEBY_LOD2_5142315",
+      "max_error_source_units": 4.822253707459367e-13
+    },
+    {
+      "arm": "F3",
+      "id": "point2building_03060_z4cd103de00000004",
+      "max_error_source_units": 4.501547664403915e-06
+    },
+    {
+      "arm": "F3",
+      "id": "point2building_02648_z478b924900000293",
+      "max_error_source_units": 2.3283064365386963e-09
+    },
+    {
+      "arm": "F3",
+      "id": "point2building_03177_z57b4146355ea0033",
+      "max_error_source_units": 4.863133653998375e-06
+    },
+    {
+      "arm": "F3",
+      "id": "point2building_01020_z41af1c5900042690",
+      "max_error_source_units": 4.9176160246133804e-06
+    },
+    {
+      "arm": "F3",
+      "id": "point2building_02308_z45b11b8c000050a2",
+      "max_error_source_units": 3.9031729102134705e-06
+    },
+    {
+      "arm": "F3",
+      "id": "point2building_02420_z4631e26b00000002",
+      "max_error_source_units": 4.013534635305405e-06
+    },
+    {
+      "arm": "F3",
+      "id": "point2building_02926_z478b9252000004a9",
+      "max_error_source_units": 4.417262971401215e-06
+    },
+    {
+      "arm": "F3",
+      "id": "point2building_02762_z478b924b00000309",
+      "max_error_source_units": 4.914123564958572e-06
+    },
+    {
+      "arm": "F3",
+      "id": "point2building_01231_z43d783460000001b",
+      "max_error_source_units": 4.773959517478943e-06
+    },
+    {
+      "arm": "F3",
+      "id": "point2building_02842_z478b924d00000360",
+      "max_error_source_units": 4.990259185433388e-06
+    },
+    {
+      "arm": "F3",
+      "id": "point2building_03096_z5061a3c42f350000",
+      "max_error_source_units": 4.764879122376442e-06
+    },
+    {
+      "arm": "F3",
+      "id": "point2building_01226_z434cc37600000036",
+      "max_error_source_units": 4.899222403764725e-06
+    },
+    {
+      "arm": "F3",
+      "id": "point2building_00032_z41aca4f400000f6c",
+      "max_error_source_units": 4.501082003116608e-06
+    },
+    {
+      "arm": "F3",
+      "id": "point2building_01232_z43d783d80000001d",
+      "max_error_source_units": 1.6298145055770874e-09
+    },
+    {
+      "arm": "F3",
+      "id": "point2building_01234_z43eaf3bb00000000",
+      "max_error_source_units": 4.93926927447319e-06
+    },
+    {
+      "arm": "F3",
+      "id": "point2building_02073_z45b11b6f00004d43",
+      "max_error_source_units": 3.021908923983574e-06
+    },
+    {
+      "arm": "F3",
+      "id": "point2building_02062_z45b11b6e00004d35",
+      "max_error_source_units": 4.410743713378906e-06
+    },
+    {
+      "arm": "F3",
+      "id": "point2building_03024_z4b29d97200000000",
+      "max_error_source_units": 4.714122042059898e-06
+    },
+    {
+      "arm": "F3",
+      "id": "point2building_04198_z4cf7a30100000000",
+      "max_error_source_units": 4.707369953393936e-06
+    },
+    {
+      "arm": "F3",
+      "id": "point2building_04700_z5cd2c7b8e3ae0027",
+      "max_error_source_units": 4.898756742477417e-06
+    },
+    {
+      "arm": "F3",
+      "id": "point2building_04435_z5aa795dc967900fa",
+      "max_error_source_units": 2.7939677238464355e-09
+    },
+    {
+      "arm": "F3",
+      "id": "point2building_00612_z41afb9c5000028d4",
+      "max_error_source_units": 4.427507519721985e-06
+    },
+    {
+      "arm": "F3",
+      "id": "point2building_02691_z45b11c0900005eba",
+      "max_error_source_units": 4.706904292106628e-06
+    },
+    {
+      "arm": "F3",
+      "id": "point2building_01496_z41acfcf900040363",
+      "max_error_source_units": 4.768837243318558e-06
+    },
+    {
+      "arm": "F3",
+      "id": "point2building_02888_z5c37184f8d8a0056",
+      "max_error_source_units": 4.982110112905502e-06
+    },
+    {
+      "arm": "F3",
+      "id": "point2building_03749_z4756d98a00000752",
+      "max_error_source_units": 3.493158146739006e-06
+    },
+    {
+      "arm": "F3",
+      "id": "point2building_03331_z4c11dac00000001b",
+      "max_error_source_units": 4.289206117391586e-06
+    },
+    {
+      "arm": "F3",
+      "id": "point2building_04499_z4961a69d00000000",
+      "max_error_source_units": 2.6044435799121857e-06
+    },
+    {
+      "arm": "F3",
+      "id": "point2building_00828_z41aca4f400001a79",
+      "max_error_source_units": 3.885943442583084e-06
+    },
+    {
+      "arm": "F3",
+      "id": "point2building_00089_z41ad26d300061d2a",
+      "max_error_source_units": 4.827044904232025e-06
+    },
+    {
+      "arm": "F3",
+      "id": "point2building_04264_z463f41f7000004a3",
+      "max_error_source_units": 4.91458922624588e-06
+    },
+    {
+      "arm": "F3",
+      "id": "point2building_03215_z47050ae1000007c1",
+      "max_error_source_units": 4.82611358165741e-06
+    },
+    {
+      "arm": "F3",
+      "id": "point2building_04146_z54feb0f4c2d60023",
+      "max_error_source_units": 2.3283064365386963e-09
+    },
+    {
+      "arm": "F3",
+      "id": "point2building_03120_z47050adb000005fd",
+      "max_error_source_units": 4.966743290424347e-06
+    },
+    {
+      "arm": "F3",
+      "id": "point2building_01182_z41ac39cc00001edd",
+      "max_error_source_units": 4.769070073962212e-06
+    },
+    {
+      "arm": "F3",
+      "id": "point2building_03541_z54fd6d3616b10066",
+      "max_error_source_units": 4.286644980311394e-06
+    },
+    {
+      "arm": "F3",
+      "id": "point2building_03584_z45b11bd100005843",
+      "max_error_source_units": 4.0011946111917496e-06
+    },
+    {
+      "arm": "F3",
+      "id": "point2building_01244_z45b11be700005ac6",
+      "max_error_source_units": 4.017725586891174e-06
+    },
+    {
+      "arm": "F3",
+      "id": "polygnn_mini_DEBY_LOD2_4862505",
+      "max_error_source_units": 4.932443342653414e-13
+    },
+    {
+      "arm": "F3",
+      "id": "polygnn_mini_DEBY_LOD2_4717633",
+      "max_error_source_units": 4.852784840636559e-13
+    },
+    {
+      "arm": "F3",
+      "id": "polygnn_mini_DEBY_LOD2_4768530",
+      "max_error_source_units": 4.591882429849647e-13
+    },
+    {
+      "arm": "F3",
+      "id": "polygnn_mini_DEBY_LOD2_8573782",
+      "max_error_source_units": 4.4692027856285677e-13
+    },
+    {
+      "arm": "F3",
+      "id": "polygnn_mini_DEBY_LOD2_104575493",
+      "max_error_source_units": 4.688333055113958e-13
+    },
+    {
+      "arm": "F3",
+      "id": "polygnn_mini_DEBY_LOD2_5100005",
+      "max_error_source_units": 4.854450175173497e-13
+    },
+    {
+      "arm": "F3",
+      "id": "polygnn_mini_DEBY_LOD2_4616699",
+      "max_error_source_units": 4.851397061855778e-13
+    },
+    {
+      "arm": "F3",
+      "id": "polygnn_mini_DEBY_LOD2_4869536",
+      "max_error_source_units": 4.608813330975181e-13
+    },
+    {
+      "arm": "F3",
+      "id": "polygnn_mini_DEBY_LOD2_5184618",
+      "max_error_source_units": 4.517497487199762e-13
+    },
+    {
+      "arm": "F3",
+      "id": "polygnn_mini_DEBY_LOD2_4677715",
+      "max_error_source_units": 4.1658343441497436e-13
+    },
+    {
+      "arm": "F3",
+      "id": "polygnn_mini_DEBY_LOD2_5271709",
+      "max_error_source_units": 4.775901896181267e-13
+    },
+    {
+      "arm": "F3",
+      "id": "polygnn_mini_DEBY_LOD2_5056401",
+      "max_error_source_units": 4.547473508864641e-13
+    },
+    {
+      "arm": "F3",
+      "id": "polygnn_mini_DEBY_LOD2_18272204",
+      "max_error_source_units": 4.846123502488808e-13
+    },
+    {
+      "arm": "F3",
+      "id": "polygnn_mini_DEBY_LOD2_4374954",
+      "max_error_source_units": 4.884426196838376e-13
+    },
+    {
+      "arm": "F3",
+      "id": "polygnn_mini_DEBY_LOD2_4914914",
+      "max_error_source_units": 4.4997339188057595e-13
+    },
+    {
+      "arm": "F3",
+      "id": "polygnn_mini_DEBY_LOD2_5273475",
+      "max_error_source_units": 4.776179451937423e-13
+    },
+    {
+      "arm": "F3",
+      "id": "polygnn_mini_DEBY_LOD2_4827110",
+      "max_error_source_units": 4.827804822582493e-13
+    },
+    {
+      "arm": "F3",
+      "id": "polygnn_mini_DEBY_LOD2_4967349",
+      "max_error_source_units": 4.928696339945304e-13
+    },
+    {
+      "arm": "F3",
+      "id": "polygnn_mini_DEBY_LOD2_5056245",
+      "max_error_source_units": 4.676259379721159e-13
+    },
+    {
+      "arm": "F3",
+      "id": "polygnn_mini_DEBY_LOD2_21464190",
+      "max_error_source_units": 4.534705944081452e-13
+    },
+    {
+      "arm": "F3",
+      "id": "polygnn_mini_DEBY_LOD2_4731695",
+      "max_error_source_units": 4.841127498877995e-13
+    },
+    {
+      "arm": "F3",
+      "id": "polygnn_mini_DEBY_LOD2_8573862",
+      "max_error_source_units": 4.952704912852823e-13
+    },
+    {
+      "arm": "F3",
+      "id": "polygnn_mini_DEBY_LOD2_5184797",
+      "max_error_source_units": 3.519962099574059e-13
+    },
+    {
+      "arm": "F3",
+      "id": "polygnn_mini_DEBY_LOD2_4735908",
+      "max_error_source_units": 4.994893387788579e-13
+    },
+    {
+      "arm": "F3",
+      "id": "polygnn_mini_DEBY_LOD2_42758236",
+      "max_error_source_units": 4.971578704271451e-13
+    },
+    {
+      "arm": "F3",
+      "id": "polygnn_mini_DEBY_LOD2_4681422",
+      "max_error_source_units": 4.640732242933154e-13
+    },
+    {
+      "arm": "F3",
+      "id": "polygnn_mini_DEBY_LOD2_5055513",
+      "max_error_source_units": 4.4708681201655054e-13
+    },
+    {
+      "arm": "F3",
+      "id": "polygnn_mini_DEBY_LOD2_4322128",
+      "max_error_source_units": 4.595213098923523e-13
+    },
+    {
+      "arm": "F3",
+      "id": "polygnn_mini_DEBY_LOD2_4473468",
+      "max_error_source_units": 4.793943020331426e-13
+    },
+    {
+      "arm": "F3",
+      "id": "polygnn_mini_DEBY_LOD2_5092970",
+      "max_error_source_units": 4.5363712786183896e-13
+    },
+    {
+      "arm": "F3",
+      "id": "polygnn_mini_DEBY_LOD2_4620050",
+      "max_error_source_units": 4.648781359861687e-13
+    },
+    {
+      "arm": "F3",
+      "id": "polygnn_mini_DEBY_LOD2_5137190",
+      "max_error_source_units": 4.3118286718879517e-13
+    },
+    {
+      "arm": "F3",
+      "id": "polygnn_mini_DEBY_LOD2_4870013",
+      "max_error_source_units": 4.817257703848554e-13
+    },
+    {
+      "arm": "F3",
+      "id": "polygnn_mini_DEBY_LOD2_4773826",
+      "max_error_source_units": 4.920508445138694e-13
+    },
+    {
+      "arm": "F3",
+      "id": "polygnn_mini_DEBY_LOD2_4833066",
+      "max_error_source_units": 4.762856775641922e-13
+    },
+    {
+      "arm": "F3",
+      "id": "polygnn_mini_DEBY_LOD2_4948910",
+      "max_error_source_units": 4.941047571094259e-13
+    },
+    {
+      "arm": "F3",
+      "id": "polygnn_mini_DEBY_LOD2_5004510",
+      "max_error_source_units": 4.126698982531707e-13
+    },
+    {
+      "arm": "F3",
+      "id": "polygnn_mini_DEBY_LOD2_4901641",
+      "max_error_source_units": 4.533040609544514e-13
+    },
+    {
+      "arm": "F3",
+      "id": "polygnn_mini_DEBY_LOD2_5142315",
+      "max_error_source_units": 4.842792833414933e-13
+    },
+    {
+      "arm": "transfer_original",
+      "id": "point2building_02842_z478b924d00000360",
+      "max_error_source_units": 4.990259185433388e-06
+    },
+    {
+      "arm": "transfer_original",
+      "id": "point2building_02691_z45b11c0900005eba",
+      "max_error_source_units": 4.706904292106628e-06
+    },
+    {
+      "arm": "transfer_original",
+      "id": "point2building_03749_z4756d98a00000752",
+      "max_error_source_units": 3.493158146739006e-06
+    },
+    {
+      "arm": "transfer_original",
+      "id": "point2building_00828_z41aca4f400001a79",
+      "max_error_source_units": 3.885943442583084e-06
+    },
+    {
+      "arm": "transfer_original",
+      "id": "point2building_01020_z41af1c5900042690",
+      "max_error_source_units": 4.9176160246133804e-06
+    },
+    {
+      "arm": "transfer_original",
+      "id": "point2building_00612_z41afb9c5000028d4",
+      "max_error_source_units": 4.427507519721985e-06
+    },
+    {
+      "arm": "transfer_original",
+      "id": "point2building_02420_z4631e26b00000002",
+      "max_error_source_units": 4.013534635305405e-06
+    },
+    {
+      "arm": "transfer_original",
+      "id": "point2building_01231_z43d783460000001b",
+      "max_error_source_units": 4.773959517478943e-06
+    },
+    {
+      "arm": "transfer_original",
+      "id": "point2building_03120_z47050adb000005fd",
+      "max_error_source_units": 4.966743290424347e-06
+    },
+    {
+      "arm": "transfer_original",
+      "id": "point2building_02762_z478b924b00000309",
+      "max_error_source_units": 4.914123564958572e-06
+    },
+    {
+      "arm": "transfer_original",
+      "id": "point2building_01182_z41ac39cc00001edd",
+      "max_error_source_units": 4.769070073962212e-06
+    },
+    {
+      "arm": "transfer_original",
+      "id": "point2building_04264_z463f41f7000004a3",
+      "max_error_source_units": 4.91458922624588e-06
+    },
+    {
+      "arm": "transfer_original",
+      "id": "point2building_03541_z54fd6d3616b10066",
+      "max_error_source_units": 4.286644980311394e-06
+    },
+    {
+      "arm": "transfer_original",
+      "id": "point2building_01496_z41acfcf900040363",
+      "max_error_source_units": 4.768837243318558e-06
+    },
+    {
+      "arm": "transfer_original",
+      "id": "polygnn_mini_DEBY_LOD2_4967349",
+      "max_error_source_units": 4.928696339945304e-13
+    },
+    {
+      "arm": "transfer_original",
+      "id": "polygnn_mini_DEBY_LOD2_5004510",
+      "max_error_source_units": 4.126698982531707e-13
+    },
+    {
+      "arm": "transfer_original",
+      "id": "polygnn_mini_DEBY_LOD2_4620050",
+      "max_error_source_units": 4.648781359861687e-13
+    },
+    {
+      "arm": "transfer_original",
+      "id": "polygnn_mini_DEBY_LOD2_8573862",
+      "max_error_source_units": 4.952704912852823e-13
+    },
+    {
+      "arm": "transfer_original",
+      "id": "polygnn_mini_DEBY_LOD2_5142315",
+      "max_error_source_units": 4.842792833414933e-13
+    },
+    {
+      "arm": "transfer_original",
+      "id": "polygnn_mini_DEBY_LOD2_104575493",
+      "max_error_source_units": 4.688333055113958e-13
+    },
+    {
+      "arm": "transfer_original",
+      "id": "polygnn_mini_DEBY_LOD2_4948910",
+      "max_error_source_units": 4.941047571094259e-13
+    },
+    {
+      "arm": "transfer_original",
+      "id": "polygnn_mini_DEBY_LOD2_4735908",
+      "max_error_source_units": 4.994893387788579e-13
+    },
+    {
+      "arm": "transfer_original",
+      "id": "polygnn_mini_DEBY_LOD2_42758236",
+      "max_error_source_units": 4.971578704271451e-13
+    },
+    {
+      "arm": "transfer_original",
+      "id": "polygnn_mini_DEBY_LOD2_4870013",
+      "max_error_source_units": 4.817257703848554e-13
+    },
+    {
+      "arm": "transfer_original",
+      "id": "polygnn_mini_DEBY_LOD2_5055513",
+      "max_error_source_units": 4.4708681201655054e-13
+    },
+    {
+      "arm": "transfer_original",
+      "id": "polygnn_mini_DEBY_LOD2_5271709",
+      "max_error_source_units": 4.775901896181267e-13
+    },
+    {
+      "arm": "transfer_evolved",
+      "id": "point2building_02842_z478b924d00000360",
+      "max_error_source_units": 4.990259185433388e-06
+    },
+    {
+      "arm": "transfer_evolved",
+      "id": "point2building_02691_z45b11c0900005eba",
+      "max_error_source_units": 4.706904292106628e-06
+    },
+    {
+      "arm": "transfer_evolved",
+      "id": "point2building_03749_z4756d98a00000752",
+      "max_error_source_units": 3.493158146739006e-06
+    },
+    {
+      "arm": "transfer_evolved",
+      "id": "point2building_00828_z41aca4f400001a79",
+      "max_error_source_units": 3.885943442583084e-06
+    },
+    {
+      "arm": "transfer_evolved",
+      "id": "point2building_01020_z41af1c5900042690",
+      "max_error_source_units": 4.9176160246133804e-06
+    },
+    {
+      "arm": "transfer_evolved",
+      "id": "point2building_00612_z41afb9c5000028d4",
+      "max_error_source_units": 4.427507519721985e-06
+    },
+    {
+      "arm": "transfer_evolved",
+      "id": "point2building_02420_z4631e26b00000002",
+      "max_error_source_units": 4.013534635305405e-06
+    },
+    {
+      "arm": "transfer_evolved",
+      "id": "point2building_01231_z43d783460000001b",
+      "max_error_source_units": 4.773959517478943e-06
+    },
+    {
+      "arm": "transfer_evolved",
+      "id": "point2building_03120_z47050adb000005fd",
+      "max_error_source_units": 4.966743290424347e-06
+    },
+    {
+      "arm": "transfer_evolved",
+      "id": "point2building_02762_z478b924b00000309",
+      "max_error_source_units": 4.914123564958572e-06
+    },
+    {
+      "arm": "transfer_evolved",
+      "id": "point2building_01182_z41ac39cc00001edd",
+      "max_error_source_units": 4.769070073962212e-06
+    },
+    {
+      "arm": "transfer_evolved",
+      "id": "point2building_04264_z463f41f7000004a3",
+      "max_error_source_units": 4.91458922624588e-06
+    },
+    {
+      "arm": "transfer_evolved",
+      "id": "point2building_03541_z54fd6d3616b10066",
+      "max_error_source_units": 4.286644980311394e-06
+    },
+    {
+      "arm": "transfer_evolved",
+      "id": "point2building_01496_z41acfcf900040363",
+      "max_error_source_units": 4.768837243318558e-06
+    },
+    {
+      "arm": "transfer_evolved",
+      "id": "polygnn_mini_DEBY_LOD2_4967349",
+      "max_error_source_units": 4.928696339945304e-13
+    },
+    {
+      "arm": "transfer_evolved",
+      "id": "polygnn_mini_DEBY_LOD2_5004510",
+      "max_error_source_units": 4.126698982531707e-13
+    },
+    {
+      "arm": "transfer_evolved",
+      "id": "polygnn_mini_DEBY_LOD2_4620050",
+      "max_error_source_units": 4.648781359861687e-13
+    },
+    {
+      "arm": "transfer_evolved",
+      "id": "polygnn_mini_DEBY_LOD2_8573862",
+      "max_error_source_units": 4.952704912852823e-13
+    },
+    {
+      "arm": "transfer_evolved",
+      "id": "polygnn_mini_DEBY_LOD2_5142315",
+      "max_error_source_units": 4.842792833414933e-13
+    },
+    {
+      "arm": "transfer_evolved",
+      "id": "polygnn_mini_DEBY_LOD2_104575493",
+      "max_error_source_units": 4.688333055113958e-13
+    },
+    {
+      "arm": "transfer_evolved",
+      "id": "polygnn_mini_DEBY_LOD2_4948910",
+      "max_error_source_units": 4.941047571094259e-13
+    },
+    {
+      "arm": "transfer_evolved",
+      "id": "polygnn_mini_DEBY_LOD2_4735908",
+      "max_error_source_units": 4.994893387788579e-13
+    },
+    {
+      "arm": "transfer_evolved",
+      "id": "polygnn_mini_DEBY_LOD2_42758236",
+      "max_error_source_units": 4.971578704271451e-13
+    },
+    {
+      "arm": "transfer_evolved",
+      "id": "polygnn_mini_DEBY_LOD2_4870013",
+      "max_error_source_units": 4.817257703848554e-13
+    },
+    {
+      "arm": "transfer_evolved",
+      "id": "polygnn_mini_DEBY_LOD2_5055513",
+      "max_error_source_units": 4.4708681201655054e-13
+    },
+    {
+      "arm": "transfer_evolved",
+      "id": "polygnn_mini_DEBY_LOD2_5271709",
+      "max_error_source_units": 4.775901896181267e-13
+    }
+  ],
+  "render_hashes": [
+    {
+      "arm": "baseline",
+      "id": "point2building_03060_z4cd103de00000004",
+      "verified": true
+    },
+    {
+      "arm": "F0",
+      "id": "point2building_03060_z4cd103de00000004",
+      "verified": true
+    },
+    {
+      "arm": "F3",
+      "id": "point2building_03060_z4cd103de00000004",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "point2building_02648_z478b924900000293",
+      "verified": true
+    },
+    {
+      "arm": "F0",
+      "id": "point2building_02648_z478b924900000293",
+      "verified": true
+    },
+    {
+      "arm": "F3",
+      "id": "point2building_02648_z478b924900000293",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "point2building_03177_z57b4146355ea0033",
+      "verified": true
+    },
+    {
+      "arm": "F0",
+      "id": "point2building_03177_z57b4146355ea0033",
+      "verified": true
+    },
+    {
+      "arm": "F3",
+      "id": "point2building_03177_z57b4146355ea0033",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "point2building_01020_z41af1c5900042690",
+      "verified": true
+    },
+    {
+      "arm": "F0",
+      "id": "point2building_01020_z41af1c5900042690",
+      "verified": true
+    },
+    {
+      "arm": "F3",
+      "id": "point2building_01020_z41af1c5900042690",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "point2building_02308_z45b11b8c000050a2",
+      "verified": true
+    },
+    {
+      "arm": "F0",
+      "id": "point2building_02308_z45b11b8c000050a2",
+      "verified": true
+    },
+    {
+      "arm": "F3",
+      "id": "point2building_02308_z45b11b8c000050a2",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "point2building_02420_z4631e26b00000002",
+      "verified": true
+    },
+    {
+      "arm": "F0",
+      "id": "point2building_02420_z4631e26b00000002",
+      "verified": true
+    },
+    {
+      "arm": "F3",
+      "id": "point2building_02420_z4631e26b00000002",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "point2building_02926_z478b9252000004a9",
+      "verified": true
+    },
+    {
+      "arm": "F0",
+      "id": "point2building_02926_z478b9252000004a9",
+      "verified": true
+    },
+    {
+      "arm": "F3",
+      "id": "point2building_02926_z478b9252000004a9",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "point2building_02762_z478b924b00000309",
+      "verified": true
+    },
+    {
+      "arm": "F0",
+      "id": "point2building_02762_z478b924b00000309",
+      "verified": true
+    },
+    {
+      "arm": "F3",
+      "id": "point2building_02762_z478b924b00000309",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "point2building_01231_z43d783460000001b",
+      "verified": true
+    },
+    {
+      "arm": "F0",
+      "id": "point2building_01231_z43d783460000001b",
+      "verified": true
+    },
+    {
+      "arm": "F3",
+      "id": "point2building_01231_z43d783460000001b",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "point2building_02842_z478b924d00000360",
+      "verified": true
+    },
+    {
+      "arm": "F0",
+      "id": "point2building_02842_z478b924d00000360",
+      "verified": true
+    },
+    {
+      "arm": "F3",
+      "id": "point2building_02842_z478b924d00000360",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "point2building_03096_z5061a3c42f350000",
+      "verified": true
+    },
+    {
+      "arm": "F0",
+      "id": "point2building_03096_z5061a3c42f350000",
+      "verified": true
+    },
+    {
+      "arm": "F3",
+      "id": "point2building_03096_z5061a3c42f350000",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "point2building_01226_z434cc37600000036",
+      "verified": true
+    },
+    {
+      "arm": "F0",
+      "id": "point2building_01226_z434cc37600000036",
+      "verified": true
+    },
+    {
+      "arm": "F3",
+      "id": "point2building_01226_z434cc37600000036",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "point2building_00032_z41aca4f400000f6c",
+      "verified": true
+    },
+    {
+      "arm": "F0",
+      "id": "point2building_00032_z41aca4f400000f6c",
+      "verified": true
+    },
+    {
+      "arm": "F3",
+      "id": "point2building_00032_z41aca4f400000f6c",
+      "verified": true
+    },
+    {
+      "arm": "F3",
+      "id": "point2building_01232_z43d783d80000001d",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "point2building_01234_z43eaf3bb00000000",
+      "verified": true
+    },
+    {
+      "arm": "F0",
+      "id": "point2building_01234_z43eaf3bb00000000",
+      "verified": true
+    },
+    {
+      "arm": "F3",
+      "id": "point2building_01234_z43eaf3bb00000000",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "point2building_02073_z45b11b6f00004d43",
+      "verified": true
+    },
+    {
+      "arm": "F0",
+      "id": "point2building_02073_z45b11b6f00004d43",
+      "verified": true
+    },
+    {
+      "arm": "F3",
+      "id": "point2building_02073_z45b11b6f00004d43",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "point2building_02062_z45b11b6e00004d35",
+      "verified": true
+    },
+    {
+      "arm": "F0",
+      "id": "point2building_02062_z45b11b6e00004d35",
+      "verified": true
+    },
+    {
+      "arm": "F3",
+      "id": "point2building_02062_z45b11b6e00004d35",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "point2building_03024_z4b29d97200000000",
+      "verified": true
+    },
+    {
+      "arm": "F0",
+      "id": "point2building_03024_z4b29d97200000000",
+      "verified": true
+    },
+    {
+      "arm": "F3",
+      "id": "point2building_03024_z4b29d97200000000",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "point2building_04198_z4cf7a30100000000",
+      "verified": true
+    },
+    {
+      "arm": "F0",
+      "id": "point2building_04198_z4cf7a30100000000",
+      "verified": true
+    },
+    {
+      "arm": "F3",
+      "id": "point2building_04198_z4cf7a30100000000",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "point2building_04700_z5cd2c7b8e3ae0027",
+      "verified": true
+    },
+    {
+      "arm": "F0",
+      "id": "point2building_04700_z5cd2c7b8e3ae0027",
+      "verified": true
+    },
+    {
+      "arm": "F3",
+      "id": "point2building_04700_z5cd2c7b8e3ae0027",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "point2building_04435_z5aa795dc967900fa",
+      "verified": true
+    },
+    {
+      "arm": "F0",
+      "id": "point2building_04435_z5aa795dc967900fa",
+      "verified": true
+    },
+    {
+      "arm": "F3",
+      "id": "point2building_04435_z5aa795dc967900fa",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "point2building_00612_z41afb9c5000028d4",
+      "verified": true
+    },
+    {
+      "arm": "F0",
+      "id": "point2building_00612_z41afb9c5000028d4",
+      "verified": true
+    },
+    {
+      "arm": "F3",
+      "id": "point2building_00612_z41afb9c5000028d4",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "point2building_02691_z45b11c0900005eba",
+      "verified": true
+    },
+    {
+      "arm": "F0",
+      "id": "point2building_02691_z45b11c0900005eba",
+      "verified": true
+    },
+    {
+      "arm": "F3",
+      "id": "point2building_02691_z45b11c0900005eba",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "point2building_01496_z41acfcf900040363",
+      "verified": true
+    },
+    {
+      "arm": "F0",
+      "id": "point2building_01496_z41acfcf900040363",
+      "verified": true
+    },
+    {
+      "arm": "F3",
+      "id": "point2building_01496_z41acfcf900040363",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "point2building_02888_z5c37184f8d8a0056",
+      "verified": true
+    },
+    {
+      "arm": "F0",
+      "id": "point2building_02888_z5c37184f8d8a0056",
+      "verified": true
+    },
+    {
+      "arm": "F3",
+      "id": "point2building_02888_z5c37184f8d8a0056",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "point2building_03749_z4756d98a00000752",
+      "verified": true
+    },
+    {
+      "arm": "F0",
+      "id": "point2building_03749_z4756d98a00000752",
+      "verified": true
+    },
+    {
+      "arm": "F3",
+      "id": "point2building_03749_z4756d98a00000752",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "point2building_03331_z4c11dac00000001b",
+      "verified": true
+    },
+    {
+      "arm": "F0",
+      "id": "point2building_03331_z4c11dac00000001b",
+      "verified": true
+    },
+    {
+      "arm": "F3",
+      "id": "point2building_03331_z4c11dac00000001b",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "point2building_04499_z4961a69d00000000",
+      "verified": true
+    },
+    {
+      "arm": "F0",
+      "id": "point2building_04499_z4961a69d00000000",
+      "verified": true
+    },
+    {
+      "arm": "F3",
+      "id": "point2building_04499_z4961a69d00000000",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "point2building_00828_z41aca4f400001a79",
+      "verified": true
+    },
+    {
+      "arm": "F0",
+      "id": "point2building_00828_z41aca4f400001a79",
+      "verified": true
+    },
+    {
+      "arm": "F3",
+      "id": "point2building_00828_z41aca4f400001a79",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "point2building_00089_z41ad26d300061d2a",
+      "verified": true
+    },
+    {
+      "arm": "F0",
+      "id": "point2building_00089_z41ad26d300061d2a",
+      "verified": true
+    },
+    {
+      "arm": "F3",
+      "id": "point2building_00089_z41ad26d300061d2a",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "point2building_04264_z463f41f7000004a3",
+      "verified": true
+    },
+    {
+      "arm": "F0",
+      "id": "point2building_04264_z463f41f7000004a3",
+      "verified": true
+    },
+    {
+      "arm": "F3",
+      "id": "point2building_04264_z463f41f7000004a3",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "point2building_03215_z47050ae1000007c1",
+      "verified": true
+    },
+    {
+      "arm": "F0",
+      "id": "point2building_03215_z47050ae1000007c1",
+      "verified": true
+    },
+    {
+      "arm": "F3",
+      "id": "point2building_03215_z47050ae1000007c1",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "point2building_04146_z54feb0f4c2d60023",
+      "verified": true
+    },
+    {
+      "arm": "F0",
+      "id": "point2building_04146_z54feb0f4c2d60023",
+      "verified": true
+    },
+    {
+      "arm": "F3",
+      "id": "point2building_04146_z54feb0f4c2d60023",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "point2building_03120_z47050adb000005fd",
+      "verified": true
+    },
+    {
+      "arm": "F0",
+      "id": "point2building_03120_z47050adb000005fd",
+      "verified": true
+    },
+    {
+      "arm": "F3",
+      "id": "point2building_03120_z47050adb000005fd",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "point2building_01182_z41ac39cc00001edd",
+      "verified": true
+    },
+    {
+      "arm": "F0",
+      "id": "point2building_01182_z41ac39cc00001edd",
+      "verified": true
+    },
+    {
+      "arm": "F3",
+      "id": "point2building_01182_z41ac39cc00001edd",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "point2building_03541_z54fd6d3616b10066",
+      "verified": true
+    },
+    {
+      "arm": "F0",
+      "id": "point2building_03541_z54fd6d3616b10066",
+      "verified": true
+    },
+    {
+      "arm": "F3",
+      "id": "point2building_03541_z54fd6d3616b10066",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "point2building_03584_z45b11bd100005843",
+      "verified": true
+    },
+    {
+      "arm": "F0",
+      "id": "point2building_03584_z45b11bd100005843",
+      "verified": true
+    },
+    {
+      "arm": "F3",
+      "id": "point2building_03584_z45b11bd100005843",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "point2building_01244_z45b11be700005ac6",
+      "verified": true
+    },
+    {
+      "arm": "F0",
+      "id": "point2building_01244_z45b11be700005ac6",
+      "verified": true
+    },
+    {
+      "arm": "F3",
+      "id": "point2building_01244_z45b11be700005ac6",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "polygnn_mini_DEBY_LOD2_4862505",
+      "verified": true
+    },
+    {
+      "arm": "F0",
+      "id": "polygnn_mini_DEBY_LOD2_4862505",
+      "verified": true
+    },
+    {
+      "arm": "F3",
+      "id": "polygnn_mini_DEBY_LOD2_4862505",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "polygnn_mini_DEBY_LOD2_4717633",
+      "verified": true
+    },
+    {
+      "arm": "F0",
+      "id": "polygnn_mini_DEBY_LOD2_4717633",
+      "verified": true
+    },
+    {
+      "arm": "F3",
+      "id": "polygnn_mini_DEBY_LOD2_4717633",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "polygnn_mini_DEBY_LOD2_4768530",
+      "verified": true
+    },
+    {
+      "arm": "F0",
+      "id": "polygnn_mini_DEBY_LOD2_4768530",
+      "verified": true
+    },
+    {
+      "arm": "F3",
+      "id": "polygnn_mini_DEBY_LOD2_4768530",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "polygnn_mini_DEBY_LOD2_8573782",
+      "verified": true
+    },
+    {
+      "arm": "F0",
+      "id": "polygnn_mini_DEBY_LOD2_8573782",
+      "verified": true
+    },
+    {
+      "arm": "F3",
+      "id": "polygnn_mini_DEBY_LOD2_8573782",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "polygnn_mini_DEBY_LOD2_104575493",
+      "verified": true
+    },
+    {
+      "arm": "F0",
+      "id": "polygnn_mini_DEBY_LOD2_104575493",
+      "verified": true
+    },
+    {
+      "arm": "F3",
+      "id": "polygnn_mini_DEBY_LOD2_104575493",
+      "verified": true
+    },
+    {
+      "arm": "F3",
+      "id": "polygnn_mini_DEBY_LOD2_5100005",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "polygnn_mini_DEBY_LOD2_4616699",
+      "verified": true
+    },
+    {
+      "arm": "F0",
+      "id": "polygnn_mini_DEBY_LOD2_4616699",
+      "verified": true
+    },
+    {
+      "arm": "F3",
+      "id": "polygnn_mini_DEBY_LOD2_4616699",
+      "verified": true
+    },
+    {
+      "arm": "F3",
+      "id": "polygnn_mini_DEBY_LOD2_4869536",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "polygnn_mini_DEBY_LOD2_5184618",
+      "verified": true
+    },
+    {
+      "arm": "F0",
+      "id": "polygnn_mini_DEBY_LOD2_5184618",
+      "verified": true
+    },
+    {
+      "arm": "F3",
+      "id": "polygnn_mini_DEBY_LOD2_5184618",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "polygnn_mini_DEBY_LOD2_4677715",
+      "verified": true
+    },
+    {
+      "arm": "F0",
+      "id": "polygnn_mini_DEBY_LOD2_4677715",
+      "verified": true
+    },
+    {
+      "arm": "F3",
+      "id": "polygnn_mini_DEBY_LOD2_4677715",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "polygnn_mini_DEBY_LOD2_5271709",
+      "verified": true
+    },
+    {
+      "arm": "F0",
+      "id": "polygnn_mini_DEBY_LOD2_5271709",
+      "verified": true
+    },
+    {
+      "arm": "F3",
+      "id": "polygnn_mini_DEBY_LOD2_5271709",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "polygnn_mini_DEBY_LOD2_5056401",
+      "verified": true
+    },
+    {
+      "arm": "F0",
+      "id": "polygnn_mini_DEBY_LOD2_5056401",
+      "verified": true
+    },
+    {
+      "arm": "F3",
+      "id": "polygnn_mini_DEBY_LOD2_5056401",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "polygnn_mini_DEBY_LOD2_18272204",
+      "verified": true
+    },
+    {
+      "arm": "F0",
+      "id": "polygnn_mini_DEBY_LOD2_18272204",
+      "verified": true
+    },
+    {
+      "arm": "F3",
+      "id": "polygnn_mini_DEBY_LOD2_18272204",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "polygnn_mini_DEBY_LOD2_4374954",
+      "verified": true
+    },
+    {
+      "arm": "F0",
+      "id": "polygnn_mini_DEBY_LOD2_4374954",
+      "verified": true
+    },
+    {
+      "arm": "F3",
+      "id": "polygnn_mini_DEBY_LOD2_4374954",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "polygnn_mini_DEBY_LOD2_4914914",
+      "verified": true
+    },
+    {
+      "arm": "F0",
+      "id": "polygnn_mini_DEBY_LOD2_4914914",
+      "verified": true
+    },
+    {
+      "arm": "F3",
+      "id": "polygnn_mini_DEBY_LOD2_4914914",
+      "verified": true
+    },
+    {
+      "arm": "F3",
+      "id": "polygnn_mini_DEBY_LOD2_5273475",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "polygnn_mini_DEBY_LOD2_4827110",
+      "verified": true
+    },
+    {
+      "arm": "F0",
+      "id": "polygnn_mini_DEBY_LOD2_4827110",
+      "verified": true
+    },
+    {
+      "arm": "F3",
+      "id": "polygnn_mini_DEBY_LOD2_4827110",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "polygnn_mini_DEBY_LOD2_4967349",
+      "verified": true
+    },
+    {
+      "arm": "F0",
+      "id": "polygnn_mini_DEBY_LOD2_4967349",
+      "verified": true
+    },
+    {
+      "arm": "F3",
+      "id": "polygnn_mini_DEBY_LOD2_4967349",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "polygnn_mini_DEBY_LOD2_5056245",
+      "verified": true
+    },
+    {
+      "arm": "F0",
+      "id": "polygnn_mini_DEBY_LOD2_5056245",
+      "verified": true
+    },
+    {
+      "arm": "F3",
+      "id": "polygnn_mini_DEBY_LOD2_5056245",
+      "verified": true
+    },
+    {
+      "arm": "F3",
+      "id": "polygnn_mini_DEBY_LOD2_21464190",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "polygnn_mini_DEBY_LOD2_4731695",
+      "verified": true
+    },
+    {
+      "arm": "F0",
+      "id": "polygnn_mini_DEBY_LOD2_4731695",
+      "verified": true
+    },
+    {
+      "arm": "F3",
+      "id": "polygnn_mini_DEBY_LOD2_4731695",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "polygnn_mini_DEBY_LOD2_8573862",
+      "verified": true
+    },
+    {
+      "arm": "F0",
+      "id": "polygnn_mini_DEBY_LOD2_8573862",
+      "verified": true
+    },
+    {
+      "arm": "F3",
+      "id": "polygnn_mini_DEBY_LOD2_8573862",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "polygnn_mini_DEBY_LOD2_5184797",
+      "verified": true
+    },
+    {
+      "arm": "F0",
+      "id": "polygnn_mini_DEBY_LOD2_5184797",
+      "verified": true
+    },
+    {
+      "arm": "F3",
+      "id": "polygnn_mini_DEBY_LOD2_5184797",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "polygnn_mini_DEBY_LOD2_4735908",
+      "verified": true
+    },
+    {
+      "arm": "F0",
+      "id": "polygnn_mini_DEBY_LOD2_4735908",
+      "verified": true
+    },
+    {
+      "arm": "F3",
+      "id": "polygnn_mini_DEBY_LOD2_4735908",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "polygnn_mini_DEBY_LOD2_42758236",
+      "verified": true
+    },
+    {
+      "arm": "F0",
+      "id": "polygnn_mini_DEBY_LOD2_42758236",
+      "verified": true
+    },
+    {
+      "arm": "F3",
+      "id": "polygnn_mini_DEBY_LOD2_42758236",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "polygnn_mini_DEBY_LOD2_4681422",
+      "verified": true
+    },
+    {
+      "arm": "F0",
+      "id": "polygnn_mini_DEBY_LOD2_4681422",
+      "verified": true
+    },
+    {
+      "arm": "F3",
+      "id": "polygnn_mini_DEBY_LOD2_4681422",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "polygnn_mini_DEBY_LOD2_5055513",
+      "verified": true
+    },
+    {
+      "arm": "F0",
+      "id": "polygnn_mini_DEBY_LOD2_5055513",
+      "verified": true
+    },
+    {
+      "arm": "F3",
+      "id": "polygnn_mini_DEBY_LOD2_5055513",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "polygnn_mini_DEBY_LOD2_4322128",
+      "verified": true
+    },
+    {
+      "arm": "F0",
+      "id": "polygnn_mini_DEBY_LOD2_4322128",
+      "verified": true
+    },
+    {
+      "arm": "F3",
+      "id": "polygnn_mini_DEBY_LOD2_4322128",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "polygnn_mini_DEBY_LOD2_4473468",
+      "verified": true
+    },
+    {
+      "arm": "F0",
+      "id": "polygnn_mini_DEBY_LOD2_4473468",
+      "verified": true
+    },
+    {
+      "arm": "F3",
+      "id": "polygnn_mini_DEBY_LOD2_4473468",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "polygnn_mini_DEBY_LOD2_5092970",
+      "verified": true
+    },
+    {
+      "arm": "F0",
+      "id": "polygnn_mini_DEBY_LOD2_5092970",
+      "verified": true
+    },
+    {
+      "arm": "F3",
+      "id": "polygnn_mini_DEBY_LOD2_5092970",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "polygnn_mini_DEBY_LOD2_4620050",
+      "verified": true
+    },
+    {
+      "arm": "F0",
+      "id": "polygnn_mini_DEBY_LOD2_4620050",
+      "verified": true
+    },
+    {
+      "arm": "F3",
+      "id": "polygnn_mini_DEBY_LOD2_4620050",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "polygnn_mini_DEBY_LOD2_5137190",
+      "verified": true
+    },
+    {
+      "arm": "F0",
+      "id": "polygnn_mini_DEBY_LOD2_5137190",
+      "verified": true
+    },
+    {
+      "arm": "F3",
+      "id": "polygnn_mini_DEBY_LOD2_5137190",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "polygnn_mini_DEBY_LOD2_4870013",
+      "verified": true
+    },
+    {
+      "arm": "F0",
+      "id": "polygnn_mini_DEBY_LOD2_4870013",
+      "verified": true
+    },
+    {
+      "arm": "F3",
+      "id": "polygnn_mini_DEBY_LOD2_4870013",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "polygnn_mini_DEBY_LOD2_4773826",
+      "verified": true
+    },
+    {
+      "arm": "F0",
+      "id": "polygnn_mini_DEBY_LOD2_4773826",
+      "verified": true
+    },
+    {
+      "arm": "F3",
+      "id": "polygnn_mini_DEBY_LOD2_4773826",
+      "verified": true
+    },
+    {
+      "arm": "F3",
+      "id": "polygnn_mini_DEBY_LOD2_4833066",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "polygnn_mini_DEBY_LOD2_4948910",
+      "verified": true
+    },
+    {
+      "arm": "F0",
+      "id": "polygnn_mini_DEBY_LOD2_4948910",
+      "verified": true
+    },
+    {
+      "arm": "F3",
+      "id": "polygnn_mini_DEBY_LOD2_4948910",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "polygnn_mini_DEBY_LOD2_5004510",
+      "verified": true
+    },
+    {
+      "arm": "F0",
+      "id": "polygnn_mini_DEBY_LOD2_5004510",
+      "verified": true
+    },
+    {
+      "arm": "F3",
+      "id": "polygnn_mini_DEBY_LOD2_5004510",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "polygnn_mini_DEBY_LOD2_4901641",
+      "verified": true
+    },
+    {
+      "arm": "F0",
+      "id": "polygnn_mini_DEBY_LOD2_4901641",
+      "verified": true
+    },
+    {
+      "arm": "F3",
+      "id": "polygnn_mini_DEBY_LOD2_4901641",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "polygnn_mini_DEBY_LOD2_5142315",
+      "verified": true
+    },
+    {
+      "arm": "F0",
+      "id": "polygnn_mini_DEBY_LOD2_5142315",
+      "verified": true
+    },
+    {
+      "arm": "F3",
+      "id": "polygnn_mini_DEBY_LOD2_5142315",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "point2building_02842_z478b924d00000360",
+      "verified": true
+    },
+    {
+      "arm": "transfer_original",
+      "id": "point2building_02842_z478b924d00000360",
+      "verified": true
+    },
+    {
+      "arm": "transfer_evolved",
+      "id": "point2building_02842_z478b924d00000360",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "point2building_02691_z45b11c0900005eba",
+      "verified": true
+    },
+    {
+      "arm": "transfer_original",
+      "id": "point2building_02691_z45b11c0900005eba",
+      "verified": true
+    },
+    {
+      "arm": "transfer_evolved",
+      "id": "point2building_02691_z45b11c0900005eba",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "point2building_03749_z4756d98a00000752",
+      "verified": true
+    },
+    {
+      "arm": "transfer_original",
+      "id": "point2building_03749_z4756d98a00000752",
+      "verified": true
+    },
+    {
+      "arm": "transfer_evolved",
+      "id": "point2building_03749_z4756d98a00000752",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "point2building_00828_z41aca4f400001a79",
+      "verified": true
+    },
+    {
+      "arm": "transfer_original",
+      "id": "point2building_00828_z41aca4f400001a79",
+      "verified": true
+    },
+    {
+      "arm": "transfer_evolved",
+      "id": "point2building_00828_z41aca4f400001a79",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "point2building_01020_z41af1c5900042690",
+      "verified": true
+    },
+    {
+      "arm": "transfer_original",
+      "id": "point2building_01020_z41af1c5900042690",
+      "verified": true
+    },
+    {
+      "arm": "transfer_evolved",
+      "id": "point2building_01020_z41af1c5900042690",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "point2building_00612_z41afb9c5000028d4",
+      "verified": true
+    },
+    {
+      "arm": "transfer_original",
+      "id": "point2building_00612_z41afb9c5000028d4",
+      "verified": true
+    },
+    {
+      "arm": "transfer_evolved",
+      "id": "point2building_00612_z41afb9c5000028d4",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "point2building_02420_z4631e26b00000002",
+      "verified": true
+    },
+    {
+      "arm": "transfer_original",
+      "id": "point2building_02420_z4631e26b00000002",
+      "verified": true
+    },
+    {
+      "arm": "transfer_evolved",
+      "id": "point2building_02420_z4631e26b00000002",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "point2building_01231_z43d783460000001b",
+      "verified": true
+    },
+    {
+      "arm": "transfer_original",
+      "id": "point2building_01231_z43d783460000001b",
+      "verified": true
+    },
+    {
+      "arm": "transfer_evolved",
+      "id": "point2building_01231_z43d783460000001b",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "point2building_03120_z47050adb000005fd",
+      "verified": true
+    },
+    {
+      "arm": "transfer_original",
+      "id": "point2building_03120_z47050adb000005fd",
+      "verified": true
+    },
+    {
+      "arm": "transfer_evolved",
+      "id": "point2building_03120_z47050adb000005fd",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "point2building_02762_z478b924b00000309",
+      "verified": true
+    },
+    {
+      "arm": "transfer_original",
+      "id": "point2building_02762_z478b924b00000309",
+      "verified": true
+    },
+    {
+      "arm": "transfer_evolved",
+      "id": "point2building_02762_z478b924b00000309",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "point2building_01182_z41ac39cc00001edd",
+      "verified": true
+    },
+    {
+      "arm": "transfer_original",
+      "id": "point2building_01182_z41ac39cc00001edd",
+      "verified": true
+    },
+    {
+      "arm": "transfer_evolved",
+      "id": "point2building_01182_z41ac39cc00001edd",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "point2building_04264_z463f41f7000004a3",
+      "verified": true
+    },
+    {
+      "arm": "transfer_original",
+      "id": "point2building_04264_z463f41f7000004a3",
+      "verified": true
+    },
+    {
+      "arm": "transfer_evolved",
+      "id": "point2building_04264_z463f41f7000004a3",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "point2building_03541_z54fd6d3616b10066",
+      "verified": true
+    },
+    {
+      "arm": "transfer_original",
+      "id": "point2building_03541_z54fd6d3616b10066",
+      "verified": true
+    },
+    {
+      "arm": "transfer_evolved",
+      "id": "point2building_03541_z54fd6d3616b10066",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "point2building_01496_z41acfcf900040363",
+      "verified": true
+    },
+    {
+      "arm": "transfer_original",
+      "id": "point2building_01496_z41acfcf900040363",
+      "verified": true
+    },
+    {
+      "arm": "transfer_evolved",
+      "id": "point2building_01496_z41acfcf900040363",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "polygnn_mini_DEBY_LOD2_4967349",
+      "verified": true
+    },
+    {
+      "arm": "transfer_original",
+      "id": "polygnn_mini_DEBY_LOD2_4967349",
+      "verified": true
+    },
+    {
+      "arm": "transfer_evolved",
+      "id": "polygnn_mini_DEBY_LOD2_4967349",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "polygnn_mini_DEBY_LOD2_5004510",
+      "verified": true
+    },
+    {
+      "arm": "transfer_original",
+      "id": "polygnn_mini_DEBY_LOD2_5004510",
+      "verified": true
+    },
+    {
+      "arm": "transfer_evolved",
+      "id": "polygnn_mini_DEBY_LOD2_5004510",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "polygnn_mini_DEBY_LOD2_4620050",
+      "verified": true
+    },
+    {
+      "arm": "transfer_original",
+      "id": "polygnn_mini_DEBY_LOD2_4620050",
+      "verified": true
+    },
+    {
+      "arm": "transfer_evolved",
+      "id": "polygnn_mini_DEBY_LOD2_4620050",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "polygnn_mini_DEBY_LOD2_8573862",
+      "verified": true
+    },
+    {
+      "arm": "transfer_original",
+      "id": "polygnn_mini_DEBY_LOD2_8573862",
+      "verified": true
+    },
+    {
+      "arm": "transfer_evolved",
+      "id": "polygnn_mini_DEBY_LOD2_8573862",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "polygnn_mini_DEBY_LOD2_5142315",
+      "verified": true
+    },
+    {
+      "arm": "transfer_original",
+      "id": "polygnn_mini_DEBY_LOD2_5142315",
+      "verified": true
+    },
+    {
+      "arm": "transfer_evolved",
+      "id": "polygnn_mini_DEBY_LOD2_5142315",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "polygnn_mini_DEBY_LOD2_104575493",
+      "verified": true
+    },
+    {
+      "arm": "transfer_original",
+      "id": "polygnn_mini_DEBY_LOD2_104575493",
+      "verified": true
+    },
+    {
+      "arm": "transfer_evolved",
+      "id": "polygnn_mini_DEBY_LOD2_104575493",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "polygnn_mini_DEBY_LOD2_4948910",
+      "verified": true
+    },
+    {
+      "arm": "transfer_original",
+      "id": "polygnn_mini_DEBY_LOD2_4948910",
+      "verified": true
+    },
+    {
+      "arm": "transfer_evolved",
+      "id": "polygnn_mini_DEBY_LOD2_4948910",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "polygnn_mini_DEBY_LOD2_4735908",
+      "verified": true
+    },
+    {
+      "arm": "transfer_original",
+      "id": "polygnn_mini_DEBY_LOD2_4735908",
+      "verified": true
+    },
+    {
+      "arm": "transfer_evolved",
+      "id": "polygnn_mini_DEBY_LOD2_4735908",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "polygnn_mini_DEBY_LOD2_42758236",
+      "verified": true
+    },
+    {
+      "arm": "transfer_original",
+      "id": "polygnn_mini_DEBY_LOD2_42758236",
+      "verified": true
+    },
+    {
+      "arm": "transfer_evolved",
+      "id": "polygnn_mini_DEBY_LOD2_42758236",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "polygnn_mini_DEBY_LOD2_4870013",
+      "verified": true
+    },
+    {
+      "arm": "transfer_original",
+      "id": "polygnn_mini_DEBY_LOD2_4870013",
+      "verified": true
+    },
+    {
+      "arm": "transfer_evolved",
+      "id": "polygnn_mini_DEBY_LOD2_4870013",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "polygnn_mini_DEBY_LOD2_5055513",
+      "verified": true
+    },
+    {
+      "arm": "transfer_original",
+      "id": "polygnn_mini_DEBY_LOD2_5055513",
+      "verified": true
+    },
+    {
+      "arm": "transfer_evolved",
+      "id": "polygnn_mini_DEBY_LOD2_5055513",
+      "verified": true
+    },
+    {
+      "arm": "baseline",
+      "id": "polygnn_mini_DEBY_LOD2_5271709",
+      "verified": true
+    },
+    {
+      "arm": "transfer_original",
+      "id": "polygnn_mini_DEBY_LOD2_5271709",
+      "verified": true
+    },
+    {
+      "arm": "transfer_evolved",
+      "id": "polygnn_mini_DEBY_LOD2_5271709",
+      "verified": true
+    }
+  ]
+}
