@@ -47,3 +47,20 @@ Point2Building 论文还说明用参考轮廓提取独栋点云，因此实例�
 - `export_data_audit_report.py`：使用 OpenAI data visualization 技能工作流生成离线报告。
 
 全部脚本在 `scripts/buildingworld/`。原始数据遵守作者及原地理数据来源条款；下载公开资源不意味着本项目可以重新授予数据许可。
+
+## 后续全量整理（2026-09-21，当前阶段）
+
+在保持上述初始报告与入门样例不变的情况下，审核范围扩展到全部 1,087 个闭合候选，联合门槛通过 363 对；独立 Blender 检查亦全部通过。完整质量集保存在 `../dataset/processed/point2building_hq_v001`，原数据 28,415 对全部保留。
+
+作者标签仍是 train 345 / test 18。现有 18 对作者 test 全已在入门 78 中，不能再当未见测试；新增项目划分为训练 312 / 封存测试 51。按空间相邻与几何相似组划分，测试 51 来自作者 train，不能冒充作者标准基准。详见 [完整数据报告](../reports/2026-09-21-point2building-complete/index.html) 与 [阶段协议](../prompt/protocols/dataset-stages.md)。
+
+当前算法仅用固定 78 对迭代，稳定并冻结后才开启完整集实验。新清单 `manifests/starter78_development.json` 指向原 78 对；项目全训练与测试清单都带阶段锁。数据 QA 不使用算法预测结果，不代表训练或重建成绩。
+
+新增长期入口：
+
+- `analyze_paired_building_data.py audit --per-split 0 --topology-screen ...`：审核预筛后的全部配对。
+- `check_reference_meshes_blender.py --audit ... --output ...`：Blender 后台独立参考 Mesh 检查，无几何修改。局限：只筛非相邻三角形相交候选，不能声称全面无自交。
+- `export_point2building_complete.py --audit-file ... --topology-file ... --blender-file ... --starter-file ... --output ...`：全量导出、近邻/形状分组、作者与项目清单、逐个未通过原因、阶段锁。输出目录必须不存在。
+- `export_complete_data_report.py --dataset ... --verification ... --output ...`：依据核验结果创建新版本离线 HTML 报告。
+
+空间阈值为 200 源坐标单位；近似形状用排序的顶点对距离（容差 0.05 源单位、相对容差 0.005），哈希固定选择 20% 无入门样例的连通组作为测试。不同城市、阈值、网格版本变化须建立新版本，不能事后根据测试成绩调整划分。

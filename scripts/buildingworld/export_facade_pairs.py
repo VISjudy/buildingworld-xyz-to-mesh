@@ -45,11 +45,12 @@ def export(audit_files,output,max_per_split=20):
                     'points':str((d/'points.xyz').resolve()),'gt_mesh':str((d/'gt.obj').resolve()),'provenance':str((d/'provenance.json').resolve()),
                     'facade_points':row['facade_points'],'facade_fraction':row['facade_point_fraction'],'coordinate_frame':frame,
                     'point_sha256':sha256(d/'points.xyz'),'mesh_sha256':sha256(d/'gt.obj')})
-    write_json(out/'manifest.json',{'role':'quality_screened_starter_pairs','selection':'bounded prefix of deterministically ordered qualifying audit rows per author split',
-        'not_unbiased_benchmark':True,'samples':records,'notes':['Original author split retained','Quality selection cannot replace full author test-set evaluation','No facade, roof or base geometry invented','Only selected pairs exported; complete raw datasets retained separately']})
-    (out/'README.md').write_text('''# 带立面配对样例
+    write_json(out/'manifest.json',{'role':'quality_screened_starter_pairs' if max_per_split else 'quality_screened_complete_pairs','selection':'bounded prefix per author split' if max_per_split else 'all qualifying audit rows; no sample cap',
+        'not_unbiased_benchmark':True,'samples':records,'notes':['Original author split retained','Quality selection cannot replace full author test-set evaluation','No facade, roof or base geometry invented','Qualifying pairs exported; complete raw datasets retained separately']})
+    scope=f'每个数据源、原作者 split 最多 {max_per_split} 对' if max_per_split else '所有审核通过的数据对，不限每组数量'
+    (out/'README.md').write_text(f'''# 带立面配对数据
 
-本目录从已下载作者数据中选择通过当前几何/立面筛选的入门样例，每个数据源、原作者 split 最多 20 对。
+本目录从已下载作者数据中导出通过当前几何/立面筛选的配对数据：{scope}。
 `points.xyz`：点云；`gt.obj`：作者提供的参考 Mesh；`wireframe.obj`：从参考 Mesh 派生的结构边；`provenance.json`：来源、坐标变换、审核和哈希。
 
 Point2Building 为真实 ALS，按作者 scale/center 还原源坐标；PolyGNN 为仿真 ALS，保留归一化坐标，不能将其距离直接当米。

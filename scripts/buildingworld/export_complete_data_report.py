@@ -1,0 +1,101 @@
+"""Evidence-only offline HTML report; no geometry or reconstruction is run here."""
+import argparse
+from html import escape
+from pathlib import Path
+import sys
+import shutil
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
+from harness.io import read_json, write_json, sha256
+
+
+def report(dataset, verification, output):
+    data = Path(dataset)
+    out = Path(output)
+    out.mkdir(parents=True, exist_ok=False)
+    s = read_json(data / 'summary.json')
+    check = read_json(verification)
+    if not check['valid']:
+        raise ValueError('Cannot publish completion with failed package checks')
+    shutil.copyfile(data / 'summary.json', out / 'summary.json')
+    shutil.copyfile(verification, out / 'integrity-verification.json')
+    group_info = read_json(data / 'split_groups.json')
+    # Publish IDs/groups and provenance hashes, never redistribute source geometry.
+    public_rows = []
+    for name in ['train', 'test']:
+        for row in read_json(data / ('manifests/project_' + name + '.json'))['samples']:
+            public_rows.append({k: row[k] for k in ['id', 'author_split', 'project_split',
+                'spatial_similarity_group', 'starter_overlap', 'point_sha256', 'mesh_sha256']})
+    write_json(out / 'split-inventory.json', {'rows': public_rows, 'source_manifest_hashes': s['manifest_hashes']})
+    brief = '''# OpenAI data visualization mini-brief
+
+媒体：独立离线 HTML；任务：比较全库筛选覆盖、训练/封存数量和执行状态。
+主路由：reports-pdfs-and-slide-automation；辅助：visualization-strategy-and-critique、statistical-and-uncertainty-visualization。本地独立复核，不委派。
+
+| 层 | 任务与编码 | QA |
+|---|---|---|
+| 筛选表 | 从全库 28,415 到实际导出；每行直接标注总体/子集分母，不将阶段数相加 | 与 summary.json 一致；门槛筛选不叫算法成绩 |
+| 划分条 | 唯一一幅 HTML/CSS 定宽比例条；312+51=363，训练青色、封存紫色，数值始终在旁边 | 长度与计数比一致；提供同值表格；不以颜色作为唯一标识 |
+| 阶段状态 | 78 开发和完整集的集合关系；正文解释 38 真实重叠，不能相加 | 与清单/hash 一致；0 次完整集重建 |
+
+renderer：浏览器 DOM；无外部依赖/脚本/网络/动画；只有原生 details 展开阈值。单页 1 个比例条，移动端同序阅读、表格换行；无持久化或 URL 状态需求。打印 CSS 与无 JS 页面都是静态后备。
+验收：桌面/手机截图、无水平溢出、离线网络为零、键盘展开；人工核对可读性、分母、单位和测试来源限制。
+'''
+    (out / 'visualization-mini-brief.md').write_text(brief, encoding='utf-8')
+    train, test = s['project_split_counts']['train'], s['project_split_counts']['test']
+    total = s['exported_pairs']
+    rejects = s['rejection_reason_counts_nonexclusive']
+    thresholds = ''.join(f'<li><code>{escape(k)}</code>：{v}</li>' for k, v in s['quality_thresholds'].items())
+    html = f'''<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Point2Building 完整质量集 · 先开发，再封存测试</title>
+<style>
+:root{{font-family:system-ui,"Microsoft YaHei",sans-serif;color:#182f38;background:#f5f7f8;line-height:1.7}}
+body{{margin:0}}main{{max-width:1020px;margin:auto;padding:36px 24px 70px}}header{{border-bottom:3px solid #0a666a;padding-bottom:24px}}
+h1{{font-size:clamp(26px,4vw,42px);line-height:1.3;max-width:900px;margin:12px 0}}h2{{font-size:23px;margin-top:36px}}
+p{{max-width:920px}}.kicker{{color:#0a666a;font-weight:700;letter-spacing:.05em}}.lead{{font-size:19px}}.note{{background:#e9eff1;padding:16px 20px;border-left:4px solid #596d79}}
+.numbers{{display:flex;flex-wrap:wrap;gap:18px 42px;margin-top:22px}}.numbers strong{{font-size:32px;display:block;color:#0a666a}}
+table{{width:100%;border-collapse:collapse;table-layout:fixed;background:white}}th,td{{text-align:left;padding:12px 14px;border-bottom:1px solid #dbe2e4;vertical-align:top;overflow-wrap:anywhere}}th{{background:#e9eff1}}th:first-child{{width:32%}}.num{{font-variant-numeric:tabular-nums;font-weight:700}}
+.bar{{display:flex;height:32px;margin:18px 0 10px;background:#ccc}}.train{{background:#0a666a;width:{train/total*100:.8f}%}}.test{{background:#65509b;flex:1}}.labels{{display:flex;justify-content:space-between;gap:20px}}.labels span:last-child{{text-align:right;color:#574189}}a{{color:#075c75;text-underline-offset:3px}}code{{overflow-wrap:anywhere;font-size:.9em}}summary{{cursor:pointer;padding:14px 0;font-weight:700}}summary:focus-visible,a:focus-visible{{outline:3px solid #aa6100;outline-offset:3px}}li{{margin:8px 0}}footer{{margin-top:36px;border-top:1px solid #bdcbcf;padding-top:20px;font-size:14px;color:#435a64}}
+@media(max-width:600px){{main{{padding:22px 16px 48px}}th,td{{padding:9px 8px;font-size:14px}}th:first-child{{width:31%}}.numbers{{gap:12px 26px}}.numbers strong{{font-size:28px}}.labels{{font-size:14px}}}}
+@media print{{body{{background:white}}main{{padding:0}}details{{break-inside:avoid}}table{{break-inside:avoid}}}}
+</style><main>
+<header><div class="kicker">数据准备 · 2026-09-21 · 完整集尚未运行重建</div>
+<h1>{total} 对真实点云—Mesh 已归档，<br>先在固定 78 对上迭代</h1>
+<p class="lead">完整作者数据保留；质量筛选无样本数量截断。新增训练组与测试组暂缓使用，等入门算法稳定并冻结后再进入下一阶段。</p>
+<div class="numbers"><div><strong>{s['raw_pairs']:,}</strong>原始配对保留</div><div><strong>{total}</strong>通过当前联合质量门槛</div><div><strong>0</strong>完整集重建运行</div></div></header>
+<h2>全库预筛，闭合池全部审核</h2>
+<table><caption>各行是逐步筛选后的保留数量，不可相加</caption><thead><tr><th>范围</th><th>数量</th><th>已执行的检查</th></tr></thead><tbody>
+<tr><td>完整作者配对</td><td class="num">{s['raw_pairs']:,}</td><td>Zurich 原 train 25,724 / test 2,691；原始数据未删除</td></tr>
+<tr><td>严格拓扑通过</td><td class="num">{s['topology_pass']:,} / {s['raw_pairs']:,}</td><td>闭合、朝向一致、非退化；所有通过者进入下一步</td></tr>
+<tr><td>立面与配对联合通过</td><td class="num">{total} / {s['topology_pass']:,}</td><td>实际墙面中段回波、墙底面、点面 P95，阈值沿用前次审核</td></tr>
+<tr><td>Blender 独立复核</td><td class="num">{s['blender_pass']} / {total}</td><td>体积、边拓扑、非相邻三角形 BVH 相交候选；未修改参考 Mesh</td></tr>
+</tbody></table>
+<p>“高质量”指通过这些明确检查。它不保证全部墙面有回波、全面无自交或语义完美；筛选后的集合也不代表原始分布。未通过者连同原因保留在原始库和全量审核清单。</p>
+<h2>项目训练 {train} 对，封存测试 {test} 对</h2>
+<div role="img" aria-label="项目划分：训练 {train} 对，测试 {test} 对，总计 {total} 对。" class="bar"><div class="train"></div><div class="test"></div></div>
+<div class="labels"><span>训练 {train} / {total} · {train/total:.1%}</span><span>测试 {test} / {total} · {test/total:.1%}</span></div>
+<table><thead><tr><th>集合</th><th>数量与关系</th><th>当前使用状态</th></tr></thead><tbody>
+<tr><td>固定入门集</td><td>78 = 38 真实 + 40 仿真</td><td>下一阶段算法迭代入口；真实与仿真结果分别报告</td></tr>
+<tr><td>完整项目训练组</td><td>{train} 真实；含已在入门集的 38 对</td><td>新增 {train-38} 对暂缓用于算法开发</td></tr>
+<tr><td>项目封存测试组</td><td>{test} 真实；入门重叠 0</td><td>封存，当前批处理会拒绝载入</td></tr>
+</tbody></table>
+<p>按作者 XY 中心距离 ≤200 源坐标单位连接空间组，并合并近似形状／精确哈希重复。共 {s['split_group_count']} 组，确定性选取 {s['test_group_count']} 个未涉及入门样例的组作为测试；训练／测试最近中心距 {s['minimum_train_test_center_distance_source_units']:.2f} 源坐标单位。CRS 尚未独立核准，不把该单位直接标为米。形状筛查也不是穷尽的近重复证明。</p>
+<p class="note"><strong>作者划分与项目划分分别保留。</strong>质量集按作者原标签为 train 345 / test 18。18 对作者 test 已全部进入入门样例，因此不能再承担未见测试结论。新 {test} 对项目测试来自作者 train；若直接使用作者预训练权重比较，存在训练重叠风险，需按新划分重训或采用另外的作者标准评测协议。</p>
+<h2>何时开启完整集</h2><ol><li>只用固定 78 对开展算法迭代，记录基准、上一版和当前版的几何指标、失败和统一渲染。</li><li>完成稳定性验收，冻结算法、评测器、配置及验收记录；本次未宣称已达到稳定。</li><li>记录阶段切换后再启动完整集实验；封存测试结果不返回自动改进循环。</li></ol>
+<details><summary>查看审核阈值与未通过原因</summary><ul>{thresholds}</ul>
+<p>未通过严格拓扑：{rejects['strict_closed_consistent_nondegenerate_topology_not_passed']:,}；闭合池内立面支持不足 {rejects['insufficient_observed_facade_support']}，配对 P95 超阈值 {rejects['point_reference_p95_exceeds_fixed_threshold']}，完整墙底面要求未通过 {rejects['closed_wall_base_requirement_not_passed']}。同一建筑可有多个原因，不能将这些原因计数直接相加。</p></details>
+<h2>文件与复核证据</h2><p><code>dataset/processed/point2building_hq_v001/</code> 保存全部质量数据、作者划分、项目划分、全库未通过原因和逐对哈希。每对包含 XYZ、gt.obj、派生 wireframe.obj、provenance.json。坐标共同还原；未补点、未补面。</p>
+<p>已逐文件复核 {check['raw_files_checked']:,} 个解压文件的大小与 SHA256；导出文件重读与哈希验证通过。训练／测试的 ID、点云哈希、Mesh 哈希和分组交集均为 0。</p>
+<p><a href="summary.json">数据摘要 JSON</a> · <a href="split-inventory.json">363 对划分与哈希清单</a> · <a href="integrity-verification.json">完整性与门禁验证</a> · <a href="../2026-09-21-dataset-audit/index.html">前阶段样例与渲染</a></p>
+<footer>来源：本机已下载的 <a href="https://github.com/prs-eth/point2building">Point2Building 作者资源</a>。报告只汇总数据 QA，不包含重建成绩。生成遵循 OpenAI data visualization 技能；代码与摘要进入 Git，数据不再分发。</footer>
+</main></html>'''
+    (out / 'index.html').write_text(html, encoding='utf-8')
+    print(out / 'index.html')
+
+
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--dataset', required=True)
+    parser.add_argument('--verification', required=True)
+    parser.add_argument('--output', required=True)
+    report(**vars(parser.parse_args()))

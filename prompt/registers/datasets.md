@@ -16,6 +16,7 @@
 | Point2Building 作者资源 | dataset/external/point2building/raw/archives | 已完整下载 1,612,680,162 字节；已解压 Zurich 28,415 对（train 25,724 / test 2,691） |
 | PolyGNN mini 作者资源 | dataset/external/polygnn_mini/raw/archives | 已完整下载 163,238,451 字节；已解压 200 对（train 100 / test 100），仿真 ALS |
 | 可直接使用的配对样例 | dataset/processed/facade_pairs_v001 | 78 对：真实 train 20 / test 18，仿真 train 20 / test 20；原 split 保留，无人工补面/补点 |
+| 完整真实质量集 | dataset/processed/point2building_hq_v001 | 363 对，作者标签 train 345 / test 18；项目训练 312 / 封存测试 51；当前不运行完整集算法实验 |
 | BuildingWorld 完整训练 | 未下载 | 官方 Hugging Face 需审核访问；不能绕过申请，也不将其列为当前本地数据 |
 
 Point2Building 论文研究 Zurich/Berlin/Tallinn，但实际下载包只包含 Zurich 数据，不能宣称三城均已获取。PolyGNN mini 的点云由 pyhelios 仿真，Mesh 源于巴伐利亚 LoD2 数据。原数据许可遵守各来源，仓库不再分发数据。
@@ -54,6 +55,19 @@ Point2Building 论文研究 Zurich/Berlin/Tallinn，但实际下载包只包含 
 3. Mesh 独立检查实际墙面/底面、开放边、法向、体积；点云检查近墙面点数、占比、垂向跨度及覆盖，而不是只看最低 Z。
 4. 记录坐标单位/尺度/局部变换；使用作者预处理或真值轮廓裁点的事实必须披露。
 5. 完整性、噪声和时间差逐项记录；保留全部失败，筛选阈值固定并输出全清单。
-6. 训练/验证/测试保持作者分组；额外筛选组为开发/审计，不擅自宣称独立泛化。
+6. 原作者 train/test 标签与文件布局保留；额外项目分组明确区分命名、用途、重叠风险，不混称作者标准测试或跨城市泛化。
 
 大体积原始包、解压数据、转换后 XYZ 和 Mesh 只存 `dataset/`；Git 保存下载程序、审计程序、数据清单摘要和报告。空间不足时先报告，不删除旧数据。
+
+## 完整质量集与使用阶段（当前）
+
+- 用户明确要求：先在固定 78 对入门样例上迭代稳定，再去完整集测试。数据审核可以先做，完整集重建/模型评分本次没有运行。
+- 全库严格拓扑预筛后的 1,087 对已全部执行原门槛的立面和配对审核，363 对通过；新增 Blender 独立检查全部通过（非相邻三角形 BVH、拓扑、正体积）。这仍不等于全面自交证明或人工语义核验。
+- `dataset/external/point2building/audits/facade-complete-v003/`：完整闭合池审计、全目录和 Blender 复核；拓扑未通过的 27,328 对原始数据仍保留，没有删除或修补 GT。
+- `dataset/processed/point2building_hq_v001/pairs/`：全部 363 对原坐标 XYZ、Mesh、派生线框和来源，作者目录不变。56,832 个原始解压文件重新核对大小与 SHA256 全部一致。
+- `manifests/author_trainset.json` / `author_testset.json`：作者质量子集 345 / 18，仅作清单。其中 18 对作者 test 全在入门集，因此不能继续宣称是未见测试。
+- `manifests/project_train.json`：312 对，其中 38 对真实入门样例、274 对暂缓；`project_test.json`：51 对封存，与入门真实组无 ID 重叠。所有测试均来自作者 train。
+- 项目划分：源坐标中心距离 ≤200 单位连接空间组，精确哈希/顶点对距离近似再合并；154 组中固定哈希选取 25 个无入门样例的组为测试。最近训练/测试中心距 205.8676 源单位；CRS 未核准，不直接称米。近重复检测不穷尽。
+- `manifests/starter78_development.json`：当前算法批处理入口，指向原 78 对，真实/仿真需分层报告。项目全训练和测试使用暂缓/封存角色与 stage_locked 双门禁。
+- 证据：`reports/2026-09-21-point2building-complete/summary.json`、`split-inventory.json`、`integrity-verification.json`。详细使用门槛：`../protocols/dataset-stages.md`。
+- 正式 SOTA 对比若用作者预训练 Point2Building 权重，51 对项目测试可能已在其训练中。须按项目训练划分重训，或用独立作者标准评测协议，不能把现成权重结果解释为公平未见泛化。

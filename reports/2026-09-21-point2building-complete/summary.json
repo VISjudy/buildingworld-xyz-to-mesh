@@ -1,0 +1,71 @@
+{
+  "raw_pairs": 28415,
+  "topology_pass": 1087,
+  "facade_joint_pass": 363,
+  "blender_pass": 363,
+  "exported_pairs": 363,
+  "author_split_counts": {
+    "testset": 18,
+    "trainset": 345
+  },
+  "project_split_counts": {
+    "train": 312,
+    "test": 51
+  },
+  "starter78_count": 78,
+  "starter_real_overlap": 38,
+  "test_starter_overlap": 0,
+  "author_test_starter_overlap": 18,
+  "test_author_split_counts": {
+    "trainset": 51
+  },
+  "rejection_reason_counts_nonexclusive": {
+    "strict_closed_consistent_nondegenerate_topology_not_passed": 27328,
+    "insufficient_observed_facade_support": 714,
+    "point_reference_p95_exceeds_fixed_threshold": 83,
+    "closed_wall_base_requirement_not_passed": 47
+  },
+  "split_group_count": 154,
+  "test_group_count": 25,
+  "similarity_link_count": 16,
+  "minimum_train_test_center_distance_source_units": 205.86758677984162,
+  "split_policy": {
+    "separation_source_units": 200.0,
+    "target_fraction_of_eligible_groups": 0.2,
+    "shape_atol_source_units": 0.05,
+    "shape_rtol": 0.005,
+    "seed": "point2building-holdout-v1",
+    "not_exhaustive_near_duplicate_detection": true
+  },
+  "quality_thresholds": {
+    "wall_angle_from_vertical_degrees": 10,
+    "point_distance_fraction_diagonal": 0.005,
+    "min_points": 10,
+    "min_point_fraction": 0.005,
+    "min_vertical_span_fraction": 0.15,
+    "max_p95_fraction_diagonal": 0.05
+  },
+  "input_hashes": {
+    "audit": "2d66bec1a63bf5c104555d491b5a45838a292588883a1c4d470f1a3f77df546c",
+    "topology": "7c8146fa4ca3661cc6c168c772b6fe1421acfa0cf765513151f1d5aec30a2a00",
+    "blender": "e5a704b260dfa15c73f1630126247cf6c5ab77275d67cc82bb701de106b7ea1f",
+    "starter": "ebb1d3efe688a423b69cdeea613637489f7b431cadaea274f7c295a34c9e267e"
+  },
+  "manifest_hashes": {
+    "author_testset.json": "0535eb10d55285b27e2ddf329b50f12cc87905f72d901020075929074aaa229d",
+    "author_trainset.json": "b196c8a0df7a7c5e959878adf724e2bd4dd8b55d8dcb8f6ba353a797c04ff3b5",
+    "project_test.json": "39f1e1eebd0f960dbf83fb74fe47a8c89399a938aecbab1886138226c3769638",
+    "project_train.json": "fcff4933ee21fec57be03e7355c284f873a1c2434b0e10ecfb9dc5e576688fe3",
+    "starter78_development.json": "21d84277e684eedff37469f8dcab3ab0663fb165339182b5498b42d66ac09b6e"
+  },
+  "reconstruction_runs_on_full_set": 0,
+  "current_stage": "starter78_development_only",
+  "quality_selection_is_not_unbiased": true,
+  "limitations": [
+    "Nonadjacent BVH is a conservative candidate screen, not a full solid intersection proof. Shared-vertex intersections and semantic accuracy remain unproven.",
+    "CRS and vertical datum not independently established",
+    "Shape grouping is not exhaustive near-duplicate detection",
+    "Project holdout comes from author train; published pretrained Point2Building weights may have seen it",
+    "Single-city quality-selected subset; no cross-city or full-distribution claim"
+  ]
+}

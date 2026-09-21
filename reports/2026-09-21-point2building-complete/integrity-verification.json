@@ -1,0 +1,18 @@
+{
+  "raw_files_checked": 56832,
+  "failed": [],
+  "source_extraction_manifest_sha256": "0cc0c950de2023b68dbbde082e78a6747029c8d346a17994d23e1a2037b63bd2",
+  "cross_split_id_point_mesh_group_overlap": 0,
+  "blocked_reconstruction_attempts": [
+    {
+      "manifest": "project_train",
+      "message": "Evolution cannot consume sealed test manifests"
+    },
+    {
+      "manifest": "project_test",
+      "message": "Evolution cannot consume sealed test manifests"
+    }
+  ],
+  "reconstruction_executed": false,
+  "valid": true
+}

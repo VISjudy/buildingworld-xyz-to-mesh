@@ -17,7 +17,8 @@ REPO=Path(__file__).resolve().parents[1]
 def run_batch(source, manifest, output, timeout=180):
     source, manifest, output=Path(source).resolve(),Path(manifest).resolve(),Path(output).resolve()
     spec=read_json(manifest)
-    if spec.get("role") not in ["development","historical_regression","synthetic_test"]:
+    if (spec.get("stage_locked") or spec.get("reconstruction_testing_authorized_now") is False
+            or spec.get("role") not in ["development","historical_regression","synthetic_test"]):
         raise ValueError("Evolution cannot consume sealed test manifests")
     ids=[s["id"] for s in spec["samples"]]
     if len(set(ids))!=len(ids) or not all(re.fullmatch(r"[A-Za-z0-9_-]+",x) for x in ids):

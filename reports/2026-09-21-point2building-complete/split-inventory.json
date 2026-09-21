@@ -1,0 +1,3278 @@
+{
+  "rows": [
+    {
+      "id": "03060_z4cd103de00000004",
+      "author_split": "testset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_ee75e05f027c121c",
+      "starter_overlap": true,
+      "point_sha256": "962cdf3843e8cdb049daea9da8a01781419161cfe48389bff3dc2d4eb08af844",
+      "mesh_sha256": "44ca478a7a2212c7be8028737ea19d13f80fb86ce1d380a5fbff8574db533eb7"
+    },
+    {
+      "id": "02648_z478b924900000293",
+      "author_split": "testset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_7f2dcbfebc8d1e0f",
+      "starter_overlap": true,
+      "point_sha256": "c0a12c5077e23e8665b6482023f6ffbf8cb32aa4fff3507ef7c2175f81b6229b",
+      "mesh_sha256": "977439b7c88a4fa1516d5dad5c876621255c387099e77204f76433a59cd8b144"
+    },
+    {
+      "id": "03177_z57b4146355ea0033",
+      "author_split": "testset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_89587f542d86c055",
+      "starter_overlap": true,
+      "point_sha256": "f62c8944f432543de47a7f3d9d7d40d4fd1cef97a7ad732107c9b7fb7966ecd2",
+      "mesh_sha256": "11ff0eed60dc3b9150126a222c870930dd41606e483af2fc61875cb57187e993"
+    },
+    {
+      "id": "01020_z41af1c5900042690",
+      "author_split": "testset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_d95247b09b6a56e4",
+      "starter_overlap": true,
+      "point_sha256": "0658172c44d03787d12501302d000d1e7c3899cf1687c4f39949a5cdece8f92b",
+      "mesh_sha256": "c09b0e69aa550c3e6a4afb4b3791347dcef5eeedca0b2b0a80a4c588e454e1d6"
+    },
+    {
+      "id": "02308_z45b11b8c000050a2",
+      "author_split": "testset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_e6118440795c567b",
+      "starter_overlap": true,
+      "point_sha256": "cbcff78d0bd792d0522173055a767117822cc69ee339fbd25cfe521140507612",
+      "mesh_sha256": "7aa677834eb1d24d173d1da58aab01b4cd4a1514ad32943c1e809cb5ee147914"
+    },
+    {
+      "id": "02420_z4631e26b00000002",
+      "author_split": "testset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_ef7b7df86f212537",
+      "starter_overlap": true,
+      "point_sha256": "e34bb278573d0afea84871722b0b05e37e9e7c87a7de861ea6c02f5af4cc5b78",
+      "mesh_sha256": "e73cee54b536183cd10e5b610dfecc55f3e37355214795ff9c1bccb4b3c63205"
+    },
+    {
+      "id": "02926_z478b9252000004a9",
+      "author_split": "testset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_1bc96e301e7aac43",
+      "starter_overlap": true,
+      "point_sha256": "43d61430deb389a9e90dc94c4944346500646e0afdc2d33e57aefdc0c91a882a",
+      "mesh_sha256": "0d2a6f08fe4a32fc703f94d5c83ca2a219a6d57dce0ff32a8949a7400bd2a991"
+    },
+    {
+      "id": "02762_z478b924b00000309",
+      "author_split": "testset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_5b8c51a279769953",
+      "starter_overlap": true,
+      "point_sha256": "c881a65e88241766300af4fb73bd91cf98f82e28aefafa12625a96ac9535c5d9",
+      "mesh_sha256": "bda14b3324aa68871c93cad2951fe677c9fbbac432ede8eb05272a0e3358edb8"
+    },
+    {
+      "id": "01231_z43d783460000001b",
+      "author_split": "testset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_633e64f27149958e",
+      "starter_overlap": true,
+      "point_sha256": "abf86e398f9df46e3b2efef6ff916ba7773fa66bced63ff93b7c31fb2e79d514",
+      "mesh_sha256": "cf5759ba3d8af83329005590634084cd0a9f9407e774fcc6f3126c4feb26726f"
+    },
+    {
+      "id": "02842_z478b924d00000360",
+      "author_split": "testset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_e6118440795c567b",
+      "starter_overlap": true,
+      "point_sha256": "99e94248a0bee320d6912bcdf42f09b41f23a67ec6b7d76ebed9098b3db2c2cc",
+      "mesh_sha256": "e01d4b1f0fcd118c3b1991bb823355371bf47952e230dd7343a047599bda3c1c"
+    },
+    {
+      "id": "03096_z5061a3c42f350000",
+      "author_split": "testset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_89587f542d86c055",
+      "starter_overlap": true,
+      "point_sha256": "752ea7b23a6b13b9c55f2dc791bbbf8904dd1da0ed5bb144458476bc23d6bafb",
+      "mesh_sha256": "7d02dd3edb7803c0dd50645cacb0b80f2762f087a4203f95566b341076c40b4f"
+    },
+    {
+      "id": "01226_z434cc37600000036",
+      "author_split": "testset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_89587f542d86c055",
+      "starter_overlap": true,
+      "point_sha256": "a4961f34d435befebf71407fa958aa7ec93abdcdeea977d3f74230829aa364f6",
+      "mesh_sha256": "7bd5e789c402b273b059c9fcd883044af6951822f202a16f79ab35adf1d79752"
+    },
+    {
+      "id": "00032_z41aca4f400000f6c",
+      "author_split": "testset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_c973fab2107adbba",
+      "starter_overlap": true,
+      "point_sha256": "04307ecf2e9244b4589d11c01950b11aa7681fc9806c93fd7cf1c29af4a0c278",
+      "mesh_sha256": "b9a55963993fb3661a9cf641f2cfbbc962ed0d2a910e407d6346a0905724c221"
+    },
+    {
+      "id": "01232_z43d783d80000001d",
+      "author_split": "testset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_633e64f27149958e",
+      "starter_overlap": true,
+      "point_sha256": "8950fd38d2ff7b1d5abdb4cf1761d01811140a9753ea38b19d076d598681724c",
+      "mesh_sha256": "a4287eb17757868a3c3bd2c09f8735edea94355fb2e7fd823808f55c72d0eb52"
+    },
+    {
+      "id": "01234_z43eaf3bb00000000",
+      "author_split": "testset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_563f88bd28756441",
+      "starter_overlap": true,
+      "point_sha256": "304e3a0b01f68056f41b10c7ee594681ce26057eccda01cddcded3fc4ad032f9",
+      "mesh_sha256": "97697f4fdd792d37183b5d2159f7029019cb2ebb0b8293ad4196259664abe6f6"
+    },
+    {
+      "id": "02073_z45b11b6f00004d43",
+      "author_split": "testset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_31606bb17923a086",
+      "starter_overlap": true,
+      "point_sha256": "20765dcdc37ab23ce2498cd065305d729524cfb4acb0d5ebdb5a8b49d236d6b1",
+      "mesh_sha256": "0abb59150810dfb4018ed2c504981c9299d138edfd36c283c29695cff98a83cd"
+    },
+    {
+      "id": "02062_z45b11b6e00004d35",
+      "author_split": "testset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_ef7b7df86f212537",
+      "starter_overlap": true,
+      "point_sha256": "cb92e6590c6fe2eb39feea165a53d7bbde52a60d054001ed2125117dad62c1e2",
+      "mesh_sha256": "48f2bc291281c83915e3ba1e0f15249af629a17d28d4f4522d8d2591e5abe427"
+    },
+    {
+      "id": "03024_z4b29d97200000000",
+      "author_split": "testset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_7f2dcbfebc8d1e0f",
+      "starter_overlap": true,
+      "point_sha256": "04e9c3039352899710856d5f5547001b4e856e1eb3ebb4e884622ec41f3d735b",
+      "mesh_sha256": "8a2a04696b24957abfc18b15c47f7b988187a1eacfb45fa8f179eba9e9ecde22"
+    },
+    {
+      "id": "04198_z4cf7a30100000000",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_4701f4b58afe4436",
+      "starter_overlap": true,
+      "point_sha256": "0027b7a374aaddb5a48280a150ac9670f884f52ccfa0220c4cc87d4b83eceb70",
+      "mesh_sha256": "664c6fbeaeb33d9d14becb1b58e8652c33d08c3787c482f2967d803ccd0d639e"
+    },
+    {
+      "id": "04700_z5cd2c7b8e3ae0027",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_5ce4bb10cc519b97",
+      "starter_overlap": true,
+      "point_sha256": "ba8634c2498fa91cff2adaf75a8af74cb2de44f0111dde5f107d2ce7468dd756",
+      "mesh_sha256": "340342d72e1194873eb10af2fa91b7eb2d247c2795ccaf0e71ad21b2aaea55f0"
+    },
+    {
+      "id": "04435_z5aa795dc967900fa",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_1b0064d13367c7f3",
+      "starter_overlap": true,
+      "point_sha256": "e11640104da67780498a45b4a5afdb7a6b6502755424d9ad890a6f1444d00a01",
+      "mesh_sha256": "81b3ca90f01af8600ff9d1ebc84e565f044e7ded94ba2df439a9307daebf3415"
+    },
+    {
+      "id": "00612_z41afb9c5000028d4",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_338302c0066740f1",
+      "starter_overlap": true,
+      "point_sha256": "e2f39c97eb9814c71bd61218f12a225f6d9a18de5bd7aa86e263740222fc94f2",
+      "mesh_sha256": "5f08ee6428cd0f3f030bd9bfd09dc23febdad0f75be5e511670e6a60dc49230b"
+    },
+    {
+      "id": "02691_z45b11c0900005eba",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_7918f932dfd4dca9",
+      "starter_overlap": true,
+      "point_sha256": "1d6dc90a7257c4faad6f85b5663d5eb672a3686085fe8f482b7e9a3e58c9ca93",
+      "mesh_sha256": "17e292cb30e56a0a43a529562a7e68358d16ac866b6110f54ae464674a55af45"
+    },
+    {
+      "id": "01496_z41acfcf900040363",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_91df5f1688fed515",
+      "starter_overlap": true,
+      "point_sha256": "e142dae2f50cb611bafd0b564fd7ca6fde0773085884013637c551a2d700d0d5",
+      "mesh_sha256": "4d6ed522c06b50a56c7661479810c40127632b989fbd6233cec6af6d0807015e"
+    },
+    {
+      "id": "02888_z5c37184f8d8a0056",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_1fab61eb6c0fec72",
+      "starter_overlap": true,
+      "point_sha256": "a96e3d939f4bae852f33c7258c11c60a042110932ee404ff3dad029bdd98dd62",
+      "mesh_sha256": "3119ffb65a6fb6d2a12bf451e934d3e7007b049586e69bcc86ebe889198b6960"
+    },
+    {
+      "id": "03749_z4756d98a00000752",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_530a6cf8909479c9",
+      "starter_overlap": true,
+      "point_sha256": "783e919e8567744296fa0cf5e0edeb8b52d23e310fb932f81c8c79e1731390b4",
+      "mesh_sha256": "0a80d829876f47faa9f1fd4530e90debee8cfa83f0d6877280c0063147d3615b"
+    },
+    {
+      "id": "03331_z4c11dac00000001b",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_b5f9df1130276c85",
+      "starter_overlap": true,
+      "point_sha256": "8ab7871cb50d0d68d515c2ec445640e85233072f6608b90b4d12ef1724f3cb6a",
+      "mesh_sha256": "754bd1c3b12ed16b5da53aaa0d67a72e40ea5b15c15db8f788f3c8daa073fde0"
+    },
+    {
+      "id": "04499_z4961a69d00000000",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_1ee6202c768d3483",
+      "starter_overlap": true,
+      "point_sha256": "e386aa602dcc6547a49580854f0124a9232757d272e772a75645d88c9e874589",
+      "mesh_sha256": "96904e241810bf2167477f8e4445dd14d2f3fc48e2771a552c939077ccd4f460"
+    },
+    {
+      "id": "00828_z41aca4f400001a79",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_e8e99ac379737bda",
+      "starter_overlap": true,
+      "point_sha256": "3a402436e65e298ad938d36e6ea8eafb4d22e7d1df0636aea5c233e81c307990",
+      "mesh_sha256": "c18647a9c368542290c72b5390df79d69da0611dba1ee8291a180e92d4c2be31"
+    },
+    {
+      "id": "00089_z41ad26d300061d2a",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_45d255c14315aedc",
+      "starter_overlap": true,
+      "point_sha256": "62a588cff72defb998bf4651f13e2c747055b0d51b59b9858cca8d8f73e6e336",
+      "mesh_sha256": "1a577a1a487a43ec15ca24bdd67e523bf9ac93842322302e4e98c94c95eb1019"
+    },
+    {
+      "id": "04264_z463f41f7000004a3",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_c3078a5028b031c4",
+      "starter_overlap": true,
+      "point_sha256": "dd8986948010b9dc72a25f212a109cd5e70b304d6096c1d4726582e4f300a213",
+      "mesh_sha256": "45066fbdb173cca9b3b33b3fff359533e839c5a935688af4ae6da5efe57a1662"
+    },
+    {
+      "id": "03215_z47050ae1000007c1",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_7918f932dfd4dca9",
+      "starter_overlap": true,
+      "point_sha256": "5227ba099ba3779e04a81210ddd2a4dc501b282204bdb75d3cefd17ae193b19e",
+      "mesh_sha256": "71c364fbe9796de486d3174bfb95cc82f66614a94f50236ee34701d74804e930"
+    },
+    {
+      "id": "04146_z54feb0f4c2d60023",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_4bb91b16bc5350ad",
+      "starter_overlap": true,
+      "point_sha256": "e91f0e5b1934a55a06e37bdb670762d27e7905abd7a17a7891ef95e2dd02e6a4",
+      "mesh_sha256": "0bffdb070fca7ef12d6307b3d2cd39d0bdae212f978e3fe1d667c06fb768610f"
+    },
+    {
+      "id": "03120_z47050adb000005fd",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_8e99548947d4f89d",
+      "starter_overlap": true,
+      "point_sha256": "88cd44920748cdba464124f8b95388e7d18975d7936d1749b4894e8fabcb2ce8",
+      "mesh_sha256": "46baa9c3273d2dbcf4f707ba7543e5ed16255758557b1b80dc77894edb0c5c6e"
+    },
+    {
+      "id": "01182_z41ac39cc00001edd",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_0d7b78edcaf28563",
+      "starter_overlap": true,
+      "point_sha256": "aec3c5cb13ad2f7848e477961c12b980e827d7df638e68f1d6412e5d668c9b04",
+      "mesh_sha256": "2d22b2692830d660ae634b7cd200052c31ac2968e8ca2a438c3da25f2011f0bf"
+    },
+    {
+      "id": "03541_z54fd6d3616b10066",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_c488d8feb8ac0b73",
+      "starter_overlap": true,
+      "point_sha256": "6baaf488a32c53fe14ecc4d468555f94a800030b6974873e0db69df6d7894f72",
+      "mesh_sha256": "e7d9112887e7ffc7103bcefb51afd2c68109d89cd4d4b85b257e4d1956a7c991"
+    },
+    {
+      "id": "03584_z45b11bd100005843",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_a2233c7b8ec0048a",
+      "starter_overlap": true,
+      "point_sha256": "847fcfc0075d4074545faeb18a94ed4e886b7bad7fd7388fb18b3f145ea85ea2",
+      "mesh_sha256": "74d9764c78a7207d5d69c2a61b354e51cb4b0c07a8d7cfde32f93879b824e7e1"
+    },
+    {
+      "id": "01244_z45b11be700005ac6",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_ba2589c2948d38b6",
+      "starter_overlap": true,
+      "point_sha256": "da842634ff57c21390b0008575616f11c89c0c5c0297e5d3960cc7efc1362a5c",
+      "mesh_sha256": "3627d2878a4827f1a94b2436906bb4ab4762ec931e918639ef929b69334c61d1"
+    },
+    {
+      "id": "01886_z59004854a520004a",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_9b12312c8622e922",
+      "starter_overlap": false,
+      "point_sha256": "6d01b6cbc96c371f945220568c8a89e159089cc4d0ced804fb81a1a5e92b5d71",
+      "mesh_sha256": "a345a2ee3ee0241600f721b15d0bf5a8a6fdeea717e8935777a52ccad0fa48fc"
+    },
+    {
+      "id": "00008_z41ad3fb8000715bb",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_31784df8cb3875a0",
+      "starter_overlap": false,
+      "point_sha256": "d07423dd1516074574c48b0be92e4e7573631f2dd6e323ffefcb18ddfd0f9404",
+      "mesh_sha256": "ce70ad7500b1ff3c5992ddd811ba2ed3abd25510aaadee7aca5a41df58de120a"
+    },
+    {
+      "id": "01197_z45b11be400005a70",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_ba2589c2948d38b6",
+      "starter_overlap": false,
+      "point_sha256": "e490f2699d52a4472fce648e2f40a27f51847043bccd98b8084ec5ac3bde58b4",
+      "mesh_sha256": "0d86751f8d8ce4dad710d1d02d1882a6219500974049db62a2b8a91f3d2ca038"
+    },
+    {
+      "id": "01568_z54742ca697f50036",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_ca3dbfa16070fa7b",
+      "starter_overlap": false,
+      "point_sha256": "964141d0a338c3d60a556ab0b900e9c61eb1f11b9a90941d376535ac1a87e626",
+      "mesh_sha256": "5406c1a1a7d6766f71d83dbdacd5696e18ed8e7899fb268301f0cad0b3bcd750"
+    },
+    {
+      "id": "01908_z5146f451fabb0010",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_a980ebb4438563c9",
+      "starter_overlap": false,
+      "point_sha256": "8bacdccdccd5c4cd5e752c7f4fd0cc0a970928b965e77b5495791252ee39bbac",
+      "mesh_sha256": "6eba1adaedd02b6a8bb3397597965032318c4ea6f7f5d02908572c30725c45d9"
+    },
+    {
+      "id": "03528_z45b11bc900005762",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_a2233c7b8ec0048a",
+      "starter_overlap": false,
+      "point_sha256": "4fab01d8f3261693ba21a9b57f398bf5a7626e6c8c0f3edce858855014b16c1a",
+      "mesh_sha256": "84edf98a13629a34bd21f29acf862b07a03e2ae7112056e1c7ec7f75654a253f"
+    },
+    {
+      "id": "01911_z41adc92e000163a6",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_e4e8bff6e1fc6e33",
+      "starter_overlap": false,
+      "point_sha256": "cee17250bf5e09654ee6eeceb53b85cf9770a247f5c5635315e2470d12f0116f",
+      "mesh_sha256": "3d340a5e5ac7f01bdbcfb55042116d26ace61a8866c9e00e78c0fb4b8380fbb5"
+    },
+    {
+      "id": "02013_z41afb9c50000272b",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_9ff6cbab2b2f5438",
+      "starter_overlap": false,
+      "point_sha256": "305978e2902c7921aaac86b1bf519c6ae25206e45eba24e568652b40e1ca49a8",
+      "mesh_sha256": "46765d0226df9f20e6ee580c0bd4181a963fceaac212225bbf5a3ee16d1a85e8"
+    },
+    {
+      "id": "04220_z5bdc164c057b0003",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_45d36ef132e6bf39",
+      "starter_overlap": false,
+      "point_sha256": "acc66583f0ead9057b59db67074dac4732b8003f8cf8852eb79851ecb952f35d",
+      "mesh_sha256": "f3f290dcb5d9f5c4d6b1294fdc5e7162fd0507be95efc3b16068c3eaabbc8344"
+    },
+    {
+      "id": "00679_z41acbc6a00015b60",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_5c4446f4ae26f6d4",
+      "starter_overlap": false,
+      "point_sha256": "2399f7515b6a7bcdbd3fedeb411cb178eba47bc9a5f140f926ccf001b40f725d",
+      "mesh_sha256": "47892fcce28b93c6ab190b4b07bcd31377597124f4fee47428385a86a00563b3"
+    },
+    {
+      "id": "03582_z4756d98100000511",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_e4a5d89c800ce623",
+      "starter_overlap": false,
+      "point_sha256": "12e4b6cb7a277570cb9e8d47f4156e0a11d88756242c18f237a452d28a237de4",
+      "mesh_sha256": "e315771a39b5ebc498c1937f2493c97b7c24007bccd2bcea981d70406ad24271"
+    },
+    {
+      "id": "02249_z41afb9c500001e5c",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_eaafda33ac80fac4",
+      "starter_overlap": false,
+      "point_sha256": "d49066ba23a51b34f2bde83cb1111b5d59554f6be7ff17d792d31cf9996e95ee",
+      "mesh_sha256": "37c54e0b163e58cf5effc0eef2fe17ceff3007b9ab36cf00bcf65e3c182bf718"
+    },
+    {
+      "id": "03111_z47050adb000005f4",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_8e99548947d4f89d",
+      "starter_overlap": false,
+      "point_sha256": "3f1d2e1efff904175acd0b258498ca2b5173938832c903180bc7db1029ef0002",
+      "mesh_sha256": "301be1de6efce17c0268588db979356bc15d04305ae2cab50b308be031b8f07b"
+    },
+    {
+      "id": "01184_z41ace2af0002f19f",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_db8c9c27dde8ca84",
+      "starter_overlap": false,
+      "point_sha256": "c876d90f14a3db010253ffeae188b2bf1f03477d428c49555bc54d72d99730f2",
+      "mesh_sha256": "a15dd250f056c7fa7a5631320987b0d9b680bf1f007e7d8e5a05db2d9b419af6"
+    },
+    {
+      "id": "00819_z41aca4f4000019f2",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_530a6cf8909479c9",
+      "starter_overlap": false,
+      "point_sha256": "a181afee6331d5e4b09c6110c343923a1503f05944786f37b7b4b0b3f51f661f",
+      "mesh_sha256": "9c253d3225b6203a890b46e6d0cf2c328abfda173387fc2f7865e749737a3987"
+    },
+    {
+      "id": "01852_z4ab0afdc00000002",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_7578a4572dbd9e59",
+      "starter_overlap": false,
+      "point_sha256": "e54780d65aaefae9115fbd6f1d257483b75011dc98120a3da4a8aaaf5bf3391d",
+      "mesh_sha256": "7658e4220b7341c9bb3472d2171ab79678b1072718466fd15a234da65c715fb2"
+    },
+    {
+      "id": "02214_z41afb9c500001e0f",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_a2233c7b8ec0048a",
+      "starter_overlap": false,
+      "point_sha256": "16dcd4e21e4c80336ddf0a8811078d41cf5e0c7895658a76d0a526a8f96f5ec6",
+      "mesh_sha256": "0e31acce47b79301e777dbec8458a9aabf8e26ec81dbb791665ea48199f32ef9"
+    },
+    {
+      "id": "01838_z41ace2af0002f68e",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_223884589d56d63b",
+      "starter_overlap": false,
+      "point_sha256": "4d42ca1a9ceac238ad25a830a3158466529ec921892d0397f1e96f302b6ad76b",
+      "mesh_sha256": "9212d8b3c4426955183159e40e6821241482e2f75152c005615cd9526de68040"
+    },
+    {
+      "id": "01271_z41ace2af0002f23b",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_d6688e4b11a79ff4",
+      "starter_overlap": false,
+      "point_sha256": "bd59e97158b7a6c689f2b7719594e695b91f374d3eb83c5b0b3f69f02db263f7",
+      "mesh_sha256": "e8e1d94b5b2f0772a1f28313eb220c8feb35c1cecc0944da4e106eed785b6a5e"
+    },
+    {
+      "id": "03099_z47050adb000005e8",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_8e99548947d4f89d",
+      "starter_overlap": false,
+      "point_sha256": "ef18481f62001d0624aa96656bc7fdace8f5b87b8fa11c8b2e9e605971e06f65",
+      "mesh_sha256": "35850acdef09d8dc5d4b42aa7d512cefc57f56e1acc2d67660f550cbbe530c83"
+    },
+    {
+      "id": "04672_z59faed1fad490004",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_1ee6202c768d3483",
+      "starter_overlap": false,
+      "point_sha256": "4185cef3ba73e9918f08c78da38cc57b9e549d8dc9ba8c928cbdf27d0d1a5133",
+      "mesh_sha256": "1371e4b8909d7fe9c5239a91fdd9f29ed2dac55064bef21920b9361e466bf66d"
+    },
+    {
+      "id": "01204_z45b11be400005a7e",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_ba2589c2948d38b6",
+      "starter_overlap": false,
+      "point_sha256": "3ef6653aeca760ac167afaf52dab48b5e5f43ca5d3ff9ec7a3b5b70ed177b67d",
+      "mesh_sha256": "c0e6a3c334351880aaa640bf603ef91e99046a9496f0c962c7e38da210dedf03"
+    },
+    {
+      "id": "03856_z4756d98e00000868",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_4a9bc05ece3bdbc3",
+      "starter_overlap": false,
+      "point_sha256": "40166409f34386406a461aa2a5a8c19b6d2ae1184a355bb99923122b7d9e7179",
+      "mesh_sha256": "1de5d0dfdaf352580f11b76aeba90fb89d0f2a5188675382889b53971b8a58cf"
+    },
+    {
+      "id": "01305_z45b11bec00005b50",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_290419e0027e1e8a",
+      "starter_overlap": false,
+      "point_sha256": "b1899a2d56865888726694951b86676cf41567cb4dd40867fd4ef32ba571f8aa",
+      "mesh_sha256": "9dd00a9c360409b87238b1f9c1f394dcd64877741392402e30a612737b1f29b1"
+    },
+    {
+      "id": "02676_z45b11aa2000035fc",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_8fedaa0b27ea5b62",
+      "starter_overlap": false,
+      "point_sha256": "5f59e43effe7da46a38a8aab93ddfb3f26fee6dd90093086f620fd7556ee0568",
+      "mesh_sha256": "608f82f03f38cbab6f9114543efdd08ab6bf3acd4fdfcbade78d33e82843b21e"
+    },
+    {
+      "id": "02034_z41aedad700017993",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_b3df3ac72e8bdf6f",
+      "starter_overlap": false,
+      "point_sha256": "398a3207b95c024c96b9d75e2f1b374d844eef5ed5aed8f51e61602df06b958f",
+      "mesh_sha256": "5242d1a1fcac7c42984476e81df335905d0eba1dee58886285fe6d306058a4e5"
+    },
+    {
+      "id": "01847_z41adc92e00015917",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_d4cddad37c14b620",
+      "starter_overlap": false,
+      "point_sha256": "ebfde5dc8868f6c8fdcc2ee015dfc3d77ac8a1632b155aa2d66f82c98abf579f",
+      "mesh_sha256": "cbf3ecf3158c8f994d83940bcace91e26c994f122f75cb19500312475ebe978b"
+    },
+    {
+      "id": "01884_z41adc92e00015960",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_d704404558a38303",
+      "starter_overlap": false,
+      "point_sha256": "7a7b290959eadf16ea68318d49d2299dc84700bef2e6360f0c67807a17101544",
+      "mesh_sha256": "ce5acd47c19e4791f77a29cffcf19b34de1bdc53610884db361cb1d6e8ba0b0d"
+    },
+    {
+      "id": "01853_z4ab0b00400000004",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_7578a4572dbd9e59",
+      "starter_overlap": false,
+      "point_sha256": "a8c881e4701629d26b92ad3b61aaa5b13d72e67571bd4f5cd04d3a6e6a55ba56",
+      "mesh_sha256": "13799a7a953a95fd5cb0134ab5989c3358b6c49e13ea873cd7a984c9e3111d7a"
+    },
+    {
+      "id": "01601_z55eea7cf2ecb0000",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_45d255c14315aedc",
+      "starter_overlap": false,
+      "point_sha256": "c6477b6993b11d252192be9c2dec73843a80bb87006d809ae12ca591b77446f2",
+      "mesh_sha256": "0285d0d28965d4a2a98ed52b80b3ef8c8a4cfe2581df7a488c5678b6143288f9"
+    },
+    {
+      "id": "02978_z45b11bfa00005cf7",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_9ff6cbab2b2f5438",
+      "starter_overlap": false,
+      "point_sha256": "e674b34919c35bdaabd731c84dbb99c04e7ffcebc83ac5bbf3e7a4965b9fe0fd",
+      "mesh_sha256": "486cca1284e37bf3c6c8c16b8fe8272568108f0ee9a801e66784d717b878a575"
+    },
+    {
+      "id": "03711_z45b11baa00005402",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_9babe644433ece5e",
+      "starter_overlap": false,
+      "point_sha256": "aef1d48f67371d44d9856112806b7587e3d8fd807118323c3ac07beb369f83d9",
+      "mesh_sha256": "292216226aefc87cddedfa03e7d371af5ebe503709737902a97a346ff559835c"
+    },
+    {
+      "id": "03367_z45b11ac600003a11",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_223884589d56d63b",
+      "starter_overlap": false,
+      "point_sha256": "911970afcb13fb178aa671b185b543f2a62c80632327994a8947a607d51a4952",
+      "mesh_sha256": "8d2a98a23ec9f542314b7e42753a9f51c0d17f4e6896e6c3bb153638fae4ed77"
+    },
+    {
+      "id": "03330_z41acfcf900040f5c",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_0a1a4f1f55223701",
+      "starter_overlap": false,
+      "point_sha256": "7a3676937c6e83b89ca0c641caf9b8b0cc34db5534335a799524072c8ef09239",
+      "mesh_sha256": "07ff3f1daee171c75cc31d08e33e2cd8ccd73874a9c0ba3c10e1398647185db6"
+    },
+    {
+      "id": "01309_z45b11bec00005b54",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_ba2589c2948d38b6",
+      "starter_overlap": false,
+      "point_sha256": "efcbc8a40a2ee42168f11849fa050db251ba279d1e7d0db072dd177431911b9a",
+      "mesh_sha256": "247e468227eaba00be3b53e93d926339662b1d4251d2f4c97e50d9cea5a73087"
+    },
+    {
+      "id": "01520_z41ace2af0002f3c4",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_d6688e4b11a79ff4",
+      "starter_overlap": false,
+      "point_sha256": "22af7026a3be5077a0008bcdd79ca7502858a1cfc2e3ada3d1d0e76c8e7ec9ec",
+      "mesh_sha256": "4f22e84b0e7e0d7e673d318d6d40ed93db3cb08c5f3a487f543677a0abab569d"
+    },
+    {
+      "id": "02169_z41afb9c500001bb8",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_208b7466cf337709",
+      "starter_overlap": false,
+      "point_sha256": "4a4c08b15066f70835b2fbba7484c70d35b719b5cdfc6ca2761bc55ab97c61fc",
+      "mesh_sha256": "66c5a5b16d336653a845bc814f791413b42df6ee318b70bff2fd7d71166debe3"
+    },
+    {
+      "id": "02150_z44f7f39300000005",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_d704404558a38303",
+      "starter_overlap": false,
+      "point_sha256": "8327f259cf1a7053a5db2e156cba17f5d4d0082fae5ba9e517ccaa0ea7b93e77",
+      "mesh_sha256": "b2209fcaf319b2924566ab9e0f75f0b77b92d04219ab93101feb74b35b89bca0"
+    },
+    {
+      "id": "04158_z564c7bda050000ea",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_6e52f95e825b2925",
+      "starter_overlap": false,
+      "point_sha256": "f6440ca9ace64ef8bd1f9c4f6178d5f9094e8f1e4f3b445bb501b634376213c5",
+      "mesh_sha256": "f286638fbda1a69bfb4712adf2ea6cb11db3e6ea0f6f96b2a5e811bf8b924127"
+    },
+    {
+      "id": "04436_z5aa79738967900fb",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_1b0064d13367c7f3",
+      "starter_overlap": false,
+      "point_sha256": "94f1a9028271d8632a438c58bcc77389544767fc032c53e234aa7d503bad00e7",
+      "mesh_sha256": "58da3c2f031b17da888c48590b419df1da75f5e1cc6e538ee398ccb4b4d0463d"
+    },
+    {
+      "id": "00710_z45b11aa30000360f",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_290419e0027e1e8a",
+      "starter_overlap": false,
+      "point_sha256": "51adf3bb74384dc3bfb88df8de05600b4d4db5283bb7c356beaff4678a7e1cc5",
+      "mesh_sha256": "4c7bc91218338c6b3c415b2989ca90f69662c1a06e0314d06477870b956b0951"
+    },
+    {
+      "id": "04000_z463f41f000000347",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_c3078a5028b031c4",
+      "starter_overlap": false,
+      "point_sha256": "41f4997c82a19dd76fe83c693b7112f5b8b553491a68403a009fa802654cec28",
+      "mesh_sha256": "1851453c03e64b1002d419d3252c697f74b8d1d3a26a398d3d4e81c062c6ee69"
+    },
+    {
+      "id": "04313_z463f41f8000004e3",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_655cb08c565e9b6d",
+      "starter_overlap": false,
+      "point_sha256": "80032b9ce30973bcc047bf44e6232a887cbd50f79db54ab5d4377983d86ad6c7",
+      "mesh_sha256": "5f57f284ee23b3fcc0254c23ea684dbc24fbe5a828911c6e00b70fba33e6c5ab"
+    },
+    {
+      "id": "00041_z41acbc6a0001414b",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_2a0fecf2143cd81b",
+      "starter_overlap": false,
+      "point_sha256": "b1b6c3fd61e2ae859e6e0044fc0d886d614028f75bebb30a69249bde217c1670",
+      "mesh_sha256": "44d6b51ab8ba95e7257833c504d44bc1a1e2a92e5817f0c1d700db3a0df1b2dc"
+    },
+    {
+      "id": "02897_z45b11ab1000037a3",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_f3bf57ba480ea7a0",
+      "starter_overlap": false,
+      "point_sha256": "6366bbf7cc2da5db18cf74f609af21ba5e66713b40ccb3c6644827e4d71d14a8",
+      "mesh_sha256": "dbc535730f026f680ff5c7dc07f54b9793dec2388e142c35669ba77b5aa57adb"
+    },
+    {
+      "id": "01254_z45b11be800005adf",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_290419e0027e1e8a",
+      "starter_overlap": false,
+      "point_sha256": "61de79f322e307dacdaf16ef9731acebc8ffcc5450fe2db7d146f53a426950da",
+      "mesh_sha256": "6d4b3d53a02a5331f9a58475de0914562d4b3c212fbc99840299dfb109403a23"
+    },
+    {
+      "id": "01070_z41ac69e9000236d0",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_49e38dfbbb83d69a",
+      "starter_overlap": false,
+      "point_sha256": "2b395e3482ca169ae03fe95f5c514259c28a305f3a53696e97eb0ee2e8ed0bed",
+      "mesh_sha256": "10737dcbbd55068816bbd80428906a5d62585fec7c8176e6f56e6502657232b6"
+    },
+    {
+      "id": "02237_z41afb9c500001e44",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_a2233c7b8ec0048a",
+      "starter_overlap": false,
+      "point_sha256": "5249f760cd26bb87cdc150ce86ff0d14a849e77201b1add80e14dfb88aa3707f",
+      "mesh_sha256": "d54dc2876bd98eec3f158ea2225df65bd1bbfd37297b662f1f15f62591fe4383"
+    },
+    {
+      "id": "03546_z45b11bcb000057ad",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_a2233c7b8ec0048a",
+      "starter_overlap": false,
+      "point_sha256": "5105c592abf229c892560ed06875c1cc7dd859dd77385efc2c65b8b77422a9d5",
+      "mesh_sha256": "dbd232b7c8f45ab7d4d433b6f6b68321bf95a769d1f7b6d5f2ecee2a082f3a8a"
+    },
+    {
+      "id": "03576_z45b11b320000464a",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_c3078a5028b031c4",
+      "starter_overlap": false,
+      "point_sha256": "769ea9cc6a17b9919734e5e0d5b48f5f782e9fc87e1cbe027adf08ab189e4d81",
+      "mesh_sha256": "108e450f2b5d4750d7bdfa6a72c1c8e235484bb5a61df08c062a9fcd1aadb5f6"
+    },
+    {
+      "id": "02535_z45b11a8000003218",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_49e38dfbbb83d69a",
+      "starter_overlap": false,
+      "point_sha256": "30ce43f11040d27016dbd4d8b9aa8339cfc2bda1af95f78f9eef9e0dfe4f8229",
+      "mesh_sha256": "ab71fc21954a26446abefd2a267491f4a6891b80561b92025156ef378f68b706"
+    },
+    {
+      "id": "03217_z47050ae2000007c3",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_7918f932dfd4dca9",
+      "starter_overlap": false,
+      "point_sha256": "23c6f197c957f2fc8498b62a3e3fecee57499617a622590c2e33bb9fcf48600e",
+      "mesh_sha256": "9e6f7e36b512c9c7d3cdd2f255c0fd630c03ebf16867c30eec21f319396f5236"
+    },
+    {
+      "id": "01581_z547442f379f90004",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_ca3dbfa16070fa7b",
+      "starter_overlap": false,
+      "point_sha256": "6503909544e8ba6d29f2ffd42cfdbb50268825e305d2b470c39eb763f2936d72",
+      "mesh_sha256": "13163956d902420f72f17282953c6353d26438e31717e6ebf4a43d35e5731533"
+    },
+    {
+      "id": "03766_z4756d98b00000788",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_d910876667d8da06",
+      "starter_overlap": false,
+      "point_sha256": "c0cc24af829b59edebd229b4f7f094c2dc08d41218879089a3a3022e300a1bb2",
+      "mesh_sha256": "49162b16f7fb7848e06ce41f613a816083d83e19f759a04544d7673a09aba860"
+    },
+    {
+      "id": "01162_z45b11afb0000400d",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_9b12312c8622e922",
+      "starter_overlap": false,
+      "point_sha256": "44958c54c02a4b62035529592b0aa43a7d55c1980d6d2c4ec8c51380dd71cd68",
+      "mesh_sha256": "cf6620375180006dcedad0f7ce440634936031d321bd5aff27841f4e19d62273"
+    },
+    {
+      "id": "00070_z41ad3fb8000716e0",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_a4060c27410e8b60",
+      "starter_overlap": false,
+      "point_sha256": "e13497ec0e6d491905bdd3768b12d585ff6b9c68fccb6473fd9f87b11c538eaa",
+      "mesh_sha256": "83cac3191cb09c6656e3a82e58e172fe9073d4a746e5cf8d76e53a4a53bb0db7"
+    },
+    {
+      "id": "01246_z46baf1f500000002",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_45d255c14315aedc",
+      "starter_overlap": false,
+      "point_sha256": "74996a8ed7d75e2699ab2939fa50a468b53888ea6a65f066374ce060a8a42a0b",
+      "mesh_sha256": "f38ab75305c8671a09958538bcb2fa02e053d778afab58407853e0675da1209c"
+    },
+    {
+      "id": "04322_z54f9803b0bf40003",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_d6688e4b11a79ff4",
+      "starter_overlap": false,
+      "point_sha256": "44c6fb98009b477d8feb9ebbd120256a4e4691393b56b1cb7ccaef7e072024d9",
+      "mesh_sha256": "2ca457833ef935c5f339fc998c3dc8ef49036f18ce7a6745fd8b8c6609510703"
+    },
+    {
+      "id": "02304_z41afb9c500001f0f",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_a2233c7b8ec0048a",
+      "starter_overlap": false,
+      "point_sha256": "e07224275d60c4f4f46333026a62c7014ee63e86e757fc444888a5ec1c2e86a7",
+      "mesh_sha256": "4c1b92a5e356c985d55c087b1a2bb443fb86b144c57c1fc36707c77b21937d38"
+    },
+    {
+      "id": "01738_z41ace2af0002f51e",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_223884589d56d63b",
+      "starter_overlap": false,
+      "point_sha256": "35756f9bf6855cdbed6b71523e35c6c155792eb227628d3dfc6685378fbfab48",
+      "mesh_sha256": "9be79133025dbb99adb089932298de494901f0e1202d2a174713bb45d3d4e14a"
+    },
+    {
+      "id": "01404_z41aedad70001783f",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_b3df3ac72e8bdf6f",
+      "starter_overlap": false,
+      "point_sha256": "db0c61dded16689e7131bcb8e3862590d371485b5585275a259c939e8e5d4864",
+      "mesh_sha256": "30b71056ade75287a8606328ae6906a9917982506b6d328810b678a6a689b4c9"
+    },
+    {
+      "id": "01484_z41ace2af0002f38c",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_d6688e4b11a79ff4",
+      "starter_overlap": false,
+      "point_sha256": "0331a0bf17fdc3bb8bd9441cc2a7fb060d80908e3954992a6c20a390ac5b61b8",
+      "mesh_sha256": "aec15dc9e39498488b9446600624d7287af10299746149c6d7d7101eaa46cf40"
+    },
+    {
+      "id": "00819_z41acbc6a00014a7f",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_ee0b3cc38e33dd42",
+      "starter_overlap": false,
+      "point_sha256": "a4ccaa6a6604cadc556d0c9c8f9424e59c77cbb11ed88e9f581d0e14dff1bcec",
+      "mesh_sha256": "66fa91187d430d184847d48a88ea0c36b0094f404a3fd4bd2ec3a5d6c2818d82"
+    },
+    {
+      "id": "04232_z463f41f600000470",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_ef057fb520f1d152",
+      "starter_overlap": false,
+      "point_sha256": "f0aa41bf966cb9c947bd592e66e166d4e9e67403606fd5eb84f7a18902f6982b",
+      "mesh_sha256": "35e12051fdba5f3862af7d25d4d9b8e714daec96552942dede53e98d8420ea4d"
+    },
+    {
+      "id": "04501_z4966f95800000007",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_1ee6202c768d3483",
+      "starter_overlap": false,
+      "point_sha256": "50882deceb48fcb7d2c0a89c203e3db517d1e6614e233c7f2410599ddbff995f",
+      "mesh_sha256": "cab908e411f3e983faea77f9048f35de90d4e7d7d812133e5e6144507eb0a6b1"
+    },
+    {
+      "id": "01575_z54742d1a97f5003d",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_ca3dbfa16070fa7b",
+      "starter_overlap": false,
+      "point_sha256": "817d4ef583976ed3f470833383cee284acc41cb534d76f1110c510e737b1af89",
+      "mesh_sha256": "231ffbba886f90532e080a1bb5553f28c328a8b856f7389c5a0626b9dd62f44c"
+    },
+    {
+      "id": "00089_z41acbc6a00014221",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_b6265d2b6306936c",
+      "starter_overlap": false,
+      "point_sha256": "c65fedc0c04c6ee53519fe2d63e8e6315a95a3f7e89311c0c1bad1985daee0ea",
+      "mesh_sha256": "1e7e29c4d73647128899cf10ae67631c5304e83570b188e3d3a93825d9a74b61"
+    },
+    {
+      "id": "02808_z5119171246390016",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_200b325da4a1b623",
+      "starter_overlap": false,
+      "point_sha256": "34ce8cf32e839a9a4a46b47cb07386f92bd7d44c7d924262b54f1e1160d591a4",
+      "mesh_sha256": "511642fa71c81a1308136d61c42b4d9f66995e3257cbb6f3eb4d42a177a0ae5d"
+    },
+    {
+      "id": "03871_z463f41ee000002c6",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_fc563ccf5b4a4f68",
+      "starter_overlap": false,
+      "point_sha256": "31a95745b8d193900b86c5a1965a1b4fbf0efe89f324f83e96924059540c1a7e",
+      "mesh_sha256": "0b0fbebe397c085b76975c68ef3953604f9060f8582746f5aec31e554fca97f8"
+    },
+    {
+      "id": "03979_z463f41f000000332",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_c3078a5028b031c4",
+      "starter_overlap": false,
+      "point_sha256": "48b5948ed5dfa4abc76c6b52f5dec6168048c57d6dbe491e26c2b0ba9f53fbcd",
+      "mesh_sha256": "f9999cd4544870ec2947952f9f61df8a5f28b03edd3a16d04525cb7ee4d142c9"
+    },
+    {
+      "id": "03547_z45b11bcb000057ae",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_a2233c7b8ec0048a",
+      "starter_overlap": false,
+      "point_sha256": "84f20c8452ada50e923243509d3a931a180a95df5ec49a89631d486780b62448",
+      "mesh_sha256": "2aa7c99c2ea4c05914dda03f37b85ee1c630fb2490d2a21596343aee3da7d4fa"
+    },
+    {
+      "id": "01206_z45b11be400005a80",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_ba2589c2948d38b6",
+      "starter_overlap": false,
+      "point_sha256": "482443fe3af0bf11089aab732286c1814d6cd5656d2c7df98f27ce27ee9dbb60",
+      "mesh_sha256": "c56ec968e5365813af7a72bccee3348f8f4565a87cd041828be8cff4926ff7cb"
+    },
+    {
+      "id": "03159_z45b11c0b00005ee5",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_4a9bc05ece3bdbc3",
+      "starter_overlap": false,
+      "point_sha256": "4f7f00aa5dbf6b99c66f5b7b554f5b9b5f165d2d28bc3f466cd998df932e6ed9",
+      "mesh_sha256": "0014fd6f8429e15a7f2270adb7a3d67976efcd58d44e76f03b003c0511d728cb"
+    },
+    {
+      "id": "00283_z41afb9c500001dcc",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_290419e0027e1e8a",
+      "starter_overlap": false,
+      "point_sha256": "61b104f60dae4b1c6b51ce238d8d0a4184f452300996969ee4c667ae01065de2",
+      "mesh_sha256": "0fe592f6fd85f48cd972638ad5dfdcece8a89f46f83bd4e1bebae64262eb9c52"
+    },
+    {
+      "id": "02794_z4f4e37cd29ef0007",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_be65e47eee793315",
+      "starter_overlap": false,
+      "point_sha256": "f8bace98de2d151106891bcd90d2b2c1fef5199149d35713186a737c510f5e2f",
+      "mesh_sha256": "3b685110983d6a64c6f0eb818192d3ff497bb581abd48d00d8c2b1b032ef91ce"
+    },
+    {
+      "id": "00072_z41ad3fb8000716e2",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_a4060c27410e8b60",
+      "starter_overlap": false,
+      "point_sha256": "fa94251e584e4eea1121b3c8a77d8ea06833d011bc27e12f88f5292bf864af2b",
+      "mesh_sha256": "ffb72d386e01283b6e056d675630066c8dea09dbdc1024ce45c6b4efddd802e1"
+    },
+    {
+      "id": "00062_z41ad3fb8000716d8",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_a4060c27410e8b60",
+      "starter_overlap": false,
+      "point_sha256": "e74967f55a3d4e69bae2adcbcc745700e49f0997878b6a0e1978d62b0906dfd6",
+      "mesh_sha256": "0385328254caaef62024ac0f425128252891fb5238c76d5063a928112384fbc1"
+    },
+    {
+      "id": "00172_z41afb9c500001ced",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_3d4bc68b48fadbf6",
+      "starter_overlap": false,
+      "point_sha256": "8a15d3295c2144f53b6b33eeba55928dd159d4969a440976ecf4e07d6a207e62",
+      "mesh_sha256": "332fc693d2481d18eb9d3e26f4a577149690de38fe878b2726c74e071165652d"
+    },
+    {
+      "id": "03533_z544a067395ea00a7",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_e3ed6def0fbdca64",
+      "starter_overlap": false,
+      "point_sha256": "87950305c0f27f7b9f157934ed4151630afb26f894ff853a382abb08b4f952cd",
+      "mesh_sha256": "efb95d6b05dc6480837e40b0f78b915f58eab61f22a01f6ba4144824b06c409a"
+    },
+    {
+      "id": "03138_z41af8f6c0001288e",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_c6eebc042ee13081",
+      "starter_overlap": false,
+      "point_sha256": "9fbeac849a4b1d38325e62dfb9eccbc6017de5132aa392d4edf588df3ca26332",
+      "mesh_sha256": "e8a1e0015195685d738555ec10c4ff5473013bb8d7c5daa834023a6448b1ab7a"
+    },
+    {
+      "id": "03151_z463f41f200000397",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_161450a9d53dd838",
+      "starter_overlap": false,
+      "point_sha256": "2ecf0757effb60a8c1a3cbacf52f39a832aba1a0765ffba402f7396a21c8e83e",
+      "mesh_sha256": "5731ac5c02cccdb6fca558507ffe0d7b8034d80c5e7abc0d7a7a788a2fdfc4ae"
+    },
+    {
+      "id": "01783_z4c1b069200000002",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_0558d85e76dac972",
+      "starter_overlap": false,
+      "point_sha256": "cc8c363650a0c81ac820589c87541f59fefa05b4c84527f7db5400e4a13738f4",
+      "mesh_sha256": "bfd52e2ceb2d0a740a9cef0a152a33372280bd852e0c30bfd1852a013232aea8"
+    },
+    {
+      "id": "00680_z41acbc6a00015b61",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_5c4446f4ae26f6d4",
+      "starter_overlap": false,
+      "point_sha256": "70c050ef003c3d593f90173f498570de3e3c94e4d5813c0e955334f6981e1a4c",
+      "mesh_sha256": "c82c2eddfff0b5bb9f135a4df2149cb6723dcc7d5f23ea524442de0f39b7c9f4"
+    },
+    {
+      "id": "02529_z45b11aee00003e90",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_8e99548947d4f89d",
+      "starter_overlap": false,
+      "point_sha256": "797b53287013cda9fb6ec5f387dbd30f06c35114fbe5c6fb6c35a08317b4f42b",
+      "mesh_sha256": "31169cf8d50b793be92933e2cdd1a1c0a6c41097f20295577ba5e62c679f96ce"
+    },
+    {
+      "id": "03225_z45b11abf0000394d",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_d6688e4b11a79ff4",
+      "starter_overlap": false,
+      "point_sha256": "a1d9de672f4b1fac344f5c4135346e38e15b27f0d5f2bd54ae2d3b4925b1061c",
+      "mesh_sha256": "b6c91ea9b2793ab0821ef128d4824903f677d1da83771c57c440e113e17d2b53"
+    },
+    {
+      "id": "02446_z465463ce0000025f",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_b8ddc1c77c38c214",
+      "starter_overlap": false,
+      "point_sha256": "84f380e82995c7b51f4afc7251b73c572409055f5b5805e107f80e02634dbaae",
+      "mesh_sha256": "3a6422ce9c7315f9a83a8a450ccaa342af6567091705fa4e3a2cb7c75c924ed8"
+    },
+    {
+      "id": "04101_z463f41f3000003e2",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_b3df3ac72e8bdf6f",
+      "starter_overlap": false,
+      "point_sha256": "84776b07b2f971572c32a8d494004e2643d08eea5e84955f50cc5bbf8447e412",
+      "mesh_sha256": "2acaff2cdda58ea97e046d9165632a3fb93b94d145d1e73bba5dd3397c0d1272"
+    },
+    {
+      "id": "03326_z41acfcf900040d74",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_6db665c2b6a490d1",
+      "starter_overlap": false,
+      "point_sha256": "e7f4c25de06692c84dff16251a7fd2e079d0d6f9f6f5cbcf61b149decebb3f1d",
+      "mesh_sha256": "8003d827d26aef8ffa6871b8cf0c19d26a529b76ab55dffcd64c0660f6ad1e7a"
+    },
+    {
+      "id": "00069_z41ad3fb8000716df",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_a4060c27410e8b60",
+      "starter_overlap": false,
+      "point_sha256": "c7cebd681b86883c0921b92dfa4d6bca819d1b7d95968e4448417716baf0449b",
+      "mesh_sha256": "7c084ae66ef70258ffe90b1816ba6956483c54728617c8815e11be279649498b"
+    },
+    {
+      "id": "00274_z41afb9c500001db9",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_290419e0027e1e8a",
+      "starter_overlap": false,
+      "point_sha256": "cdc162ba7803b009a2c98a11593966b801a5fa3abebca2f5248598822878c620",
+      "mesh_sha256": "d72165e9243d6f0c49157bbe41e41b615bba4ce6026d1954cab36724fd13ea72"
+    },
+    {
+      "id": "04286_z52a19ce1b2470049",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_a2233c7b8ec0048a",
+      "starter_overlap": false,
+      "point_sha256": "c3b35ed2035f9f3e4635868f41d66f6df98b0e393d384215bd09019272dba202",
+      "mesh_sha256": "2a5e6ccec5e2da7bb0e8485476f57e134248db4049ef7ffbbf05544f81d833a7"
+    },
+    {
+      "id": "06911_z569d085565d8001e",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_a37c3bb3f15b0151",
+      "starter_overlap": false,
+      "point_sha256": "a51c7cabd72e76379c633b1fdfd456336c3f8f1e5a3cffb2dfd8cc48b4a78e67",
+      "mesh_sha256": "1be32dd82b537bce4e6d5f73d64ec26f26dcedd68cbfbba2a3bb17db85573428"
+    },
+    {
+      "id": "04689_z5b363678894c0003",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_ef057fb520f1d152",
+      "starter_overlap": false,
+      "point_sha256": "26dde793b001ebe36a79fb9b947985d9242e924fffd38c2cc2a3ea95a492c1b4",
+      "mesh_sha256": "e33311da22bc8660254e0450410ff1d813e4f7a3e5501d6473ac880850dc85db"
+    },
+    {
+      "id": "00856_z45b11bc80000574f",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_290419e0027e1e8a",
+      "starter_overlap": false,
+      "point_sha256": "7114c745f9f1149f7a31bdc2902f3e62af91e6fe67a9243b11317ff344ffa352",
+      "mesh_sha256": "0dc0933a297a9bc23d55b5deb9199ee675c631cada12c88e58926f30ebbec4a3"
+    },
+    {
+      "id": "01791_z41acfcf90004066d",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_373dada7c945607b",
+      "starter_overlap": false,
+      "point_sha256": "8a093b38121bdb1e66e8c4ca814997e5f189572d64b263bafed1c47946d811db",
+      "mesh_sha256": "c8cac1dc5aff019b2f5d657faeb18d7a0f028f914548a13e33fe0705b3d11c34"
+    },
+    {
+      "id": "04541_z4e8d9b8eef0d0005",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_c3078a5028b031c4",
+      "starter_overlap": false,
+      "point_sha256": "15e9209ba0427f63678b8946b1f79ce569162c49c453959af0dc2a46a39c19e3",
+      "mesh_sha256": "8d3a9662e0b58b71af65609d75885b0a56454647e4c43aff252a4dcd02743ce3"
+    },
+    {
+      "id": "00063_z41ad3fb8000716d9",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_a4060c27410e8b60",
+      "starter_overlap": false,
+      "point_sha256": "2f04e7b0335afa15ce48ff7768ef72b0917b13b90bf1c28602acc6c07ea0e0f8",
+      "mesh_sha256": "499e339830f63186610b7a301afc11a2cdd6191c548c02d178671064641d984a"
+    },
+    {
+      "id": "01858_z53be49b4431c0006",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_a4060c27410e8b60",
+      "starter_overlap": false,
+      "point_sha256": "dff81e647e47720418239b353f1c48f0201f4afc2acfeeef435222e4f41e1a97",
+      "mesh_sha256": "ce209b9065b2e97d3c196d46b274b7af581f83216331fecdad5ff89f306b4e94"
+    },
+    {
+      "id": "01954_z41acfcf9000402f5",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_4c63b570b9a78c2b",
+      "starter_overlap": false,
+      "point_sha256": "7f2201b04b76269acf896db1e7392a66ebcb77c415a09d774fd03f9eba533ea1",
+      "mesh_sha256": "42c1582f31d0c63b030a22694b44d2017fab311333e256e00402b3411e54ea03"
+    },
+    {
+      "id": "01321_z478b924c0000034d",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_f0ad4a27622b73e5",
+      "starter_overlap": false,
+      "point_sha256": "f58398f62a2d57a3a5fb32b7609333104b4e9c32271e17e6d61ecca46ca6ac97",
+      "mesh_sha256": "71abd252fa37637fbb0a6070e6a0becfb40cd5d8c2de6dd271bc184740f86bee"
+    },
+    {
+      "id": "01614_z41adc92e000157e8",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_e4e8bff6e1fc6e33",
+      "starter_overlap": false,
+      "point_sha256": "c3fa7b494bf9bd4ffae9b664f8972cf6ba6c899c6a6ac3f842cc9e11f75d3cd8",
+      "mesh_sha256": "4fecbaf5779f5e25b27016d6b13e69c3c3cd1e288c9c36a722ffab2bb62fda50"
+    },
+    {
+      "id": "01238_z45b11be700005ac0",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_290419e0027e1e8a",
+      "starter_overlap": false,
+      "point_sha256": "6be797042803fbb771c1b67415a9ac71f46aacfe2c98e8777b71fe4720601c85",
+      "mesh_sha256": "756ce105a154e297e37fd1b39942acd2174f262e69fdf9dae0b37ed155e44d65"
+    },
+    {
+      "id": "04165_z4a9cd3540000001c",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_9443aaa593ebd999",
+      "starter_overlap": false,
+      "point_sha256": "15fae0f5fb716f73f4ee1239a0243952514125513b5eacf9cb65947cddc61013",
+      "mesh_sha256": "3cd6f63cfdaf98f3591c76d3c1aa103907a6a07a1dafef0defd974d625aa5521"
+    },
+    {
+      "id": "03483_z5236ebc5ddb50002",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_b6265d2b6306936c",
+      "starter_overlap": false,
+      "point_sha256": "87d2d1654deecdd1b25d400655fda6aa3592cd704b9a4c1b8f311e42fb128fdf",
+      "mesh_sha256": "0f49277d81b064e5647e48eaa3a9d310a0b70ee81da9cc0e904ca545edf8acc8"
+    },
+    {
+      "id": "01447_z41adaacf000016b8",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_515675211b7024af",
+      "starter_overlap": false,
+      "point_sha256": "8aa77d5529059d3b62bd86ded881a82e2e92adb40f9d8b7a076cbec4d80ee00b",
+      "mesh_sha256": "b4b52af5bb21d977644d8fc1ea3ba59ea205edeeec4307b8676aa899310ea756"
+    },
+    {
+      "id": "04321_z463f41f8000004ef",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_655cb08c565e9b6d",
+      "starter_overlap": false,
+      "point_sha256": "96ca0ac9add6954ed4e8d8d2ff8ee9f33c8cc22f5de12ebcd5dbe32b141f35fa",
+      "mesh_sha256": "7c0084e39f5ba362ca610fcf8092c3e5959028df42a7156d88e773aac47e13f4"
+    },
+    {
+      "id": "04157_z564c7b5b050000e9",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_6e52f95e825b2925",
+      "starter_overlap": false,
+      "point_sha256": "f13637e6632d60a80d4c78eae4bf80f2657f32263a393f152354c154c19ad3b3",
+      "mesh_sha256": "71802b8a167f86e0fb5e3d0bf8ad9c270b1f00637e349d70ecff2d5897dd7d92"
+    },
+    {
+      "id": "04500_z4961aa4700000002",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_1ee6202c768d3483",
+      "starter_overlap": false,
+      "point_sha256": "c9c6002bcf77f5fa730581ae4679d655023d892636ac841b3701fe6bc9311cc3",
+      "mesh_sha256": "80b5e55be64a30f30fcee90e079b50f39b2d2455a48fe8836dfec337e313714d"
+    },
+    {
+      "id": "04053_z4fd86fd87a120007",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_e8e99ac379737bda",
+      "starter_overlap": false,
+      "point_sha256": "e267501dfdd335458a0d690e9cf6d64ad5580337cc5488b1dd1240d049adbfe3",
+      "mesh_sha256": "7cd63e6da2d471f113bfd720b53dc1c1e38b601f40f1720fbf02bed9e3a5b220"
+    },
+    {
+      "id": "00758_z41ac87fd00031ea5",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_c3078a5028b031c4",
+      "starter_overlap": false,
+      "point_sha256": "20dd2901b1d8385ae4af7b0d062e097e19c53361d8f06ca1e3970024f89ae936",
+      "mesh_sha256": "ffd173c3957539bdc907de4d16012caf6682fa59eaa9bc51cc5dc9f97b4acf25"
+    },
+    {
+      "id": "00782_z45b11aab00003701",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_290419e0027e1e8a",
+      "starter_overlap": false,
+      "point_sha256": "9b269c4c567a1e8878163fac55eeebb4366c1c0629d49fb73068ea1c03924ad0",
+      "mesh_sha256": "8bcd3e9a778735e130cc366b01acc148cd7f45f6829ff8ad172b3c72d6ec657d"
+    },
+    {
+      "id": "03167_z45b11c0b00005ef2",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_4a9bc05ece3bdbc3",
+      "starter_overlap": false,
+      "point_sha256": "05ac5a80cc3b0a31f62eb63fa8dfe6a168beb329e1867e87bbefc667f416d397",
+      "mesh_sha256": "132a27afd32a00b30477fef74a4d8121bba41f19e27a1751a7b09e4e617463e4"
+    },
+    {
+      "id": "00078_z41acbc6a00014214",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_b6265d2b6306936c",
+      "starter_overlap": false,
+      "point_sha256": "d791e17a7bf069e69383d05ae51fa6a01b8b7577a60867bf617a0c2e14c8f678",
+      "mesh_sha256": "5574efc10fb4c38b6af440590d488f74ad498bd56604b885c2192dd749c38b41"
+    },
+    {
+      "id": "06904_z55fbc710331b0001",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_9b778ccd7cf2ce73",
+      "starter_overlap": false,
+      "point_sha256": "7e043bea009b9c74394361d6490687caa67760153804481447ab12ded94c9ef7",
+      "mesh_sha256": "aeb0a35439c92a8f8baace3e0e19df053ea0a03e1875acb6222a210f711570b8"
+    },
+    {
+      "id": "03592_z4756d9820000051d",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_e4a5d89c800ce623",
+      "starter_overlap": false,
+      "point_sha256": "2f0a9a6b4b23f620495f1a6e41e1de378c4b1b2b7520fe197e9f73a14da3fcea",
+      "mesh_sha256": "3d95049e6841fee7e9408dba8c1c92c7096b1543e5084d5a05086e5008443008"
+    },
+    {
+      "id": "01572_z54742ce897f5003a",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_ca3dbfa16070fa7b",
+      "starter_overlap": false,
+      "point_sha256": "3d9c90579d3878b217de33923593bd6bce0464ee92b45d9b4c19f18b19d4f694",
+      "mesh_sha256": "119c30c74b5a0fba963b1864431167ab1bb845acd5a9d422cf8c119615ad1d59"
+    },
+    {
+      "id": "04163_z569cf0dc79cb002a",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_e8e99ac379737bda",
+      "starter_overlap": false,
+      "point_sha256": "31048188a279221f80fe18afcf667b415a6fa734bb4ef64f397ec8bdbbaab55c",
+      "mesh_sha256": "fed78d8cf16f28129400a011cb6cfc1b23990bbc2965add307d0815704d7915f"
+    },
+    {
+      "id": "00074_z41ad3fb8000716e4",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_a4060c27410e8b60",
+      "starter_overlap": false,
+      "point_sha256": "1b32061362594874219c99b8f1055f73292ba4b1e4a04c084e3631a220d63a83",
+      "mesh_sha256": "9509225d6fc1f5acfbd9e99689b69ec2ffbab8ca8875468d3a0d5a3a18b4b3cd"
+    },
+    {
+      "id": "01193_z46a4d6d4000003c0",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_45d255c14315aedc",
+      "starter_overlap": false,
+      "point_sha256": "307be381daf084ebd6b2eb89dcbcee76a3377689a68c4bab2eb95803c369bdff",
+      "mesh_sha256": "15b2cd84635c4ca594f3d00a5d5a04a7b801f33d8af7ece2c97e9a90824715e4"
+    },
+    {
+      "id": "03482_z5236cc0f99cb0000",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_b6265d2b6306936c",
+      "starter_overlap": false,
+      "point_sha256": "70fe9e63422bda5e2a1f6002cec3fe208bfdf7ea8e8338a250bf809e14a4b25c",
+      "mesh_sha256": "bec4b8eaea5028986cddc0e15f90a3ec89d3c77c46bc7e3ff0853b50f1a234b0"
+    },
+    {
+      "id": "05992_z45b11ae100003d0d",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_279efe46511018ba",
+      "starter_overlap": false,
+      "point_sha256": "9bf9ed9edb4c8eefd35c41a9874e871215b64c84c1dc9c3cfbae7af8ba2696b3",
+      "mesh_sha256": "4e622239eb5f0841e01cad713c70e48d6713d92678fcc912ce3652877cda23b5"
+    },
+    {
+      "id": "00857_z45b11bc800005750",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_290419e0027e1e8a",
+      "starter_overlap": false,
+      "point_sha256": "5b31545614617aab36c101f073b92e233bcfd2c75aef7d7d8e3cab74472f584e",
+      "mesh_sha256": "53e6bea3ba2e694791b63f2a9505bf10b318391a89f5929f4957f07c9b7c282f"
+    },
+    {
+      "id": "04125_z483d7cb900000022",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_4e435563ea19766e",
+      "starter_overlap": false,
+      "point_sha256": "9bf77c0086606a49f9bc78114ac759a8c80bdbb2aeab21db8b2e7552e2028831",
+      "mesh_sha256": "ca929a4f3fe357d5aad060ad4a4853be76588fa9b80513505d1a3afe92ab6951"
+    },
+    {
+      "id": "03594_z45b11bd200005863",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_a2233c7b8ec0048a",
+      "starter_overlap": false,
+      "point_sha256": "99ff190f9c323911d4d30a02305f768346c519536fb0046d82e8186670eda9e9",
+      "mesh_sha256": "28ac4bbf60f2e14fd058ecfa1c3c202119494db3bd923f4f11700988d5647687"
+    },
+    {
+      "id": "03441_z45b11a88000032f3",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_fc563ccf5b4a4f68",
+      "starter_overlap": false,
+      "point_sha256": "fd5313abd4283d2db6dc355829429adf70210fdb9a073f94e0d2818cb31540dd",
+      "mesh_sha256": "aea00405eac5485a687e52b05c66d79398a565caaed95cfb0ed1287532da5305"
+    },
+    {
+      "id": "02533_z4379f25000000053",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_a5dc92a2a85e08e7",
+      "starter_overlap": false,
+      "point_sha256": "8fd483bc5b26cb82ae5f1b35a1e410ee31d029e9c2c338052a124435c6952a34",
+      "mesh_sha256": "c9a67d4e4ba755e5f56c25bba387bca22fd5086b5d4a02569e1a94fc8e472a76"
+    },
+    {
+      "id": "00080_z41ad26d3000617e7",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_45d255c14315aedc",
+      "starter_overlap": false,
+      "point_sha256": "9bc3fd146e069c5e5228ff12e50b9b921f392dd9e6eb4f03769aed81505a4b7f",
+      "mesh_sha256": "b0f9df0bb4f4c8d749101be50616349987230fd5f1de0b9bebd961cbd7cfa4bc"
+    },
+    {
+      "id": "02413_z43d7831300000019",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_633e64f27149958e",
+      "starter_overlap": false,
+      "point_sha256": "670377fcff4ec284262268fa8376f9e0596a5bdbeb4397b918552b9793d285a2",
+      "mesh_sha256": "ba978673dfaf9c92b62b933564ea310a826dcc155927a4a5edf0098eec9bc177"
+    },
+    {
+      "id": "02228_z41afb9c50000285b",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_5d776b5c81c792ab",
+      "starter_overlap": false,
+      "point_sha256": "8164f640d59a1d97069f584514d77bdedd51c758b4279414ef47a21bf5df3eab",
+      "mesh_sha256": "115e3ac57f1e3f15e6ef6504b9d97ccbe72662abf47d1d33d22083b3a1906c28"
+    },
+    {
+      "id": "01569_z54742cb797f50037",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_ca3dbfa16070fa7b",
+      "starter_overlap": false,
+      "point_sha256": "58db2ec352c186e4ef029731665bf359cd5a67cad745add3d5b5cfbc0e24a928",
+      "mesh_sha256": "2652a8322ff7a4bce06cdf14d35100e8d5cf56cdd7fa984b49cc2bb4def710bd"
+    },
+    {
+      "id": "02155_z41afb9c5000027fd",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_5d776b5c81c792ab",
+      "starter_overlap": false,
+      "point_sha256": "8a46ebbac06aa9c05a83cd539c07fae8ee081b05882ebe59f23412af62fbec74",
+      "mesh_sha256": "ee3ef3e75a05c8c1ed1943f796deb3e273e763a883784301516ee54ccaa5efb7"
+    },
+    {
+      "id": "03618_z5a8ac7c0960e022d",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_6854a4456f44f1f5",
+      "starter_overlap": false,
+      "point_sha256": "1f81bed0875deb55db362cacc0fe81ed98a5daaf1095fe5709a7d1098c3572eb",
+      "mesh_sha256": "b3d808ea97e415c644010f052abddf49482bb5459c0a7e3f43a45e36e69af908"
+    },
+    {
+      "id": "05475_z45b11aca00003a88",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_321bae4315498206",
+      "starter_overlap": false,
+      "point_sha256": "7b713df26169494ca3f48be6b4b1f64b68faad091f77e1ff59584302948b34f6",
+      "mesh_sha256": "75f6b5f4ba5b10c1a4f84afc1c95bb233c998519a0761741a96d09050c8366bd"
+    },
+    {
+      "id": "01587_z55b8dc1875980003",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_45d255c14315aedc",
+      "starter_overlap": false,
+      "point_sha256": "20a121af407dee677cf4e57bdd82d63a307d2fbcec31f9733db8306680029136",
+      "mesh_sha256": "784997de757e2189d20656b0516ff3c165d4c32b451a0c73b44172da62e09a1a"
+    },
+    {
+      "id": "00071_z41ad3fb8000716e1",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_a4060c27410e8b60",
+      "starter_overlap": false,
+      "point_sha256": "567ea0ef1a50c7427d129cb13e62ddc3087ea34989135933601254c45edda9ca",
+      "mesh_sha256": "51312f3940c249fe28895cae399d60966527efe89c5b41629ec4bf4545d27563"
+    },
+    {
+      "id": "03648_z5a969af74441002f",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_6854a4456f44f1f5",
+      "starter_overlap": false,
+      "point_sha256": "5fad8ad2a94078b6f57e5e56f6a0c4ca2a45e02a72c87d5c56fcfb6d4e8a5645",
+      "mesh_sha256": "575a7a47c210a67a97552cafc9b1a139582552512d0cb33bbe02ffd7806e9c7b"
+    },
+    {
+      "id": "00522_z41aca4f400000fdd",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_0cdc74aef70bd0ab",
+      "starter_overlap": false,
+      "point_sha256": "286b4f60d6fe8fbf23491dc787a8345cb5ae59290542d4a7958d610e060760d1",
+      "mesh_sha256": "1e32e16d0b8973eb7b8a26eabd2f3bc6a5c8e0d671950e8e43c8d8d39bd6afe9"
+    },
+    {
+      "id": "04107_z463f41f3000003e8",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_b3df3ac72e8bdf6f",
+      "starter_overlap": false,
+      "point_sha256": "280015f659bc5864a7c0cbd8428b396ac61d4b3131dbbe40d7cd0dc38962a60e",
+      "mesh_sha256": "59a978ceb65d0d8f0ec745e9ecd9f1366ef4cd25ced8ded7be5190fed7fe17a1"
+    },
+    {
+      "id": "02837_z559e330bfef60002",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_d704404558a38303",
+      "starter_overlap": false,
+      "point_sha256": "4cd6e041aa178cda9fb56b6db52fb4368f40243e4f9df01791ef9664c62ddd33",
+      "mesh_sha256": "e4a0e82726c992dcfeb68b810c9d5c364353467917be3387ba5d3743b3bb64a5"
+    },
+    {
+      "id": "01240_z45b11be700005ac2",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_290419e0027e1e8a",
+      "starter_overlap": false,
+      "point_sha256": "b4ed02b6003b9a446108569a14791e597b1da460887ade6b8ca7484470d1b8c2",
+      "mesh_sha256": "f66eea8fbad51d32f32c1a42f3a8c233a50ad058613f9f89d9f85f51635447a8"
+    },
+    {
+      "id": "01708_z41aedad700017614",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_4be839211e14c9ee",
+      "starter_overlap": false,
+      "point_sha256": "3280a762248deb4b9e698892ee33c8ac97ddaa148df70723e77ff190d38fcffe",
+      "mesh_sha256": "01ada5d4af8e6c64ebfb49639661f4b8285c004cc385d8b3508296d27e6c53e9"
+    },
+    {
+      "id": "01198_z45b11be400005a71",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_ba2589c2948d38b6",
+      "starter_overlap": false,
+      "point_sha256": "d929d4b7d165ac30dd52bdcd255667821b5d1dd3a9d5b5276c147d9b25e47b1e",
+      "mesh_sha256": "6705996040835522c983d2ac3b056ffeb3874cf3956ec7d9497355354d7b322e"
+    },
+    {
+      "id": "01293_z4756d98b0000078e",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_71cc58f2fb8d8a65",
+      "starter_overlap": false,
+      "point_sha256": "97c9f144a29cbecb415a86be570b06b77ff4d55f51cc9812f001a7b40ac752da",
+      "mesh_sha256": "c25c0d653ea5feecc2bb9012a264f76d4399e8634edf219a174c800107225d0a"
+    },
+    {
+      "id": "04288_z52a1aac1fa4e0005",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_a2233c7b8ec0048a",
+      "starter_overlap": false,
+      "point_sha256": "e0c3ce50aee82137e4473ee125dd9d9770c598d7b3b9635951eb97387bcea09e",
+      "mesh_sha256": "7f624bea97271116f2da2394435468877e015ef19494e359ae787a3faa0b85a9"
+    },
+    {
+      "id": "03475_z45b11b1100004286",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_3a33d49c7548983e",
+      "starter_overlap": false,
+      "point_sha256": "19c8f8d1339a9ab3e4c3c97347a69fea4640ec0cf931a48d183e3de384a8df47",
+      "mesh_sha256": "20165bf566c7718e1e5f4c34a60ce862711a16a7717f0f741b8c037b67fe61d5"
+    },
+    {
+      "id": "01890_z5968ab20a13a000b",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_823a3fc156df1ada",
+      "starter_overlap": false,
+      "point_sha256": "d796e71025822e0d9b9a3f26ff1c654d1009cf7dc04a274cb4c852ddb0b5ca41",
+      "mesh_sha256": "09f1836afe1fb216875ab8e57b4be956bdbc673ed487a2ab58defd16faa2be57"
+    },
+    {
+      "id": "00132_z41acefc5000321b7",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_290419e0027e1e8a",
+      "starter_overlap": false,
+      "point_sha256": "a11e8afa9e3e18a8bbd790a20899d69197e7e057854fc0ba8e94ea38483d8d8e",
+      "mesh_sha256": "06ed492f6985f4252e86aa5efda74ed95b5ac2666546ce95ccc7ddf1b802939b"
+    },
+    {
+      "id": "01849_z41ace2af0003003d",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_22343ac6ff13b154",
+      "starter_overlap": false,
+      "point_sha256": "259ef9081cdc79b154e60350de6bb2aadd5625ffe73c31ab3011b0eab9fe49b7",
+      "mesh_sha256": "3795400e0a56ca62d7fde0cf9a3903b29b3e9536b7c2abeb367a04749d7ed0c0"
+    },
+    {
+      "id": "03281_z45b11ac200003997",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_6705ce88fc98e0d9",
+      "starter_overlap": false,
+      "point_sha256": "ebe9bdb0386406254f306cc7c06250aeecf6be3b0ff1fd13f7eee77ec9c69f63",
+      "mesh_sha256": "719fc8ec29f344de1fcbd3dfee875ad3930d6c79628608b00dd14926fa842aad"
+    },
+    {
+      "id": "00625_z41afb9c50000381b",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_a2233c7b8ec0048a",
+      "starter_overlap": false,
+      "point_sha256": "adff4fdc0f1feb07f610ad3b4845ceee93437c925144e45b39cda85e11dcdf79",
+      "mesh_sha256": "28da47a87f07d091bcb43c89dae60c54b3db8ed2bcbd094bf0bcd9b7d1a53212"
+    },
+    {
+      "id": "01199_z45b11be400005a72",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_ba2589c2948d38b6",
+      "starter_overlap": false,
+      "point_sha256": "e1fe673e51697a42b33f0289b58e54f4fdeb7be05a653ea89d49f8fe5947e1a0",
+      "mesh_sha256": "c422177fb4c764a40df11a5968e196dbd4027d78cdee74b043c2ca8996b1b2a0"
+    },
+    {
+      "id": "00012_z41ad3fb8000715bf",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_31784df8cb3875a0",
+      "starter_overlap": false,
+      "point_sha256": "1671a8fcf9c94d8a46905dacba29baa1fa28cadad9149d59faa4a81daa6ea88c",
+      "mesh_sha256": "b06a079d8700ade981d203846d4cc407b84b0a065a8267bc2018f432dae23b31"
+    },
+    {
+      "id": "00645_z41acbc6a00014a46",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_25c81be4d1aaaf8b",
+      "starter_overlap": false,
+      "point_sha256": "54212d18152b6d2464a2fae03d1ca86996a5ef0f0f7e36af20e59bb23eb7f00e",
+      "mesh_sha256": "abb4e794027956a2e801b4f470aad72aeae3ee96a7950f04aaa2c781e2f16967"
+    },
+    {
+      "id": "01599_z41aefd120002d96f",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_4bb91b16bc5350ad",
+      "starter_overlap": false,
+      "point_sha256": "52526de4c5155d547f714ad7f4fdcf9895a602e693bb0bc47b8cbaf0168c6070",
+      "mesh_sha256": "edaa876a8fe673f546300075df1c9ef052f50d9958431985197d00e41decc8e2"
+    },
+    {
+      "id": "01863_z41afb9c500002496",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_1209c36468f47506",
+      "starter_overlap": false,
+      "point_sha256": "a19e312f1e66fb8ca27bd371479839f014b54ee6935d1cc8fcd0c53dcdeb0a44",
+      "mesh_sha256": "beae53048042f08b8940ec8b512ff866bf60b390671a0e963520788c0ee42249"
+    },
+    {
+      "id": "04382_z41af7b9b00001050",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_fe5382924cbecac6",
+      "starter_overlap": false,
+      "point_sha256": "6f3f7a34cfe858b150481f0ac5a7bff601bc9f897fc2a79fe717f6eed9e8b14f",
+      "mesh_sha256": "a324d10d3261a13c3bd516639e6d0778090614a211f0433b49eb9ceaeec958f9"
+    },
+    {
+      "id": "04329_z463f41f8000004fa",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_fe2061e2754c7a52",
+      "starter_overlap": false,
+      "point_sha256": "243449294d3d20fdbd0c138c081f19ded9b7303fe5b8fe3fe21f24a579378eb8",
+      "mesh_sha256": "f01d615305dfb7bc826cd755a2cf5fb3c8b9916dc80241795935dad9e1f9bffb"
+    },
+    {
+      "id": "00783_z45b11aab00003702",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_290419e0027e1e8a",
+      "starter_overlap": false,
+      "point_sha256": "08095d5292ff2c74aad1010e34b8859f9c10217441508c62336f92ec36c4a885",
+      "mesh_sha256": "fc587dd2154c748d0d5de61d40948788925f606c9532af4fb4d5701459b230dc"
+    },
+    {
+      "id": "01563_z533d06e6a40d0010",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_8ed8a53d5ff35639",
+      "starter_overlap": false,
+      "point_sha256": "fe881ddf0d3bc51e117dc536d3772156c5c6ac7766dca11744cd0f5cb1c53815",
+      "mesh_sha256": "b3ac012daa6ffdd8b49541b137992e641349024a468749267e4c8ac48ee76ff4"
+    },
+    {
+      "id": "02938_z45b11bf200005c18",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_5d776b5c81c792ab",
+      "starter_overlap": false,
+      "point_sha256": "8f6cf72917dbb6688efb08cb8aced178d0f672895034b8e29540130e7068f59d",
+      "mesh_sha256": "88516b9a5c34ce00a46836d9aa88831d9dd8b39e9342465b0ac13afa4e6b3662"
+    },
+    {
+      "id": "02807_z51190e6d46390010",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_200b325da4a1b623",
+      "starter_overlap": false,
+      "point_sha256": "26f040985b94489e84aa0fae2c93eb4f5f2a50255e2390aad15a110321a19714",
+      "mesh_sha256": "1cf75e117f541652c682a7b4a2e7e939c9c891f71d1e97b3926ecf68bd48a0b5"
+    },
+    {
+      "id": "02241_z45b11b1500004304",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_e4e8bff6e1fc6e33",
+      "starter_overlap": false,
+      "point_sha256": "6ffbcf6d044c1441309d214c9340470e033bf683bc3129a268406196c9985d12",
+      "mesh_sha256": "67d4b0191e1476eb65fc73ee2eec600739a140c326883f02afc33337cb121402"
+    },
+    {
+      "id": "00022_z41ad3fb8000715ce",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_f7fcd757bfb95465",
+      "starter_overlap": false,
+      "point_sha256": "b2f499b028bdfa38f436442986075f04fb97bb1d3f6dac6c3cb5aed4ce5c9cb0",
+      "mesh_sha256": "d55de78bd47aad2bb851536f5ad1cb9bafd13f8f1eba1bc71c91e797561c8e22"
+    },
+    {
+      "id": "02937_z41acfcf900040b93",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_4167f523130e929c",
+      "starter_overlap": false,
+      "point_sha256": "e71c8e9a0949cef5e02fe066bf4938c7cd61d4f013d709a273a03a7169bea5fa",
+      "mesh_sha256": "d1d397a0689704bdc99349d5857c4ac99cda4ed13c65418464c3b124bae6dc7a"
+    },
+    {
+      "id": "01962_z41acfcf90004034a",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_01ccefbe10402402",
+      "starter_overlap": false,
+      "point_sha256": "88233bc3615c582f3c7e57569fd7eb8f2269c3d780b96083a135701b357b7a85",
+      "mesh_sha256": "c4b87b1bd996443f9371dea0af68405516265dc05a63dee8c49616a3d360121d"
+    },
+    {
+      "id": "02834_z45f57a7b000003e8",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_5c4446f4ae26f6d4",
+      "starter_overlap": false,
+      "point_sha256": "592ef738434b76f63f6a9c225556a18fb67990e3eacafe77bb82c4b540d48be6",
+      "mesh_sha256": "e18a542a21b5ccc3cb31b491eaf03cf5b2a8aeafac1f7f5d035fd677bfa3507c"
+    },
+    {
+      "id": "00067_z41ad3fb8000716dd",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_a4060c27410e8b60",
+      "starter_overlap": false,
+      "point_sha256": "21c55b6f529753fc7a7920324d483f3793bf7492178d118bf29bfc2b5e020624",
+      "mesh_sha256": "a382df2c8ae81e2eb0f7f8b51a522a5a847311bc8bcbee3c0b3def273f2075e0"
+    },
+    {
+      "id": "03980_z49bf89950000007a",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_62938119e38db64a",
+      "starter_overlap": false,
+      "point_sha256": "c5dbf6b3076d05b8b4720ac7adb9482ecba8c9f2baecad71358ef0bf94890241",
+      "mesh_sha256": "127e2f7a7eebb98f1812f74933b3837b74aeb18ca58b755d95b25c8f3af16037"
+    },
+    {
+      "id": "03360_z47050ae400000886",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_6f66e4c43c0b3ca1",
+      "starter_overlap": false,
+      "point_sha256": "57a9359070700f0a323f32d0de05feda92697f870edca5993fbb4842570174e1",
+      "mesh_sha256": "8ec32579db2995919a1f18234f71dc99ef5bc665a00f6a1b9709d53511d76052"
+    },
+    {
+      "id": "03265_z45b11ac10000397a",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_081f1ce4d20972fc",
+      "starter_overlap": false,
+      "point_sha256": "704e05d0dae6ddfa7619e6b345440667794ec5c503931ef4729bfa7e753cf35a",
+      "mesh_sha256": "b4ee99e451811714d62bcecfbf7ef8eabb0e3828b27465fac003ccbc876ef17c"
+    },
+    {
+      "id": "04216_z463f41f50000045b",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_ef057fb520f1d152",
+      "starter_overlap": false,
+      "point_sha256": "ff72a9508026a37c759e01c6b92b24313253c165c108a1850e42bd18c5c1fe60",
+      "mesh_sha256": "ee4f9cfc4b722fcff5cf682a1c2352cb12339ca267d1053e950aaf08be36df83"
+    },
+    {
+      "id": "02303_z41afb9c500001f0e",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_a2233c7b8ec0048a",
+      "starter_overlap": false,
+      "point_sha256": "d05ba8d345467be2c9ce58b37dffa5e7477763dc63939f999c823a2c8e372fc2",
+      "mesh_sha256": "c5a31ada07d00e3c3bd936ba4c72419ae90eaa51bd2dec5d00bd6d3ee61df76b"
+    },
+    {
+      "id": "02956_z45b11ab3000037eb",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_eb736aad94ecbd8d",
+      "starter_overlap": false,
+      "point_sha256": "cd0fb69623e9b226fe217c0977b0727ff8fc7a86853ce5f4d020f047988b3041",
+      "mesh_sha256": "718ba57cb5e8d28376b35756f5751b96d66451e5ae3cdcc28c6affe3d1c908b5"
+    },
+    {
+      "id": "03337_z4c722c7000000015",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_b6265d2b6306936c",
+      "starter_overlap": false,
+      "point_sha256": "eeed86b70b7c0f0a53f693e78b1ce8b9392be3e4b27a9e6f30cd4c96666eec36",
+      "mesh_sha256": "df5420455fc5639be23ee198a89ccae8e33b7eed9e09d6be65a427fd5bd46db7"
+    },
+    {
+      "id": "01957_z41acfcf90004030d",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_4c63b570b9a78c2b",
+      "starter_overlap": false,
+      "point_sha256": "a255b8f6e1a3034fa1e6fc045dcff6dd6671ab7f7443c6ccc62a4e1393cdc5b7",
+      "mesh_sha256": "b488fe0cf4d53238db0b63d8a434f5db670860b9acb7eda7720ea7204ab4803a"
+    },
+    {
+      "id": "03205_z47050ae1000007b2",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_7918f932dfd4dca9",
+      "starter_overlap": false,
+      "point_sha256": "c4bb99f65b07fd06c710d96d8bb414d8b0754539ccd0a7b25c27131da6cf46c8",
+      "mesh_sha256": "61ee4e55353d4f20dfe9a267938b71fb22c5d1e8c12296bebea4304a5ffa4054"
+    },
+    {
+      "id": "01241_z45b11be700005ac3",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_290419e0027e1e8a",
+      "starter_overlap": false,
+      "point_sha256": "9e1ea3f4bfc9841cf47a3aa75730a89bddf742b26d90168df4d8c425ab41d506",
+      "mesh_sha256": "7210de981784487a713e553aadbe0552aa3e0870953199a2d7dc89deaa8faee5"
+    },
+    {
+      "id": "06525_z46f29566000001fe",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_c9090c90d56bee36",
+      "starter_overlap": false,
+      "point_sha256": "c6c7f5d15386e4dd88f6bcaa4e4821bbdfb2b76deefc343fe0abf0857d605750",
+      "mesh_sha256": "050ae71f3ccf08f0f98403e312d8174a6f20d29e9525bd0f0c4c3e7e61118c50"
+    },
+    {
+      "id": "03595_z581c7cf5338c0012",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_b30a35f4d1e60612",
+      "starter_overlap": false,
+      "point_sha256": "005711246b5bf6725781c6efe9120faa0218c810060176bc39304e7530a157ae",
+      "mesh_sha256": "b114759ea7a463a75608333d0a35637e936358f6791f8c13ed0e37545b857eb1"
+    },
+    {
+      "id": "00833_z41acbc6a00015b5f",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_5c4446f4ae26f6d4",
+      "starter_overlap": false,
+      "point_sha256": "a4eeb3daf0bffe9a3c2b5f1dff121b62d81c0bf39dc568feac100befd9fc2127",
+      "mesh_sha256": "dce27ff4d133ac763c38e3185b3e248c4217dda8371451286b98bcdf86ce0679"
+    },
+    {
+      "id": "00077_z41ad3fb8000716e7",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_a4060c27410e8b60",
+      "starter_overlap": false,
+      "point_sha256": "b5057f558cf293408b88943978c0730e7910ac673903ca33f50e9da845f76fc8",
+      "mesh_sha256": "63d9cb1f5bc939e5a51c89c0f580f88d54aa57245a3316f0fdcedabd7e3236d5"
+    },
+    {
+      "id": "00675_z41acbc6a00015b2d",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_0dd5ecd71a0e5fae",
+      "starter_overlap": false,
+      "point_sha256": "a7ba7b19771d63a009fda0c3490edb7a5ec94cd89d8818241dddd3706652c29d",
+      "mesh_sha256": "dfedd3659fa7127bfb1f8f3004f24c7749e46bc04b3c031209774e159257ec91"
+    },
+    {
+      "id": "02215_z41aefd120002e80d",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_05148609666de21a",
+      "starter_overlap": false,
+      "point_sha256": "4a461ed7284ada3083323c6b9dcff849697f726341e9bf4f1a9dfc3322cdea5c",
+      "mesh_sha256": "5ef817c516cc76d0fcc98345ab8acbfee5eb728882a9646e9c956890a4d54b23"
+    },
+    {
+      "id": "03594_z581c7bf8338c0011",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_b30a35f4d1e60612",
+      "starter_overlap": false,
+      "point_sha256": "c8e0945abb4fedd7854c66f3d7fcf9aca008e6718b894608884d40911660c0c3",
+      "mesh_sha256": "12bc88bdd83dfa271111a7ad341fe5586e7c429f21e26f509ba540ee2cf52345"
+    },
+    {
+      "id": "04012_z4d8b3c7c6f08000b",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_fe9609da9068063e",
+      "starter_overlap": false,
+      "point_sha256": "6c0f7b2baee9ca370e512f0278901843a61b056f32d955ac54fd7424f13ccbf4",
+      "mesh_sha256": "3ddd2f4a27744606fc3b8ba8f8015745fa0e12613fca5fa5c877554597a642ba"
+    },
+    {
+      "id": "00136_z41acbc6a00014274",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_59ef5ebd1fa651ee",
+      "starter_overlap": false,
+      "point_sha256": "7158689d8affc08bdfce09fd256989c4c6fa3ff572bebc8eacbd53f2afc444b9",
+      "mesh_sha256": "d3f22856d55eeb487d445142af4fc4774f8c452da7849b8041a8df8ea65e93e7"
+    },
+    {
+      "id": "01483_z41ad3fb800071b14",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_8e99548947d4f89d",
+      "starter_overlap": false,
+      "point_sha256": "846944408ab1adaba312de97baf8754204a897f73e08c4f9b48174a3cc10901a",
+      "mesh_sha256": "be8297a2edd6ee6f9d4c7ce0f73606984bf557c17821f905c10287d3e2039989"
+    },
+    {
+      "id": "04369_z582eb469e32e0000",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_8fedaa0b27ea5b62",
+      "starter_overlap": false,
+      "point_sha256": "d356e4c95bcf6f46daf9be7a80316516bb104b05c2369a29f13d4114916b617d",
+      "mesh_sha256": "1539f00d150144dd7d8adc4f7f9d377ec1aff8e854594c66b7b123789c33a318"
+    },
+    {
+      "id": "03671_z5cac36ff726c0011",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_17b5d51dbad59b6f",
+      "starter_overlap": false,
+      "point_sha256": "9c4fe318ec4f6feca6236014d43f175632405868ff9bb4790633801a2b5749ec",
+      "mesh_sha256": "332baa5e8a2f028cc44d21bdb819e883da583416b356ef4f4292d9c9c054502d"
+    },
+    {
+      "id": "00832_z41acbc6a00015b5e",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_5c4446f4ae26f6d4",
+      "starter_overlap": false,
+      "point_sha256": "e54469c21565361534080f4200c4d7013f62fea9d6c676297be5a324b2f5eb83",
+      "mesh_sha256": "d0afc7b18d1cd077b28e479c14a88822f11119b768911f26e296cd4ca55f823d"
+    },
+    {
+      "id": "00060_z41ad3fb8000716d6",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_a4060c27410e8b60",
+      "starter_overlap": false,
+      "point_sha256": "0ed3c3d60ee357bf95d3197def2c9e22dfff4d05da8071daaafc5e4f52e0a9a3",
+      "mesh_sha256": "477ea6c3c47e5e31dba6c677b8d77ed215c7c5bd11d401ce3e5886694638f51e"
+    },
+    {
+      "id": "04287_z52a1aaa2fa4e0004",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_a2233c7b8ec0048a",
+      "starter_overlap": false,
+      "point_sha256": "e60344a0da331bc12e0d59a364659f552334815abd63c6cfce7de3fec0df78ba",
+      "mesh_sha256": "2b97171a20fbe6a0f0a95dcc934675ec3d6b369cc57c5ad0fb659fcf8e5e56b4"
+    },
+    {
+      "id": "00068_z41ac87fd00031b73",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_639c0d1ed535e108",
+      "starter_overlap": false,
+      "point_sha256": "b1ff65069c52bc244f1134210353c687fc0568e8a33bb5206bc0236310781d56",
+      "mesh_sha256": "66dd579b6b95da5bd0ba851b0305734b71d5ef71d57464f47e69b90bf6d9e2b3"
+    },
+    {
+      "id": "03626_z5a8befe09968006d",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_6854a4456f44f1f5",
+      "starter_overlap": false,
+      "point_sha256": "0927f7aa72784fbe0d8b95d54a8dee6617cf99d159e1e401e092e2a6bf763cb0",
+      "mesh_sha256": "c421c3868c4aa1f7b23296626628f8c3491907e11cb45cdce04490cbb7456f3d"
+    },
+    {
+      "id": "03218_z47050ae2000007c4",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_7918f932dfd4dca9",
+      "starter_overlap": false,
+      "point_sha256": "dce16febeddd763a64d2bde59f08ce1a0db5bfc9e86bde353658e371b27a9aad",
+      "mesh_sha256": "f90f41ed25c3728db564a853dd2d4a563f516926f8bb980d53215f947dd0b03e"
+    },
+    {
+      "id": "00556_z41adaacf00000eeb",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_90dc514c10f6f300",
+      "starter_overlap": false,
+      "point_sha256": "eac2974418fd4f8dd876bfdf2540ba1afc15ba1dc334ca5b32888ffb31f7e6c2",
+      "mesh_sha256": "818bcc52c13f8a318fb1078b215e2f384815129ccac5a8691563a80aef1c3331"
+    },
+    {
+      "id": "01273_z41aedad700017762",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_b3df3ac72e8bdf6f",
+      "starter_overlap": false,
+      "point_sha256": "f2e9367d26f01125cfd6c018b50bd2da7f9bfb3ec7890a2f2ed1bf0a50956c9f",
+      "mesh_sha256": "6c6b2739f33b7914e6e30ba71ab78a60dfbf0c4f058433d93e62e90bab359102"
+    },
+    {
+      "id": "06976_z5cb7160236070017",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_279efe46511018ba",
+      "starter_overlap": false,
+      "point_sha256": "0c1a1d1d3ab0e9bffd05b31d90b82c7d9d2da9edabb32b0d4649b884161336d4",
+      "mesh_sha256": "2ed13ab1e59f7daa8e3cd01dfd0cece88fa6dde3a9d108a263186461ca10bfab"
+    },
+    {
+      "id": "03621_z5a8ac9e5960e0232",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_6854a4456f44f1f5",
+      "starter_overlap": false,
+      "point_sha256": "94f04c4ba724da846bfd84fd36b9c5419bb80348242f8f9208ede82e6e65eb30",
+      "mesh_sha256": "c89c9c8933a7d900f3bb8898ea78c3ef6feb6ef9bf9ae4460c138b7d38ce12e8"
+    },
+    {
+      "id": "01186_z41ad3fb800071841",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_e69d6586776d1d3c",
+      "starter_overlap": false,
+      "point_sha256": "ceb57c1316ac5439cd0c8b52b32f2982e319912288d15a0276e65f5464e49b1e",
+      "mesh_sha256": "90dea73c5267255c3c1950e4f7267dfe78c1e1e9e8b9b82e1d27b49bd313ae6e"
+    },
+    {
+      "id": "01547_z41ace2af0002f3ef",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_081f1ce4d20972fc",
+      "starter_overlap": false,
+      "point_sha256": "9ac6db896bcc8f048d8ad234b2bca3229a44170c5871dd301a9777626496b9c0",
+      "mesh_sha256": "d2f464ee69e8900ecd23af0ae1f2d749cb83dc26b24304531d14d3b1a7e77219"
+    },
+    {
+      "id": "00367_z41acbc6a00014693",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_5c4446f4ae26f6d4",
+      "starter_overlap": false,
+      "point_sha256": "6fa5d27dd95834697d4c03887e1afdcb81ddb4d8b05cbfa66a61b93ceb385c2a",
+      "mesh_sha256": "4d220d8deb14b22fd654700db6d4ab2c13775bac483c002b72584f3980e56724"
+    },
+    {
+      "id": "00640_z41afb9c500003c52",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_7578a4572dbd9e59",
+      "starter_overlap": false,
+      "point_sha256": "340ef863a659e1f66555e2f0a86233ebbd658de6d9e36a128df015be11db458f",
+      "mesh_sha256": "002a5a86c5ac4e4c49f2b8e3707f378533767a7ee57d3b681696ab0101657e03"
+    },
+    {
+      "id": "00064_z41ad3fb8000716da",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_a4060c27410e8b60",
+      "starter_overlap": false,
+      "point_sha256": "4bfb551b27978dbfa7322df7559f8689b88e00fd6809e7c92a220cc70eeee22d",
+      "mesh_sha256": "f546e83a52e1bf5126b5f247421e7b8672d09ad9c1d3b8adaf2038420433a4c5"
+    },
+    {
+      "id": "06857_z526645407dab0059",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_0d7b78edcaf28563",
+      "starter_overlap": false,
+      "point_sha256": "f1404fa68004c9daed2cb5f135fff444d533e82c22f0a56a4e6b496f53cd68f2",
+      "mesh_sha256": "93fea653fa90934a4c078530dbadc720c93ef8c0663e4ad84e69d10d3818287a"
+    },
+    {
+      "id": "00848_z45b11bc600005708",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_338302c0066740f1",
+      "starter_overlap": false,
+      "point_sha256": "b1d9ca16876f591ca3ffb5be9f47b3157cd7e268527b10629a1e5be2b4f9a60b",
+      "mesh_sha256": "d604a6e6d197a68d6463b08a65c947b01562efe159af5f82a515dd2d01a29459"
+    },
+    {
+      "id": "00075_z41ad3fb8000716e5",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_a4060c27410e8b60",
+      "starter_overlap": false,
+      "point_sha256": "7416b2b9e4e7222e19d78d7e6df27f37f9c8ecd8b6142036c01cfffb695ee506",
+      "mesh_sha256": "c2a8483921721b74888d7b400a52812a0aa13d922009fa9f89b5c3d408874f57"
+    },
+    {
+      "id": "01618_z41ace2af0002f474",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_223884589d56d63b",
+      "starter_overlap": false,
+      "point_sha256": "b42a0268cf5b70bb738a2fd14e6bb400ebb477a287734b923489d66b1114d104",
+      "mesh_sha256": "cca34c6f42f50272a172641e337bc71e0213f98c72eebae35c011f3e66f72f27"
+    },
+    {
+      "id": "00903_z41ac87fd00031f50",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_fc563ccf5b4a4f68",
+      "starter_overlap": false,
+      "point_sha256": "0054df27a2cb6935b15644ef75eaf57e19bcde56c0c9a08f2f45716149cf93b2",
+      "mesh_sha256": "332072bc04983f8ebc078465de858f3a20be90f480d16e7df5a0e7528ec0efa8"
+    },
+    {
+      "id": "02199_z45b11b0c00004208",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_e4e8bff6e1fc6e33",
+      "starter_overlap": false,
+      "point_sha256": "d8fdb2b9b748f01719738ebc2950d1af30527bf1454b3099886fe4cb1bd17df0",
+      "mesh_sha256": "f37c65d6d28224b878d82ccd843d0565363843d318bc8865f58945ce7203fc03"
+    },
+    {
+      "id": "04552_z41afb9c5000020a3",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_e4b8e48dd5c352da",
+      "starter_overlap": false,
+      "point_sha256": "e3df14c2458adddcae1263ecbaa29d5c5f7ada9a558b7926c2bd09ea1258eaed",
+      "mesh_sha256": "2e11e70fa1e29a149570ad00e30ab07d36fef811491cf58dc3f6ef084f3a97eb"
+    },
+    {
+      "id": "02536_z438aa7cc00000004",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_db8c9c27dde8ca84",
+      "starter_overlap": false,
+      "point_sha256": "da2e4f9cf521d282b02206255b68734f5cd6fb33e29e030cb86bd6163437d8d3",
+      "mesh_sha256": "34a246f3bc50fc8f3aa3b1bfd493aa6ef840dd8c736aaedd3185d8a053ff231f"
+    },
+    {
+      "id": "03737_z45b11bad00005446",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_c6eebc042ee13081",
+      "starter_overlap": false,
+      "point_sha256": "40d78c5e448cb875965730dfe594a20d4f525b5cc624ad8299a555b03d2ac78d",
+      "mesh_sha256": "25bb12b0924163e9403d7a2eb66f163caae5ecf5b9d5ec6cb45aa323b604d6d9"
+    },
+    {
+      "id": "00966_z41ace2af0002ef48",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_223884589d56d63b",
+      "starter_overlap": false,
+      "point_sha256": "d7d1b158506c9925ec334ce0764c35a188660cf08448596547ad3be5f9149a62",
+      "mesh_sha256": "2acf7ee89e14d744b84b4357709db4b412c3057166ae70b603eb0575e9ad0b27"
+    },
+    {
+      "id": "02240_z45b11b1500004303",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_e4e8bff6e1fc6e33",
+      "starter_overlap": false,
+      "point_sha256": "51b3aac643fea1c3c18cfd9a966c0d4184a07b4b8255a8047e50f4ba4cfe5442",
+      "mesh_sha256": "fe1077886cf99fc3906d4c8501ee65435c922ad5506aa1957dbd4b1bf3ed1fd6"
+    },
+    {
+      "id": "01255_z45b11be800005ae0",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_290419e0027e1e8a",
+      "starter_overlap": false,
+      "point_sha256": "80ada360c9160a8e9a3c21cc90e3970cf3b22709031a389b4d35bf98758b9e33",
+      "mesh_sha256": "5009b9733a02028e422e3b74d4958cbe5f0e7ea2f5377083c8ccd76d0d692e52"
+    },
+    {
+      "id": "04245_z5107eac073c80003",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_223884589d56d63b",
+      "starter_overlap": false,
+      "point_sha256": "67280c62185b4b2b36f32c95512e1b270e5f979b797418cbeb35857de580753d",
+      "mesh_sha256": "5949838d91f29dfd08cccfe1be125cb9db5fa35338045186c5deca3b650e1926"
+    },
+    {
+      "id": "02119_z41acfcf900041c4a",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_4c63b570b9a78c2b",
+      "starter_overlap": false,
+      "point_sha256": "4f9b9053e0bd67ed4cf3b7d57e3c29f89579d6b10575b479aab9145b687e65d6",
+      "mesh_sha256": "0f2a13aa93060f2d5e35cdd6e3d6bb370c8d9fc274f9365ef71a976d817b88ff"
+    },
+    {
+      "id": "01188_z46a4d6d0000002e7",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_45d255c14315aedc",
+      "starter_overlap": false,
+      "point_sha256": "4bdeddbf61213b4d3613966dfe19aa9238325a36914a4e5c05b8fdf86da33bb7",
+      "mesh_sha256": "b65514f607d8e66c8b77ba4f6fdd08359a92ceb48c06c35711ab9ff97d4486b2"
+    },
+    {
+      "id": "05279_z41afb9c5000028bd",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_e4b8e48dd5c352da",
+      "starter_overlap": false,
+      "point_sha256": "d5465a6b99549cd55a1b4ba62227ec3d822ecdf3ccf2a1c6589f1025a2458603",
+      "mesh_sha256": "89dcc7a56ef42ee379cac54deb00ae08d6d8cd1263893b43487620092ceb2e1e"
+    },
+    {
+      "id": "02944_z45b11bf400005c3c",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_5d776b5c81c792ab",
+      "starter_overlap": false,
+      "point_sha256": "a396f4f09cf250772d955e16400e0b76eddc678ec7e8f87f843727f9f19757a9",
+      "mesh_sha256": "b5f45aab9d25f7ea347f12605859f40f22c34c460511e5dc3cdc3c56331a56f6"
+    },
+    {
+      "id": "00481_z41afb9c50000261e",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_44940ff8bc7ffdd2",
+      "starter_overlap": false,
+      "point_sha256": "3403b2b19ca63ab1c858e7b4f3ffdb220e8d655eee4e508af351b0c8fa0a05e2",
+      "mesh_sha256": "081aab29c235f6ad5f6b0e8c2f878a8824063643203806c9caaea46c5c153f13"
+    },
+    {
+      "id": "00061_z41ad3fb8000716d7",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_a4060c27410e8b60",
+      "starter_overlap": false,
+      "point_sha256": "608122fa528d23a5fce6ad8a3a68e1d797025f912ba886b306776410908de96a",
+      "mesh_sha256": "af288ad5d3836ea5158a0af45855506e1b038f9bf12432bf076bdc18b54d35b6"
+    },
+    {
+      "id": "00068_z41ad3fb8000716de",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_a4060c27410e8b60",
+      "starter_overlap": false,
+      "point_sha256": "473a2f494fae17970f7fd149f5a20bc07c5721a60f81eb8a07dd1b4f593b6680",
+      "mesh_sha256": "ebd72d1013ac9bb4a8b5a6950c7c6b90c35fe255b843512c2329bc06bc1c671c"
+    },
+    {
+      "id": "01573_z54742cf897f5003b",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_ca3dbfa16070fa7b",
+      "starter_overlap": false,
+      "point_sha256": "60181eb773c2208ecae91ad84e4797a005f62b602e0ab549b71d1352a60fe022",
+      "mesh_sha256": "dad1d27b91fbc9f60d90725f864e4bc1cd3fd94aa54e35a398b6c06b96a993da"
+    },
+    {
+      "id": "00983_z45b11ae900003e06",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_823a3fc156df1ada",
+      "starter_overlap": false,
+      "point_sha256": "b72c7bb56f9dd311b343a096ce859899302269a1258a59ab8aa5d243b28adbed",
+      "mesh_sha256": "eac33f0b1418a76833b2e716072148bbcec19812c3ef02b427b57334d088692f"
+    },
+    {
+      "id": "03267_z47050add00000684",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_2dbfaaf73d9c413d",
+      "starter_overlap": false,
+      "point_sha256": "c9cb3119543f5906dc14a1aaa32ef30b4b5cae72d9bb6785899f3a4ec886fde7",
+      "mesh_sha256": "52201416ea62405a48a9f55fafe15b8fedb693edbc0a19823fb80698f299830a"
+    },
+    {
+      "id": "00066_z41ad3fb8000716dc",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_a4060c27410e8b60",
+      "starter_overlap": false,
+      "point_sha256": "3bc447945e6a349b4dd7ae97f3ba5ee6dc6e5fcb451ec5269e268b5aa24afbd6",
+      "mesh_sha256": "45b6902d550a57a338d304edea3bc0aef333e020a9e48e4c5cce271da11483fc"
+    },
+    {
+      "id": "03155_z463f41f2000003b0",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_b3df3ac72e8bdf6f",
+      "starter_overlap": false,
+      "point_sha256": "861afaf6eaf1d1083d5b6a837e9c36d677b7d006fec751c7be00fb9aa4960f9e",
+      "mesh_sha256": "8094c6cb89991106b8ca576d3661a144b57016919743aef8497f0848efffc11c"
+    },
+    {
+      "id": "02423_z434252cf00000020",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_5e8dcdb70ee3f148",
+      "starter_overlap": false,
+      "point_sha256": "f01424d1855e38337c94b3102e95a9cbe152ea035e0fc214a8f86c0249e656f0",
+      "mesh_sha256": "8c862da0bc9a62471841dff0ffbb2b0abd61e574c7ffaf222acd0acdff87b30b"
+    },
+    {
+      "id": "04591_z52f0aa1c14650000",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_fe2061e2754c7a52",
+      "starter_overlap": false,
+      "point_sha256": "63fd231b312d2f7b8c8ff35a28d6ef74bbf3f81eb187cb6bff3f8d20fd2d4efa",
+      "mesh_sha256": "61073b0762ca1750a842dfb5eae795d27773ed241efe75c973502b46d1373a96"
+    },
+    {
+      "id": "00972_z41ace2af0002ef4f",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_223884589d56d63b",
+      "starter_overlap": false,
+      "point_sha256": "eae05c50d2079c0b95e7b1ceac35e51f9d2e5a7e80a8263b9c59273a2b947814",
+      "mesh_sha256": "74acfe74a5e10ecb79760c658fe1923343772ab6a69a73b18ef10d855954a16e"
+    },
+    {
+      "id": "00728_z45b11aa500003651",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_290419e0027e1e8a",
+      "starter_overlap": false,
+      "point_sha256": "1a4efa90c811cce20a54ce29d3b9cfb2fb170941f12c895f2381ca54b2f4c2d1",
+      "mesh_sha256": "4490a5d8ac058df6ed97af7b9737d137679aa008336f808f74a847d1e6580042"
+    },
+    {
+      "id": "01261_z45b11be800005aee",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_290419e0027e1e8a",
+      "starter_overlap": false,
+      "point_sha256": "b8b22b9e8ce8a5b6b7d21bd6ac00ee84b52409125e26e243ab49f8c6b87979e0",
+      "mesh_sha256": "bcb4d401c9489c686619ca6c0e0a254f711f842064c6f38353344454bc0c2dec"
+    },
+    {
+      "id": "03171_z45b11c0b00005ef6",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_4a9bc05ece3bdbc3",
+      "starter_overlap": false,
+      "point_sha256": "dc7cf261aae4ded1de3754901a5d9c14064def7d3f558d0756ce3a56743766af",
+      "mesh_sha256": "2d858f66c9c6ab43009c3c8260b3ffeb494b80d58a52659c93088aedcd0d9a1f"
+    },
+    {
+      "id": "04344_z55d71a9749210032",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_db8c9c27dde8ca84",
+      "starter_overlap": false,
+      "point_sha256": "cd1007baa8e0d81c12a1b6ceb7f672068f98bf93b0cd1eb4260a630f379ae5a9",
+      "mesh_sha256": "1fc22f1d5926fc5e0ef54871faf22b89b529b39f51f28c6429deb315b5a7cd82"
+    },
+    {
+      "id": "03095_z47050adb000005e4",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_8e99548947d4f89d",
+      "starter_overlap": false,
+      "point_sha256": "935936845630ed6ccae0e9ae4ba87452c7c65d8745cbcccde9cbc2a19117681c",
+      "mesh_sha256": "49c379c2d13194cbc4a8bba7792e6e2daa6b739eb77b1550b7535ac750c4c0e6"
+    },
+    {
+      "id": "02238_z41afb9c500001e45",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_a2233c7b8ec0048a",
+      "starter_overlap": false,
+      "point_sha256": "3ec4f2d41c34c0f67e8786ba8df526925b96e974e7ffeccda104d7f08a04ad1e",
+      "mesh_sha256": "617ae5a167ba1cf0c1a68fd66b803fe374ed20eaef0f6cec88247b77280583a7"
+    },
+    {
+      "id": "03132_z47050adb0000060c",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_8e99548947d4f89d",
+      "starter_overlap": false,
+      "point_sha256": "a672bbd4cb269c1dfb7efa9f3aa3165752ef04ad3cb761a9b609eb03a006a724",
+      "mesh_sha256": "8a153436ef68577ff19b1e6306da1ed63e7082172f5953cfd74e3a53fff43bbf"
+    },
+    {
+      "id": "00038_z41acbc6a00014329",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_22343ac6ff13b154",
+      "starter_overlap": false,
+      "point_sha256": "334f1ed964f2d63fed4bbeeeea904a0ff1e8c04d9f919c1bba645af82c9a0077",
+      "mesh_sha256": "414ffde4b4b43cecd487268fc8054cf7857a58061f18784f4e1cef2b22c377f8"
+    },
+    {
+      "id": "01303_z45b11bec00005b4e",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_290419e0027e1e8a",
+      "starter_overlap": false,
+      "point_sha256": "d07d881915e94bd26c735b5d6e13cdd5f545515c7b5b228c13c9aca61e91b9e0",
+      "mesh_sha256": "5d840a0d62b595e79b186b0094d49e3eb4b70610c30c745769e427b21625e019"
+    },
+    {
+      "id": "03773_z4756d98b00000799",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_d910876667d8da06",
+      "starter_overlap": false,
+      "point_sha256": "5b9d992b81743418096b5ae4e997bfdc9d8072a8f8267db98324c7a9a7eb0623",
+      "mesh_sha256": "d4e3157f9d7c2199d65f6a819bb9704228f638ef37764222cb2ee3c8c4e244a0"
+    },
+    {
+      "id": "01239_z45b11be700005ac1",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_290419e0027e1e8a",
+      "starter_overlap": false,
+      "point_sha256": "fc5eb3287ee1196bbdd097f0711ab841dec9d92d90820f0a46bba74eff66ad61",
+      "mesh_sha256": "30ea93f24db3681581940c84c61c98412ad92d32fe3643154a784ffae543c956"
+    },
+    {
+      "id": "03630_z5a8c011704720000",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_6854a4456f44f1f5",
+      "starter_overlap": false,
+      "point_sha256": "08a0e6a4d77c4a015b9e3a19056227cb0e1fd17731de5973cf95667b9c1c9ff2",
+      "mesh_sha256": "e74d9c22d98f3207396d35e5b8a35b32f6729f4960695c0469302d87fc0e4913"
+    },
+    {
+      "id": "01247_z45b11be700005ad1",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_290419e0027e1e8a",
+      "starter_overlap": false,
+      "point_sha256": "5b225b29e8846e5dabc7d16006f26752b6f4c2188c80d37386c5389d8704f053",
+      "mesh_sha256": "44c1075476005b3bfc6d80fd531bf6e80b71eb9a628f2771f26b0c319eef784d"
+    },
+    {
+      "id": "02412_z43d782d400000017",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_633e64f27149958e",
+      "starter_overlap": false,
+      "point_sha256": "610574efbf8085c8dcc85f685184698873b37cd7c5b5f8d4df954dd3b9846721",
+      "mesh_sha256": "5cb417bf3ea643e4ff13679b681a38c1688e6a210b01f310fbea9fb347600f9a"
+    },
+    {
+      "id": "03138_z45b11c0b00005ef1",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_5b57e7d5f58303c7",
+      "starter_overlap": false,
+      "point_sha256": "b85d86dda5b496d9c560a41676910fe6e221970bd1f9190a03fc347714483283",
+      "mesh_sha256": "ec4f836835f7a3b73c3cd78e1ff7e871c9fa74f4aab7a6bd4958984661d88755"
+    },
+    {
+      "id": "01485_z41acfcf900040343",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_f312775375539f46",
+      "starter_overlap": false,
+      "point_sha256": "9f41d3062aaabcadf6e5b08610bda45ea09e0b955ab4c230e04bf0502c2caa5c",
+      "mesh_sha256": "ff6f961d94522ec34abf1f35a26ebecf561514b407cc10a233ec28abbd64e494"
+    },
+    {
+      "id": "04364_z5719ec10b8f90030",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_0aa25090f8040a05",
+      "starter_overlap": false,
+      "point_sha256": "3a503ba995d76d8bc94a4c9165e42c99dd21614a30bceb7e9905e7912b09021b",
+      "mesh_sha256": "5e6da01d35fddd95cb8c827ad954e592fcb9f011699a74fafbfe5e04c8b94601"
+    },
+    {
+      "id": "02832_z45b11bde000059cb",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_734eeb474aec22a3",
+      "starter_overlap": false,
+      "point_sha256": "dad669d876c915d6a4b41cbe80bb044eb59a0eacf3a244259dd0dff59bec390b",
+      "mesh_sha256": "cb7463cdcfdd68439bb7c1963800412ae57cc3de77781fc1e5f39c1ff19037ef"
+    },
+    {
+      "id": "04241_z463f41f600000484",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_c3078a5028b031c4",
+      "starter_overlap": false,
+      "point_sha256": "b60e3d32822a00c28f1cbdef343554f1840b70d4e3a9c48f2f91c5e3cdd54ec3",
+      "mesh_sha256": "93094a21029bbf0ae23f6725ec80bb11800894442aa6f40bbbb653f66d7b6a69"
+    },
+    {
+      "id": "01836_z41ace2af0002f68c",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_db8c9c27dde8ca84",
+      "starter_overlap": false,
+      "point_sha256": "8380b0130209cee364cfc84899f4bd15928bb62fb3735ae0f545250c6faf6717",
+      "mesh_sha256": "6ef12e675046dee56d5144bd0a86e471b78840abcd0a9eaa676cf893cae8c616"
+    },
+    {
+      "id": "01742_z45b11c0000005da0",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_290419e0027e1e8a",
+      "starter_overlap": false,
+      "point_sha256": "19f63e1d3c7b32d100011c9344fdf68e0e2f08b0d951785e27158d13b10702c1",
+      "mesh_sha256": "929eb1fefed4816ee1263980940d9f43a5e158bfa4ba253a86ab564a740aef2f"
+    },
+    {
+      "id": "02847_z41aedad700017e21",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_c3078a5028b031c4",
+      "starter_overlap": false,
+      "point_sha256": "045d2c6f620a7eeb92c485716768959e24b23d7c78ca4dd3b3b82dedec3a1051",
+      "mesh_sha256": "bf573e31dcd1e07fae389cb0aa9b8d0fab38ec81a528d7ed70e18aea9c09076d"
+    },
+    {
+      "id": "01574_z54742d0a97f5003c",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_ca3dbfa16070fa7b",
+      "starter_overlap": false,
+      "point_sha256": "246bffe3c7ee4619753c7230889c2d90e15b9c31c6e4bdae13440150f0ca2e2b",
+      "mesh_sha256": "c5d15503c0037dc68005a05bcac19637e943d3879d03452ca5f5983bc6ef2576"
+    },
+    {
+      "id": "01447_z41aedad700017872",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_b3df3ac72e8bdf6f",
+      "starter_overlap": false,
+      "point_sha256": "8d94bb75d94a6012a5555d1f381b077b7694ae8ee7e5722b1ca006f58d283fda",
+      "mesh_sha256": "4c6e058c4b92434d43d4cd8d115275a51494383d1d537381ffc8bd3d0dd5775c"
+    },
+    {
+      "id": "02388_z4316b6e60000001a",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_6e52f95e825b2925",
+      "starter_overlap": false,
+      "point_sha256": "6756a8f710a19346db833fe9a273b83bbacbcc3d56959e38f0423fffb79bd0b5",
+      "mesh_sha256": "e7ec10749f3d990b3346f197f59727e4fadbe1c698f12408b531fdc6915738c2"
+    },
+    {
+      "id": "01488_z478b925100000494",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_bd2bab7365b81883",
+      "starter_overlap": false,
+      "point_sha256": "6d832ce893f20fe34b8f9881c790eca9071a0d93d473424448e3c5d26fb928cb",
+      "mesh_sha256": "48a57facb35a3abeaf58acc98a2b039da0f74f7271836a496359b44a2c50409a"
+    },
+    {
+      "id": "03628_z4756d98200000548",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_e4a5d89c800ce623",
+      "starter_overlap": false,
+      "point_sha256": "0ace11582a77100cb37ef2d2ba398110d8e0ebc3d19699682f493925149631b3",
+      "mesh_sha256": "d5b96a44dfac91d057e00741742d9e30fa0c5f6c335d056b5de71e789781e45d"
+    },
+    {
+      "id": "00813_z41acbc6a00014a76",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_ee0b3cc38e33dd42",
+      "starter_overlap": false,
+      "point_sha256": "0c1f4a3f82042a4d705153a3cebd3dd3240ea33c1c2bc1995d85717e5c6ad1cd",
+      "mesh_sha256": "e511bc1c008ca5a83a3457bf22e2db62790015061ebd5e4e6e321a2fe7413c2e"
+    },
+    {
+      "id": "03900_z45f57a7d0000042b",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_e877ca135062ae07",
+      "starter_overlap": false,
+      "point_sha256": "c0c76d1d4370c205c449c866bd0ec5b87a4f31b38442aed04dfb166d667d818f",
+      "mesh_sha256": "9b8941d4a72d16a7d311bac7d09388d1b7fc18588149f5803075de39356f5607"
+    },
+    {
+      "id": "03655_z5b3b10bf6e4b0004",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_92ca144350440dea",
+      "starter_overlap": false,
+      "point_sha256": "d28b32d887e67380d133f12e23434bd345bebaab25fd497fff3c5988aafad1f6",
+      "mesh_sha256": "67888cebfaf1ccf4d81171ee7bd7e94003f02399d82f6555970cc7db3a08be99"
+    },
+    {
+      "id": "00780_z45b11aab000036ff",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_290419e0027e1e8a",
+      "starter_overlap": false,
+      "point_sha256": "e1a1c4b02c23c8f03854d29c8054edef66716ffd45ded623aec4cf5bc7bfb164",
+      "mesh_sha256": "e5c8c865cd9bd21f7a243bf857f56a9dbac73c4aed1ff0cf84ed1b9fa9e1ec66"
+    },
+    {
+      "id": "03123_z47050adb00000600",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_035015e22e183ea2",
+      "starter_overlap": false,
+      "point_sha256": "9f490c529096bedc5d6853f09fd32d6722f733ce9c8bf3b1b487474c690f5571",
+      "mesh_sha256": "7002c1b1b26028c94616bb85fbdca978b0efa0cbdfb0e0f9eeee129893b67de1"
+    },
+    {
+      "id": "01613_z41adc92e000157e6",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_e4e8bff6e1fc6e33",
+      "starter_overlap": false,
+      "point_sha256": "2ab5e5726129dca267b0c6d8df6112496374ba7ac8b56e0645b3c020e071207c",
+      "mesh_sha256": "2750b0782b37136c45ee181725eb7cde68a89ed799b7b61367fb33a8e16f71d6"
+    },
+    {
+      "id": "02534_z4385ba6200000132",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_db8c9c27dde8ca84",
+      "starter_overlap": false,
+      "point_sha256": "8d374e1ab87bbb4db6e49981d6860cebb7b7aa541dd97e303f0379fbd1fcc2fa",
+      "mesh_sha256": "0cc39bfb3c79ead29907c098a12eb949e6a0dd7643769d92e6b8f40a730f2dc6"
+    },
+    {
+      "id": "01249_z45b11b070000417a",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_aba989314e726a2f",
+      "starter_overlap": false,
+      "point_sha256": "6fbe2d403589faf32100f9bec2e2ae0a6e6cd61e00322a69539c2445528f9434",
+      "mesh_sha256": "a49717a4917b736208c5d9db533475f0f8878b79ccba6bdb4ec32f51618f6315"
+    },
+    {
+      "id": "02235_z41afb9c500001e42",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_a2233c7b8ec0048a",
+      "starter_overlap": false,
+      "point_sha256": "2a9cddf278ad2788b07274b95d860b675328ecd7e01fddd576a88471eaeebc52",
+      "mesh_sha256": "7d0087f47a3a826c50ac1a51bc50562a01aaf0658d1c22e8f8817a571b95b04c"
+    },
+    {
+      "id": "03429_z45b11ac900003a6c",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_d6688e4b11a79ff4",
+      "starter_overlap": false,
+      "point_sha256": "b9f9da5e48745658c61cc4ccb0f5f242d0c568ec2efa815a083fae5c2d7f0e5f",
+      "mesh_sha256": "cd36f8468dbaa47023b5318af7891243f64fd94b1cb3f2e899b696b14fff5c77"
+    },
+    {
+      "id": "02003_z56dd5e5d93df000d",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_290419e0027e1e8a",
+      "starter_overlap": false,
+      "point_sha256": "a38de8e270ac05f836ad5c58625cd965e8aca411b970b7669b14bb6f9794c8ac",
+      "mesh_sha256": "c77aa3f5382ceb6a6ee86daab3de9353c15b85a99f8ad1de31632b16b2063271"
+    },
+    {
+      "id": "02027_z595a18cc7c290001",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_a2233c7b8ec0048a",
+      "starter_overlap": false,
+      "point_sha256": "7b306c074e7c2608d940169dbe2990d5ef06b2043dab25dc4c06d2f86b8d0331",
+      "mesh_sha256": "e514ea52499ea75e9ba42c8570c37204ea01876442d074576d49c1e31791353f"
+    },
+    {
+      "id": "06001_z45b11ae100003d19",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_279efe46511018ba",
+      "starter_overlap": false,
+      "point_sha256": "5807d577ae842d8eda068eaf3d033199dc33cc323a6e3158c29419da63d5e076",
+      "mesh_sha256": "1c63454cfbf8b8f9ef24262ad5ef40d05168f52d1df64f744941e0ad455afdd0"
+    },
+    {
+      "id": "00076_z41ad3fb8000716e6",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_a4060c27410e8b60",
+      "starter_overlap": false,
+      "point_sha256": "a51c8d79123231ee892e1e7a94fc594b2b597a3f2b84804fa9b3396fad8d84a0",
+      "mesh_sha256": "0c7d0a575af75e5b4d4bddd007a65c179f64c7414d195a87b2cd5426e042396a"
+    },
+    {
+      "id": "02200_z45b11b0c00004209",
+      "author_split": "trainset",
+      "project_split": "train",
+      "spatial_similarity_group": "group_e4e8bff6e1fc6e33",
+      "starter_overlap": false,
+      "point_sha256": "c45b6194cf0ea0270561f19b9eef4432512f42a991bb28d8da5fbd408cd2df76",
+      "mesh_sha256": "ee1c79a854bc99ac86625195a1a2bd0d0a99252ef47cb120581c159d2fe3b01b"
+    },
+    {
+      "id": "03427_z57ed042815010003",
+      "author_split": "trainset",
+      "project_split": "test",
+      "spatial_similarity_group": "group_572bea12afeef798",
+      "starter_overlap": false,
+      "point_sha256": "a9901652c905a485975b30e65df8d5b347a67e49f7c3492b009a1a81d2f046cb",
+      "mesh_sha256": "47c703cc870210495a629b376894b224e72bfd5dbf3ff1bca268fafa75d5f0a2"
+    },
+    {
+      "id": "06949_z59df3aba270d007e",
+      "author_split": "trainset",
+      "project_split": "test",
+      "spatial_similarity_group": "group_67172e9b5671fdc6",
+      "starter_overlap": false,
+      "point_sha256": "5387e5b8bce3f8469f1f46f571cebf7e67a24c201b2e060fddddacb97f426b8c",
+      "mesh_sha256": "6c74ad2ec6aec97083324066fd09ab0efac8f34fca08897e2975e2683ae89db6"
+    },
+    {
+      "id": "01563_z47050ade000006e7",
+      "author_split": "trainset",
+      "project_split": "test",
+      "spatial_similarity_group": "group_0e7c6f070f190584",
+      "starter_overlap": false,
+      "point_sha256": "0cb7657274d86fc1039a8ec537f703544540bb961413e388b399d52b4c713c5e",
+      "mesh_sha256": "26672f212e077b8800895c225ef4258c81852d32c8bcbe577fea97193771b70a"
+    },
+    {
+      "id": "04207_z4e5644d58fc20033",
+      "author_split": "trainset",
+      "project_split": "test",
+      "spatial_similarity_group": "group_2d4393579f5d37ce",
+      "starter_overlap": false,
+      "point_sha256": "3b2ad3157ea632846f79ce8ead1987876aee20f07b54511134bf0e0c49c61d6b",
+      "mesh_sha256": "14f2e0d441988a6b36ad758936cad4799bab70dd22ba1d3f8ed23963401d8349"
+    },
+    {
+      "id": "03426_z57ed03cc15010002",
+      "author_split": "trainset",
+      "project_split": "test",
+      "spatial_similarity_group": "group_572bea12afeef798",
+      "starter_overlap": false,
+      "point_sha256": "76107d3bebe7603d27b939a03a853116f26081e7a1d3f1ba3042f5bd0bbee38d",
+      "mesh_sha256": "979db4381a4a759cc9019684c4cbfe443a58ceaca5bbc77456dae54180327a3e"
+    },
+    {
+      "id": "03308_z4d74e34ccefa0000",
+      "author_split": "trainset",
+      "project_split": "test",
+      "spatial_similarity_group": "group_9f8fc3f6f16c2fc0",
+      "starter_overlap": false,
+      "point_sha256": "a7507975528931451c553abf04120e1df9c90e8fd06ed5eff5f094b3e043557b",
+      "mesh_sha256": "f98e6b81939ea78be93bddd7d32947c435854fa48228440aa3e1d2d17791ead7"
+    },
+    {
+      "id": "01914_z5b4c6f2b2dc00002",
+      "author_split": "trainset",
+      "project_split": "test",
+      "spatial_similarity_group": "group_7b5915d10bc75330",
+      "starter_overlap": false,
+      "point_sha256": "a902105f30f2ed883d43e01bd3b407f2e30dcff5afd16fd398b57506c180bfec",
+      "mesh_sha256": "f8dfa3387e5bee9d1efdfeed2ac4f485e44a1cf20445169d0392befbd2850ace"
+    },
+    {
+      "id": "03381_z44e2954a00000008",
+      "author_split": "trainset",
+      "project_split": "test",
+      "spatial_similarity_group": "group_4a3df4c36fc1c309",
+      "starter_overlap": false,
+      "point_sha256": "73ce96a2f028ba24a7c2fb38b17cb2fd813819d05091c8b03cd3b68e23bb2173",
+      "mesh_sha256": "a163978f3b834f642c3887072383a81323dfce664edceca037cebf72540071f3"
+    },
+    {
+      "id": "02427_z4405881b0000000e",
+      "author_split": "trainset",
+      "project_split": "test",
+      "spatial_similarity_group": "group_24b702f0f409899f",
+      "starter_overlap": false,
+      "point_sha256": "4a9294b94f36448317649a5762a7c1a468145c14767d15543ef27402d4e638ad",
+      "mesh_sha256": "7361c0b62e8676a2e8c2f1972ad8ce5fd4767f2c662e696ada3564f360e4cf30"
+    },
+    {
+      "id": "01064_z41ac39cc00001e06",
+      "author_split": "trainset",
+      "project_split": "test",
+      "spatial_similarity_group": "group_4b4018c3b0ffc500",
+      "starter_overlap": false,
+      "point_sha256": "f92082199787c69e38d7347c936a9b8d98bc851b209a5d9b7fddd00f7815e047",
+      "mesh_sha256": "d90235bfd1cf6eb2970053b48b469e8dcc3bf0a0d8ecfc4b68d477e19f15b576"
+    },
+    {
+      "id": "04102_z47b2e82900000001",
+      "author_split": "trainset",
+      "project_split": "test",
+      "spatial_similarity_group": "group_ad0185aab6de780b",
+      "starter_overlap": false,
+      "point_sha256": "d1c8de74010b7331ed9fe987209e9363472364d6927a8bbd51e401e235c3d4a2",
+      "mesh_sha256": "45f4a6cebf4f627b5a196b3518f38f3209498f60aadc6c6c1f355e7872403689"
+    },
+    {
+      "id": "03461_z5b7ebcf7b3920002",
+      "author_split": "trainset",
+      "project_split": "test",
+      "spatial_similarity_group": "group_ed08051865589c55",
+      "starter_overlap": false,
+      "point_sha256": "97a6289fdd9f16a3349349acb36b31f30c0b4aedde8b3cf8378877ee61dbe924",
+      "mesh_sha256": "65856d36b581b1ddb247985608a1cfd410b657e60dceb14a4a86b1eaf216b3e0"
+    },
+    {
+      "id": "03278_z49e48e0800000000",
+      "author_split": "trainset",
+      "project_split": "test",
+      "spatial_similarity_group": "group_ed08051865589c55",
+      "starter_overlap": false,
+      "point_sha256": "7b8197ae42df40828cf5f5e4acdf0ebf414a3dad1d8ed16f8422b78a8cda9a72",
+      "mesh_sha256": "6af920357b64ad1d6210f979985fc0de31f9e490fb5b6b4910684d23378a49cc"
+    },
+    {
+      "id": "03384_z44e296760000000b",
+      "author_split": "trainset",
+      "project_split": "test",
+      "spatial_similarity_group": "group_4a3df4c36fc1c309",
+      "starter_overlap": false,
+      "point_sha256": "7d265190586cec3bfc69234942a6d9252070d276511ea532fcb6a27e0181ff5c",
+      "mesh_sha256": "feb98767b196735cd6ffa60f84d39f2a33e23ec740ead92879d06f21330799b2"
+    },
+    {
+      "id": "03352_z4d0897ae00000032",
+      "author_split": "trainset",
+      "project_split": "test",
+      "spatial_similarity_group": "group_10200c32b8d29e7f",
+      "starter_overlap": false,
+      "point_sha256": "3528b64a1170eb23a14f19b18e4fef9e338cf74ac251953e9c23a7fd3be33ce0",
+      "mesh_sha256": "2a034f0af54c4d9e94d9430939d2cdfb35351dd5c80a31e20b515a094e8070ec"
+    },
+    {
+      "id": "03243_z47b56b2b00000006",
+      "author_split": "trainset",
+      "project_split": "test",
+      "spatial_similarity_group": "group_24b702f0f409899f",
+      "starter_overlap": false,
+      "point_sha256": "4853bfa0b25d2f51abe65cb80b295424e0be6a76a639caab9509061f58133082",
+      "mesh_sha256": "c837621a9aaf7e31cb5c05feaf9a46635d97247f561aa0b5d8eed366c1b841e7"
+    },
+    {
+      "id": "03383_z44e296240000000a",
+      "author_split": "trainset",
+      "project_split": "test",
+      "spatial_similarity_group": "group_4a3df4c36fc1c309",
+      "starter_overlap": false,
+      "point_sha256": "56d5922369cadbb99884904bea5a434313cafe1205564134ecc207463ec3899d",
+      "mesh_sha256": "5f5600e541db6299609ed19136d09641d68f32e3675fd88f2e82af08b8837209"
+    },
+    {
+      "id": "03425_z57ed03b515010001",
+      "author_split": "trainset",
+      "project_split": "test",
+      "spatial_similarity_group": "group_572bea12afeef798",
+      "starter_overlap": false,
+      "point_sha256": "e34ca9db8258cbb229b719f4452f197ef7219eed4e4dbeea8b9658d5a772f573",
+      "mesh_sha256": "fecb943ce4ee9bab32fc01535fe35446ff0e6fd57971b08191d1aa74990f0dde"
+    },
+    {
+      "id": "04288_z463f41f7000004c7",
+      "author_split": "trainset",
+      "project_split": "test",
+      "spatial_similarity_group": "group_817896bd7af5b3dd",
+      "starter_overlap": false,
+      "point_sha256": "80990a80b208bbe96c5867be59da538fe2e1e3c37495688e28734e84c0a83267",
+      "mesh_sha256": "f867378dfb6d4c580ef947450499ad2898ac9c5e32c9b5e6080344e67aaa1ff0"
+    },
+    {
+      "id": "05846_z45b11ad900003c46",
+      "author_split": "trainset",
+      "project_split": "test",
+      "spatial_similarity_group": "group_bc06f58fdb521e23",
+      "starter_overlap": false,
+      "point_sha256": "ccd70494dba5d993ecaa2a7bb9fc22b153bcbdf25e5d494dc0eaa00c5619cf9e",
+      "mesh_sha256": "fc5f660ea67d8fc2b2c617862639781f42ea793f094e4b57702f673268c7ce01"
+    },
+    {
+      "id": "03382_z44e295ce00000009",
+      "author_split": "trainset",
+      "project_split": "test",
+      "spatial_similarity_group": "group_4a3df4c36fc1c309",
+      "starter_overlap": false,
+      "point_sha256": "8c4ef6de44eb3ea4fe213c8b4b5d3aa3331cab4bd89e556837e9569350738714",
+      "mesh_sha256": "23d66748b8bde550563bc85b9d57017cdf187685768c37140411cbd98959f2cd"
+    },
+    {
+      "id": "01527_z41adc92e0001572c",
+      "author_split": "trainset",
+      "project_split": "test",
+      "spatial_similarity_group": "group_02577a4c417c5124",
+      "starter_overlap": false,
+      "point_sha256": "b3aaed0651cfd7a58ec689c469bc6cfb5c15bd353b9bf777dd8be83735a26e83",
+      "mesh_sha256": "72df8f8b121b006d0705ce59002391111e31f225680e71f4f37e249caf2e891e"
+    },
+    {
+      "id": "06930_z57e4c2ce36fc001f",
+      "author_split": "trainset",
+      "project_split": "test",
+      "spatial_similarity_group": "group_67172e9b5671fdc6",
+      "starter_overlap": false,
+      "point_sha256": "948b418143c31fcaa0138bf9b6c603cc21da898924e9d33f9124b0e9ab142167",
+      "mesh_sha256": "0d375dc2e1952496122e2c0938c77689b33cb8a6a81740660ba74d352919abb7"
+    },
+    {
+      "id": "04156_z463f41f40000041c",
+      "author_split": "trainset",
+      "project_split": "test",
+      "spatial_similarity_group": "group_4a3df4c36fc1c309",
+      "starter_overlap": false,
+      "point_sha256": "53cfdb5858eae923f488abd8d8a3ee36a2849e48cfa89f6d8b7a30264d35e63b",
+      "mesh_sha256": "dc873d800a470599d9ddf9b17014613dcb63207848685a8b2ccf03f727aab659"
+    },
+    {
+      "id": "03063_z45b11c0200005dd9",
+      "author_split": "trainset",
+      "project_split": "test",
+      "spatial_similarity_group": "group_ed08051865589c55",
+      "starter_overlap": false,
+      "point_sha256": "ede1f4bf4b5e975dc091dbed0e6718efd2a1293884970f1999a532f912c590b3",
+      "mesh_sha256": "7169bd85ee00ba747016ecbce80b481890f4708c4f1a21666bd6a46915301e98"
+    },
+    {
+      "id": "03411_z566a9b65d7b40078",
+      "author_split": "trainset",
+      "project_split": "test",
+      "spatial_similarity_group": "group_d9321e4c5be3deb5",
+      "starter_overlap": false,
+      "point_sha256": "957aa6e4de415974d4a455af1c868608c0db83ac3a39bea9ab71de0ac7c30119",
+      "mesh_sha256": "a3cf0451993323b112974c044f7e804c5af33f588b1905671d3d2436038b19cc"
+    },
+    {
+      "id": "02161_z41acfcf900040834",
+      "author_split": "trainset",
+      "project_split": "test",
+      "spatial_similarity_group": "group_bc06f58fdb521e23",
+      "starter_overlap": false,
+      "point_sha256": "4a78798d1b9094a1a6512eeba6be6b75ea16ec049d4cc19aa8fc74afe690fe7b",
+      "mesh_sha256": "2162dc243e80e49cbc1f8a9363e145a38194190459ed36575338cc05687009b5"
+    },
+    {
+      "id": "02426_z44056af60000000a",
+      "author_split": "trainset",
+      "project_split": "test",
+      "spatial_similarity_group": "group_24b702f0f409899f",
+      "starter_overlap": false,
+      "point_sha256": "632dce3421abd26159a00b0202a53384067289468284361d3cdafeadd43f5eb0",
+      "mesh_sha256": "68f64c4bbe1824dd76f496557e7c8117199fcf2a379ca2d00b526d039196ba19"
+    },
+    {
+      "id": "03385_z44e296be0000000c",
+      "author_split": "trainset",
+      "project_split": "test",
+      "spatial_similarity_group": "group_4a3df4c36fc1c309",
+      "starter_overlap": false,
+      "point_sha256": "ac6486bc06abc6cdfe09237c0db40a7b5e62b15c516c9052b99395fa552f126e",
+      "mesh_sha256": "41962cea1780e18aa121186ed0c9638f5b75b8f26b6d0054c9c9e111d7456d49"
+    },
+    {
+      "id": "06948_z59df3a69270d007c",
+      "author_split": "trainset",
+      "project_split": "test",
+      "spatial_similarity_group": "group_67172e9b5671fdc6",
+      "starter_overlap": false,
+      "point_sha256": "ac595f8d3a54d3f7d893afa46027742dfb7894bfb39faee1c02a9e49b15d4265",
+      "mesh_sha256": "5204ffc9394578100fdfcc4428bca10a792ce2e0528abbebb303a9ad18535902"
+    },
+    {
+      "id": "03654_z41af3cbd00056d00",
+      "author_split": "trainset",
+      "project_split": "test",
+      "spatial_similarity_group": "group_aa6c72c5d7e317f5",
+      "starter_overlap": false,
+      "point_sha256": "262e9b212f349b236c533f4fd04815679564b2a9009a0b816d061f29ebf20e29",
+      "mesh_sha256": "69cc9f42b25aac28738cfee50e27c8be482f2fdf25b04de225ea6244c7f57db7"
+    },
+    {
+      "id": "00016_z41acbc6a00014185",
+      "author_split": "trainset",
+      "project_split": "test",
+      "spatial_similarity_group": "group_2d4393579f5d37ce",
+      "starter_overlap": false,
+      "point_sha256": "9236c62a900d6ab6a3f4e33494084a251f10a8c6aa44a8d8ebf6a6f440604a18",
+      "mesh_sha256": "bba7e028a660dbff4ef9b90a6d0ee3480125b4940f5bbcececfb721627f16e93"
+    },
+    {
+      "id": "03349_z4d0891f50000000e",
+      "author_split": "trainset",
+      "project_split": "test",
+      "spatial_similarity_group": "group_10200c32b8d29e7f",
+      "starter_overlap": false,
+      "point_sha256": "1ec5323171cacd91d12035a5738874e995e85b5950c8fc0d286eae5d26b86fbe",
+      "mesh_sha256": "6ddf080c312a764288e06d34790357ac3498e95275516aef99bfdd7aee1097e8"
+    },
+    {
+      "id": "03224_z478b925100000482",
+      "author_split": "trainset",
+      "project_split": "test",
+      "spatial_similarity_group": "group_ed08051865589c55",
+      "starter_overlap": false,
+      "point_sha256": "cd2b8d1564f3bcfc3b0190130ad45b5ff33f67ed11dbbf0406638b8aaf12fa8d",
+      "mesh_sha256": "51c09ef3deda74324de88ced80da05d9ee73c1da6727baf481f03b8b752e852c"
+    },
+    {
+      "id": "03279_z49e4923900000003",
+      "author_split": "trainset",
+      "project_split": "test",
+      "spatial_similarity_group": "group_ed08051865589c55",
+      "starter_overlap": false,
+      "point_sha256": "b7d9569b697dc14652afd3ab3e2bccaecd562bdbb0dcdfb65baf7f2a562b70e4",
+      "mesh_sha256": "02ef47e1024b47f1facceec9a8f8ebc44fbaf22d8ad669b9b5d169c5ac437426"
+    },
+    {
+      "id": "03321_z4eb90abc48f40004",
+      "author_split": "trainset",
+      "project_split": "test",
+      "spatial_similarity_group": "group_9f8fc3f6f16c2fc0",
+      "starter_overlap": false,
+      "point_sha256": "ae627bfb339a1b1d57b758b57dc22cb98e6ebaf35b317c7c8b3bcb646bcf0896",
+      "mesh_sha256": "77a8025e50701b9bec52f9ee4449294be248fd6d86cd2998565657a72e61dff0"
+    },
+    {
+      "id": "06950_z59ef2ffc46f80006",
+      "author_split": "trainset",
+      "project_split": "test",
+      "spatial_similarity_group": "group_e285d24a68f18c29",
+      "starter_overlap": false,
+      "point_sha256": "59274ae4c0121a82ab91d7e2e5a443649a5c2c111a618f5003095c91974267a0",
+      "mesh_sha256": "dde14409d9c4036e71560c6d79b62b7ea7c848178be57126f971440b0385ccb0"
+    },
+    {
+      "id": "02545_z45b11a810000322f",
+      "author_split": "trainset",
+      "project_split": "test",
+      "spatial_similarity_group": "group_24b702f0f409899f",
+      "starter_overlap": false,
+      "point_sha256": "49a82f0aea71b66fcd69b4cb0aef7ee2cc978ef548b47733671c764c35d8130d",
+      "mesh_sha256": "b9c0d2c78d4036d691c30e30a420d7071c5218a4995e29f31665a4b3145c4e65"
+    },
+    {
+      "id": "03237_z478b9252000004d8",
+      "author_split": "trainset",
+      "project_split": "test",
+      "spatial_similarity_group": "group_ea9a2e668a9c0fbe",
+      "starter_overlap": false,
+      "point_sha256": "d5230493127ecd102d4cdee4560aeaa62ad97d9db4d669fd620c07ba1f7214ae",
+      "mesh_sha256": "a360deed3e43bca4dc5f5b40b2a9ddfe114e11fcd2e91d9ecf6a40c45f490176"
+    },
+    {
+      "id": "00231_z41acbc6a00014554",
+      "author_split": "trainset",
+      "project_split": "test",
+      "spatial_similarity_group": "group_ad0185aab6de780b",
+      "starter_overlap": false,
+      "point_sha256": "6b9d14760fc02f46671ada3ed1b8cf8f0ef4183752ffefdde27df9cb8041b13f",
+      "mesh_sha256": "ee70e779edc62396912d85dec297f9788d21026dd6b0c7e15c4663cc929b3012"
+    },
+    {
+      "id": "02584_z46a4d6d20000034c",
+      "author_split": "trainset",
+      "project_split": "test",
+      "spatial_similarity_group": "group_45cbaef48b0c5ac3",
+      "starter_overlap": false,
+      "point_sha256": "9782051aad89d0aed054090db34b476f0331e313dce4abadef0d3e9b50db8dcd",
+      "mesh_sha256": "5534e66bae24c8aa697fd8599e7fcf7e630db44dfa655b0fc6d0631ace536a43"
+    },
+    {
+      "id": "00203_z41ac87fd00031c0f",
+      "author_split": "trainset",
+      "project_split": "test",
+      "spatial_similarity_group": "group_bca40e3a3705dd1a",
+      "starter_overlap": false,
+      "point_sha256": "5dd8e29c4debb26dff408efdfdbd50ce0a5696989f2f5768c60404246018b32b",
+      "mesh_sha256": "aea4d6a450251166253235db522b2c1c11623ef8b9f26b6020579a4670077452"
+    },
+    {
+      "id": "03276_z49e482af00000005",
+      "author_split": "trainset",
+      "project_split": "test",
+      "spatial_similarity_group": "group_ed08051865589c55",
+      "starter_overlap": false,
+      "point_sha256": "25ca9c5a8f8826a98088f64a6c61adbc5af056a1b88095e929cac73bb1f50763",
+      "mesh_sha256": "0efb1206a849c7e7851055f9011b90f89bae69c5bf33be5a6de738979a055736"
+    },
+    {
+      "id": "03194_z46a44b6a00000000",
+      "author_split": "trainset",
+      "project_split": "test",
+      "spatial_similarity_group": "group_d9321e4c5be3deb5",
+      "starter_overlap": false,
+      "point_sha256": "6c40b7ec753d7e3a1f0fab8373d97602edf594e41987b5f6c2ca35cbd825c650",
+      "mesh_sha256": "1376acc361f60dbea47275f22fe561d00937f6a0f5bdecbc93f2385f87acd21c"
+    },
+    {
+      "id": "00628_z41aca4f40000105b",
+      "author_split": "trainset",
+      "project_split": "test",
+      "spatial_similarity_group": "group_b33da8f5cae659f4",
+      "starter_overlap": false,
+      "point_sha256": "b8db025a7fff93effdb8d993d0def1398be3908c47feab107eab2bff60db2e5a",
+      "mesh_sha256": "9bb4c4db1acb460ba106e4f3d4755dd312e323998fdf4e60cf6aa72816a3e713"
+    },
+    {
+      "id": "04166_z463f41f400000426",
+      "author_split": "trainset",
+      "project_split": "test",
+      "spatial_similarity_group": "group_4a3df4c36fc1c309",
+      "starter_overlap": false,
+      "point_sha256": "75ff7051a42ac844014dcf87b40f25e80f1e63b420c97364852d806dce3ff1c0",
+      "mesh_sha256": "89d40eec5ff052cc95cc882eb63a4147ab9087964520aed374c683fff3fc3819"
+    },
+    {
+      "id": "03423_z57ecfb5c98640006",
+      "author_split": "trainset",
+      "project_split": "test",
+      "spatial_similarity_group": "group_572bea12afeef798",
+      "starter_overlap": false,
+      "point_sha256": "ebf2f2f526612ac9163f3ca6f946e645812e91a3bd74faaaffdb8a49564013f3",
+      "mesh_sha256": "d3b54bd39cadc0c771c4557413e3e463513c5c016a912f032d86661cdcf6e2b6"
+    },
+    {
+      "id": "00873_z41acfcf9000402e7",
+      "author_split": "trainset",
+      "project_split": "test",
+      "spatial_similarity_group": "group_576301b7e437d58c",
+      "starter_overlap": false,
+      "point_sha256": "d2e205c2023b2c3214dd0378aa608df4cbbcfa41bfa8158c0234e51d5f8c7e83",
+      "mesh_sha256": "abab9b5202b3ecb43528abd58643e2535286a06136dc3b027a978b69fcdc9faf"
+    },
+    {
+      "id": "03424_z57ed038115010000",
+      "author_split": "trainset",
+      "project_split": "test",
+      "spatial_similarity_group": "group_572bea12afeef798",
+      "starter_overlap": false,
+      "point_sha256": "25ac584d95d79fa9aeea6b38ad25e6925363ee03e20064cb0f1f4ad523ed0d1d",
+      "mesh_sha256": "6c7cb5095f034f96f0449a45706852f575c6f56f58a4d1eca802c2ceb9f9cdad"
+    },
+    {
+      "id": "01782_z41aedad70001779c",
+      "author_split": "trainset",
+      "project_split": "test",
+      "spatial_similarity_group": "group_fd9068237fba9d5d",
+      "starter_overlap": false,
+      "point_sha256": "718cb1cd6ed0fb86e2402b8669f90d851cd4546ad02f8118e054f7be9395758d",
+      "mesh_sha256": "9fd5aba49ee2cdc3dfcece7ec34de3dacd10f3f23427a1e4149a1857f7c2159a"
+    },
+    {
+      "id": "03167_z47050adc0000063e",
+      "author_split": "trainset",
+      "project_split": "test",
+      "spatial_similarity_group": "group_0712a82aed19385c",
+      "starter_overlap": false,
+      "point_sha256": "01f5694038d1afe9941f6e4aa8226480a6a92363938b1d22d9849b89919840c2",
+      "mesh_sha256": "869cd5e86192edf573870f548efc888858d640dd506724728781afeaa842c23c"
+    }
+  ],
+  "source_manifest_hashes": {
+    "author_testset.json": "0535eb10d55285b27e2ddf329b50f12cc87905f72d901020075929074aaa229d",
+    "author_trainset.json": "b196c8a0df7a7c5e959878adf724e2bd4dd8b55d8dcb8f6ba353a797c04ff3b5",
+    "project_test.json": "39f1e1eebd0f960dbf83fb74fe47a8c89399a938aecbab1886138226c3769638",
+    "project_train.json": "fcff4933ee21fec57be03e7355c284f873a1c2434b0e10ecfb9dc5e576688fe3",
+    "starter78_development.json": "21d84277e684eedff37469f8dcab3ab0663fb165339182b5498b42d66ac09b6e"
+  }
+}

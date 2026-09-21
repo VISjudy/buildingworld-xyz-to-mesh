@@ -1,0 +1,20 @@
+{
+  "code_sha256": {
+    "harness/data_splits.py": "e116109c3fd38426e48dbe18fd4ce525f49228e89cec9b6af6c135e45bcf718c",
+    "harness/workflow.py": "fd3e2b5b585c64e146cb85c70a29f5579cd67492eadf9dc6e847439f245e6fa0",
+    "scripts/buildingworld/analyze_paired_building_data.py": "e258054e0eafd84459aacf74be2e2aa97915e58893e7bc7e1b6686a2a9eb4369",
+    "scripts/buildingworld/export_facade_pairs.py": "8afc2965cb1fc204f8df4cf0c831e41bef78667ba263c244bb0d69a48eac0a4a",
+    "scripts/buildingworld/check_reference_meshes_blender.py": "0a28f64f416dd18fc0fd9a2fa1df2a4d9328f9e2dc04c917393ae4f155ded45e",
+    "scripts/buildingworld/export_point2building_complete.py": "f67906e10fbcbaf75c6e9d395620e2ea7412929b9ef7276c3b48802fe37e67b3",
+    "scripts/buildingworld/export_complete_data_report.py": "49c63a893d5dff2f6f24c7903f4c1e353aa7e7fea200cabe3f3997e3411c44fa"
+  },
+  "tests": {
+    "command": ".venv/Scripts/python.exe -m pytest tests/test_data_splits.py tests/test_data_memory.py tests/test_harness.py -q",
+    "passed": 20,
+    "failed": 0
+  },
+  "memory_validation": {
+    "valid": true
+  },
+  "visual_review": "Desktop and mobile screenshots inspected; labels, denominators and stage caveats readable; no horizontal overflow. No model result renders generated in this data-only stage."
+}
