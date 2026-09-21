@@ -1,0 +1,23 @@
+{
+  "medium": "offline HTML data acquisition report",
+  "style": "simple evidence report, not advanced visual design",
+  "layers": [
+    {
+      "name": "dataset count table",
+      "job": "distinguish catalog, screened and selected denominators",
+      "encoding": "direct labelled table",
+      "fresh_pass": "local statistical specialist",
+      "qa": "counts recomputed from JSON; no synthetic/real pooling"
+    },
+    {
+      "name": "facade gallery",
+      "job": "show actual input cloud next to author GT and overlay",
+      "encoding": "same-camera 3 columns, source labels, 5 preselected quantile examples",
+      "fresh_pass": "local Blender specialist",
+      "qa": "mesh hash against manifest; source coordinates unchanged in exports; images are examples not benchmark estimates"
+    }
+  ],
+  "accessibility": "static captions, alt text and tabular counts; responsive one-column mobile",
+  "interaction": "none required, static images survive offline",
+  "limitations": "no claim that every raw model is watertight or facade-complete"
+}
