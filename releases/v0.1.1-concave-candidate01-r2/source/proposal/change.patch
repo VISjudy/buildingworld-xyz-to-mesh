@@ -1,0 +1,32 @@
+--- v0.1.0
++++ candidate001
+@@ -13,6 +13,7 @@
+ import numpy as np
+ from scipy.spatial import cKDTree, ConvexHull
+ from shapely.geometry import MultiPoint, Polygon
++from shapely import concave_hull
+ import matplotlib
+ matplotlib.use('Agg')
+ import matplotlib.pyplot as plt
+@@ -82,6 +83,12 @@
+     basis=np.stack([u,v],axis=1); proj=p[:,:2]@basis
+     lo,hi=np.quantile(proj,[.002,.998],axis=0)
+     footprint=np.array([[lo[0],lo[1]],[hi[0],lo[1]],[hi[0],hi[1]],[lo[0],hi[1]]])@basis.T
++    # K01: preserve supported concavity; keep roof fitting unchanged for attribution.
++    observed_boundary=concave_hull(MultiPoint(p[:,:2]),ratio=.20,allow_holes=False)
++    simplified=observed_boundary.simplify(.05,preserve_topology=True)
++    if simplified.geom_type=='Polygon' and simplified.is_valid and simplified.area>1e-5:
++        footprint=np.asarray(simplified.exterior.coords)[:-1]
++        if Polygon(footprint).exterior.is_ccw is False: footprint=footprint[::-1]
+     base=float(np.quantile(p[:,2],.001))
+     vertices=[]; faces=[]; semantics=[]; vi={}
+     def vertex(c):
+@@ -134,7 +141,7 @@
+         roof_within_020_coordinate_units=float(np.mean(residual<.2)),xy_points_within_rectangle=float(xyinside.mean()),
+         prototype_fit_status='main_roof_supported' if np.mean(residual<.2)>=.8 else 'insufficient_fit_do_not_use_as_complete_reconstruction',
+         provisional_base_z=base,base_rule='input z quantile 0.001; lowest observed returns, NOT verified ground',
+-        footprint_rule='minimum rotated rectangle orientation + projected quantiles 0.002, 0.998',
++        footprint_rule='candidate concave hull ratio .20, simplify .05; rectangle fallback on invalid boundary',
+         limitations=['Convex single-volume roof only; concave footprints/courtyards/extensions unsupported',
+           'Small roof details below 7.5 percent support omitted','Input unit assumed meter for Blender display only',
+           'Residual is same-input fitting diagnostic, NOT ground-truth CD/ECD/NC',

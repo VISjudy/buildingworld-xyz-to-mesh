@@ -1,0 +1,21 @@
+{
+  "candidate_1216_byte_identical": true,
+  "tests_passed": 12,
+  "releases": {
+    "v0.1.0-reproduced-historical3-r2": {
+      "valid": true,
+      "changed_or_missing": [],
+      "unexpected": []
+    },
+    "v0.1.0-reproduced-dev20-r2": {
+      "valid": true,
+      "changed_or_missing": [],
+      "unexpected": []
+    },
+    "v0.1.1-concave-candidate01-r2": {
+      "valid": true,
+      "changed_or_missing": [],
+      "unexpected": []
+    }
+  }
+}

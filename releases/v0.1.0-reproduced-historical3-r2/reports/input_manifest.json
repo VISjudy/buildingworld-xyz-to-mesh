@@ -1,0 +1,35 @@
+{
+  "role": "historical_regression",
+  "samples": [
+    {
+      "id": "10",
+      "sha256": "0d18f23d16d881db51c07f6f325ce370d63c164f97b9d9229076ef59399277bb",
+      "columns": [
+        0,
+        1,
+        2
+      ],
+      "localize": false
+    },
+    {
+      "id": "1000",
+      "sha256": "d1c60520c48502a6f43f63f39eff988438bf322a4e72b8391ee12202db5739f3",
+      "columns": [
+        0,
+        1,
+        2
+      ],
+      "localize": false
+    },
+    {
+      "id": "2000",
+      "sha256": "29a8f4695662d4afc2ad7b0abea2ded00264a64b7aac808c8dbadf1b2c42b445",
+      "columns": [
+        0,
+        1,
+        2
+      ],
+      "localize": false
+    }
+  ]
+}

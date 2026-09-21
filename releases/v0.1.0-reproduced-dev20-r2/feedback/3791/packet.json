@@ -1,0 +1,427 @@
+{
+  "condition": "F3",
+  "metric_scope": "local observation proxy, not official score",
+  "metrics": {
+    "p95": 0.1829686322511869,
+    "coverage": 0.9403069125721526,
+    "open_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  "issues": [
+    {
+      "kind": "observed_surface_mismatch",
+      "locations": [
+        {
+          "index": 3544,
+          "xyz": [
+            -6.470332072,
+            2.428090057,
+            0.2385
+          ],
+          "distance": 0.8233448044019916,
+          "polygon_id": 7
+        },
+        {
+          "index": 4017,
+          "xyz": [
+            -7.058707863,
+            2.196526615,
+            0.0181
+          ],
+          "distance": 0.8211923822747182,
+          "polygon_id": 7
+        },
+        {
+          "index": 3975,
+          "xyz": [
+            -5.569139791,
+            2.789348543,
+            0.0853
+          ],
+          "distance": 0.8205252973520295,
+          "polygon_id": 7
+        },
+        {
+          "index": 3547,
+          "xyz": [
+            -6.460901913,
+            2.434958253,
+            -0.6605
+          ],
+          "distance": 0.8204457409796521,
+          "polygon_id": 7
+        },
+        {
+          "index": 3463,
+          "xyz": [
+            -3.480318222,
+            3.620208907,
+            -1.0358
+          ],
+          "distance": 0.8200116698376898,
+          "polygon_id": 7
+        },
+        {
+          "index": 4025,
+          "xyz": [
+            -7.07143212,
+            2.194698152,
+            -0.6743
+          ],
+          "distance": 0.8181913469179743,
+          "polygon_id": 7
+        },
+        {
+          "index": 4035,
+          "xyz": [
+            -7.075073071,
+            2.19411208,
+            -1.3919
+          ],
+          "distance": 0.8173910475528353,
+          "polygon_id": 7
+        },
+        {
+          "index": 3552,
+          "xyz": [
+            -6.449555937,
+            2.443233446,
+            -1.5533
+          ],
+          "distance": 0.8169468685674962,
+          "polygon_id": 7
+        },
+        {
+          "index": 3458,
+          "xyz": [
+            -3.469233175,
+            3.628057584,
+            -0.0319
+          ],
+          "distance": 0.8168127643760873,
+          "polygon_id": 7
+        },
+        {
+          "index": 4042,
+          "xyz": [
+            -7.079122675,
+            2.193471214,
+            -2.1094
+          ],
+          "distance": 0.8164907156077987,
+          "polygon_id": 7
+        },
+        {
+          "index": 3985,
+          "xyz": [
+            -5.58676789,
+            2.786862558,
+            -1.3151
+          ],
+          "distance": 0.8163238632445418,
+          "polygon_id": 7
+        },
+        {
+          "index": 3980,
+          "xyz": [
+            -5.587176543,
+            2.786807764,
+            -0.5903
+          ],
+          "distance": 0.8162238306646438,
+          "polygon_id": 7
+        },
+        {
+          "index": 3991,
+          "xyz": [
+            -5.588774226,
+            2.78649566,
+            -2.035
+          ],
+          "distance": 0.8159236971657043,
+          "polygon_id": 7
+        },
+        {
+          "index": 3501,
+          "xyz": [
+            -4.95561892,
+            3.038329649,
+            -1.258
+          ],
+          "distance": 0.8157801892444613,
+          "polygon_id": 7
+        },
+        {
+          "index": 3932,
+          "xyz": [
+            -4.098797501,
+            3.379372381,
+            -1.9542
+          ],
+          "distance": 0.8153566457521879,
+          "polygon_id": 7
+        },
+        {
+          "index": 3470,
+          "xyz": [
+            -3.464490096,
+            3.631556612,
+            -1.9213
+          ],
+          "distance": 0.815313237473462,
+          "polygon_id": 7
+        },
+        {
+          "index": 3496,
+          "xyz": [
+            -4.952234075,
+            3.040643266,
+            -0.2947
+          ],
+          "distance": 0.814880521074534,
+          "polygon_id": 7
+        },
+        {
+          "index": 3926,
+          "xyz": [
+            -4.105465818,
+            3.378551684,
+            -1.215
+          ],
+          "distance": 0.813656106560767,
+          "polygon_id": 7
+        },
+        {
+          "index": 3832,
+          "xyz": [
+            -2.617197569,
+            3.971395093,
+            0.307
+          ],
+          "distance": 0.8124889215358357,
+          "polygon_id": 7
+        },
+        {
+          "index": 3916,
+          "xyz": [
+            -4.122796057,
+            3.376399284,
+            0.2703
+          ],
+          "distance": 0.8092547058499765,
+          "polygon_id": 7
+        },
+        {
+          "index": 3920,
+          "xyz": [
+            -4.123390572,
+            3.376270629,
+            -0.4478
+          ],
+          "distance": 0.8091546553904556,
+          "polygon_id": 7
+        },
+        {
+          "index": 3837,
+          "xyz": [
+            -2.632819332,
+            3.969276007,
+            -0.3694
+          ],
+          "distance": 0.8086876525779095,
+          "polygon_id": 7
+        },
+        {
+          "index": 3843,
+          "xyz": [
+            -2.634918598,
+            3.968872177,
+            -1.0818
+          ],
+          "distance": 0.8082874793225604,
+          "polygon_id": 7
+        },
+        {
+          "index": 3850,
+          "xyz": [
+            -2.641921707,
+            3.967810825,
+            -1.7825
+          ],
+          "distance": 0.8066869069470809,
+          "polygon_id": 7
+        },
+        {
+          "index": 3556,
+          "xyz": [
+            -6.362603105,
+            2.505766758,
+            -2.1132
+          ],
+          "distance": 0.7909554829226987,
+          "polygon_id": 7
+        },
+        {
+          "index": 3546,
+          "xyz": [
+            -6.353155084,
+            2.512319231,
+            -0.1844
+          ],
+          "distance": 0.7883564111376585,
+          "polygon_id": 7
+        },
+        {
+          "index": 3500,
+          "xyz": [
+            -4.859924581,
+            3.107027054,
+            -0.8316
+          ],
+          "distance": 0.7872896663979173,
+          "polygon_id": 7
+        },
+        {
+          "index": 3551,
+          "xyz": [
+            -6.348988657,
+            2.515373881,
+            -1.1086
+          ],
+          "distance": 0.7870568257821992,
+          "polygon_id": 7
+        },
+        {
+          "index": 4024,
+          "xyz": [
+            -7.203204402,
+            2.176980763,
+            -0.3291
+          ],
+          "distance": 0.7859806513272121,
+          "polygon_id": 7
+        },
+        {
+          "index": 4016,
+          "xyz": [
+            -7.204746085,
+            2.17679852,
+            0.4004
+          ],
+          "distance": 0.7855805268854716,
+          "polygon_id": 7
+        },
+        {
+          "index": 3457,
+          "xyz": [
+            -3.363644025,
+            3.703807841,
+            0.4413
+          ],
+          "distance": 0.7854232184456367,
+          "polygon_id": 7
+        },
+        {
+          "index": 3495,
+          "xyz": [
+            -4.850941214,
+            3.113394872,
+            0.1561
+          ],
+          "distance": 0.7846905526063933,
+          "polygon_id": 7
+        }
+      ],
+      "rule_ids": [
+        "K01",
+        "K02",
+        "K03",
+        "K06"
+      ]
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "K01",
+      "claim": "Preserve concave observed footprints; a minimum rectangle is only an orientation estimate.",
+      "layer": "engineering",
+      "constraint": "soft",
+      "source": "docs/RECONSTRUCTION_RULES_V2.md#1",
+      "applicability": "Boundary has coherent support",
+      "required_evidence": [
+        "boundary points",
+        "local density"
+      ],
+      "counterexample": "Sparse outlier clusters can make alpha boundaries unreliable",
+      "operators": [
+        "footprint"
+      ],
+      "validation_cases": [
+        "synthetic_L_footprint"
+      ],
+      "status": "requires_broad_validation"
+    },
+    {
+      "id": "K02",
+      "claim": "Planes need bounded local support; a lower annex must not suppress the whole main roof.",
+      "layer": "literature_and_project",
+      "constraint": "soft",
+      "source": "docs/BUILDING_RECONSTRUCTION_ALGORITHM.md; https://github.com/tudelft3d/City3D",
+      "applicability": "Piecewise planar multi-height roofs",
+      "required_evidence": [
+        "local residuals",
+        "plane adjacency"
+      ],
+      "counterexample": "Curved roofs violate planar representation",
+      "operators": [
+        "plane_selection",
+        "support_domains"
+      ],
+      "validation_cases": [
+        "historical_2000"
+      ],
+      "status": "seed"
+    },
+    {
+      "id": "K03",
+      "claim": "Missing returns are not evidence of empty space; inferred surfaces must be labeled.",
+      "layer": "engineering",
+      "constraint": "hard_reporting",
+      "source": "docs/RECONSTRUCTION_RULES_V2.md#9",
+      "applicability": "Partial scans",
+      "required_evidence": [
+        "visibility if available"
+      ],
+      "counterexample": "Known ray free-space supports an emptiness constraint",
+      "operators": [
+        "completion",
+        "feedback"
+      ],
+      "validation_cases": [
+        "missing_facade"
+      ],
+      "status": "reporting_invariant"
+    },
+    {
+      "id": "K06",
+      "claim": "Report all-input residuals and per-structure failures; global averages do not prove completeness.",
+      "layer": "engineering",
+      "constraint": "hard_reporting",
+      "source": "docs/RECONSTRUCTION_RULES_V2.md#5",
+      "applicability": "All candidates",
+      "required_evidence": [
+        "all original points",
+        "failure list"
+      ],
+      "counterexample": "Known sensor outliers may be reported separately but not silently discarded",
+      "operators": [
+        "evaluation",
+        "feedback"
+      ],
+      "validation_cases": [
+        "omitted_small_roof"
+      ],
+      "status": "implemented"
+    }
+  ]
+}

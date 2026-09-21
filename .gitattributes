@@ -1,0 +1,7 @@
+# Research snapshots must preserve exact bytes across Windows and Unix checkouts.
+releases/v0.1.0-reproduced-*-r2/** -text
+releases/v0.1.1-concave-candidate01-r2/** -text
+reports/2026-09-21-stage01/** -text
+harness/** text eol=lf
+tests/** text eol=lf
+config/** text eol=lf

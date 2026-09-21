@@ -1,0 +1,1020 @@
+{
+  "blender": "5.2.2 LTS",
+  "samples": [
+    {
+      "id": "100",
+      "mesh_sha256": "7bd1cf2fdd5d83f570bf20282165b1069fc6a6ec77a5dc42520c6cb38a6a69d8",
+      "boundary_edges": 4,
+      "nonmanifold_edges": 0,
+      "winding_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 30.71968237559,
+      "nonadjacent_bvh_overlap_candidates": 3,
+      "overlap_pairs": [
+        [
+          3,
+          24
+        ],
+        [
+          4,
+          23
+        ],
+        [
+          4,
+          24
+        ]
+      ],
+      "provisional_training_eligible": false,
+      "official_gt": false,
+      "limitations": "BVH checks nonadjacent triangles; shared-vertex self intersections and semantic correctness remain unproven"
+    },
+    {
+      "id": "10000",
+      "mesh_sha256": "af8b0d080ef8f900a27d7ff59faee5efcc8975e10825e880fa21ff5b8df44099",
+      "boundary_edges": 16,
+      "nonmanifold_edges": 0,
+      "winding_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 770.1606881171465,
+      "nonadjacent_bvh_overlap_candidates": 15,
+      "overlap_pairs": [
+        [
+          3,
+          63
+        ],
+        [
+          9,
+          49
+        ],
+        [
+          9,
+          50
+        ],
+        [
+          9,
+          51
+        ],
+        [
+          9,
+          52
+        ],
+        [
+          9,
+          63
+        ],
+        [
+          10,
+          49
+        ],
+        [
+          14,
+          57
+        ],
+        [
+          15,
+          56
+        ],
+        [
+          15,
+          57
+        ],
+        [
+          16,
+          54
+        ],
+        [
+          16,
+          55
+        ],
+        [
+          19,
+          56
+        ],
+        [
+          20,
+          55
+        ],
+        [
+          33,
+          61
+        ]
+      ],
+      "provisional_training_eligible": false,
+      "official_gt": false,
+      "limitations": "BVH checks nonadjacent triangles; shared-vertex self intersections and semantic correctness remain unproven"
+    },
+    {
+      "id": "10004",
+      "mesh_sha256": "0c61ce6fc31cccd57903f61652728ffc01578a173e9806afb4b5dd631f935fe1",
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "winding_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 473.34776833156747,
+      "nonadjacent_bvh_overlap_candidates": 2,
+      "overlap_pairs": [
+        [
+          25,
+          41
+        ],
+        [
+          25,
+          47
+        ]
+      ],
+      "provisional_training_eligible": false,
+      "official_gt": false,
+      "limitations": "BVH checks nonadjacent triangles; shared-vertex self intersections and semantic correctness remain unproven"
+    },
+    {
+      "id": "10005",
+      "mesh_sha256": "5eff3829848dde50a37653fc0ddf8d0d1dc6d0a9f162e18786322b294b9dd72f",
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "winding_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 592.4620019445816,
+      "nonadjacent_bvh_overlap_candidates": 8,
+      "overlap_pairs": [
+        [
+          2,
+          8
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          8,
+          12
+        ],
+        [
+          8,
+          13
+        ],
+        [
+          8,
+          18
+        ],
+        [
+          8,
+          19
+        ],
+        [
+          13,
+          20
+        ],
+        [
+          18,
+          20
+        ]
+      ],
+      "provisional_training_eligible": false,
+      "official_gt": false,
+      "limitations": "BVH checks nonadjacent triangles; shared-vertex self intersections and semantic correctness remain unproven"
+    },
+    {
+      "id": "10006",
+      "mesh_sha256": "5517d054f9511934b6ca4a2b8d6936139fd199e5edb848b1607a3af018ff0648",
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "winding_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 342.8111920555432,
+      "nonadjacent_bvh_overlap_candidates": 0,
+      "overlap_pairs": [],
+      "provisional_training_eligible": true,
+      "official_gt": false,
+      "limitations": "BVH checks nonadjacent triangles; shared-vertex self intersections and semantic correctness remain unproven"
+    },
+    {
+      "id": "10007",
+      "mesh_sha256": "b002efebdf6c9af6ab4f2a219675ac5a482e87384eb990573c07516e711c5a80",
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "winding_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 143.6929881721735,
+      "nonadjacent_bvh_overlap_candidates": 0,
+      "overlap_pairs": [],
+      "provisional_training_eligible": true,
+      "official_gt": false,
+      "limitations": "BVH checks nonadjacent triangles; shared-vertex self intersections and semantic correctness remain unproven"
+    },
+    {
+      "id": "10008",
+      "mesh_sha256": "a995749dfe30f1f8488d1223ab80fb99fcd2997951b2000d76d9c0902eec2d25",
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "winding_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 573.8952271739644,
+      "nonadjacent_bvh_overlap_candidates": 14,
+      "overlap_pairs": [
+        [
+          8,
+          22
+        ],
+        [
+          9,
+          26
+        ],
+        [
+          22,
+          32
+        ],
+        [
+          22,
+          33
+        ],
+        [
+          22,
+          42
+        ],
+        [
+          22,
+          43
+        ],
+        [
+          26,
+          38
+        ],
+        [
+          26,
+          39
+        ],
+        [
+          26,
+          40
+        ],
+        [
+          26,
+          41
+        ],
+        [
+          33,
+          48
+        ],
+        [
+          38,
+          51
+        ],
+        [
+          41,
+          51
+        ],
+        [
+          42,
+          48
+        ]
+      ],
+      "provisional_training_eligible": false,
+      "official_gt": false,
+      "limitations": "BVH checks nonadjacent triangles; shared-vertex self intersections and semantic correctness remain unproven"
+    },
+    {
+      "id": "10011",
+      "mesh_sha256": "1d6020037c601accc2712a102315cd6f0a8bfbeeb53ca113072494d1fc4b8ef6",
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "winding_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 303.2321387579043,
+      "nonadjacent_bvh_overlap_candidates": 0,
+      "overlap_pairs": [],
+      "provisional_training_eligible": true,
+      "official_gt": false,
+      "limitations": "BVH checks nonadjacent triangles; shared-vertex self intersections and semantic correctness remain unproven"
+    },
+    {
+      "id": "10012",
+      "mesh_sha256": "959f8417d321a8a7b6d4f4320f98f7ea2501016d5cadae2bed240701e4de0fd6",
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "winding_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 19.211720496416095,
+      "nonadjacent_bvh_overlap_candidates": 0,
+      "overlap_pairs": [],
+      "provisional_training_eligible": true,
+      "official_gt": false,
+      "limitations": "BVH checks nonadjacent triangles; shared-vertex self intersections and semantic correctness remain unproven"
+    },
+    {
+      "id": "10015",
+      "mesh_sha256": "517131be1c3133b4631980bf8f081ebc9e09fc83b91f6ad8963e179fc643e1cf",
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "winding_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 91.78302864233653,
+      "nonadjacent_bvh_overlap_candidates": 0,
+      "overlap_pairs": [],
+      "provisional_training_eligible": true,
+      "official_gt": false,
+      "limitations": "BVH checks nonadjacent triangles; shared-vertex self intersections and semantic correctness remain unproven"
+    },
+    {
+      "id": "10016",
+      "mesh_sha256": "d1db661075ac2a486e14d9224c4c2b5c88e5004efbe93f0e9be0f2f946551f42",
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "winding_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 64.87864123284815,
+      "nonadjacent_bvh_overlap_candidates": 0,
+      "overlap_pairs": [],
+      "provisional_training_eligible": true,
+      "official_gt": false,
+      "limitations": "BVH checks nonadjacent triangles; shared-vertex self intersections and semantic correctness remain unproven"
+    },
+    {
+      "id": "10017",
+      "mesh_sha256": "c2511d474e1482547edc3b2ae833d41a01d75036deb658202ee3e36725e9e5d4",
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "winding_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 384.15168145298946,
+      "nonadjacent_bvh_overlap_candidates": 0,
+      "overlap_pairs": [],
+      "provisional_training_eligible": true,
+      "official_gt": false,
+      "limitations": "BVH checks nonadjacent triangles; shared-vertex self intersections and semantic correctness remain unproven"
+    },
+    {
+      "id": "10019",
+      "mesh_sha256": "cae07ed704c97d9d9224e3119a6e04c03e0423e1ab6ec99769a1c05cc4e89d5f",
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "winding_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 151.6581189657251,
+      "nonadjacent_bvh_overlap_candidates": 0,
+      "overlap_pairs": [],
+      "provisional_training_eligible": true,
+      "official_gt": false,
+      "limitations": "BVH checks nonadjacent triangles; shared-vertex self intersections and semantic correctness remain unproven"
+    },
+    {
+      "id": "10021",
+      "mesh_sha256": "245d19387da7a5e2be255bae404065931186d1f34f595a4eaa133c69dcd00bd0",
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "winding_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 25.662231246630352,
+      "nonadjacent_bvh_overlap_candidates": 0,
+      "overlap_pairs": [],
+      "provisional_training_eligible": true,
+      "official_gt": false,
+      "limitations": "BVH checks nonadjacent triangles; shared-vertex self intersections and semantic correctness remain unproven"
+    },
+    {
+      "id": "10022",
+      "mesh_sha256": "b42b75769dbc3e595ae765e152092d6b85124bc36bf4e6907b74fd91f2bc591b",
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "winding_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 132.637382209301,
+      "nonadjacent_bvh_overlap_candidates": 0,
+      "overlap_pairs": [],
+      "provisional_training_eligible": true,
+      "official_gt": false,
+      "limitations": "BVH checks nonadjacent triangles; shared-vertex self intersections and semantic correctness remain unproven"
+    },
+    {
+      "id": "10023",
+      "mesh_sha256": "6db43dbbc1a28ee6c7d039324ca8d4288beae06b249375e255288528c8b55471",
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "winding_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 211.93395915379128,
+      "nonadjacent_bvh_overlap_candidates": 0,
+      "overlap_pairs": [],
+      "provisional_training_eligible": true,
+      "official_gt": false,
+      "limitations": "BVH checks nonadjacent triangles; shared-vertex self intersections and semantic correctness remain unproven"
+    },
+    {
+      "id": "10024",
+      "mesh_sha256": "235101e2c21849125687eec74d3990b6b89e0a2627e810733a795b5afcadedd6",
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "winding_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 34.597847114006676,
+      "nonadjacent_bvh_overlap_candidates": 0,
+      "overlap_pairs": [],
+      "provisional_training_eligible": true,
+      "official_gt": false,
+      "limitations": "BVH checks nonadjacent triangles; shared-vertex self intersections and semantic correctness remain unproven"
+    },
+    {
+      "id": "10026",
+      "mesh_sha256": "e525003e0d47672aea87f30712303be242f83de77fe8c2690f97558d9cc1a283",
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "winding_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 9.08865262567997,
+      "nonadjacent_bvh_overlap_candidates": 0,
+      "overlap_pairs": [],
+      "provisional_training_eligible": true,
+      "official_gt": false,
+      "limitations": "BVH checks nonadjacent triangles; shared-vertex self intersections and semantic correctness remain unproven"
+    },
+    {
+      "id": "10028",
+      "mesh_sha256": "62c8a6ad21ab7484eb93608b955478f9acdf7efd333cb3df603296cab2ef66f8",
+      "boundary_edges": 6,
+      "nonmanifold_edges": 0,
+      "winding_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 446.84744827449316,
+      "nonadjacent_bvh_overlap_candidates": 2,
+      "overlap_pairs": [
+        [
+          0,
+          20
+        ],
+        [
+          1,
+          21
+        ]
+      ],
+      "provisional_training_eligible": false,
+      "official_gt": false,
+      "limitations": "BVH checks nonadjacent triangles; shared-vertex self intersections and semantic correctness remain unproven"
+    },
+    {
+      "id": "10029",
+      "mesh_sha256": "ebab9f848ef3d5a6001f8b03eff8fc953995b6172ddfb21c057cf03173fb3f42",
+      "boundary_edges": 6,
+      "nonmanifold_edges": 0,
+      "winding_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 430.7060373897354,
+      "nonadjacent_bvh_overlap_candidates": 2,
+      "overlap_pairs": [
+        [
+          0,
+          20
+        ],
+        [
+          1,
+          21
+        ]
+      ],
+      "provisional_training_eligible": false,
+      "official_gt": false,
+      "limitations": "BVH checks nonadjacent triangles; shared-vertex self intersections and semantic correctness remain unproven"
+    },
+    {
+      "id": "1003",
+      "mesh_sha256": "fa71298e76ebb4a89ebf96ebea140c186610f71e20c374499f64fc2d82545d89",
+      "boundary_edges": 10,
+      "nonmanifold_edges": 0,
+      "winding_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 46.6299985051155,
+      "nonadjacent_bvh_overlap_candidates": 7,
+      "overlap_pairs": [
+        [
+          4,
+          24
+        ],
+        [
+          5,
+          24
+        ],
+        [
+          5,
+          25
+        ],
+        [
+          5,
+          26
+        ],
+        [
+          5,
+          27
+        ],
+        [
+          8,
+          25
+        ],
+        [
+          8,
+          26
+        ]
+      ],
+      "provisional_training_eligible": false,
+      "official_gt": false,
+      "limitations": "BVH checks nonadjacent triangles; shared-vertex self intersections and semantic correctness remain unproven"
+    },
+    {
+      "id": "10030",
+      "mesh_sha256": "3511519d91631370183326b72531cd52e10e0817a25d92bcc1e64015426ae127",
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "winding_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 11.86052428682645,
+      "nonadjacent_bvh_overlap_candidates": 0,
+      "overlap_pairs": [],
+      "provisional_training_eligible": true,
+      "official_gt": false,
+      "limitations": "BVH checks nonadjacent triangles; shared-vertex self intersections and semantic correctness remain unproven"
+    },
+    {
+      "id": "10031",
+      "mesh_sha256": "7ee5676eaa732801e3786214f0f63f1857883f33077774b830f211fd6fdb3676",
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "winding_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 122.67482932905355,
+      "nonadjacent_bvh_overlap_candidates": 0,
+      "overlap_pairs": [],
+      "provisional_training_eligible": true,
+      "official_gt": false,
+      "limitations": "BVH checks nonadjacent triangles; shared-vertex self intersections and semantic correctness remain unproven"
+    },
+    {
+      "id": "10033",
+      "mesh_sha256": "48dd77e1803551e7d4059036eddbc0d4c32526df3bb8e4f3de61a362cda08ed5",
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "winding_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 154.03929696977139,
+      "nonadjacent_bvh_overlap_candidates": 9,
+      "overlap_pairs": [
+        [
+          11,
+          16
+        ],
+        [
+          11,
+          19
+        ],
+        [
+          16,
+          38
+        ],
+        [
+          16,
+          39
+        ],
+        [
+          16,
+          44
+        ],
+        [
+          18,
+          38
+        ],
+        [
+          19,
+          38
+        ],
+        [
+          19,
+          39
+        ],
+        [
+          19,
+          44
+        ]
+      ],
+      "provisional_training_eligible": false,
+      "official_gt": false,
+      "limitations": "BVH checks nonadjacent triangles; shared-vertex self intersections and semantic correctness remain unproven"
+    },
+    {
+      "id": "10035",
+      "mesh_sha256": "c511214fd4111866c08a80748cbd83f683731d708171bedc04c7cc4309687257",
+      "boundary_edges": 6,
+      "nonmanifold_edges": 0,
+      "winding_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 233.19136936465898,
+      "nonadjacent_bvh_overlap_candidates": 2,
+      "overlap_pairs": [
+        [
+          7,
+          39
+        ],
+        [
+          9,
+          40
+        ]
+      ],
+      "provisional_training_eligible": false,
+      "official_gt": false,
+      "limitations": "BVH checks nonadjacent triangles; shared-vertex self intersections and semantic correctness remain unproven"
+    },
+    {
+      "id": "10037",
+      "mesh_sha256": "1bf441e535310531327d81e5b4051838d248dd3e2d940929476f6059911747c7",
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "winding_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 30.041844233870503,
+      "nonadjacent_bvh_overlap_candidates": 0,
+      "overlap_pairs": [],
+      "provisional_training_eligible": true,
+      "official_gt": false,
+      "limitations": "BVH checks nonadjacent triangles; shared-vertex self intersections and semantic correctness remain unproven"
+    },
+    {
+      "id": "10038",
+      "mesh_sha256": "30a452653a2e45b34b72b6e962b41a62cc13ee51814dea6a7b76a910c4cc47ac",
+      "boundary_edges": 6,
+      "nonmanifold_edges": 0,
+      "winding_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 0.08714987089236576,
+      "nonadjacent_bvh_overlap_candidates": 2,
+      "overlap_pairs": [
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          9
+        ]
+      ],
+      "provisional_training_eligible": false,
+      "official_gt": false,
+      "limitations": "BVH checks nonadjacent triangles; shared-vertex self intersections and semantic correctness remain unproven"
+    },
+    {
+      "id": "1004",
+      "mesh_sha256": "9c1143d2b757f06870bf2a367825d6b5f3e2b0cf5ca900818561ac833745e2e1",
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "winding_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 119.68690411249797,
+      "nonadjacent_bvh_overlap_candidates": 0,
+      "overlap_pairs": [],
+      "provisional_training_eligible": true,
+      "official_gt": false,
+      "limitations": "BVH checks nonadjacent triangles; shared-vertex self intersections and semantic correctness remain unproven"
+    },
+    {
+      "id": "10040",
+      "mesh_sha256": "5aa26014517aefcf91508b686b9d934a4b837e321dd09e925f3165380e7d3a3c",
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "winding_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 15.251264383395513,
+      "nonadjacent_bvh_overlap_candidates": 0,
+      "overlap_pairs": [],
+      "provisional_training_eligible": true,
+      "official_gt": false,
+      "limitations": "BVH checks nonadjacent triangles; shared-vertex self intersections and semantic correctness remain unproven"
+    },
+    {
+      "id": "10041",
+      "mesh_sha256": "d640ad0e467a09c6aae51aedc6e175df4ac68c59bb35fd1115cd4ef6c2944641",
+      "boundary_edges": 10,
+      "nonmanifold_edges": 0,
+      "winding_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 283.12552498281,
+      "nonadjacent_bvh_overlap_candidates": 4,
+      "overlap_pairs": [
+        [
+          3,
+          59
+        ],
+        [
+          4,
+          59
+        ],
+        [
+          15,
+          63
+        ],
+        [
+          16,
+          62
+        ]
+      ],
+      "provisional_training_eligible": false,
+      "official_gt": false,
+      "limitations": "BVH checks nonadjacent triangles; shared-vertex self intersections and semantic correctness remain unproven"
+    },
+    {
+      "id": "10042",
+      "mesh_sha256": "c792052444a18e53bde61e40f1490475ed2b5e6ee7dc99c0bb37b6603973111e",
+      "boundary_edges": 6,
+      "nonmanifold_edges": 0,
+      "winding_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 83.84729512532552,
+      "nonadjacent_bvh_overlap_candidates": 2,
+      "overlap_pairs": [
+        [
+          2,
+          29
+        ],
+        [
+          3,
+          28
+        ]
+      ],
+      "provisional_training_eligible": false,
+      "official_gt": false,
+      "limitations": "BVH checks nonadjacent triangles; shared-vertex self intersections and semantic correctness remain unproven"
+    },
+    {
+      "id": "10044",
+      "mesh_sha256": "4997a4d3b7d41bfcbc4a1027533df6dfa8331a524fdd1fa4d92a196ab0ec755d",
+      "boundary_edges": 0,
+      "nonmanifold_edges": 1,
+      "winding_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 290.6398748457431,
+      "nonadjacent_bvh_overlap_candidates": 0,
+      "overlap_pairs": [],
+      "provisional_training_eligible": false,
+      "official_gt": false,
+      "limitations": "BVH checks nonadjacent triangles; shared-vertex self intersections and semantic correctness remain unproven"
+    },
+    {
+      "id": "10047",
+      "mesh_sha256": "fe0769d4cc399736bb537de55db2bfe0d4134a65ea093a7e44e5a7811ff9b1c0",
+      "boundary_edges": 10,
+      "nonmanifold_edges": 0,
+      "winding_edges": 0,
+      "degenerate_faces": 1,
+      "signed_volume": 624.0370015998682,
+      "nonadjacent_bvh_overlap_candidates": 8,
+      "overlap_pairs": [
+        [
+          6,
+          39
+        ],
+        [
+          6,
+          40
+        ],
+        [
+          7,
+          43
+        ],
+        [
+          7,
+          44
+        ],
+        [
+          8,
+          44
+        ],
+        [
+          9,
+          44
+        ],
+        [
+          10,
+          40
+        ],
+        [
+          12,
+          43
+        ]
+      ],
+      "provisional_training_eligible": false,
+      "official_gt": false,
+      "limitations": "BVH checks nonadjacent triangles; shared-vertex self intersections and semantic correctness remain unproven"
+    },
+    {
+      "id": "10051",
+      "mesh_sha256": "fb3d31b2819d24c2a0284b5f7aedebc6f06de6776c076e402ffc143f451ac3b9",
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "winding_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 34.799024276435375,
+      "nonadjacent_bvh_overlap_candidates": 0,
+      "overlap_pairs": [],
+      "provisional_training_eligible": true,
+      "official_gt": false,
+      "limitations": "BVH checks nonadjacent triangles; shared-vertex self intersections and semantic correctness remain unproven"
+    },
+    {
+      "id": "10052",
+      "mesh_sha256": "6a6f1baaaa4ec660f1d84dcd4b0ec5d72fd83fc250987081e33616fee06a0bf3",
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "winding_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 49.31422660251459,
+      "nonadjacent_bvh_overlap_candidates": 0,
+      "overlap_pairs": [],
+      "provisional_training_eligible": true,
+      "official_gt": false,
+      "limitations": "BVH checks nonadjacent triangles; shared-vertex self intersections and semantic correctness remain unproven"
+    },
+    {
+      "id": "10053",
+      "mesh_sha256": "9413db7d73163a43b071483f6732a8fad030b1d4bb146dc8fadb02ae1f3878d2",
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "winding_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 113.56416667749484,
+      "nonadjacent_bvh_overlap_candidates": 0,
+      "overlap_pairs": [],
+      "provisional_training_eligible": true,
+      "official_gt": false,
+      "limitations": "BVH checks nonadjacent triangles; shared-vertex self intersections and semantic correctness remain unproven"
+    },
+    {
+      "id": "10056",
+      "mesh_sha256": "bd0b7af869ab637daeb01329099eeca06af4ec8fc4f4bea899b908b9eec6fc29",
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "winding_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 252.83308901389435,
+      "nonadjacent_bvh_overlap_candidates": 0,
+      "overlap_pairs": [],
+      "provisional_training_eligible": true,
+      "official_gt": false,
+      "limitations": "BVH checks nonadjacent triangles; shared-vertex self intersections and semantic correctness remain unproven"
+    },
+    {
+      "id": "10057",
+      "mesh_sha256": "d3ece38bef3374a80aacf20d97450347f8d3b21e0d4d9e218d15a9d8a0e4b1b5",
+      "boundary_edges": 10,
+      "nonmanifold_edges": 0,
+      "winding_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 261.9656151806315,
+      "nonadjacent_bvh_overlap_candidates": 9,
+      "overlap_pairs": [
+        [
+          0,
+          54
+        ],
+        [
+          1,
+          54
+        ],
+        [
+          2,
+          55
+        ],
+        [
+          5,
+          55
+        ],
+        [
+          6,
+          55
+        ],
+        [
+          11,
+          66
+        ],
+        [
+          11,
+          67
+        ],
+        [
+          12,
+          66
+        ],
+        [
+          18,
+          67
+        ]
+      ],
+      "provisional_training_eligible": false,
+      "official_gt": false,
+      "limitations": "BVH checks nonadjacent triangles; shared-vertex self intersections and semantic correctness remain unproven"
+    },
+    {
+      "id": "10058",
+      "mesh_sha256": "f55676a45fb95a480bac96e457fa129b649614183c9e234428963b837e0f3fdb",
+      "boundary_edges": 6,
+      "nonmanifold_edges": 0,
+      "winding_edges": 0,
+      "degenerate_faces": 4,
+      "signed_volume": 408.1747218742966,
+      "nonadjacent_bvh_overlap_candidates": 4,
+      "overlap_pairs": [
+        [
+          5,
+          34
+        ],
+        [
+          6,
+          33
+        ],
+        [
+          6,
+          37
+        ],
+        [
+          7,
+          33
+        ]
+      ],
+      "provisional_training_eligible": false,
+      "official_gt": false,
+      "limitations": "BVH checks nonadjacent triangles; shared-vertex self intersections and semantic correctness remain unproven"
+    },
+    {
+      "id": "1006",
+      "mesh_sha256": "80049ea50e36654973c8e390f9faece1dbb493873e9612a761ac242fa24165c3",
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "winding_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 120.64286907513934,
+      "nonadjacent_bvh_overlap_candidates": 0,
+      "overlap_pairs": [],
+      "provisional_training_eligible": true,
+      "official_gt": false,
+      "limitations": "BVH checks nonadjacent triangles; shared-vertex self intersections and semantic correctness remain unproven"
+    },
+    {
+      "id": "10060",
+      "mesh_sha256": "095ff509a371efd541b7f8e640051383adee9dd6b9714ee3bc3df0e2e87d9be6",
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "winding_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 44.8313755740722,
+      "nonadjacent_bvh_overlap_candidates": 2,
+      "overlap_pairs": [
+        [
+          39,
+          45
+        ],
+        [
+          41,
+          45
+        ]
+      ],
+      "provisional_training_eligible": false,
+      "official_gt": false,
+      "limitations": "BVH checks nonadjacent triangles; shared-vertex self intersections and semantic correctness remain unproven"
+    },
+    {
+      "id": "10061",
+      "mesh_sha256": "3018c04c7af44eddaa212cb44d16b5ead2f5c9fabf6d0cf9db6596099386a2f9",
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "winding_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 196.79484062890202,
+      "nonadjacent_bvh_overlap_candidates": 0,
+      "overlap_pairs": [],
+      "provisional_training_eligible": true,
+      "official_gt": false,
+      "limitations": "BVH checks nonadjacent triangles; shared-vertex self intersections and semantic correctness remain unproven"
+    },
+    {
+      "id": "10062",
+      "mesh_sha256": "594cf65cd24f2f6339c8d2854287055124f75ff990d7a43d390cbf0ecfd6e81e",
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "winding_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 227.90554371476176,
+      "nonadjacent_bvh_overlap_candidates": 0,
+      "overlap_pairs": [],
+      "provisional_training_eligible": true,
+      "official_gt": false,
+      "limitations": "BVH checks nonadjacent triangles; shared-vertex self intersections and semantic correctness remain unproven"
+    },
+    {
+      "id": "10063",
+      "mesh_sha256": "70292e69b1c8d2a20285fc1b4a0c05b13ff4cf4c4c9089b2fc25e69a76953d59",
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "winding_edges": 0,
+      "degenerate_faces": 0,
+      "signed_volume": 391.31421263019257,
+      "nonadjacent_bvh_overlap_candidates": 0,
+      "overlap_pairs": [],
+      "provisional_training_eligible": true,
+      "official_gt": false,
+      "limitations": "BVH checks nonadjacent triangles; shared-vertex self intersections and semantic correctness remain unproven"
+    }
+  ],
+  "eligible": 26,
+  "status": "provisional_derived_supervision_not_official_GT"
+}

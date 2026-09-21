@@ -1,0 +1,14 @@
+{
+  "id": "EXP001",
+  "status": "hypothesis_not_transfer_validated",
+  "experiment": "lod2-rsi-v001/candidate001-dev20",
+  "claim": "A concave footprint cannot be substituted into a convex-domain roof assembly without testing boundary compatibility.",
+  "rule_ids": ["K01", "K02", "K04", "K06"],
+  "observed": {"improved": 11, "unchanged": 6, "regressed": 2, "failed": 1},
+  "failure_case": "2124: disconnected/nonconforming roof boundary",
+  "conditions": "v0.1.0 lower-envelope planes, concave hull ratio 0.20, simplify 0.05 source units, development20",
+  "counterexample": "11 samples improved, so this does not show concave footprints are generally harmful",
+  "next_hypothesis": "Use local plane support and shared-boundary assembly before increasing contour flexibility",
+  "evaluation_evidence": "releases/v0.1.1-concave-candidate01-r2/reports/decision.json",
+  "formal_rsi_evidence": false
+}

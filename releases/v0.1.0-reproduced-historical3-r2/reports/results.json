@@ -1,0 +1,64 @@
+{
+  "created_utc": "2026-09-21T10:35:44.029101+00:00",
+  "manifest_sha256": "4eb8bc4e900b144cd23fe28bafe23458218c7bff877c7c2044219a46c0d62ff5",
+  "source_sha256": "8b69b7e4f842d9628085adacdc7b27f73c5772f77b1f3c7f10f053c20458053a",
+  "role": "historical_regression",
+  "samples": [
+    {
+      "id": "10",
+      "input_sha256": "0d18f23d16d881db51c07f6f325ce370d63c164f97b9d9229076ef59399277bb",
+      "status": "evaluated",
+      "mesh_sha256": "fa1f23b9f9df140497523134def6a3ab0cab19a596afe7d4c42a1d8573b81d2a",
+      "p95": 0.20785281437531053,
+      "open_edges": 0,
+      "nonmanifold_edges": 0,
+      "winding_edges": 0,
+      "local_reference": null,
+      "historical_reproduction": {
+        "same_faces": true,
+        "max_vertex_delta": 0.0,
+        "byte_identical": true,
+        "geometry_matches": true
+      },
+      "seconds": 0.8600000000442378
+    },
+    {
+      "id": "1000",
+      "input_sha256": "d1c60520c48502a6f43f63f39eff988438bf322a4e72b8391ee12202db5739f3",
+      "status": "evaluated",
+      "mesh_sha256": "0c783af21d98cfc6f4e9776aa224b7bbaede82ee9cb098debd40e1b05077fafe",
+      "p95": 0.1469178474416499,
+      "open_edges": 0,
+      "nonmanifold_edges": 0,
+      "winding_edges": 0,
+      "local_reference": null,
+      "historical_reproduction": {
+        "same_faces": true,
+        "max_vertex_delta": 0.0,
+        "byte_identical": true,
+        "geometry_matches": true
+      },
+      "seconds": 0.8279999999795109
+    },
+    {
+      "id": "2000",
+      "input_sha256": "29a8f4695662d4afc2ad7b0abea2ded00264a64b7aac808c8dbadf1b2c42b445",
+      "status": "evaluated",
+      "mesh_sha256": "2856de9d40085af7cd8e9dcaeaca7e47b966fa12676d6fd23b494899e99cd3f8",
+      "p95": 0.4723078742155051,
+      "open_edges": 0,
+      "nonmanifold_edges": 0,
+      "winding_edges": 0,
+      "local_reference": null,
+      "historical_reproduction": {
+        "same_faces": true,
+        "max_vertex_delta": 0.0,
+        "byte_identical": true,
+        "geometry_matches": true
+      },
+      "seconds": 0.8589999999967404
+    }
+  ],
+  "not_official": true,
+  "independent_test": false
+}

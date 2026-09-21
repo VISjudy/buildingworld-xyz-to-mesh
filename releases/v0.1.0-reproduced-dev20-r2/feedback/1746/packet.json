@@ -1,0 +1,12 @@
+{
+  "condition": "F3",
+  "metric_scope": "local observation proxy, not official score",
+  "metrics": {
+    "p95": 0.14351507154083862,
+    "coverage": 0.9695268644747393,
+    "open_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  "issues": [],
+  "knowledge": []
+}

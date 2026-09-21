@@ -1,0 +1,21 @@
+{
+  "id": "lod2-rsi-research-v001",
+  "status": "preregistered_design_not_executed",
+  "baseline": "v0.1.0-baseline",
+  "feedback_conditions": ["F0", "F1", "F2", "F3", "F4", "F5"],
+  "experiments": ["E1", "E2", "E3", "E4", "E5", "E6", "E7", "E8", "E9", "E10"],
+  "pilot_candidates_per_condition": 10,
+  "formal_seeds": [11, 29, 47],
+  "formal_candidates_per_seed": 30,
+  "failed_candidates_consume_budget": true,
+  "base_model": null,
+  "model_version": null,
+  "token_limit": null,
+  "cost_limit": null,
+  "automatic_execution_enabled": false,
+  "test_policy": "sealed until protocol freeze; local authorized test-directory samples are development only",
+  "acceptance_policy": "fixed evaluation and sample identities; no failed samples or per-building regressions; at least one improvement",
+  "uncertainty": "city-cluster paired bootstrap only when independent city groups are available",
+  "official_scores_available": false,
+  "full_protocol": "docs/RSI_RESEARCH_PLAN.md"
+}

@@ -1,0 +1,73 @@
+{
+  "blender": "5.2.2 LTS",
+  "same_camera_per_sample": true,
+  "render_engine": "workbench",
+  "samples": [
+    {
+      "id": "10",
+      "display_origin": [
+        0.515831708908081,
+        -0.02874264493584633,
+        0.09113486111164093
+      ],
+      "ortho_scale": 31.76150131225586,
+      "source_hashes": {
+        "baseline": "fa1f23b9f9df140497523134def6a3ab0cab19a596afe7d4c42a1d8573b81d2a"
+      },
+      "views": [
+        "oblique",
+        "opposite",
+        "top",
+        "front",
+        "back",
+        "left",
+        "right"
+      ],
+      "point_render_decimated": true
+    },
+    {
+      "id": "1000",
+      "display_origin": [
+        0.010307740420103073,
+        0.0021427699830383062,
+        -0.03430364280939102
+      ],
+      "ortho_scale": 22.082530975341797,
+      "source_hashes": {
+        "baseline": "0c783af21d98cfc6f4e9776aa224b7bbaede82ee9cb098debd40e1b05077fafe"
+      },
+      "views": [
+        "oblique",
+        "opposite",
+        "top",
+        "front",
+        "back",
+        "left",
+        "right"
+      ],
+      "point_render_decimated": false
+    },
+    {
+      "id": "2000",
+      "display_origin": [
+        -0.08993329852819443,
+        -0.51195228099823,
+        0.08331689983606339
+      ],
+      "ortho_scale": 27.573692321777344,
+      "source_hashes": {
+        "baseline": "2856de9d40085af7cd8e9dcaeaca7e47b966fa12676d6fd23b494899e99cd3f8"
+      },
+      "views": [
+        "oblique",
+        "opposite",
+        "top",
+        "front",
+        "back",
+        "left",
+        "right"
+      ],
+      "point_render_decimated": false
+    }
+  ]
+}

@@ -26,3 +26,9 @@ __pycache__/
 *.log
 Thumbs.db
 .DS_Store
+.pytest_cache/
+/data/processed/**
+# First local packaging attempts retained, superseded by cache-free r2 snapshots.
+/releases/v0.1.0-reproduced-historical3/
+/releases/v0.1.0-reproduced-dev20/
+/releases/v0.1.1-concave-candidate01/

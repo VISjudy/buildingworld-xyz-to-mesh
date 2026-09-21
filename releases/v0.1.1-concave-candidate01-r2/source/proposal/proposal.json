@@ -1,0 +1,16 @@
+{
+  "author": "Codex interactive development session",
+  "formal_automated_RSI_trial": false,
+  "rule_ids": [
+    "K01",
+    "K06"
+  ],
+  "hypothesis": "A supported concave footprint reduces rectangle overfill while keeping roof fitting fixed. It may expose lower-envelope partition limitations.",
+  "parent": "v0.1.0",
+  "feedback": "baseline-dev20 external all-input residuals",
+  "known_limits": [
+    "Convex lower-envelope roof model unchanged",
+    "No courtyard support",
+    "Simplification threshold not yet density adaptive"
+  ]
+}
