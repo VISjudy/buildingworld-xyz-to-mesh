@@ -1,0 +1,8 @@
+{
+  "images": [
+    "discovery-evidence-1.png",
+    "discovery-evidence-2.png"
+  ],
+  "purpose": "External geometry evidence, not aesthetic scoring",
+  "images_are_development_GT": true
+}

@@ -1,0 +1,5 @@
+{
+  "same_camera_all_conditions": true,
+  "source": "work/experiments/2026-09-21/feedback-components-v002/renders/render_manifest.json",
+  "height_guard_off_reuses_identical_FULL_geometry": false
+}

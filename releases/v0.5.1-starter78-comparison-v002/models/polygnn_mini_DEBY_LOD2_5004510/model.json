@@ -1,0 +1,273 @@
+{
+  "id": "input",
+  "source": "D:\\codex\\lidar2building\\buildingworld-xyz-to-mesh\\work\\experiments\\2026-09-21\\feedback-components-v002\\v051_all78\\samples\\polygnn_mini_DEBY_LOD2_5004510\\staged\\LiDAR_xyz\\input.xyz",
+  "vertices": [
+    [
+      -7.780120841920059,
+      -7.382200929609077,
+      6.016368579018684
+    ],
+    [
+      -0.34936815439338836,
+      -10.844073292480818,
+      3.116786723755994
+    ],
+    [
+      8.182760376516644,
+      7.46975528518232,
+      2.9769303998068373
+    ],
+    [
+      0.7520076889899726,
+      10.93162764805406,
+      5.876512255069527
+    ],
+    [
+      8.182760376516644,
+      7.46975528518232,
+      -6.315888660414231
+    ],
+    [
+      0.7520076889899726,
+      10.93162764805406,
+      -6.315888660414231
+    ],
+    [
+      -7.780120841920059,
+      -7.382200929609077,
+      -6.315888660414231
+    ],
+    [
+      -0.34936815439338836,
+      -10.844073292480818,
+      -6.315888660414231
+    ]
+  ],
+  "faces": [
+    [
+      0,
+      1,
+      2
+    ],
+    [
+      0,
+      2,
+      3
+    ],
+    [
+      3,
+      2,
+      4,
+      5
+    ],
+    [
+      0,
+      3,
+      5,
+      6
+    ],
+    [
+      1,
+      0,
+      6,
+      7
+    ],
+    [
+      2,
+      1,
+      7,
+      4
+    ],
+    [
+      7,
+      5,
+      4
+    ],
+    [
+      7,
+      6,
+      5
+    ]
+  ],
+  "semantics": [
+    "roof",
+    "roof",
+    "facade_completed",
+    "facade_completed",
+    "facade_completed",
+    "facade_completed",
+    "ground_assumed",
+    "ground_assumed"
+  ],
+  "patch_ids": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    -1,
+    -1
+  ],
+  "metrics": {
+    "provisional_base_z": -6.315888660414231,
+    "base_rule": "z quantile 0.001; not verified terrain"
+  },
+  "surface_evidence": [
+    {
+      "kind": "roof_plane",
+      "candidate": 0,
+      "support_points": 10189,
+      "coefficients": [
+        -0.35371106851550327,
+        -0.006922278182775354,
+        4.555521312738695
+      ]
+    }
+  ],
+  "facade_evidence": [
+    {
+      "axis": 0,
+      "coord": -3.9347960931655077,
+      "range": [
+        -9.991846900046532,
+        9.62418835611573
+      ],
+      "n": 186,
+      "zrange": [
+        -5.111916880054209,
+        4.654579184524613
+      ]
+    },
+    {
+      "axis": 0,
+      "coord": 4.262782614238866,
+      "range": [
+        -5.786275038648486,
+        7.0186116367695375
+      ],
+      "n": 336,
+      "zrange": [
+        -6.393667823724105,
+        2.055809736760244
+      ]
+    },
+    {
+      "axis": 1,
+      "coord": -9.977179381937264,
+      "range": [
+        -4.192968871696673,
+        3.1406834963268073
+      ],
+      "n": 451,
+      "zrange": [
+        -1.9672584788420102,
+        5.3579862055314535
+      ]
+    }
+  ],
+  "footprint_uv": [
+    [
+      4.2628,
+      10.2266
+    ],
+    [
+      4.2628,
+      -9.9772
+    ],
+    [
+      -3.9348,
+      -9.9772
+    ],
+    [
+      -3.9348,
+      10.2266
+    ],
+    [
+      4.2628,
+      10.2266
+    ]
+  ],
+  "footprints_uv": [
+    {
+      "exterior": [
+        [
+          4.2628,
+          10.2266
+        ],
+        [
+          4.2628,
+          -9.9772
+        ],
+        [
+          -3.9348,
+          -9.9772
+        ],
+        [
+          -3.9348,
+          10.2266
+        ],
+        [
+          4.2628,
+          10.2266
+        ]
+      ],
+      "holes": []
+    }
+  ],
+  "uv_basis": [
+    [
+      0.9064546559391371,
+      0.4223031573718821
+    ],
+    [
+      -0.4223031573718821,
+      0.9064546559391371
+    ]
+  ],
+  "unresolved_partition_edges": [],
+  "inference": "Vertical wall continuation at locally observed boundaries; orthogonal corner completion; fitted local roof steps; roof fixture sides inferred. No windows or material details inferred.",
+  "algorithm_version": "0.5.1",
+  "noise_diagnostics": {
+    "mode": "conservative",
+    "input_points": 15676,
+    "used_points": 15671,
+    "excluded_points": 5,
+    "excluded_indices": [
+      1382,
+      2452,
+      3010,
+      3318,
+      7000
+    ],
+    "suspected_isolated_points": 5,
+    "median_nearest_spacing": 0.09176162022793616,
+    "rule": "12-neighbor mean > global median + 6 robust MAD AND > 2.5 local mean-distance median AND nearest distance > max(3 median spacing, 0.05); no point movement"
+  },
+  "input_sha256": "3c9a64ef939e47317096b5545b89b81567d5f8a7650764b570dd7ff6c9f35690",
+  "topology": {
+    "vertices": 8,
+    "faces": 8,
+    "nonmanifold_edges": 0,
+    "open_edges": 0,
+    "degenerate_faces": 0,
+    "signed_volume": 1790.80144736624
+  },
+  "official_metrics": {
+    "CD": null,
+    "ECD": null,
+    "NC": null,
+    "V_Ratio": null,
+    "F_Ratio": null,
+    "FINAL_SCORE": null,
+    "reason": "Ground-truth mesh and official sampling/normalization convention unavailable"
+  },
+  "warnings": [
+    "Ground plane inferred from lowest observed returns",
+    "Input coordinate units must match the current near-meter parameter scale",
+    "Complex compound roofs are experimental: review all point, edge and local-patch residuals"
+  ],
+  "discarded_footprint_area": 0.0,
+  "elapsed_seconds": 1.5318736000335775,
+  "candidate_status": "exported_pending_geometric_review"
+}

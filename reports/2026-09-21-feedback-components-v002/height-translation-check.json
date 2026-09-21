@@ -1,0 +1,9 @@
+{
+  "sample": "point2building_03060_z4cd103de00000004",
+  "z_translation": 500,
+  "same_faces": true,
+  "max_coordinate_error": 0.0,
+  "source_sha256": "174479d44b337e1f737ec804e15bf0db3e4f966297e15ca760c755e42666267d",
+  "scope": "One candidate regression check, not proof for every geometry",
+  "ground_truth_used": false
+}

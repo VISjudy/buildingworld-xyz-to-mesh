@@ -93,3 +93,9 @@ Point2Building 论文研究 Zurich/Berlin/Tallinn，但实际下载包只包含 
 - 当前实验入口 `manifests/starter78.json`；`all_train.json`、`all_test.json`继续锁定。原始/前期导出不覆盖。
 - 长期命令：`export_standard_dataset.py`（新目录导出）、`run_starter78_pilot.py setup/run`（固定开发划分/超时运行）；Frozen release 的 `source/reproduce.py`使用各自冻结评测器。
 - 实验后交付271个成功模型均源坐标OBJ重读核验；失败23次保留在294次尝试中。数据562对往返QA不等于算法271个成功输出质量通过。
+
+## Z与立面高度审核（starter78，2026-09-21）
+
+证据 `reports/2026-09-21-feedback-components-v002/height-audit/` 与 `docs/FEEDBACK_COMPONENTS_V002.md`。真实38对最低回波相对参考底高误差中位数37.75%建筑高度，37/38高于底高超过2%；仿真40对中位数1.51%。屋顶q99相对GT最高点误差中位数真实2.95%、仿真1.35%，不能推断完整屋顶曲面或真实地面。参考Mesh底高也不保证为可见地形。
+
+canonical零点为输入包围盒中心，不是地面；真实可恢复作者源坐标但CRS/垂直基准未独立核准，mini为作者归一化坐标。建筑高度应为可信屋顶标高减可信底高；不能按绝对Z阈值跨数据源截断。2%/5%是描述误差带而非部署门槛。没有对432训练/130封存进行重建或本轮高度审核。

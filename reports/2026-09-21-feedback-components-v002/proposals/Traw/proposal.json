@@ -1,0 +1,184 @@
+{
+  "candidate_count": 1,
+  "arm": "text_no_k",
+  "name": "sparse-normal-supported-spatially-balanced-convex-roof",
+  "status": "proposed_syntax_checked_only",
+  "problem_hypotheses": [
+    "固定最少60点使仅67或73个屋顶候选的样本无法找到足量单平面；严格高于q25也会遗漏量化高度恰等于阈值的点。",
+    "逐点平均且残差固定截断0.6会低估少量但空间独立的高屋顶误差；单个下包络仍有表达能力限制。",
+    "矩形轮廓会把非矩形凸建筑角部补得过大；凸包是明确的保守补全先验，不能恢复凹轮廓。",
+    "若GT地面低于所有观测，XYZ未提供可识别的真实底面；不使用开发GT差值估计推理高度。"
+  ],
+  "evidence_references": [
+    {
+      "file": "feedback.json",
+      "case": "polygnn_mini_DEBY_LOD2_5100005",
+      "fields": [
+        "roof_candidates=73",
+        "baseline_required_support=60",
+        "error=No roof plane supported"
+      ]
+    },
+    {
+      "file": "feedback.json",
+      "case": "polygnn_mini_DEBY_LOD2_21464190",
+      "fields": [
+        "roof_candidates=67",
+        "baseline_required_support=60",
+        "error=No roof plane supported"
+      ]
+    },
+    {
+      "file": "feedback.json",
+      "case": "point2building_04146_z54feb0f4c2d60023",
+      "fields": [
+        "roof_candidates=459",
+        "inclusive_q25_candidates=548",
+        "inferred_base_z=-6.55648042",
+        "GT minimum=-13.3499988937"
+      ]
+    },
+    {
+      "file": "feedback.json",
+      "case": "polygnn_mini_DEBY_LOD2_4473468",
+      "fields": [
+        "coverage=0.44645799",
+        "observed p95=2.05651766",
+        "localized upper roof point z=4.10946281",
+        "structure mismatch=5.37135215"
+      ]
+    },
+    {
+      "file": "feedback.json",
+      "case": "polygnn_mini_DEBY_LOD2_4914914",
+      "fields": [
+        "normal_proxy mean_abs_dot=0.70463109",
+        "structure mismatch=6.11101773",
+        "observed p95=2.66037929"
+      ]
+    },
+    {
+      "file": "feedback.json",
+      "case": "polygnn_mini_DEBY_LOD2_4901641",
+      "fields": [
+        "localized residual=2.19509560",
+        "structure mismatch=5.06581622"
+      ]
+    },
+    {
+      "file": "feedback.json",
+      "scope": "all evaluated cases",
+      "fields": [
+        "baseline watertight=true",
+        "no scanner trajectory; no missing-return emptiness constraint",
+        "PCA normal proxy is not calibrated uncertainty"
+      ]
+    }
+  ],
+  "knowledge_ids": [],
+  "knowledge_usage": {
+    "file": "knowledge.json",
+    "version": "no-explicit-knowledge",
+    "rules_used": [],
+    "note": "反馈的K01-K09标签没有在本组提供规则正文，未将标签作为已读取知识；只使用反馈事实及模型固有先验。"
+  },
+  "images": {
+    "manifest": "image_manifest.json",
+    "listed": [],
+    "actually_viewed": [],
+    "used": [],
+    "visual_feedback_used": false
+  },
+  "code_changes": [
+    {
+      "item": "RANSAC support",
+      "change": "max(60,7.5%) -> max(12,ceil(2.5%)); normal agreement >0.90; final support, slope and 2D rank checks",
+      "purpose": "允许稀疏平面并降低随之增加的噪声拟合风险"
+    },
+    {
+      "item": "RANSAC conditioning",
+      "change": "中心化XY再拟合截距并映射回源坐标，样本行列式阈值从0.1降为1e-5",
+      "purpose": "减少稀疏/小面和大坐标引起的拟合拒绝或数值问题"
+    },
+    {
+      "item": "roof candidates",
+      "change": "q25比较改为包含边界及相对数值容差",
+      "purpose": "保留量化平屋顶点"
+    },
+    {
+      "item": "hypothesis selection",
+      "change": "XY网格内反密度权重；按屋顶高差调整截断上限0.6至3.0；加入0.08法向不一致项",
+      "purpose": "对空间独立屋顶和方向不匹配保留更多评分影响"
+    },
+    {
+      "item": "footprint",
+      "change": "原稳健矩形范围内点的凸包，轻量保拓扑简化并统一逆时针；退化时保留矩形",
+      "purpose": "减少强制矩形补全角部；不凭缺失点挖空"
+    },
+    {
+      "item": "metadata",
+      "change": "更新轮廓规则与支持/下包络限制说明",
+      "purpose": "如实记录推理先验与未解决限制"
+    }
+  ],
+  "expected_benefits": [
+    "降低稀疏屋顶的无平面失败率",
+    "减轻点密度差异与固定误差截断对平面选择的偏置",
+    "在非矩形凸建筑上改善外轮廓；实际收益待独立验收"
+  ],
+  "risks": [
+    "低支持门槛可能接受伪平面，PCA法向自身也会有偏差",
+    "凸包可能连接遮挡间隙或不同建筑，且不能恢复凹角与庭院；轮廓改善不保证",
+    "多层屋顶仍不能由单下包络完整表示，空间均衡可能改变局部拟合折中",
+    "保留最低观测分位数底面可能仍严重低估墙高；缺少外部地形时不能宣称恢复真实地面",
+    "未执行重建和评测，拓扑保持与跨集收益均未验证"
+  ],
+  "not_adopted": [
+    {
+      "suggestion": "根据开发GT的底面差值补高或按建筑ID拟合",
+      "reason": "禁止GT运行时输入和ID特例，且地面未被XYZ识别"
+    },
+    {
+      "suggestion": "Z=0底面或绝对Z为离地高度",
+      "reason": "输入Z是源坐标高程，不是离地高度"
+    },
+    {
+      "suggestion": "根据无点区挖庭院或裁掉建筑",
+      "reason": "无轨迹和空域证据，缺点不证明不存在"
+    },
+    {
+      "suggestion": "完整局部分片、多屋顶台阶与凹轮廓重建",
+      "reason": "有限变更预算及无运行验证条件下拓扑风险过高，保留明确限制"
+    },
+    {
+      "suggestion": "改写验收或以自拟合指标代替GT指标",
+      "reason": "验收器保持原状，拟合指标不等于外部质量"
+    }
+  ],
+  "budget_actual": {
+    "candidates": 1,
+    "changed_lines_added": 48,
+    "changed_lines_removed": 14,
+    "changed_lines_total": 62,
+    "changed_line_limit": 140,
+    "tool_calls_including_parent_progress_message": 5,
+    "tool_call_limit": 10,
+    "syntax_checks": 1,
+    "syntax_check_method": "compile(source, candidate.py, exec) only",
+    "reconstruction_runs": 0,
+    "evaluation_runs": 0,
+    "subagents": 0,
+    "network_calls": 0,
+    "images_viewed": 0
+  },
+  "interfaces": {
+    "run_num_preserved": true,
+    "ROOT_OUT_preserved": true,
+    "XYZ_only_runtime": true,
+    "source_coordinates_preserved": true,
+    "initial_unchanged": true,
+    "acceptor_unchanged": true
+  },
+  "feedback_scope": "discovery24 only; no selection or transfer outcomes",
+  "feedback_case_count": 24
+}

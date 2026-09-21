@@ -1,0 +1,325 @@
+{
+  "id": "input",
+  "source": "D:\\codex\\lidar2building\\buildingworld-xyz-to-mesh\\work\\experiments\\2026-09-21\\feedback-components-v002\\height_guard_off\\samples\\point2building_02420_z4631e26b00000002\\staged\\LiDAR_xyz\\input.xyz",
+  "vertices": [
+    [
+      14.58258668598888,
+      -3.189940837560068,
+      0.03749062666771397
+    ],
+    [
+      14.58258668598888,
+      1.9747252803943278,
+      -0.05101459985039358
+    ],
+    [
+      13.974978907406012,
+      2.2785291696857626,
+      -0.056274855970533055
+    ],
+    [
+      12.152155571657401,
+      2.5823330589771976,
+      -0.061643244740585884
+    ],
+    [
+      -2.4304311143314803,
+      3.189940837560068,
+      -0.07335321612991183
+    ],
+    [
+      -10.936940014491661,
+      3.493744726851503,
+      -0.07931633447448816
+    ],
+    [
+      -12.759763350240272,
+      3.189940837560068,
+      -0.0742723436541754
+    ],
+    [
+      -13.974978907406012,
+      2.886136948268633,
+      -0.06917428650890596
+    ],
+    [
+      -14.58258668598888,
+      1.9747252803943278,
+      -0.053609783448314255
+    ],
+    [
+      -13.367371128823141,
+      -2.2785291696857626,
+      0.019385006334158263
+    ],
+    [
+      -9.721724457325921,
+      -2.886136948268633,
+      0.03012178387426394
+    ],
+    [
+      -1.2152155571657401,
+      -3.189940837560068,
+      0.03608490221884027
+    ],
+    [
+      12.759763350240272,
+      -3.493744726851503,
+      0.04253461748802673
+    ],
+    [
+      14.58258668598888,
+      -3.189940837560068,
+      -0.3589238240375305
+    ],
+    [
+      14.58258668598888,
+      1.9747252803943278,
+      -0.3589238240375305
+    ],
+    [
+      13.974978907406012,
+      2.2785291696857626,
+      -0.3589238240375305
+    ],
+    [
+      12.152155571657401,
+      2.5823330589771976,
+      -0.3589238240375305
+    ],
+    [
+      -2.4304311143314803,
+      3.189940837560068,
+      -0.3589238240375305
+    ],
+    [
+      -10.936940014491661,
+      3.493744726851503,
+      -0.3589238240375305
+    ],
+    [
+      -12.759763350240272,
+      3.189940837560068,
+      -0.3589238240375305
+    ],
+    [
+      -13.974978907406012,
+      2.886136948268633,
+      -0.3589238240375305
+    ],
+    [
+      -14.58258668598888,
+      1.9747252803943278,
+      -0.3589238240375305
+    ],
+    [
+      -13.367371128823141,
+      -2.2785291696857626,
+      -0.3589238240375305
+    ],
+    [
+      -9.721724457325921,
+      -2.886136948268633,
+      -0.3589238240375305
+    ],
+    [
+      -1.2152155571657401,
+      -3.189940837560068,
+      -0.3589238240375305
+    ],
+    [
+      12.759763350240272,
+      -3.493744726851503,
+      -0.3589238240375305
+    ]
+  ],
+  "faces": [
+    [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    [
+      1,
+      0,
+      13,
+      14
+    ],
+    [
+      2,
+      1,
+      14,
+      15
+    ],
+    [
+      3,
+      2,
+      15,
+      16
+    ],
+    [
+      4,
+      3,
+      16,
+      17
+    ],
+    [
+      5,
+      4,
+      17,
+      18
+    ],
+    [
+      6,
+      5,
+      18,
+      19
+    ],
+    [
+      7,
+      6,
+      19,
+      20
+    ],
+    [
+      8,
+      7,
+      20,
+      21
+    ],
+    [
+      9,
+      8,
+      21,
+      22
+    ],
+    [
+      10,
+      9,
+      22,
+      23
+    ],
+    [
+      11,
+      10,
+      23,
+      24
+    ],
+    [
+      12,
+      11,
+      24,
+      25
+    ],
+    [
+      0,
+      12,
+      25,
+      13
+    ],
+    [
+      25,
+      24,
+      23,
+      22,
+      21,
+      20,
+      19,
+      18,
+      17,
+      16,
+      15,
+      14,
+      13
+    ]
+  ],
+  "semantics": [
+    "roof",
+    "wall",
+    "wall",
+    "wall",
+    "wall",
+    "wall",
+    "wall",
+    "wall",
+    "wall",
+    "wall",
+    "wall",
+    "wall",
+    "wall",
+    "wall",
+    "ground_assumed"
+  ],
+  "metrics": {
+    "input_points": 245,
+    "roof_candidate_points": 174,
+    "plane_supports": [
+      126
+    ],
+    "plane_coefficients_z_eq_ax_by_c": [
+      [
+        8.898227913207457e-05,
+        -0.017136679215415073,
+        -0.018471957980665737
+      ]
+    ],
+    "active_roof_planes": [
+      0
+    ],
+    "candidate_planes": [
+      [
+        8.898227913207457e-05,
+        -0.017136679215415073,
+        -0.018471957980665737
+      ],
+      [
+        -8.466515465042642e-06,
+        -0.0060265022642572025,
+        0.13933748320286324
+      ]
+    ],
+    "candidate_supports": [
+      126,
+      45
+    ],
+    "selected_candidate_indices": [
+      0
+    ],
+    "vertices": 26,
+    "polygon_faces": 15,
+    "roof_faces": 1,
+    "nonmanifold_edges": 0,
+    "euler_characteristic": 2,
+    "signed_volume_coordinate_units_cubed": 59.966797367622334,
+    "surface_area_coordinate_units_squared": 374.50915222217554,
+    "roof_vertical_residual_median": 0.05783039138339298,
+    "roof_vertical_residual_p95": 0.18845148140962936,
+    "roof_within_020_coordinate_units": 0.9540229885057471,
+    "xy_points_within_rectangle": 0.9836734693877551,
+    "prototype_fit_status": "main_roof_supported",
+    "provisional_base_z": -0.3589238240375305,
+    "base_rule": "input z quantile 0.001; lowest observed returns, NOT verified ground",
+    "footprint_rule": "observed XY convex hull; interior completion prior, no inferred empty holes",
+    "support_recovery_used": false,
+    "roof_selection_rule": "spatially balanced clipped residual plus bounded tail; base-relative corner guard",
+    "base_observation_status": "unverified lowest-return completion; not terrain or full building height",
+    "height_guard_disabled_for_ablation": true,
+    "limitations": [
+      "Convex single-volume roof only; concave footprints/courtyards/extensions unsupported",
+      "Small roof details below max(18, 3 percent) support omitted; local annexes may remain missing",
+      "Input unit assumed meter for Blender display only",
+      "Residual is same-input fitting diagnostic, NOT ground-truth CD/ECD/NC",
+      "Lowest returns do not prove terrain elevation; flat base and vertical walls are completion priors"
+    ]
+  }
+}

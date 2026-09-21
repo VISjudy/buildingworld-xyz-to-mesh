@@ -1,0 +1,108 @@
+{
+  "candidate": "full-v002-single",
+  "problem_hypotheses": [
+    "The fixed 60-point and 7.5-percent threshold rejects sparse supported roofs and minor planar components.",
+    "Density-biased, clipped mean loss hides spatially localized roof-elevation errors.",
+    "The enclosing rectangle overfills some nonrectangular observed silhouettes.",
+    "Unbounded sloping-plane extrapolation can cross an inferred base; the base itself remains uncertain."
+  ],
+  "evidence": [
+    {
+      "source": "feedback.json",
+      "cases": [
+        "polygnn_mini_DEBY_LOD2_5100005",
+        "polygnn_mini_DEBY_LOD2_21464190"
+      ],
+      "facts": "73 and 67 roof candidates versus required support 60; both report No roof plane supported."
+    },
+    {
+      "source": "feedback.json",
+      "cases": [
+        "polygnn_mini_DEBY_LOD2_4914914",
+        "polygnn_mini_DEBY_LOD2_4473468"
+      ],
+      "facts": "Observed p95 2.660379 and 2.056518, coverage 0.799995 and 0.446458; broad stable roof Z support suggests omitted local elevations."
+    },
+    {
+      "source": "feedback.json",
+      "cases": [
+        "point2building_03584_z45b11bd100005843",
+        "point2building_04499_z4961a69d00000000"
+      ],
+      "facts": "ECD 3.905528 and 3.319170; observed coverage alone does not establish correct height or outline."
+    }
+  ],
+  "knowledge_ids": [
+    "K01",
+    "K02",
+    "K03",
+    "K04",
+    "K05",
+    "K06",
+    "K08",
+    "K09",
+    "X01",
+    "X02"
+  ],
+  "images": [
+    {
+      "file": "discovery-evidence-1.png",
+      "actually_viewed": true,
+      "used": true,
+      "observation": "Rectangular inferred roofs omit concave outline changes; input lacks reliable full-height evidence compared with development GT. Used to motivate conservative silhouette change and reject ground-height fabrication."
+    },
+    {
+      "file": "discovery-evidence-2.png",
+      "actually_viewed": true,
+      "used": true,
+      "observation": "4914914 misses elevated local roof blocks; 5100005 has no inferred mesh. Used to motivate support recovery and spatially balanced roof scoring; this proposal does not claim to reconstruct stepped roof blocks."
+    }
+  ],
+  "code_changes": [
+    "Lower plane support to max(18,3 percent); require two-dimensional inlier spread.",
+    "If initial extraction fails, merge k=12 stable normal candidates with inclusive elevation quantile and allow 0.15 plane tolerance.",
+    "Weight roof support cells equally and add a capped 90th-percentile residual penalty to hypothesis selection.",
+    "Use observed convex hull when its area is 60-96 percent of the original rectangle and point count is at least 100; enforce CCW winding.",
+    "On below-base corner extrapolation, reselect only planes above the same provisional observed base; raise if none is supported.",
+    "Record activated recovery, actual footprint rule, selection rule and base uncertainty."
+  ],
+  "expected_benefits": [
+    "Recover supported sparse roofs without arbitrary fallback slabs.",
+    "Reduce domination by densely sampled regions and large localized roof errors.",
+    "Reduce some nonrectangular footprint overfill while preserving convex assembly.",
+    "Avoid unsupported negative roof-to-base height without absolute-Z logic."
+  ],
+  "risks": [
+    "Reduced support can select noisy small planes; footprint and selection changes may regress successful cases.",
+    "Convex hull remains unable to preserve concave footprints or courtyards and can be outlier sensitive.",
+    "Local step roofs remain unsupported by the single convex lower envelope.",
+    "Base-relative guard can reject data where low returns do not represent a true base; it does not estimate terrain.",
+    "Heuristic thresholds and benefits are untested; topology is not proven by syntax checking."
+  ],
+  "not_adopted": [
+    "No ground set to zero, absolute-Z rejection, or GT-derived height extrapolation.",
+    "No concave alpha boundary from missing returns: scanner visibility is unavailable.",
+    "No local roof domain and internal step-wall rewrite within this bounded proposal.",
+    "No evaluator modification, structural-edge protocol change, runtime GT, building-ID special cases or output-result access."
+  ],
+  "invariants": [
+    "run(num), ROOT and OUT interfaces retained.",
+    "Only input XYZ used at inference; source coordinates retained.",
+    "Initial script preserved.",
+    "Closed convex assembly retained; no topology or quality claims without parent evaluation."
+  ],
+  "budget_actual": {
+    "candidate_count": 1,
+    "line_additions": 55,
+    "line_deletions": 5,
+    "changed_line_sum": 60,
+    "change_limit": 140,
+    "syntax_checks": 1,
+    "syntax_check": "ast.parse passed, no reconstruction execution",
+    "tool_invocations": 6,
+    "tool_count_basis": "3 exec_command plus 2 view_image plus 1 collaboration status message; functions wrappers excluded",
+    "tool_limit": 10,
+    "reconstruction_runs": 0,
+    "evaluation_runs": 0
+  }
+}

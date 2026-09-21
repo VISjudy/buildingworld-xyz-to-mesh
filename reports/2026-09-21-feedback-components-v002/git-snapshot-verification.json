@@ -1,0 +1,14 @@
+{
+  "staged_tree": "519830f1e299120393962b32a6aee05458f8b0e3",
+  "versions": [
+    "v0.1.3-text-no-k-v002",
+    "v0.1.3-text-k-v002",
+    "v0.1.3-full-feedback-v002",
+    "v0.1.3-height-guard-off-v002",
+    "v0.5.1-starter78-comparison-v002",
+    "v0.1.3-text-no-k-raw-v002"
+  ],
+  "frozen_files_checked": 5177,
+  "all_worktree_and_staged_hashes_match": true,
+  "scope": "Frozen source/models/knowledge/renders/results; proof and administrative files are not self-hashed."
+}

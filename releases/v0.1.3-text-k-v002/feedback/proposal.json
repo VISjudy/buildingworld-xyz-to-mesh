@@ -1,0 +1,177 @@
+{
+  "candidate": "candidate.py",
+  "condition": "text_k",
+  "status": "syntax_checked_only_not_reconstructed_or_evaluated",
+  "hypotheses": [
+    "固定60点最低支持可使67/73个候选中的可靠局部平面全部失败；失败后降低支持阈值并检查二维空间展布，可恢复部分小屋顶。",
+    "矩形包围轮廓可能导致有观测支持的斜边与外墙偏移；仅当所有凸包边有分布连续的正观测支持时替代矩形，可改善凸形非矩形建筑。",
+    "地面及完整高度无法从当前最低回波唯一识别；底面保持观测分位数并明确不确定性。"
+  ],
+  "evidence": [
+    {
+      "source": "feedback.json/cases/polygnn_mini_DEBY_LOD2_5100005",
+      "facts": {
+        "roof_candidates": 73,
+        "baseline_required_support": 60,
+        "error": "No roof plane supported"
+      },
+      "use": "失败后自适应支持"
+    },
+    {
+      "source": "feedback.json/cases/polygnn_mini_DEBY_LOD2_21464190",
+      "facts": {
+        "roof_candidates": 67,
+        "baseline_required_support": 60,
+        "error": "No roof plane supported"
+      },
+      "use": "同一通用恢复规则，不按ID分支"
+    },
+    {
+      "source": "feedback.json/cases/polygnn_mini_DEBY_LOD2_4901641",
+      "facts": {
+        "all_input_p95": 1.3761277319695178,
+        "coverage": 0.6366743987303137,
+        "largest_structure_distance": 5.065816215780787
+      },
+      "use": "有正边界支持时修正矩形轮廓；这些指标不能唯一确定根因"
+    },
+    {
+      "source": "feedback.json/cases/polygnn_mini_DEBY_LOD2_4677715",
+      "facts": {
+        "largest_structure_distance": 2.0161504962813828,
+        "all_input_p95": 0.7522887879142697
+      },
+      "use": "轮廓改进假设"
+    },
+    {
+      "source": "feedback.json/cases/point2building_03584_z45b11bd100005843",
+      "facts": {
+        "inferred_base_z": -4.37839763,
+        "development_GT_low_z": -15.8925862219
+      },
+      "use": "说明最低观测并非真实地面；不把该差值写入算法"
+    },
+    {
+      "source": "feedback.json/cases/polygnn_mini_DEBY_LOD2_4827110",
+      "facts": {
+        "coverage": 0.9960275289712059,
+        "ECD": 0.07878140148064734
+      },
+      "use": "恢复分支仅失败时启用，轮廓变化需强正观测证据"
+    }
+  ],
+  "knowledge_ids": [
+    "K01",
+    "K03",
+    "K04",
+    "K05",
+    "K06",
+    "K08",
+    "K09",
+    "X01",
+    "X02"
+  ],
+  "knowledge_application": {
+    "K01": "矩形只提供方向；本候选仅改进受支持凸轮廓，尚不实现凹轮廓",
+    "K03": "保留完成假设，不利用无回波推断空洞",
+    "K04": "沿用共享顶点和封闭装配，不改验收器；尚未验证自相交",
+    "K05": "允许受观测支持的非正交凸边界",
+    "K06": "外部全部输入验收保持原样；内部残差继续标注同输入拟合诊断",
+    "K08_K09": "不根据绝对Z修正高度，不设Z=0底面，不推测未知地面",
+    "X01": "组合失败恢复与成功案例轮廓改进两个算子",
+    "X02": "实际修改支持阈值，记录恢复分支是否使用，收益仍待评测"
+  },
+  "images": {
+    "manifest": "image_manifest.json",
+    "listed_count": 0,
+    "viewed": [],
+    "used": [],
+    "visual_feedback_used": false
+  },
+  "code_changes": [
+    {
+      "location": "planes_ransac",
+      "change": "支持可选min_support；拟合后检查支持数、有限值、二维最小方差0.01和坡度上限2。"
+    },
+    {
+      "location": "run roofmask",
+      "change": "第25百分位比较改为>=，避免剔除恰好位于门槛的平面观测。"
+    },
+    {
+      "location": "run recovery",
+      "change": "初始平面为空时以max(12,ceil(0.10*N))恢复；仍为空时把normal-z/curve门槛放宽为0.50/0.065再试一次。"
+    },
+    {
+      "location": "supported_outline",
+      "change": "仅在凸包面积为矩形55%-94%、3-16条边且每条边0.20带内至少6点、覆盖8个长度箱中的至少5箱时使用简化凸包；否则保留矩形。统一逆时针绕序。"
+    },
+    {
+      "location": "metrics",
+      "change": "记录轮廓规则、恢复分支和未知地面/不可见范围不确定性；更新支持阈值局限说明。"
+    }
+  ],
+  "expected_benefits": [
+    "减少硬支持阈值造成的无平面失败",
+    "改善有连续边界观测的凸形斜边建筑",
+    "尽量保留已成功矩形建筑；不因失败恢复而全面降低所有案例支持阈值"
+  ],
+  "risks": [
+    "所有数值门槛是待验证假设，当前只做语法检查",
+    "降低支持阈值可能拟合噪声；放宽法向可能引入非屋顶点",
+    "凸包不表达L形、庭院和复杂附属体；下包络仍可能遗漏多高度结构",
+    "正边界观测亦不能证明不可见区域不存在；轮廓替代可能收缩真实范围",
+    "边界简化可能增加少量角点偏差；共边、闭合及自相交需外部验收",
+    "最低回波基底仍可能高于真实地面；真实完整高度仍未知",
+    "高度量纲及0.10/0.20等单位门槛沿用原型，未宣称单位无关"
+  ],
+  "not_adopted": [
+    {
+      "suggestion": "K02局部支持域及多高度屋顶拼接",
+      "reason": "需要更大的拓扑装配改动，当前有限预算无法验证共边和阶梯墙；保留为已知不足。"
+    },
+    {
+      "suggestion": "用无点区域切出凹槽或庭院",
+      "reason": "无扫描可见性，缺点不等于空空间。"
+    },
+    {
+      "suggestion": "用开发GT的底面差值修正全部高度，或设底面Z=0",
+      "reason": "违反XYZ推理和坐标不变性；缺少可信地面。"
+    },
+    {
+      "suggestion": "修改结构边/法向验收器以提高分数",
+      "reason": "验收器保持不变，K07只作为协议边界。"
+    }
+  ],
+  "invariants": {
+    "run_num_interface_preserved": true,
+    "ROOT_OUT_preserved": true,
+    "runtime_input": "XYZ only",
+    "original_source_coordinates": true,
+    "runtime_GT_access": false,
+    "id_specific_logic": false,
+    "original_script_overwritten": false,
+    "model_reasoning_override": false
+  },
+  "budget_actual": {
+    "candidate_count": 1,
+    "line_budget": 140,
+    "added_lines": 43,
+    "removed_lines": 6,
+    "changed_line_sum": 49,
+    "tool_calls_including_parent_progress_message": 6,
+    "exec_calls": 5,
+    "syntax_checks": 1,
+    "syntax_check": "ast.parse passed",
+    "reconstruction_runs": 0,
+    "evaluation_runs": 0,
+    "network_calls": 0,
+    "subagents": 0
+  },
+  "read_scope": [
+    "initial_algorithm.py",
+    "feedback.json",
+    "knowledge.json",
+    "image_manifest.json",
+    "candidate.py (own artifact for requested syntax and diff verification)"
+  ]
+}

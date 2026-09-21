@@ -2,7 +2,9 @@
 
 新对话接续：[分层项目记忆](memory.md) → 按任务读取状态、数据与经验。原 `PROJECT_MEMORY.md` 已保留历史副本并转为入口，避免旧环境数据数量误导当前工作。
 
-**最新小试：** 全562对已按[筛选与统一预处理规范](docs/DATASET_METHODS_V001.md)整理。仅对固定78对运行首轮独立模型反馈实验：基准/F0成功71对，F3成功77对；30对同起点策略迁移两组均成功26对，未观察到演化收益。见[可视化结果与全部模型对比](reports/2026-09-21-starter78-feedback-pilot/index.html)、[实验记录](experiments/2026-09-21/starter78-feedback-pilot/summary.md)。5个算法版本独立冻结，完整训练432/封存130尚未重建；单候选单种子不构成机制已证实的结论。
+**最新反馈组成实验：** [v002可视化报告](reports/2026-09-21-feedback-components-v002/index.html)明确知识库、每版算法改动及图像/高度检查贡献，并增加归档v0.5.1。综合候选78/78通过当前拓扑检查；历史版76输出/28通过。图像条件得到更低的配对CD/ECD，但单候选不证明因果；高度检查本批零收益。保留6个新冻结目录、逐栋七视角和全部失败，完整集仍锁定。见[方法与限制](docs/FEEDBACK_COMPONENTS_V002.md)、[实验记录](experiments/2026-09-21/feedback-components-v002/summary.md)。
+
+**前一轮小试：** 全562对已按[筛选与统一预处理规范](docs/DATASET_METHODS_V001.md)整理。仅对固定78对运行首轮独立模型反馈实验：基准/F0成功71对，F3成功77对；30对同起点策略迁移两组均成功26对，未观察到演化收益。见[可视化结果与全部模型对比](reports/2026-09-21-starter78-feedback-pilot/index.html)、[实验记录](experiments/2026-09-21/starter78-feedback-pilot/summary.md)。5个算法版本独立冻结，完整训练432/封存130尚未重建；单候选单种子不构成机制已证实的结论。
 
 **立面数据已入库：** Point2Building Zurich 28,415 对真实 ALS/参考 Mesh、PolyGNN mini 200 对仿真 ALS/Mesh，原始数据仅保存在本地。已整理 78 对经过当前质量筛选的入门样例；见[数据说明](docs/DATA_ACQUISITION.md)和[立面数据审核报告](reports/2026-09-21-dataset-audit/index.html)。这些作者参考模型不等于已获取比赛测试真值。
 

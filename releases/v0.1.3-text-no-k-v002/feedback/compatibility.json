@@ -1,0 +1,11 @@
+{
+  "original_candidate_sha256": "95f115541e5549e4736f3c933a1b3924171afb2c1e5c3fc40b13a52fa3bdc691",
+  "repaired_candidate_sha256": "ea327bdbe4a1096af0ed5b78dc23d9e134b0af21aeecf7476998730d3418f28b",
+  "trigger": "NumPy 2.5.3 rejects 2-component np.cross vectors; original proposal failed at footprint orientation.",
+  "change": "Replace scalar 2D cross product sum by identical shoelace determinant; one expression only.",
+  "not_model_feedback_iteration": true,
+  "no_geometry_threshold_changed": true,
+  "no_ground_truth_used": true,
+  "raw_failures_preserved": "text_no_k/results.json",
+  "experimental_limit": "Post-proposal runtime compatibility repair; report raw and repaired conditions separately, not a clean preregistered zero-repair arm."
+}

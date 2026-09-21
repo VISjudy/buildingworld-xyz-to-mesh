@@ -20,7 +20,9 @@
 - 全量扩展审核已完成：Point2Building 全部 1,087 个闭合候选中，363 对通过联合质量门槛与 Blender 复核，完整导出；项目训练 312 / 封存测试 51，作者划分另存。当前只允许用固定 78 对迭代，稳定并冻结后再启用完整集；未在完整集执行重建。
 - 18 对合格作者 test 已在入门组；51 对项目测试来自作者 train，不冒充作者标准测试或作者预训练模型的未见样本。阶段协议见 `prompt/protocols/dataset-stages.md`。
 - 当前完整本地集合为真实 363 + 仿真 mini 199 = 562 对，入口 `../dataset/processed/complete_pairs_v001/`；项目训练 432 / 封存测试 130，包含原 78 对。用户已明确本轮仅纳入已下载 mini 的全部合格数据，不下载 Munich 完整发布版；真实/仿真指标分开报告。
-- 全 562 对统一预处理到 `../dataset/processed/standardized_pairs_v001/`，仅用输入 XYZ 确定变换、保留所有点并往返校验。方法见 `docs/DATASET_METHODS_V001.md`。最新实验报告 `reports/2026-09-21-starter78-feedback-pilot/`；完整训练432/测试130仍未重建。
+- 全 562 对统一预处理到 `../dataset/processed/standardized_pairs_v001/`，仅用输入 XYZ 确定变换、保留所有点并往返校验。方法见 `docs/DATASET_METHODS_V001.md`。最新实验报告 `reports/2026-09-21-feedback-components-v002/`；完整训练432/测试130仍未重建。
+
+- v002综合反馈/文本知识均78/78当前拓扑通过，历史v0.5.1为76输出/28通过；单候选图像差异未证明因果，高度检查开关全部OBJ相同。新知识v002增K09与2条经验；旧8条规则不改。真实37/38最低回波不足以代表底高，禁止绝对Z推断立面。方法与版本解释见 `docs/FEEDBACK_COMPONENTS_V002.md`；完整集保持锁定。
 
 ## 快速恢复（顺序）
 

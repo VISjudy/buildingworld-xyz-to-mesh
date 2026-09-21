@@ -1,0 +1,29 @@
+{
+  "id": "feedback-components-v002",
+  "initial_source_sha256": "8b69b7e4f842d9628085adacdc7b27f73c5772f77b1f3c7f10f053c20458053a",
+  "conditions": [
+    "text_no_k",
+    "text_k",
+    "full"
+  ],
+  "comparison": "text_k vs text_no_k for explicit knowledge bundle; full vs text_k for added images",
+  "feedback_source": "discovery24, numerical/geometric evidence identical in all conditions",
+  "candidate_budget": 1,
+  "max_changed_lines": 140,
+  "tool_call_limit": 10,
+  "syntax_checks": 1,
+  "seed": 739,
+  "model": "same inherited runtime; exact snapshot and token counts unavailable",
+  "evaluation": "all78; selection24 reported separately, still adaptive development across this project",
+  "knowledge_update": "K09 coordinate/height rule plus X01/X02 prior experience, conditional rather than absolute height thresholds",
+  "image_information_limit": "Added image evidence, not strictly information-equivalent or token-matched; one candidate cannot establish a causal modality effect",
+  "planned_but_not_completed": [
+    "remove geometry",
+    "remove normals",
+    "remove structure",
+    "remove topology",
+    "depth/normal raster maps",
+    "full prediction self-intersection"
+  ],
+  "manual_engineering_comparator": "unmodified archived v0.5.1, same preprocessing; do not attribute its historical improvements to this Harness"
+}

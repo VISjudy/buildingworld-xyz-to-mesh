@@ -11,3 +11,5 @@
 | starter78-feedback-pilot | 首轮已定案；机制尚未证明 | F0 改善共同成功几何；F3 恢复6对；两种策略迁移均26/30，无演化收益 | experiments/2026-09-21/starter78-feedback-pilot/summary.md；work/experiments/2026-09-21/starter78-feedback-pilot；reports/2026-09-21-starter78-feedback-pilot |
 
 基准复现、派生数据与第一候选共享本实验；跨日继续使用原目录，不复制整套实验。
+
+| feedback-components-v002 | 单候选探索已定案 | 综合反馈78/78当前拓扑通过；图像候选改善但因果未证实，高度检查零收益；v0.5.1纳入同样本比较 | experiments/2026-09-21/feedback-components-v002/summary.md；reports/2026-09-21-feedback-components-v002 |

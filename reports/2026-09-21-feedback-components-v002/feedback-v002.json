@@ -1,0 +1,3270 @@
+{
+  "version": "external-feedback-v002",
+  "scope": "discovery24 only; no selection or transfer outcomes",
+  "evidence_layers": [
+    "all-input geometry",
+    "stable input normal proxy + GT NC",
+    "localized GT structure-edge mismatch",
+    "topology",
+    "rule applicability facts",
+    "GT comparison"
+  ],
+  "limitations": [
+    "No scanner trajectory; no missing-return emptiness constraint.",
+    "No complete prediction self-intersection test.",
+    "Local normal confidence is a PCA proxy, not a calibrated uncertainty.",
+    "GT comparisons are development evidence, never runtime inputs."
+  ],
+  "cases": [
+    {
+      "id": "point2building_04435_z5aa795dc967900fa",
+      "stratum": "real_zurich",
+      "status": "evaluated",
+      "point_count": 4193,
+      "roof_candidates": 2078,
+      "inclusive_q25_candidates": 2078,
+      "baseline_required_support": 155,
+      "input_z_range": [
+        -6.261935231285762,
+        6.261935231285817
+      ],
+      "GT_z_range_development_only": [
+        -9.48017301308,
+        5.91473895154
+      ],
+      "coordinate_note": "Z is canonical elevation relative to input bbox center; zero is not ground.",
+      "rules_relevant": [
+        "K01",
+        "K02",
+        "K03",
+        "K04",
+        "K05",
+        "K06",
+        "K07",
+        "K08",
+        "K09"
+      ],
+      "metrics": {
+        "CD": 1.2387179760098381,
+        "ECD": 2.3268080485518174,
+        "NC": 0.617215591524733,
+        "p95": 2.717398561072259,
+        "V_Ratio": 0.14285714285714285,
+        "F_Ratio": 0.17142857142857143
+      },
+      "observed": {
+        "count": 4193,
+        "mean": 0.5502838162315814,
+        "median": 0.10664209780170636,
+        "p95": 2.717398561072259,
+        "max": 3.0926208806059803,
+        "coverage": 0.5759599332220368,
+        "tolerance": 0.15,
+        "exceed_count": 1778
+      },
+      "normal_proxy": {
+        "status": "input_proxy_not_gt_NC",
+        "stable_points": 2788,
+        "fraction": 0.6649177200095397,
+        "mean_abs_dot": 0.8814953394530265
+      },
+      "localized_residuals": [
+        {
+          "index": 1345,
+          "xyz": [
+            4.173032208501064,
+            -4.948023904365547,
+            0.09061557802070498
+          ],
+          "distance": 3.0926208806059803,
+          "polygon_id": 3
+        },
+        {
+          "index": 2459,
+          "xyz": [
+            -1.3115244083860487,
+            3.7557289876509574,
+            0.8918342690017749
+          ],
+          "distance": 3.051670315114659,
+          "polygon_id": 1
+        },
+        {
+          "index": 2460,
+          "xyz": [
+            -1.3115244083860487,
+            3.7557289876509574,
+            -0.9395144221654751
+          ],
+          "distance": 3.0516703151146585,
+          "polygon_id": 1
+        }
+      ],
+      "structure_diagnostics": [
+        {
+          "gt_edge_id": 61,
+          "midpoint": [
+            -3.37371769635,
+            2.89155363206,
+            3.52728761031
+          ],
+          "nearest_predicted_structure_point": [
+            -1.2472077263039276,
+            7.135441781725028,
+            5.044100224096728
+          ],
+          "distance": 4.983307313914638
+        },
+        {
+          "gt_edge_id": 34,
+          "midpoint": [
+            3.52537760974,
+            -2.79998538232,
+            3.52728761031
+          ],
+          "nearest_predicted_structure_point": [
+            1.4092081616944903,
+            -7.023767139417432,
+            4.998507533933871
+          ],
+          "distance": 4.948029256996985
+        },
+        {
+          "gt_edge_id": 59,
+          "midpoint": [
+            -2.921122545955,
+            3.75906741341,
+            2.52194453654
+          ],
+          "nearest_predicted_structure_point": [
+            -1.2233641634479913,
+            7.123520000290498,
+            5.0440533474547
+          ],
+          "distance": 4.534639741901583
+        }
+      ],
+      "topology": {
+        "watertight": true,
+        "open_edges": [],
+        "nonmanifold_edges": [],
+        "inconsistent_winding_edges": [],
+        "degenerate_triangles": []
+      },
+      "inferred_base_z": -6.11703251,
+      "roof_vertical_support": {
+        "stable_candidate_count": 2337,
+        "quantiles_01_50_99": [
+          2.1127430993661425,
+          5.012412487269719,
+          6.1188656630329685
+        ]
+      }
+    },
+    {
+      "id": "point2building_04146_z54feb0f4c2d60023",
+      "stratum": "real_zurich",
+      "status": "evaluated",
+      "point_count": 803,
+      "roof_candidates": 459,
+      "inclusive_q25_candidates": 548,
+      "baseline_required_support": 60,
+      "input_z_range": [
+        -6.570428810948853,
+        6.570428810948853
+      ],
+      "GT_z_range_development_only": [
+        -13.3499988937,
+        6.17129811096
+      ],
+      "coordinate_note": "Z is canonical elevation relative to input bbox center; zero is not ground.",
+      "rules_relevant": [
+        "K01",
+        "K02",
+        "K03",
+        "K04",
+        "K05",
+        "K06",
+        "K07",
+        "K08",
+        "K09"
+      ],
+      "metrics": {
+        "CD": 1.335778904263413,
+        "ECD": 2.060262932122271,
+        "NC": 0.7527529033805789,
+        "p95": 0.3897058050719207,
+        "V_Ratio": 1.0,
+        "F_Ratio": 1.0
+      },
+      "observed": {
+        "count": 803,
+        "mean": 0.10872675366112579,
+        "median": 0.033695698493183504,
+        "p95": 0.3897058050719207,
+        "max": 0.8565733549466171,
+        "coverage": 0.7235367372353674,
+        "tolerance": 0.15,
+        "exceed_count": 222
+      },
+      "normal_proxy": {
+        "status": "input_proxy_not_gt_NC",
+        "stable_points": 706,
+        "fraction": 0.8792029887920298,
+        "mean_abs_dot": 0.9871219810759094
+      },
+      "localized_residuals": [
+        {
+          "index": 801,
+          "xyz": [
+            8.496234523486752,
+            2.0695955890544653,
+            -1.95197350216191
+          ],
+          "distance": 0.8565733549466171,
+          "polygon_id": 2
+        },
+        {
+          "index": 783,
+          "xyz": [
+            6.753417185335623,
+            3.1588564253989206,
+            -2.056538287526232
+          ],
+          "distance": 0.6617204534794527,
+          "polygon_id": 2
+        },
+        {
+          "index": 436,
+          "xyz": [
+            8.496234523486752,
+            -0.10892608363444553,
+            0.4008405416556621
+          ],
+          "distance": 0.6231395840434308,
+          "polygon_id": 1
+        }
+      ],
+      "structure_diagnostics": [
+        {
+          "gt_edge_id": 1,
+          "midpoint": [
+            -7.10982333096,
+            3.29218195171,
+            -13.3499988937
+          ],
+          "nearest_predicted_structure_point": [
+            -7.419101612118215,
+            3.43872220576357,
+            -6.55648042
+          ],
+          "distance": 6.802133514843519
+        },
+        {
+          "gt_edge_id": 2,
+          "midpoint": [
+            2.839920852585,
+            5.5125312404699995,
+            -13.3499988937
+          ],
+          "nearest_predicted_structure_point": [
+            2.969841429768279,
+            5.790470262610382,
+            -6.55648042
+          ],
+          "distance": 6.800442831824055
+        },
+        {
+          "gt_edge_id": 3,
+          "midpoint": [
+            6.961683857295,
+            -4.07470693658,
+            -13.3499988937
+          ],
+          "nearest_predicted_structure_point": [
+            7.148797207008384,
+            -4.1971831859832305,
+            -6.55648042
+          ],
+          "distance": 6.797198326502768
+        }
+      ],
+      "topology": {
+        "watertight": true,
+        "open_edges": [],
+        "nonmanifold_edges": [],
+        "inconsistent_winding_edges": [],
+        "degenerate_triangles": []
+      },
+      "inferred_base_z": -6.55648042,
+      "roof_vertical_support": {
+        "stable_candidate_count": 610,
+        "quantiles_01_50_99": [
+          6.014279778551199,
+          6.13472447641107,
+          6.500701225184612
+        ]
+      }
+    },
+    {
+      "id": "point2building_02073_z45b11b6f00004d43",
+      "stratum": "real_zurich",
+      "status": "evaluated",
+      "point_count": 1042,
+      "roof_candidates": 620,
+      "inclusive_q25_candidates": 755,
+      "baseline_required_support": 60,
+      "input_z_range": [
+        -3.3773244331023995,
+        3.3773244331024914
+      ],
+      "GT_z_range_development_only": [
+        -9.04667572931,
+        2.2110361303
+      ],
+      "coordinate_note": "Z is canonical elevation relative to input bbox center; zero is not ground.",
+      "rules_relevant": [
+        "K01",
+        "K02",
+        "K03",
+        "K04",
+        "K05",
+        "K06",
+        "K07",
+        "K08",
+        "K09"
+      ],
+      "metrics": {
+        "CD": 2.0362015137995724,
+        "ECD": 2.530185323389769,
+        "NC": 0.5635778337422238,
+        "p95": 0.2593780959881181,
+        "V_Ratio": 0.08888888888888889,
+        "F_Ratio": 0.1276595744680851
+      },
+      "observed": {
+        "count": 1042,
+        "mean": 0.07689496664926812,
+        "median": 0.037992392746075646,
+        "p95": 0.2593780959881181,
+        "max": 1.4987724631023993,
+        "coverage": 0.9328214971209213,
+        "tolerance": 0.15,
+        "exceed_count": 70
+      },
+      "normal_proxy": {
+        "status": "input_proxy_not_gt_NC",
+        "stable_points": 982,
+        "fraction": 0.9424184261036468,
+        "mean_abs_dot": 0.9935123656522836
+      },
+      "localized_residuals": [
+        {
+          "index": 225,
+          "xyz": [
+            6.276781792227293,
+            -5.466874464197965,
+            -3.3773244331023995
+          ],
+          "distance": 1.4987724631023993,
+          "polygon_id": 5
+        },
+        {
+          "index": 286,
+          "xyz": [
+            -6.276781792227293,
+            -4.454490304161305,
+            0.8665820565208587
+          ],
+          "distance": 1.456857530146062,
+          "polygon_id": 0
+        },
+        {
+          "index": 702,
+          "xyz": [
+            -6.276781792227293,
+            -4.656967136168637,
+            0.899009986647033
+          ],
+          "distance": 1.4248779736409378,
+          "polygon_id": 0
+        }
+      ],
+      "structure_diagnostics": [
+        {
+          "gt_edge_id": 42,
+          "midpoint": [
+            2.68322297745,
+            -9.190828358465,
+            -9.04667572931
+          ],
+          "nearest_predicted_structure_point": [
+            4.4155232670797435,
+            -9.970649458173446,
+            -1.8785519699999997
+          ],
+          "distance": 7.415590567836543
+        },
+        {
+          "gt_edge_id": 21,
+          "midpoint": [
+            -7.21384457086,
+            -4.396986883875,
+            -9.04667572931
+          ],
+          "nearest_predicted_structure_point": [
+            -8.800196450015111,
+            -3.699596592798697,
+            -1.8785519699999997
+          ],
+          "distance": 7.3746093951728025
+        },
+        {
+          "gt_edge_id": 41,
+          "midpoint": [
+            3.703706210965,
+            -7.325611781965,
+            -9.04667572931
+          ],
+          "nearest_predicted_structure_point": [
+            5.2731549708268375,
+            -8.055271987209133,
+            -1.8785519700000002
+          ],
+          "distance": 7.374114974268661
+        }
+      ],
+      "topology": {
+        "watertight": true,
+        "open_edges": [],
+        "nonmanifold_edges": [],
+        "inconsistent_winding_edges": [],
+        "degenerate_triangles": []
+      },
+      "inferred_base_z": -1.87855197,
+      "roof_vertical_support": {
+        "stable_candidate_count": 986,
+        "quantiles_01_50_99": [
+          2.2110559034277224,
+          2.308240828165985,
+          2.769075823905149
+        ]
+      }
+    },
+    {
+      "id": "point2building_03584_z45b11bd100005843",
+      "stratum": "real_zurich",
+      "status": "evaluated",
+      "point_count": 897,
+      "roof_candidates": 584,
+      "inclusive_q25_candidates": 669,
+      "baseline_required_support": 60,
+      "input_z_range": [
+        -6.296596822016114,
+        6.296596822016114
+      ],
+      "GT_z_range_development_only": [
+        -15.8925862219,
+        4.90057551206
+      ],
+      "coordinate_note": "Z is canonical elevation relative to input bbox center; zero is not ground.",
+      "rules_relevant": [
+        "K01",
+        "K02",
+        "K03",
+        "K04",
+        "K05",
+        "K06",
+        "K07",
+        "K08",
+        "K09"
+      ],
+      "metrics": {
+        "CD": 2.7000996221929476,
+        "ECD": 3.905527636892285,
+        "NC": 0.56759613648493,
+        "p95": 0.4475304502943842,
+        "V_Ratio": 0.4444444444444444,
+        "F_Ratio": 0.5454545454545454
+      },
+      "observed": {
+        "count": 897,
+        "mean": 0.07508482137360048,
+        "median": 0.0291278358428624,
+        "p95": 0.4475304502943842,
+        "max": 1.9181991920161137,
+        "coverage": 0.9063545150501672,
+        "tolerance": 0.15,
+        "exceed_count": 84
+      },
+      "normal_proxy": {
+        "status": "input_proxy_not_gt_NC",
+        "stable_points": 854,
+        "fraction": 0.9520624303232998,
+        "mean_abs_dot": 0.9887737917956212
+      },
+      "localized_residuals": [
+        {
+          "index": 5,
+          "xyz": [
+            9.669773690953319,
+            -2.8109807241143367,
+            -6.296596822016114
+          ],
+          "distance": 1.9181991920161137,
+          "polygon_id": 5
+        },
+        {
+          "index": 202,
+          "xyz": [
+            -3.373176868937204,
+            -7.083671424768129,
+            1.9969492554326793
+          ],
+          "distance": 1.2110080985607488,
+          "polygon_id": 1
+        },
+        {
+          "index": 247,
+          "xyz": [
+            -7.420989111661849,
+            -7.983185256484717,
+            2.1048865230816975
+          ],
+          "distance": 1.050098172417247,
+          "polygon_id": 1
+        }
+      ],
+      "structure_diagnostics": [
+        {
+          "gt_edge_id": 2,
+          "midpoint": [
+            -6.859692480410001,
+            -0.250064845157,
+            -15.8925862219
+          ],
+          "nearest_predicted_structure_point": [
+            -10.446199024226855,
+            -0.8829753939703693,
+            -4.37839763
+          ],
+          "distance": 12.07642926868205
+        },
+        {
+          "gt_edge_id": 3,
+          "midpoint": [
+            -4.0154297445000005,
+            3.6898057376590003,
+            -15.8925862219
+          ],
+          "nearest_predicted_structure_point": [
+            -4.6394112797769065,
+            7.123464685162195,
+            -4.37839763
+          ],
+          "distance": 12.031454843616185
+        },
+        {
+          "gt_edge_id": 6,
+          "midpoint": [
+            5.813557894385,
+            -6.4279258414000005,
+            -15.8925862219
+          ],
+          "nearest_predicted_structure_point": [
+            5.874075916445381,
+            -6.6332147504374,
+            -4.37839763
+          ],
+          "distance": 11.516177529762555
+        }
+      ],
+      "topology": {
+        "watertight": true,
+        "open_edges": [],
+        "nonmanifold_edges": [],
+        "inconsistent_winding_edges": [],
+        "degenerate_triangles": []
+      },
+      "inferred_base_z": -4.37839763,
+      "roof_vertical_support": {
+        "stable_candidate_count": 789,
+        "quantiles_01_50_99": [
+          5.271192779353612,
+          5.397082990299526,
+          5.559043793738276
+        ]
+      }
+    },
+    {
+      "id": "point2building_01226_z434cc37600000036",
+      "stratum": "real_zurich",
+      "status": "evaluated",
+      "point_count": 780,
+      "roof_candidates": 439,
+      "inclusive_q25_candidates": 576,
+      "baseline_required_support": 60,
+      "input_z_range": [
+        -2.981071614963065,
+        2.981071614963183
+      ],
+      "GT_z_range_development_only": [
+        -9.89872746412,
+        3.10776917144
+      ],
+      "coordinate_note": "Z is canonical elevation relative to input bbox center; zero is not ground.",
+      "rules_relevant": [
+        "K01",
+        "K02",
+        "K03",
+        "K04",
+        "K05",
+        "K06",
+        "K07",
+        "K08",
+        "K09"
+      ],
+      "metrics": {
+        "CD": 1.7168480864025462,
+        "ECD": 2.488458171204026,
+        "NC": 0.6747408155410523,
+        "p95": 0.14367662806805218,
+        "V_Ratio": 1.0,
+        "F_Ratio": 1.0
+      },
+      "observed": {
+        "count": 780,
+        "mean": 0.04087862314192555,
+        "median": 0.022512313682551365,
+        "p95": 0.14367662806805218,
+        "max": 0.5179936774065298,
+        "coverage": 0.9512820512820512,
+        "tolerance": 0.15,
+        "exceed_count": 38
+      },
+      "normal_proxy": {
+        "status": "input_proxy_not_gt_NC",
+        "stable_points": 723,
+        "fraction": 0.926923076923077,
+        "mean_abs_dot": 0.9818233285243422
+      },
+      "localized_residuals": [
+        {
+          "index": 281,
+          "xyz": [
+            9.867570518915754,
+            -2.0773832671401586,
+            0.695937341766952
+          ],
+          "distance": 0.5179936774065298,
+          "polygon_id": 1
+        },
+        {
+          "index": 293,
+          "xyz": [
+            10.906262152485834,
+            -1.8177103587476389,
+            1.6307217739582225
+          ],
+          "distance": 0.423613953459366,
+          "polygon_id": 1
+        },
+        {
+          "index": 292,
+          "xyz": [
+            10.906262152485834,
+            -1.8177103587476389,
+            -0.42586737356456644
+          ],
+          "distance": 0.42361395345936553,
+          "polygon_id": 1
+        }
+      ],
+      "structure_diagnostics": [
+        {
+          "gt_edge_id": 1,
+          "midpoint": [
+            -2.0618028930099994,
+            5.138407511195,
+            -9.89872746412
+          ],
+          "nearest_predicted_structure_point": [
+            -2.1665489680923535,
+            5.340049587676171,
+            -2.94867438
+          ],
+          "distance": 6.953766543344601
+        },
+        {
+          "gt_edge_id": 2,
+          "midpoint": [
+            10.216570907440001,
+            3.618801651295,
+            -9.89872746412
+          ],
+          "nearest_predicted_structure_point": [
+            10.381472558200286,
+            3.6954646885892832,
+            -2.94867438
+          ],
+          "distance": 6.95243177944211
+        },
+        {
+          "gt_edge_id": 3,
+          "midpoint": [
+            1.8322520415800003,
+            -5.4832531337149994,
+            -9.89872746412
+          ],
+          "nearest_predicted_structure_point": [
+            1.7679614723339698,
+            -5.429243627272313,
+            -2.94867438
+          ],
+          "distance": 6.950560277860058
+        }
+      ],
+      "topology": {
+        "watertight": true,
+        "open_edges": [],
+        "nonmanifold_edges": [],
+        "inconsistent_winding_edges": [],
+        "degenerate_triangles": []
+      },
+      "inferred_base_z": -2.94867438,
+      "roof_vertical_support": {
+        "stable_candidate_count": 678,
+        "quantiles_01_50_99": [
+          2.7525264892918666,
+          2.8564336906706753,
+          2.9187526528169885
+        ]
+      }
+    },
+    {
+      "id": "point2building_00032_z41aca4f400000f6c",
+      "stratum": "real_zurich",
+      "status": "evaluated",
+      "point_count": 1481,
+      "roof_candidates": 1062,
+      "inclusive_q25_candidates": 1086,
+      "baseline_required_support": 79,
+      "input_z_range": [
+        -2.7578695508661384,
+        2.7578695508661384
+      ],
+      "GT_z_range_development_only": [
+        -9.77625727032,
+        2.23880381202
+      ],
+      "coordinate_note": "Z is canonical elevation relative to input bbox center; zero is not ground.",
+      "rules_relevant": [
+        "K01",
+        "K02",
+        "K03",
+        "K04",
+        "K05",
+        "K06",
+        "K07",
+        "K08",
+        "K09"
+      ],
+      "metrics": {
+        "CD": 2.007534193274929,
+        "ECD": 2.527005113112435,
+        "NC": 0.6413575112346531,
+        "p95": 0.19603001038591356,
+        "V_Ratio": 1.0,
+        "F_Ratio": 1.0
+      },
+      "observed": {
+        "count": 1481,
+        "mean": 0.1041564543882095,
+        "median": 0.07464664692517534,
+        "p95": 0.19603001038591356,
+        "max": 1.453167936146395,
+        "coverage": 0.8528021607022283,
+        "tolerance": 0.15,
+        "exceed_count": 218
+      },
+      "normal_proxy": {
+        "status": "input_proxy_not_gt_NC",
+        "stable_points": 1394,
+        "fraction": 0.9412559081701553,
+        "mean_abs_dot": 0.9724024431322806
+      },
+      "localized_residuals": [
+        {
+          "index": 384,
+          "xyz": [
+            0.9175404474638421,
+            -6.160628718685797,
+            0.5138124101724354
+          ],
+          "distance": 1.453167936146395,
+          "polygon_id": 0
+        },
+        {
+          "index": 643,
+          "xyz": [
+            -3.0147757559526243,
+            0.0,
+            0.5138124101724354
+          ],
+          "distance": 1.4008419150535634,
+          "polygon_id": 0
+        },
+        {
+          "index": 778,
+          "xyz": [
+            -6.684937545807993,
+            5.8984743051247,
+            0.5767589105967098
+          ],
+          "distance": 1.3788041196482803,
+          "polygon_id": 0
+        }
+      ],
+      "structure_diagnostics": [
+        {
+          "gt_edge_id": 2,
+          "midpoint": [
+            5.2771683452195,
+            3.39594827323,
+            -9.77625727032
+          ],
+          "nearest_predicted_structure_point": [
+            5.338479192834043,
+            3.4855645456836393,
+            -2.71633574
+          ],
+          "distance": 7.06075648288479
+        },
+        {
+          "gt_edge_id": 0,
+          "midpoint": [
+            -5.2771683452195,
+            -3.455719479595,
+            -9.77625727032
+          ],
+          "nearest_predicted_structure_point": [
+            -5.368598405565226,
+            -3.4853230361197216,
+            -2.71633574
+          ],
+          "distance": 7.060575602652353
+        },
+        {
+          "gt_edge_id": 1,
+          "midpoint": [
+            -4.918541107280499,
+            7.5469012575050005,
+            -9.77625727032
+          ],
+          "nearest_predicted_structure_point": [
+            -4.987684846617272,
+            7.606730172216134,
+            -2.71633574
+          ],
+          "distance": 7.060513605255703
+        }
+      ],
+      "topology": {
+        "watertight": true,
+        "open_edges": [],
+        "nonmanifold_edges": [],
+        "inconsistent_winding_edges": [],
+        "degenerate_triangles": []
+      },
+      "inferred_base_z": -2.71633574,
+      "roof_vertical_support": {
+        "stable_candidate_count": 1392,
+        "quantiles_01_50_99": [
+          -2.6320405525607375,
+          0.807456074582277,
+          2.548133219509024
+        ]
+      }
+    },
+    {
+      "id": "point2building_03177_z57b4146355ea0033",
+      "stratum": "real_zurich",
+      "status": "evaluated",
+      "point_count": 1559,
+      "roof_candidates": 1092,
+      "inclusive_q25_candidates": 1232,
+      "baseline_required_support": 81,
+      "input_z_range": [
+        -1.7811487914123192,
+        1.7811487914123192
+      ],
+      "GT_z_range_development_only": [
+        -6.63844970048,
+        1.27571533202
+      ],
+      "coordinate_note": "Z is canonical elevation relative to input bbox center; zero is not ground.",
+      "rules_relevant": [
+        "K01",
+        "K02",
+        "K03",
+        "K04",
+        "K05",
+        "K06",
+        "K07",
+        "K08",
+        "K09"
+      ],
+      "metrics": {
+        "CD": 1.3803521950388102,
+        "ECD": 1.8365668268584456,
+        "NC": 0.6545620937780532,
+        "p95": 0.07745433199377066,
+        "V_Ratio": 1.0,
+        "F_Ratio": 1.0
+      },
+      "observed": {
+        "count": 1559,
+        "mean": 0.03255386099950969,
+        "median": 0.0237047115688338,
+        "p95": 0.07745433199377066,
+        "max": 0.874138482499022,
+        "coverage": 0.9826812059012188,
+        "tolerance": 0.15,
+        "exceed_count": 27
+      },
+      "normal_proxy": {
+        "status": "input_proxy_not_gt_NC",
+        "stable_points": 1509,
+        "fraction": 0.967928159076331,
+        "mean_abs_dot": 0.9934187673087792
+      },
+      "localized_residuals": [
+        {
+          "index": 824,
+          "xyz": [
+            7.231139504564508,
+            7.928881035706698,
+            0.7256474757252953
+          ],
+          "distance": 0.874138482499022,
+          "polygon_id": 0
+        },
+        {
+          "index": 811,
+          "xyz": [
+            6.723691118279279,
+            7.167708456278855,
+            0.7763799254763922
+          ],
+          "distance": 0.8234169610442134,
+          "polygon_id": 0
+        },
+        {
+          "index": 1541,
+          "xyz": [
+            6.977415311421894,
+            8.943777808277154,
+            -1.2737004051270904
+          ],
+          "distance": 0.46001404487290953,
+          "polygon_id": 5
+        }
+      ],
+      "structure_diagnostics": [
+        {
+          "gt_edge_id": 1,
+          "midpoint": [
+            -3.3755466656900004,
+            1.81920246483,
+            -6.63844970048
+          ],
+          "nearest_predicted_structure_point": [
+            -3.5448519387754533,
+            1.891471801077527,
+            -1.73371445
+          ],
+          "distance": 4.908188567053767
+        },
+        {
+          "gt_edge_id": 3,
+          "midpoint": [
+            3.1289267496999997,
+            -1.8526940583749996,
+            -6.63844970048
+          ],
+          "nearest_predicted_structure_point": [
+            3.2345873265859044,
+            -1.9090484638377418,
+            -1.73371445
+          ],
+          "distance": 4.906196882904724
+        },
+        {
+          "gt_edge_id": 2,
+          "midpoint": [
+            5.671750613344999,
+            10.202757254625,
+            -6.63844970048
+          ],
+          "nearest_predicted_structure_point": [
+            5.6849051462573055,
+            10.255712473364554,
+            -1.73371445
+          ],
+          "distance": 4.9050387535909445
+        }
+      ],
+      "topology": {
+        "watertight": true,
+        "open_edges": [],
+        "nonmanifold_edges": [],
+        "inconsistent_winding_edges": [],
+        "degenerate_triangles": []
+      },
+      "inferred_base_z": -1.73371445,
+      "roof_vertical_support": {
+        "stable_candidate_count": 1449,
+        "quantiles_01_50_99": [
+          1.5172657194416672,
+          1.5883159268478586,
+          1.669494040889561
+        ]
+      }
+    },
+    {
+      "id": "point2building_04499_z4961a69d00000000",
+      "stratum": "real_zurich",
+      "status": "evaluated",
+      "point_count": 684,
+      "roof_candidates": 193,
+      "inclusive_q25_candidates": 259,
+      "baseline_required_support": 60,
+      "input_z_range": [
+        -1.6324012614025702,
+        1.6324012614025702
+      ],
+      "GT_z_range_development_only": [
+        -8.86635418242,
+        1.09505532998
+      ],
+      "coordinate_note": "Z is canonical elevation relative to input bbox center; zero is not ground.",
+      "rules_relevant": [
+        "K01",
+        "K02",
+        "K03",
+        "K04",
+        "K05",
+        "K06",
+        "K07",
+        "K08",
+        "K09"
+      ],
+      "metrics": {
+        "CD": 2.3571891148347683,
+        "ECD": 3.3191704570164067,
+        "NC": 0.4400185654289187,
+        "p95": 0.8416886032256264,
+        "V_Ratio": 0.25,
+        "F_Ratio": 0.3333333333333333
+      },
+      "observed": {
+        "count": 684,
+        "mean": 0.19018588065879638,
+        "median": 0.020119251787502027,
+        "p95": 0.8416886032256264,
+        "max": 1.1263842702428843,
+        "coverage": 0.72953216374269,
+        "tolerance": 0.15,
+        "exceed_count": 185
+      },
+      "normal_proxy": {
+        "status": "input_proxy_not_gt_NC",
+        "stable_points": 393,
+        "fraction": 0.5745614035087719,
+        "mean_abs_dot": 0.8938876466689352
+      },
+      "localized_residuals": [
+        {
+          "index": 452,
+          "xyz": [
+            9.163348026538152,
+            -2.5506226465621658,
+            1.6324012614025702
+          ],
+          "distance": 1.1263842702428843,
+          "polygon_id": 0
+        },
+        {
+          "index": 473,
+          "xyz": [
+            5.951452841978387,
+            7.273997917973584,
+            1.6172716999863304
+          ],
+          "distance": 1.109031255075372,
+          "polygon_id": 0
+        },
+        {
+          "index": 459,
+          "xyz": [
+            8.974413015681694,
+            -2.3616876357057093,
+            1.5870587038653141
+          ],
+          "distance": 1.081025373946112,
+          "polygon_id": 0
+        }
+      ],
+      "structure_diagnostics": [
+        {
+          "gt_edge_id": 9,
+          "midpoint": [
+            -0.31060915790849997,
+            3.87392346255,
+            -8.86635418242
+          ],
+          "nearest_predicted_structure_point": [
+            2.0937174449424374,
+            9.12979044929851,
+            -1.62723452
+          ],
+          "distance": 9.263356717864506
+        },
+        {
+          "gt_edge_id": 10,
+          "midpoint": [
+            1.1366330252805001,
+            4.25443857441,
+            -8.86635418242
+          ],
+          "nearest_predicted_structure_point": [
+            3.1915717822054126,
+            8.613153113770178,
+            -1.62723452
+          ],
+          "distance": 8.696322166133093
+        },
+        {
+          "gt_edge_id": 8,
+          "midpoint": [
+            -4.803861586034,
+            4.944429234099999,
+            -8.86635418242
+          ],
+          "nearest_predicted_structure_point": [
+            -8.697350169910305,
+            6.747520332864024,
+            -1.62723452
+          ],
+          "distance": 8.41517940094286
+        }
+      ],
+      "topology": {
+        "watertight": true,
+        "open_edges": [],
+        "nonmanifold_edges": [],
+        "inconsistent_winding_edges": [],
+        "degenerate_triangles": []
+      },
+      "inferred_base_z": -1.62723452,
+      "roof_vertical_support": {
+        "stable_candidate_count": 275,
+        "quantiles_01_50_99": [
+          0.4816947918634789,
+          0.4987911962638298,
+          0.697245837867537
+        ]
+      }
+    },
+    {
+      "id": "point2building_01244_z45b11be700005ac6",
+      "stratum": "real_zurich",
+      "status": "evaluated",
+      "point_count": 1193,
+      "roof_candidates": 828,
+      "inclusive_q25_candidates": 963,
+      "baseline_required_support": 62,
+      "input_z_range": [
+        -1.4525143723565443,
+        1.4525143723565443
+      ],
+      "GT_z_range_development_only": [
+        -4.58715122326,
+        0.95311134239
+      ],
+      "coordinate_note": "Z is canonical elevation relative to input bbox center; zero is not ground.",
+      "rules_relevant": [
+        "K01",
+        "K02",
+        "K03",
+        "K04",
+        "K05",
+        "K06",
+        "K07",
+        "K08",
+        "K09"
+      ],
+      "metrics": {
+        "CD": 1.0683289562349636,
+        "ECD": 1.557901079287702,
+        "NC": 0.5893694003741835,
+        "p95": 0.23232767761402176,
+        "V_Ratio": 0.4,
+        "F_Ratio": 0.5
+      },
+      "observed": {
+        "count": 1193,
+        "mean": 0.05343554921122195,
+        "median": 0.028501097309684482,
+        "p95": 0.23232767761402176,
+        "max": 1.121082286809826,
+        "coverage": 0.9136630343671417,
+        "tolerance": 0.15,
+        "exceed_count": 103
+      },
+      "normal_proxy": {
+        "status": "input_proxy_not_gt_NC",
+        "stable_points": 1137,
+        "fraction": 0.953059513830679,
+        "mean_abs_dot": 0.9923641668443726
+      },
+      "localized_residuals": [
+        {
+          "index": 850,
+          "xyz": [
+            0.9520286223384256,
+            7.752233067612893,
+            -0.22306530011378523
+          ],
+          "distance": 1.121082286809826,
+          "polygon_id": 1
+        },
+        {
+          "index": 506,
+          "xyz": [
+            4.760143111692128,
+            -4.488134933881149,
+            0.13600408890493274
+          ],
+          "distance": 0.9570834508249279,
+          "polygon_id": 0
+        },
+        {
+          "index": 532,
+          "xyz": [
+            5.5761676451250635,
+            -4.080122667164681,
+            0.005445476215942445
+          ],
+          "distance": 0.9564469656990614,
+          "polygon_id": 1
+        }
+      ],
+      "structure_diagnostics": [
+        {
+          "gt_edge_id": 8,
+          "midpoint": [
+            6.3372465264999995,
+            -7.538434639895,
+            -4.58715122326
+          ],
+          "nearest_predicted_structure_point": [
+            7.70698260893646,
+            -7.0300977264299656,
+            -1.41152322
+          ],
+          "distance": 3.495596739929913
+        },
+        {
+          "gt_edge_id": 2,
+          "midpoint": [
+            -1.6995070951259998,
+            -1.63857726319,
+            -4.58715122326
+          ],
+          "nearest_predicted_structure_point": [
+            -2.8969229262473455,
+            -2.10521533509095,
+            -1.41152322
+          ],
+          "distance": 3.425809244230705
+        },
+        {
+          "gt_edge_id": 1,
+          "midpoint": [
+            -0.146884416026,
+            -6.969393531865,
+            -4.58715122326
+          ],
+          "nearest_predicted_structure_point": [
+            -0.9519820039603892,
+            -7.2787581857811094,
+            -1.41152322
+          ],
+          "distance": 3.2906689031683967
+        }
+      ],
+      "topology": {
+        "watertight": true,
+        "open_edges": [],
+        "nonmanifold_edges": [],
+        "inconsistent_winding_edges": [],
+        "degenerate_triangles": []
+      },
+      "inferred_base_z": -1.41152322,
+      "roof_vertical_support": {
+        "stable_candidate_count": 1116,
+        "quantiles_01_50_99": [
+          0.9955592279422643,
+          1.0716962825960876,
+          1.3763441135795766
+        ]
+      }
+    },
+    {
+      "id": "point2building_02648_z478b924900000293",
+      "stratum": "real_zurich",
+      "status": "evaluated",
+      "point_count": 916,
+      "roof_candidates": 571,
+      "inclusive_q25_candidates": 643,
+      "baseline_required_support": 60,
+      "input_z_range": [
+        -8.359143392347661,
+        8.359143392347661
+      ],
+      "GT_z_range_development_only": [
+        -11.9841515932,
+        7.54563081917
+      ],
+      "coordinate_note": "Z is canonical elevation relative to input bbox center; zero is not ground.",
+      "rules_relevant": [
+        "K01",
+        "K02",
+        "K03",
+        "K04",
+        "K05",
+        "K06",
+        "K07",
+        "K08",
+        "K09"
+      ],
+      "metrics": {
+        "CD": 0.9768950612541245,
+        "ECD": 1.5502361432590033,
+        "NC": 0.844135368753546,
+        "p95": 0.4479718886907218,
+        "V_Ratio": 0.8,
+        "F_Ratio": 0.8571428571428571
+      },
+      "observed": {
+        "count": 916,
+        "mean": 0.08984688749654537,
+        "median": 0.030244668877310525,
+        "p95": 0.4479718886907218,
+        "max": 0.895943777757358,
+        "coverage": 0.8406113537117904,
+        "tolerance": 0.15,
+        "exceed_count": 146
+      },
+      "normal_proxy": {
+        "status": "input_proxy_not_gt_NC",
+        "stable_points": 826,
+        "fraction": 0.9017467248908297,
+        "mean_abs_dot": 0.9794259878756867
+      },
+      "localized_residuals": [
+        {
+          "index": 534,
+          "xyz": [
+            8.959437752242643,
+            -6.719578314181981,
+            4.381150842989502
+          ],
+          "distance": 0.895943777757358,
+          "polygon_id": 1
+        },
+        {
+          "index": 533,
+          "xyz": [
+            8.959437752242643,
+            -6.719578314181981,
+            2.7863993588047133
+          ],
+          "distance": 0.895943777757358,
+          "polygon_id": 1
+        },
+        {
+          "index": 510,
+          "xyz": [
+            8.063493977018378,
+            -6.719578314181981,
+            4.578286909253242
+          ],
+          "distance": 0.8959437758180187,
+          "polygon_id": 4
+        }
+      ],
+      "structure_diagnostics": [
+        {
+          "gt_edge_id": 1,
+          "midpoint": [
+            -0.38077610473500023,
+            8.434414699845,
+            -11.9841515932
+          ],
+          "nearest_predicted_structure_point": [
+            -0.4062147180848594,
+            7.42961376,
+            -8.34278165
+          ],
+          "distance": 3.777545117533732
+        },
+        {
+          "gt_edge_id": 2,
+          "midpoint": [
+            9.568679519545,
+            1.82234963879,
+            -11.9841515932
+          ],
+          "nearest_predicted_structure_point": [
+            9.85538153,
+            1.811573747056154,
+            -8.34278165
+          ],
+          "distance": 3.6526550926527372
+        },
+        {
+          "gt_edge_id": 4,
+          "midpoint": [
+            0.22129811245999953,
+            -7.499049398725,
+            -11.9841515932
+          ],
+          "nearest_predicted_structure_point": [
+            0.08618913501563341,
+            -7.61552209,
+            -8.34278165
+          ],
+          "distance": 3.6457366041500148
+        }
+      ],
+      "topology": {
+        "watertight": true,
+        "open_edges": [],
+        "nonmanifold_edges": [],
+        "inconsistent_winding_edges": [],
+        "degenerate_triangles": []
+      },
+      "inferred_base_z": -8.34278165,
+      "roof_vertical_support": {
+        "stable_candidate_count": 685,
+        "quantiles_01_50_99": [
+          7.388647733112007,
+          7.445263242717052,
+          7.878214510445065
+        ]
+      }
+    },
+    {
+      "id": "point2building_03331_z4c11dac00000001b",
+      "stratum": "real_zurich",
+      "status": "evaluated",
+      "point_count": 827,
+      "roof_candidates": 569,
+      "inclusive_q25_candidates": 626,
+      "baseline_required_support": 60,
+      "input_z_range": [
+        -0.1747248178753633,
+        0.1747248178753171
+      ],
+      "GT_z_range_development_only": [
+        -0.303936164412,
+        0.102407542624
+      ],
+      "coordinate_note": "Z is canonical elevation relative to input bbox center; zero is not ground.",
+      "rules_relevant": [
+        "K01",
+        "K02",
+        "K03",
+        "K04",
+        "K05",
+        "K06",
+        "K07",
+        "K08",
+        "K09"
+      ],
+      "metrics": {
+        "CD": 0.14569154957201952,
+        "ECD": 0.16051151201714695,
+        "NC": 0.8934172522961727,
+        "p95": 0.10320383130996273,
+        "V_Ratio": 0.6666666666666666,
+        "F_Ratio": 0.75
+      },
+      "observed": {
+        "count": 827,
+        "mean": 0.038405237077250465,
+        "median": 0.03257052848349602,
+        "p95": 0.10320383130996273,
+        "max": 0.23984248426626328,
+        "coverage": 0.9939540507859734,
+        "tolerance": 0.15,
+        "exceed_count": 5
+      },
+      "normal_proxy": {
+        "status": "input_proxy_not_gt_NC",
+        "stable_points": 827,
+        "fraction": 1.0,
+        "mean_abs_dot": 0.9916509535156979
+      },
+      "localized_residuals": [
+        {
+          "index": 505,
+          "xyz": [
+            -11.580795650537512,
+            6.09515560554606,
+            0.1747248178753171
+          ],
+          "distance": 0.23984248426626328,
+          "polygon_id": 0
+        },
+        {
+          "index": 317,
+          "xyz": [
+            -2.8444059492548277,
+            2.6412340957366256,
+            0.16661480858645025
+          ],
+          "distance": 0.22483723059547683,
+          "polygon_id": 0
+        },
+        {
+          "index": 528,
+          "xyz": [
+            -12.39348306461032,
+            6.298327459064261,
+            0.13410036767293732
+          ],
+          "distance": 0.19778264395314823,
+          "polygon_id": 0
+        }
+      ],
+      "structure_diagnostics": [
+        {
+          "gt_edge_id": 12,
+          "midpoint": [
+            1.1796157815,
+            1.013421205325,
+            0.102407542624
+          ],
+          "nearest_predicted_structure_point": [
+            1.2501716336996145,
+            1.1387895225118405,
+            -0.057081801795889085
+          ],
+          "distance": 0.21478406416063578
+        },
+        {
+          "gt_edge_id": 4,
+          "midpoint": [
+            1.1796157815,
+            1.013421205325,
+            -0.303936164412
+          ],
+          "nearest_predicted_structure_point": [
+            1.2313145656822355,
+            1.1460854119248638,
+            -0.16800546
+          ],
+          "distance": 0.19684946634582282
+        },
+        {
+          "gt_edge_id": 16,
+          "midpoint": [
+            -11.45807985095,
+            5.959843151059999,
+            0.102407542624
+          ],
+          "nearest_predicted_structure_point": [
+            -11.432417343206113,
+            6.04574359199125,
+            -0.06520565251418818
+          ],
+          "distance": 0.19008322714095688
+        }
+      ],
+      "topology": {
+        "watertight": true,
+        "open_edges": [],
+        "nonmanifold_edges": [],
+        "inconsistent_winding_edges": [],
+        "degenerate_triangles": []
+      },
+      "inferred_base_z": -0.16800546,
+      "roof_vertical_support": {
+        "stable_candidate_count": 827,
+        "quantiles_01_50_99": [
+          -0.15845519679285103,
+          -0.044691855473007844,
+          0.13410036767293732
+        ]
+      }
+    },
+    {
+      "id": "point2building_00089_z41ad26d300061d2a",
+      "stratum": "real_zurich",
+      "status": "evaluated",
+      "point_count": 416,
+      "roof_candidates": 243,
+      "inclusive_q25_candidates": 281,
+      "baseline_required_support": 60,
+      "input_z_range": [
+        -3.2731119476744013,
+        3.2731119476744013
+      ],
+      "GT_z_range_development_only": [
+        -11.4232211868,
+        2.13601611105
+      ],
+      "coordinate_note": "Z is canonical elevation relative to input bbox center; zero is not ground.",
+      "rules_relevant": [
+        "K01",
+        "K02",
+        "K03",
+        "K04",
+        "K05",
+        "K06",
+        "K07",
+        "K08",
+        "K09"
+      ],
+      "metrics": {
+        "CD": 2.1224056648049743,
+        "ECD": 2.7774181624902154,
+        "NC": 0.6446654076601767,
+        "p95": 0.4950434244901378,
+        "V_Ratio": 1.0,
+        "F_Ratio": 1.0
+      },
+      "observed": {
+        "count": 416,
+        "mean": 0.10277674318373431,
+        "median": 0.035543979213239416,
+        "p95": 0.4950434244901378,
+        "max": 0.9450846166191164,
+        "coverage": 0.7980769230769231,
+        "tolerance": 0.15,
+        "exceed_count": 84
+      },
+      "normal_proxy": {
+        "status": "input_proxy_not_gt_NC",
+        "stable_points": 365,
+        "fraction": 0.8774038461538461,
+        "mean_abs_dot": 0.9926558851328997
+      },
+      "localized_residuals": [
+        {
+          "index": 170,
+          "xyz": [
+            1.9560353862955195,
+            -7.335132698608198,
+            -2.0472469973257965
+          ],
+          "distance": 0.9450846166191164,
+          "polygon_id": 1
+        },
+        {
+          "index": 172,
+          "xyz": [
+            1.9560353862955195,
+            -7.335132698608198,
+            0.14342349308634247
+          ],
+          "distance": 0.9450846166191164,
+          "polygon_id": 1
+        },
+        {
+          "index": 219,
+          "xyz": [
+            6.5201179543183985,
+            -2.7710501305853192,
+            -0.37821777977198523
+          ],
+          "distance": 0.8392859224256791,
+          "polygon_id": 1
+        }
+      ],
+      "structure_diagnostics": [
+        {
+          "gt_edge_id": 2,
+          "midpoint": [
+            5.0244028957569995,
+            5.6685905495495,
+            -11.4232211868
+          ],
+          "nearest_predicted_structure_point": [
+            5.210527495157214,
+            5.930807390183203,
+            -3.17567232
+          ],
+          "distance": 8.253815017812537
+        },
+        {
+          "gt_edge_id": 3,
+          "midpoint": [
+            5.0244028957569995,
+            -5.1026443109505,
+            -11.4232211868
+          ],
+          "nearest_predicted_structure_point": [
+            5.254948627858082,
+            -5.285265599205439,
+            -3.17567232
+          ],
+          "distance": 8.252791296268667
+        },
+        {
+          "gt_edge_id": 0,
+          "midpoint": [
+            -5.761176224543,
+            -5.659462384434,
+            -11.4232211868
+          ],
+          "nearest_predicted_structure_point": [
+            -5.9703811773094015,
+            -5.862304922379117,
+            -3.17567232
+          ],
+          "distance": 8.252694960903133
+        }
+      ],
+      "topology": {
+        "watertight": true,
+        "open_edges": [],
+        "nonmanifold_edges": [],
+        "inconsistent_winding_edges": [],
+        "degenerate_triangles": []
+      },
+      "inferred_base_z": -3.17567232,
+      "roof_vertical_support": {
+        "stable_candidate_count": 336,
+        "quantiles_01_50_99": [
+          2.438517747612984,
+          2.5429415117251146,
+          2.9510219411114997
+        ]
+      }
+    },
+    {
+      "id": "polygnn_mini_DEBY_LOD2_4914914",
+      "stratum": "synthetic_mini",
+      "status": "evaluated",
+      "point_count": 38319,
+      "roof_candidates": 766,
+      "inclusive_q25_candidates": 766,
+      "baseline_required_support": 60,
+      "input_z_range": [
+        -4.6568633769926455,
+        4.6568633769926455
+      ],
+      "GT_z_range_development_only": [
+        -4.54209005033,
+        4.45078108554
+      ],
+      "coordinate_note": "Z is canonical elevation relative to input bbox center; zero is not ground.",
+      "rules_relevant": [
+        "K01",
+        "K02",
+        "K03",
+        "K04",
+        "K05",
+        "K06",
+        "K07",
+        "K08",
+        "K09"
+      ],
+      "metrics": {
+        "CD": 0.5499672057975267,
+        "ECD": 1.4384687588282912,
+        "NC": 0.8120029450078594,
+        "p95": 2.660379290431598,
+        "V_Ratio": 0.18181818181818182,
+        "F_Ratio": 0.07142857142857142
+      },
+      "observed": {
+        "count": 38319,
+        "mean": 0.4839224174112356,
+        "median": 0.0560241149970545,
+        "p95": 2.660379290431598,
+        "max": 3.1897419004124683,
+        "coverage": 0.7999947806571153,
+        "tolerance": 0.15,
+        "exceed_count": 7664
+      },
+      "normal_proxy": {
+        "status": "input_proxy_not_gt_NC",
+        "stable_points": 6244,
+        "fraction": 0.16294788486129597,
+        "mean_abs_dot": 0.704631088329252
+      },
+      "localized_residuals": [
+        {
+          "index": 24980,
+          "xyz": [
+            1.7758531917654092,
+            4.234400155067039,
+            -1.3657060627680468
+          ],
+          "distance": 3.1897419004124683,
+          "polygon_id": 0
+        },
+        {
+          "index": 32960,
+          "xyz": [
+            0.6929925734029335,
+            4.1148491151128,
+            -1.3705900306300207
+          ],
+          "distance": 3.187073799369979,
+          "polygon_id": 5
+        },
+        {
+          "index": 30823,
+          "xyz": [
+            6.142969865404112,
+            4.689777073592153,
+            -1.361246787725798
+          ],
+          "distance": 3.185401931887526,
+          "polygon_id": 0
+        }
+      ],
+      "structure_diagnostics": [
+        {
+          "gt_edge_id": 42,
+          "midpoint": [
+            3.68750183806,
+            0.13898075794999998,
+            4.45078108554
+          ],
+          "nearest_predicted_structure_point": [
+            4.201012197728983,
+            -5.353415540098508,
+            1.8212511461912382
+          ],
+          "distance": 6.111017729170471
+        },
+        {
+          "gt_edge_id": 20,
+          "midpoint": [
+            -0.822205266265,
+            -0.31437890363,
+            4.44653419389
+          ],
+          "nearest_predicted_structure_point": [
+            -0.2555265454874114,
+            -5.798057818330372,
+            1.8211352084835482
+          ],
+          "distance": 6.106109976464951
+        },
+        {
+          "gt_edge_id": 6,
+          "midpoint": [
+            -4.458638065095,
+            -0.68014555474,
+            4.44653419389
+          ],
+          "nearest_predicted_structure_point": [
+            -3.901139938947743,
+            -6.161791634689138,
+            1.8210403671539166
+          ],
+          "distance": 6.1034798058737545
+        }
+      ],
+      "topology": {
+        "watertight": true,
+        "open_edges": [],
+        "nonmanifold_edges": [],
+        "inconsistent_winding_edges": [],
+        "degenerate_triangles": []
+      },
+      "inferred_base_z": -4.55766383,
+      "roof_vertical_support": {
+        "stable_candidate_count": 805,
+        "quantiles_01_50_99": [
+          1.7269413151268687,
+          1.826816334869179,
+          4.524558810491671
+        ]
+      }
+    },
+    {
+      "id": "polygnn_mini_DEBY_LOD2_8573782",
+      "stratum": "synthetic_mini",
+      "status": "evaluated",
+      "point_count": 306464,
+      "roof_candidates": 7402,
+      "inclusive_q25_candidates": 7402,
+      "baseline_required_support": 555,
+      "input_z_range": [
+        -1.605742543286105,
+        1.605742543286105
+      ],
+      "GT_z_range_development_only": [
+        -1.56050213702,
+        1.54586982837
+      ],
+      "coordinate_note": "Z is canonical elevation relative to input bbox center; zero is not ground.",
+      "rules_relevant": [
+        "K01",
+        "K02",
+        "K03",
+        "K04",
+        "K05",
+        "K06",
+        "K07",
+        "K08",
+        "K09"
+      ],
+      "metrics": {
+        "CD": 0.37702092195853276,
+        "ECD": 1.120337314303549,
+        "NC": 0.7350636377186732,
+        "p95": 0.5521355686636888,
+        "V_Ratio": 0.05555555555555555,
+        "F_Ratio": 0.020833333333333332
+      },
+      "observed": {
+        "count": 306464,
+        "mean": 0.10979119966651739,
+        "median": 0.05580667862928725,
+        "p95": 0.5521355686636888,
+        "max": 1.5048462459030945,
+        "coverage": 0.9249504020048032,
+        "tolerance": 0.15,
+        "exceed_count": 23000
+      },
+      "normal_proxy": {
+        "status": "input_proxy_not_gt_NC",
+        "stable_points": 46791,
+        "fraction": 0.15268024955622847,
+        "mean_abs_dot": 0.48727864164078977
+      },
+      "localized_residuals": [
+        {
+          "index": 29028,
+          "xyz": [
+            -1.216569862766362,
+            -6.26651253341015,
+            -0.04610199445815189
+          ],
+          "distance": 1.5048462459030945,
+          "polygon_id": 0
+        },
+        {
+          "index": 124930,
+          "xyz": [
+            -2.5970595506186394,
+            -5.427973183996861,
+            -0.04633564410442514
+          ],
+          "distance": 1.5047036758955752,
+          "polygon_id": 5
+        },
+        {
+          "index": 25327,
+          "xyz": [
+            -2.0345188376896854,
+            -5.764457870864078,
+            -0.046014375848926606
+          ],
+          "distance": 1.5046882520964757,
+          "polygon_id": 0
+        }
+      ],
+      "structure_diagnostics": [
+        {
+          "gt_edge_id": 149,
+          "midpoint": [
+            1.9351300566274998,
+            1.9036019757205,
+            1.3253630146550002
+          ],
+          "nearest_predicted_structure_point": [
+            5.087560908636448,
+            7.002126131908337,
+            1.4457953924928755
+          ],
+          "distance": 5.995604457063561
+        },
+        {
+          "gt_edge_id": 151,
+          "midpoint": [
+            1.9351300566274998,
+            1.9036019757205,
+            -1.56050213702
+          ],
+          "nearest_predicted_structure_point": [
+            5.063729896821507,
+            7.016701728866893,
+            -1.55103932
+          ],
+          "distance": 5.99433195532193
+        },
+        {
+          "gt_edge_id": 115,
+          "midpoint": [
+            -0.8174086950049999,
+            -2.5865598731595,
+            1.32521694225
+          ],
+          "nearest_predicted_structure_point": [
+            -3.9533181757107503,
+            -7.6895996472917645,
+            1.4609521022141676
+          ],
+          "distance": 5.991107346827177
+        }
+      ],
+      "topology": {
+        "watertight": true,
+        "open_edges": [],
+        "nonmanifold_edges": [],
+        "inconsistent_winding_edges": [],
+        "degenerate_triangles": []
+      },
+      "inferred_base_z": -1.55103932,
+      "roof_vertical_support": {
+        "stable_candidate_count": 8237,
+        "quantiles_01_50_99": [
+          1.3177927277665766,
+          1.4423338267865125,
+          1.553753162043643
+        ]
+      }
+    },
+    {
+      "id": "polygnn_mini_DEBY_LOD2_4827110",
+      "stratum": "synthetic_mini",
+      "status": "evaluated",
+      "point_count": 39522,
+      "roof_candidates": 21677,
+      "inclusive_q25_candidates": 21677,
+      "baseline_required_support": 1625,
+      "input_z_range": [
+        -9.326570781778276,
+        9.326570781778276
+      ],
+      "GT_z_range_development_only": [
+        -9.25805539962,
+        9.24026691462
+      ],
+      "coordinate_note": "Z is canonical elevation relative to input bbox center; zero is not ground.",
+      "rules_relevant": [
+        "K01",
+        "K02",
+        "K03",
+        "K04",
+        "K05",
+        "K06",
+        "K07",
+        "K08",
+        "K09"
+      ],
+      "metrics": {
+        "CD": 0.18229845713249337,
+        "ECD": 0.07878140148064734,
+        "NC": 0.9779015412715741,
+        "p95": 0.0770510926651071,
+        "V_Ratio": 1.0,
+        "F_Ratio": 0.45
+      },
+      "observed": {
+        "count": 39522,
+        "mean": 0.03005464948258917,
+        "median": 0.023410272472582747,
+        "p95": 0.0770510926651071,
+        "max": 0.1953005368167775,
+        "coverage": 0.9960275289712059,
+        "tolerance": 0.15,
+        "exceed_count": 157
+      },
+      "normal_proxy": {
+        "status": "input_proxy_not_gt_NC",
+        "stable_points": 15426,
+        "fraction": 0.3903142553514498,
+        "mean_abs_dot": 0.9856691152496686
+      },
+      "localized_residuals": [
+        {
+          "index": 22545,
+          "xyz": [
+            2.942377134506798,
+            8.993015409708828,
+            -6.146687583023364
+          ],
+          "distance": 0.1953005368167775,
+          "polygon_id": 2
+        },
+        {
+          "index": 22538,
+          "xyz": [
+            2.942462246880682,
+            8.994887881822054,
+            -4.863788852924472
+          ],
+          "distance": 0.1947538299203552,
+          "polygon_id": 2
+        },
+        {
+          "index": 22559,
+          "xyz": [
+            2.9422920221516176,
+            8.997866814720958,
+            -8.619542336812785
+          ],
+          "distance": 0.1941801568914786,
+          "polygon_id": 2
+        }
+      ],
+      "structure_diagnostics": [
+        {
+          "gt_edge_id": 16,
+          "midpoint": [
+            2.91020466689,
+            9.36155196523,
+            -2.49204759065
+          ],
+          "nearest_predicted_structure_point": [
+            3.05682267,
+            9.33354121,
+            -2.445179676005622
+          ],
+          "distance": 0.15645460257733418
+        },
+        {
+          "gt_edge_id": 7,
+          "midpoint": [
+            5.03801392047,
+            1.3103474527599999,
+            -9.25805539962
+          ],
+          "nearest_predicted_structure_point": [
+            5.111236387666301,
+            1.3061746921853223,
+            -9.16194201
+          ],
+          "distance": 0.12089964969913145
+        },
+        {
+          "gt_edge_id": 10,
+          "midpoint": [
+            -2.08631697395,
+            8.04741701421,
+            -9.25805539962
+          ],
+          "nearest_predicted_structure_point": [
+            -2.1265515252297265,
+            8.006979750285671,
+            -9.16194201
+          ],
+          "distance": 0.11176660992717158
+        }
+      ],
+      "topology": {
+        "watertight": true,
+        "open_edges": [],
+        "nonmanifold_edges": [],
+        "inconsistent_winding_edges": [],
+        "degenerate_triangles": []
+      },
+      "inferred_base_z": -9.16194201,
+      "roof_vertical_support": {
+        "stable_candidate_count": 25595,
+        "quantiles_01_50_99": [
+          4.305536828081543,
+          6.6657028060120656,
+          9.05481720271393
+        ]
+      }
+    },
+    {
+      "id": "polygnn_mini_DEBY_LOD2_5100005",
+      "stratum": "synthetic_mini",
+      "status": "failed",
+      "point_count": 3101,
+      "roof_candidates": 73,
+      "inclusive_q25_candidates": 73,
+      "baseline_required_support": 60,
+      "input_z_range": [
+        -4.136209595416212,
+        4.136209595416212
+      ],
+      "GT_z_range_development_only": [
+        -4.01797577787,
+        3.61567797061
+      ],
+      "coordinate_note": "Z is canonical elevation relative to input bbox center; zero is not ground.",
+      "rules_relevant": [
+        "K01",
+        "K02",
+        "K03",
+        "K04",
+        "K05",
+        "K06",
+        "K07",
+        "K08",
+        "K09"
+      ],
+      "error": "No roof plane supported"
+    },
+    {
+      "id": "polygnn_mini_DEBY_LOD2_4681422",
+      "stratum": "synthetic_mini",
+      "status": "evaluated",
+      "point_count": 129105,
+      "roof_candidates": 2380,
+      "inclusive_q25_candidates": 2381,
+      "baseline_required_support": 178,
+      "input_z_range": [
+        -6.260405449013205,
+        6.260405449013205
+      ],
+      "GT_z_range_development_only": [
+        -6.23081721694,
+        6.15347031618
+      ],
+      "coordinate_note": "Z is canonical elevation relative to input bbox center; zero is not ground.",
+      "rules_relevant": [
+        "K01",
+        "K02",
+        "K03",
+        "K04",
+        "K05",
+        "K06",
+        "K07",
+        "K08",
+        "K09"
+      ],
+      "metrics": {
+        "CD": 0.20264235180945048,
+        "ECD": 0.3090385065421708,
+        "NC": 0.9584721830976533,
+        "p95": 1.4144050884077102,
+        "V_Ratio": 0.14285714285714285,
+        "F_Ratio": 0.05555555555555555
+      },
+      "observed": {
+        "count": 129105,
+        "mean": 0.16428293128055996,
+        "median": 0.024887405891677334,
+        "p95": 1.4144050884077102,
+        "max": 1.5195484590242994,
+        "coverage": 0.895728283180357,
+        "tolerance": 0.15,
+        "exceed_count": 13462
+      },
+      "normal_proxy": {
+        "status": "input_proxy_not_gt_NC",
+        "stable_points": 20543,
+        "fraction": 0.15911854691917432,
+        "mean_abs_dot": 0.9533982945339187
+      },
+      "localized_residuals": [
+        {
+          "index": 86384,
+          "xyz": [
+            0.27430976801699675,
+            -6.9599584865764585,
+            6.260405449013205
+          ],
+          "distance": 1.5195484590242994,
+          "polygon_id": 0
+        },
+        {
+          "index": 83065,
+          "xyz": [
+            -0.7510718923358541,
+            -8.566292773486088,
+            6.258264548277286
+          ],
+          "distance": 1.5168165685474118,
+          "polygon_id": 0
+        },
+        {
+          "index": 100672,
+          "xyz": [
+            2.067890526532194,
+            -6.189124433656597,
+            6.2542023263868325
+          ],
+          "distance": 1.5141639796131023,
+          "polygon_id": 0
+        }
+      ],
+      "structure_diagnostics": [
+        {
+          "gt_edge_id": 45,
+          "midpoint": [
+            -0.951218601865,
+            -5.42767736806,
+            6.15347031618
+          ],
+          "nearest_predicted_structure_point": [
+            -5.41510268832388,
+            -4.920966378364387,
+            4.742980589654558
+          ],
+          "distance": 4.7087682500897134
+        },
+        {
+          "gt_edge_id": 44,
+          "midpoint": [
+            -0.951218601865,
+            -5.42767736806,
+            4.73169256447
+          ],
+          "nearest_predicted_structure_point": [
+            -5.41510268832388,
+            -4.920966378364387,
+            4.742980589654558
+          ],
+          "distance": 4.492565479092286
+        },
+        {
+          "gt_edge_id": 58,
+          "midpoint": [
+            -1.3906522689700003,
+            -9.351838634869999,
+            6.15347031618
+          ],
+          "nearest_predicted_structure_point": [
+            -1.6821979401358051,
+            -11.586622834461533,
+            4.7421492619071
+          ],
+          "distance": 2.659151446486917
+        }
+      ],
+      "topology": {
+        "watertight": true,
+        "open_edges": [],
+        "nonmanifold_edges": [],
+        "inconsistent_winding_edges": [],
+        "degenerate_triangles": []
+      },
+      "inferred_base_z": -6.17622875,
+      "roof_vertical_support": {
+        "stable_candidate_count": 2504,
+        "quantiles_01_50_99": [
+          4.688170770211801,
+          4.741134458502835,
+          6.189311625219666
+        ]
+      }
+    },
+    {
+      "id": "polygnn_mini_DEBY_LOD2_4677715",
+      "stratum": "synthetic_mini",
+      "status": "evaluated",
+      "point_count": 12781,
+      "roof_candidates": 5711,
+      "inclusive_q25_candidates": 5713,
+      "baseline_required_support": 428,
+      "input_z_range": [
+        -7.650731858065884,
+        7.650731858065884
+      ],
+      "GT_z_range_development_only": [
+        -7.54734566492,
+        7.52722560055
+      ],
+      "coordinate_note": "Z is canonical elevation relative to input bbox center; zero is not ground.",
+      "rules_relevant": [
+        "K01",
+        "K02",
+        "K03",
+        "K04",
+        "K05",
+        "K06",
+        "K07",
+        "K08",
+        "K09"
+      ],
+      "metrics": {
+        "CD": 0.311533662639916,
+        "ECD": 0.34054158761927966,
+        "NC": 0.9470570418044264,
+        "p95": 0.7522887879142697,
+        "V_Ratio": 1.0,
+        "F_Ratio": 0.45
+      },
+      "observed": {
+        "count": 12781,
+        "mean": 0.1242612412042375,
+        "median": 0.04943418438596763,
+        "p95": 0.7522887879142697,
+        "max": 1.8599170966838134,
+        "coverage": 0.889054064627181,
+        "tolerance": 0.15,
+        "exceed_count": 1418
+      },
+      "normal_proxy": {
+        "status": "input_proxy_not_gt_NC",
+        "stable_points": 3793,
+        "fraction": 0.29676864095141225,
+        "mean_abs_dot": 0.9335647122198943
+      },
+      "localized_residuals": [
+        {
+          "index": 6891,
+          "xyz": [
+            -3.460805839788617,
+            8.549402271234312,
+            -4.7142858494754405
+          ],
+          "distance": 1.8599170966838134,
+          "polygon_id": 5
+        },
+        {
+          "index": 6890,
+          "xyz": [
+            -3.460805839788617,
+            8.617655720325008,
+            -0.8815683584576293
+          ],
+          "distance": 1.7939745946878793,
+          "polygon_id": 5
+        },
+        {
+          "index": 9314,
+          "xyz": [
+            -3.615730335374909,
+            8.665634335348372,
+            -4.55208717677134
+          ],
+          "distance": 1.7875928523051767,
+          "polygon_id": 5
+        }
+      ],
+      "structure_diagnostics": [
+        {
+          "gt_edge_id": 12,
+          "midpoint": [
+            -5.28631469828,
+            8.88200247957,
+            -2.584654422575
+          ],
+          "nearest_predicted_structure_point": [
+            -4.92493055,
+            10.86550048,
+            -2.5845968222669224
+          ],
+          "distance": 2.0161504962813828
+        },
+        {
+          "gt_edge_id": 9,
+          "midpoint": [
+            -1.669346274285,
+            8.444004104794999,
+            4.95263121016
+          ],
+          "nearest_predicted_structure_point": [
+            -1.295524373124743,
+            9.896252597777988,
+            4.915450246758545
+          ],
+          "distance": 1.500050306889036
+        },
+        {
+          "gt_edge_id": 11,
+          "midpoint": [
+            1.9584561399049996,
+            8.00445809591,
+            -7.54734566492
+          ],
+          "nearest_predicted_structure_point": [
+            2.2073519070265486,
+            8.960795046111667,
+            -7.51516906
+          ],
+          "distance": 0.9887187664428282
+        }
+      ],
+      "topology": {
+        "watertight": true,
+        "open_edges": [],
+        "nonmanifold_edges": [],
+        "inconsistent_winding_edges": [],
+        "degenerate_triangles": []
+      },
+      "inferred_base_z": -7.51516906,
+      "roof_vertical_support": {
+        "stable_candidate_count": 6562,
+        "quantiles_01_50_99": [
+          2.360020093931856,
+          4.862942171142205,
+          7.274324146303393
+        ]
+      }
+    },
+    {
+      "id": "polygnn_mini_DEBY_LOD2_4901641",
+      "stratum": "synthetic_mini",
+      "status": "evaluated",
+      "point_count": 8191,
+      "roof_candidates": 257,
+      "inclusive_q25_candidates": 257,
+      "baseline_required_support": 60,
+      "input_z_range": [
+        -7.356958131203903,
+        7.356958131203903
+      ],
+      "GT_z_range_development_only": [
+        -7.12457070707,
+        6.93918303477
+      ],
+      "coordinate_note": "Z is canonical elevation relative to input bbox center; zero is not ground.",
+      "rules_relevant": [
+        "K01",
+        "K02",
+        "K03",
+        "K04",
+        "K05",
+        "K06",
+        "K07",
+        "K08",
+        "K09"
+      ],
+      "metrics": {
+        "CD": 0.49516920726613234,
+        "ECD": 1.021006016206833,
+        "NC": 0.8951198515898593,
+        "p95": 1.3761277319695178,
+        "V_Ratio": 0.6666666666666666,
+        "F_Ratio": 0.28125
+      },
+      "observed": {
+        "count": 8191,
+        "mean": 0.2708510989279299,
+        "median": 0.10629914316564708,
+        "p95": 1.3761277319695178,
+        "max": 2.1950956023065955,
+        "coverage": 0.6366743987303137,
+        "tolerance": 0.15,
+        "exceed_count": 2976
+      },
+      "normal_proxy": {
+        "status": "input_proxy_not_gt_NC",
+        "stable_points": 1821,
+        "fraction": 0.2223171773898181,
+        "mean_abs_dot": 0.8446529550498193
+      },
+      "localized_residuals": [
+        {
+          "index": 5440,
+          "xyz": [
+            -0.35510878076224245,
+            5.130096676304259,
+            -1.5747909476912412
+          ],
+          "distance": 2.1950956023065955,
+          "polygon_id": 6
+        },
+        {
+          "index": 5444,
+          "xyz": [
+            -0.35530963413813443,
+            5.1443572664768995,
+            -2.733714966340073
+          ],
+          "distance": 2.183921972664696,
+          "polygon_id": 6
+        },
+        {
+          "index": 5448,
+          "xyz": [
+            -0.35530963413813443,
+            5.171271619776299,
+            -3.822942861171585
+          ],
+          "distance": 2.1630734491910792,
+          "polygon_id": 6
+        }
+      ],
+      "structure_diagnostics": [
+        {
+          "gt_edge_id": 13,
+          "midpoint": [
+            -0.490283155779,
+            5.16343840704,
+            -1.253626320135
+          ],
+          "nearest_predicted_structure_point": [
+            1.76857826,
+            9.69767649,
+            -1.2805343748341882
+          ],
+          "distance": 5.065816215780787
+        },
+        {
+          "gt_edge_id": 20,
+          "midpoint": [
+            6.4733036146,
+            -3.77052022377,
+            -1.2927927697000001
+          ],
+          "nearest_predicted_structure_point": [
+            10.25628145,
+            -0.69853575,
+            -1.3071562681584403
+          ],
+          "distance": 4.873214157032254
+        },
+        {
+          "gt_edge_id": 11,
+          "midpoint": [
+            -4.5173933753445,
+            -1.5129281206635,
+            5.778250550785
+          ],
+          "nearest_predicted_structure_point": [
+            -6.823239683634698,
+            -3.367733383058187,
+            5.775467311340952
+          ],
+          "distance": 2.959263000357414
+        }
+      ],
+      "topology": {
+        "watertight": true,
+        "open_edges": [],
+        "nonmanifold_edges": [],
+        "inconsistent_winding_edges": [],
+        "degenerate_triangles": []
+      },
+      "inferred_base_z": -7.13972114,
+      "roof_vertical_support": {
+        "stable_candidate_count": 257,
+        "quantiles_01_50_99": [
+          4.624484438768688,
+          5.47797473528255,
+          6.906926041745201
+        ]
+      }
+    },
+    {
+      "id": "polygnn_mini_DEBY_LOD2_5184797",
+      "stratum": "synthetic_mini",
+      "status": "evaluated",
+      "point_count": 50108,
+      "roof_candidates": 988,
+      "inclusive_q25_candidates": 988,
+      "baseline_required_support": 74,
+      "input_z_range": [
+        -2.1231209054194102,
+        2.1231209054194102
+      ],
+      "GT_z_range_development_only": [
+        -2.04395489125,
+        1.95659339593
+      ],
+      "coordinate_note": "Z is canonical elevation relative to input bbox center; zero is not ground.",
+      "rules_relevant": [
+        "K01",
+        "K02",
+        "K03",
+        "K04",
+        "K05",
+        "K06",
+        "K07",
+        "K08",
+        "K09"
+      ],
+      "metrics": {
+        "CD": 0.20489766606079152,
+        "ECD": 0.3247530752337119,
+        "NC": 0.9310386793353828,
+        "p95": 0.10396630652855794,
+        "V_Ratio": 0.4,
+        "F_Ratio": 0.16666666666666666
+      },
+      "observed": {
+        "count": 50108,
+        "mean": 0.054773511453487356,
+        "median": 0.03190305904690958,
+        "p95": 0.10396630652855794,
+        "max": 1.636168054052273,
+        "coverage": 0.9683882813123653,
+        "tolerance": 0.15,
+        "exceed_count": 1584
+      },
+      "normal_proxy": {
+        "status": "input_proxy_not_gt_NC",
+        "stable_points": 4568,
+        "fraction": 0.09116308773050212,
+        "mean_abs_dot": 0.7486452115711791
+      },
+      "localized_residuals": [
+        {
+          "index": 8113,
+          "xyz": [
+            -1.6648110104076062,
+            -11.50894763238456,
+            -0.07637794176366082
+          ],
+          "distance": 1.636168054052273,
+          "polygon_id": 4
+        },
+        {
+          "index": 9985,
+          "xyz": [
+            -3.6363588765212462,
+            -10.921412005160574,
+            -0.33009802925220627
+          ],
+          "distance": 1.635234658683812,
+          "polygon_id": 4
+        },
+        {
+          "index": 10003,
+          "xyz": [
+            -3.636443365405731,
+            -10.934085336220933,
+            0.12952144328307125
+          ],
+          "distance": 1.6230666452178728,
+          "polygon_id": 4
+        }
+      ],
+      "structure_diagnostics": [
+        {
+          "gt_edge_id": 0,
+          "midpoint": [
+            -4.90842329299,
+            -10.5945246741,
+            -0.04368074765999996
+          ],
+          "nearest_predicted_structure_point": [
+            -5.383130754094532,
+            -12.106530760515904,
+            -2.03247651
+          ],
+          "distance": 2.542993936935082
+        },
+        {
+          "gt_edge_id": 4,
+          "midpoint": [
+            6.61585905248,
+            5.83602680218,
+            -0.04368074765999996
+          ],
+          "nearest_predicted_structure_point": [
+            6.907555484001352,
+            5.756485261246095,
+            -2.03247651
+          ],
+          "distance": 2.0116466511785744
+        },
+        {
+          "gt_edge_id": 19,
+          "midpoint": [
+            -5.34861042308,
+            -12.0908224262,
+            -0.04368074765999996
+          ],
+          "nearest_predicted_structure_point": [
+            -5.383130754094532,
+            -12.106530760515904,
+            -2.03247651
+          ],
+          "distance": 1.9891573566015022
+        }
+      ],
+      "topology": {
+        "watertight": true,
+        "open_edges": [],
+        "nonmanifold_edges": [],
+        "inconsistent_winding_edges": [],
+        "degenerate_triangles": []
+      },
+      "inferred_base_z": -2.03247651,
+      "roof_vertical_support": {
+        "stable_candidate_count": 1057,
+        "quantiles_01_50_99": [
+          1.9010469704175208,
+          1.9686752444256426,
+          2.035374140824491
+        ]
+      }
+    },
+    {
+      "id": "polygnn_mini_DEBY_LOD2_4322128",
+      "stratum": "synthetic_mini",
+      "status": "evaluated",
+      "point_count": 5620,
+      "roof_candidates": 132,
+      "inclusive_q25_candidates": 132,
+      "baseline_required_support": 60,
+      "input_z_range": [
+        -3.4665754716958075,
+        3.4665754716958075
+      ],
+      "GT_z_range_development_only": [
+        -3.22081810538,
+        3.00274826019
+      ],
+      "coordinate_note": "Z is canonical elevation relative to input bbox center; zero is not ground.",
+      "rules_relevant": [
+        "K01",
+        "K02",
+        "K03",
+        "K04",
+        "K05",
+        "K06",
+        "K07",
+        "K08",
+        "K09"
+      ],
+      "metrics": {
+        "CD": 0.2478053663255702,
+        "ECD": 0.410790680385113,
+        "NC": 0.9411147987110122,
+        "p95": 0.28874179391907656,
+        "V_Ratio": 0.6666666666666666,
+        "F_Ratio": 0.3
+      },
+      "observed": {
+        "count": 5620,
+        "mean": 0.122107093644694,
+        "median": 0.10471591451874963,
+        "p95": 0.28874179391907656,
+        "max": 0.6280353877984901,
+        "coverage": 0.6629893238434164,
+        "tolerance": 0.15,
+        "exceed_count": 1894
+      },
+      "normal_proxy": {
+        "status": "input_proxy_not_gt_NC",
+        "stable_points": 736,
+        "fraction": 0.1309608540925267,
+        "mean_abs_dot": 0.9603088984330077
+      },
+      "localized_residuals": [
+        {
+          "index": 4327,
+          "xyz": [
+            -8.091861390501235,
+            4.890277534047024,
+            0.559630928564652
+          ],
+          "distance": 0.6280353877984901,
+          "polygon_id": 4
+        },
+        {
+          "index": 4261,
+          "xyz": [
+            -9.004324428139217,
+            4.181673048320964,
+            -0.5437044791870602
+          ],
+          "distance": 0.6256108311740579,
+          "polygon_id": 4
+        },
+        {
+          "index": 4315,
+          "xyz": [
+            -8.151891853483221,
+            4.849603832596944,
+            -0.8232749211711029
+          ],
+          "distance": 0.6231881153950545,
+          "polygon_id": 4
+        }
+      ],
+      "structure_diagnostics": [
+        {
+          "gt_edge_id": 17,
+          "midpoint": [
+            5.55882088081,
+            0.379662088806,
+            -0.1090349225949998
+          ],
+          "nearest_predicted_structure_point": [
+            6.406163856972184,
+            1.0398578872770878,
+            -3.25544858
+          ],
+          "distance": 3.3247206672252894
+        },
+        {
+          "gt_edge_id": 6,
+          "midpoint": [
+            6.24978371541,
+            0.923611641879,
+            -0.1090349225949998
+          ],
+          "nearest_predicted_structure_point": [
+            6.406163856972184,
+            1.0398578872770878,
+            -3.25544858
+          ],
+          "distance": 3.152441409724988
+        },
+        {
+          "gt_edge_id": 10,
+          "midpoint": [
+            9.5845371393,
+            -4.81236044592,
+            -0.1090349225949998
+          ],
+          "nearest_predicted_structure_point": [
+            10.55432203,
+            -4.27860645,
+            -0.1039121063499755
+          ],
+          "distance": 1.106978909300831
+        }
+      ],
+      "topology": {
+        "watertight": true,
+        "open_edges": [],
+        "nonmanifold_edges": [],
+        "inconsistent_winding_edges": [],
+        "degenerate_triangles": []
+      },
+      "inferred_base_z": -3.25544858,
+      "roof_vertical_support": {
+        "stable_candidate_count": 137,
+        "quantiles_01_50_99": [
+          2.8464632390986755,
+          3.043912007687505,
+          3.264402673189146
+        ]
+      }
+    },
+    {
+      "id": "polygnn_mini_DEBY_LOD2_21464190",
+      "stratum": "synthetic_mini",
+      "status": "failed",
+      "point_count": 2987,
+      "roof_candidates": 67,
+      "inclusive_q25_candidates": 67,
+      "baseline_required_support": 60,
+      "input_z_range": [
+        -9.824584630221548,
+        9.824584630221548
+      ],
+      "GT_z_range_development_only": [
+        -9.47417574014,
+        9.10082561335
+      ],
+      "coordinate_note": "Z is canonical elevation relative to input bbox center; zero is not ground.",
+      "rules_relevant": [
+        "K01",
+        "K02",
+        "K03",
+        "K04",
+        "K05",
+        "K06",
+        "K07",
+        "K08",
+        "K09"
+      ],
+      "error": "No roof plane supported"
+    },
+    {
+      "id": "polygnn_mini_DEBY_LOD2_4473468",
+      "stratum": "synthetic_mini",
+      "status": "evaluated",
+      "point_count": 3642,
+      "roof_candidates": 248,
+      "inclusive_q25_candidates": 248,
+      "baseline_required_support": 60,
+      "input_z_range": [
+        -4.118172483521647,
+        4.118172483521647
+      ],
+      "GT_z_range_development_only": [
+        -3.90493578254,
+        3.66346767602
+      ],
+      "coordinate_note": "Z is canonical elevation relative to input bbox center; zero is not ground.",
+      "rules_relevant": [
+        "K01",
+        "K02",
+        "K03",
+        "K04",
+        "K05",
+        "K06",
+        "K07",
+        "K08",
+        "K09"
+      ],
+      "metrics": {
+        "CD": 0.35428537628893253,
+        "ECD": 0.5837151013468241,
+        "NC": 0.9057428491435326,
+        "p95": 2.0565176602849964,
+        "V_Ratio": 0.6666666666666666,
+        "F_Ratio": 0.3
+      },
+      "observed": {
+        "count": 3642,
+        "mean": 0.6978686093224992,
+        "median": 0.17337000189747692,
+        "p95": 2.0565176602849964,
+        "max": 2.3307690789332747,
+        "coverage": 0.4464579901153213,
+        "tolerance": 0.15,
+        "exceed_count": 2016
+      },
+      "normal_proxy": {
+        "status": "input_proxy_not_gt_NC",
+        "stable_points": 244,
+        "fraction": 0.06699615595826469,
+        "mean_abs_dot": 0.9041332770718101
+      },
+      "localized_residuals": [
+        {
+          "index": 2646,
+          "xyz": [
+            -3.2916547855400213,
+            -11.326475997017553,
+            4.109462813005285
+          ],
+          "distance": 2.3307690789332747,
+          "polygon_id": 0
+        },
+        {
+          "index": 404,
+          "xyz": [
+            -4.291164559855669,
+            -13.206263159670081,
+            4.092343805474166
+          ],
+          "distance": 2.324060016745043,
+          "polygon_id": 0
+        },
+        {
+          "index": 3090,
+          "xyz": [
+            0.5895545934396614,
+            -7.807468777837879,
+            4.118172483521647
+          ],
+          "distance": 2.312342463997809,
+          "polygon_id": 0
+        }
+      ],
+      "structure_diagnostics": [
+        {
+          "gt_edge_id": 3,
+          "midpoint": [
+            -0.09730808175000005,
+            -4.289062235645,
+            3.66346767602
+          ],
+          "nearest_predicted_structure_point": [
+            -5.13369711944937,
+            -4.2985329159961525,
+            1.7963523440272717
+          ],
+          "distance": 5.371352147812227
+        },
+        {
+          "gt_edge_id": 9,
+          "midpoint": [
+            -0.09730808175000005,
+            -4.289062235645,
+            1.77136681138
+          ],
+          "nearest_predicted_structure_point": [
+            -5.13369711944937,
+            -4.2985329159961525,
+            1.7963523440272717
+          ],
+          "distance": 5.036459918403637
+        },
+        {
+          "gt_edge_id": 1,
+          "midpoint": [
+            -0.1859064935150001,
+            -13.16241447315,
+            3.66346767602
+          ],
+          "nearest_predicted_structure_point": [
+            -0.1070200845811149,
+            -13.305503751799716,
+            1.7838257299173501
+          ],
+          "distance": 1.886730360366191
+        }
+      ],
+      "topology": {
+        "watertight": true,
+        "open_edges": [],
+        "nonmanifold_edges": [],
+        "inconsistent_winding_edges": [],
+        "degenerate_triangles": []
+      },
+      "inferred_base_z": -3.90326527,
+      "roof_vertical_support": {
+        "stable_candidate_count": 308,
+        "quantiles_01_50_99": [
+          1.6142653488454535,
+          1.8728794929476829,
+          3.9274997760705808
+        ]
+      }
+    },
+    {
+      "id": "polygnn_mini_DEBY_LOD2_5092970",
+      "stratum": "synthetic_mini",
+      "status": "evaluated",
+      "point_count": 28124,
+      "roof_candidates": 1314,
+      "inclusive_q25_candidates": 1314,
+      "baseline_required_support": 98,
+      "input_z_range": [
+        -1.3786063304738179,
+        1.3786063304738179
+      ],
+      "GT_z_range_development_only": [
+        -1.2262287964,
+        1.22900097886
+      ],
+      "coordinate_note": "Z is canonical elevation relative to input bbox center; zero is not ground.",
+      "rules_relevant": [
+        "K01",
+        "K02",
+        "K03",
+        "K04",
+        "K05",
+        "K06",
+        "K07",
+        "K08",
+        "K09"
+      ],
+      "metrics": {
+        "CD": 0.18598611234860235,
+        "ECD": 0.30657987385082275,
+        "NC": 0.9156035527884802,
+        "p95": 0.12016540924459927,
+        "V_Ratio": 0.5,
+        "F_Ratio": 0.21428571428571427
+      },
+      "observed": {
+        "count": 28124,
+        "mean": 0.0605869952839017,
+        "median": 0.035573524843242846,
+        "p95": 0.12016540924459927,
+        "max": 0.8654506833522168,
+        "coverage": 0.9604252595647845,
+        "tolerance": 0.15,
+        "exceed_count": 1113
+      },
+      "normal_proxy": {
+        "status": "input_proxy_not_gt_NC",
+        "stable_points": 2822,
+        "fraction": 0.10034134547006116,
+        "mean_abs_dot": 0.7365098937724252
+      },
+      "localized_residuals": [
+        {
+          "index": 2136,
+          "xyz": [
+            -2.76012345253421,
+            -2.356678500537664,
+            -0.3274871529531431
+          ],
+          "distance": 0.8654506833522168,
+          "polygon_id": 1
+        },
+        {
+          "index": 3173,
+          "xyz": [
+            -7.0722532475413376,
+            -2.0669854348905035,
+            0.08704652882866469
+          ],
+          "distance": 0.8639030304675118,
+          "polygon_id": 1
+        },
+        {
+          "index": 3870,
+          "xyz": [
+            -9.633842233886948,
+            -1.90786216248634,
+            0.018111592001733918
+          ],
+          "distance": 0.8500463710143713,
+          "polygon_id": 1
+        }
+      ],
+      "structure_diagnostics": [
+        {
+          "gt_edge_id": 21,
+          "midpoint": [
+            6.91608689684,
+            -3.06534065496,
+            -0.02494972436499998
+          ],
+          "nearest_predicted_structure_point": [
+            6.894113360540851,
+            -3.8761547874992717,
+            -1.26300632
+          ],
+          "distance": 1.4800967967731797
+        },
+        {
+          "gt_edge_id": 11,
+          "midpoint": [
+            -2.13416478148,
+            -2.45546072491,
+            -0.024487672370000046
+          ],
+          "nearest_predicted_structure_point": [
+            -2.21331295274536,
+            -3.2610328820416608,
+            -1.26300632
+          ],
+          "distance": 1.4795740515052471
+        },
+        {
+          "gt_edge_id": 14,
+          "midpoint": [
+            6.85047867093,
+            -3.98385725311,
+            0.0013860912299999972
+          ],
+          "nearest_predicted_structure_point": [
+            6.856207636374734,
+            -3.873594608533805,
+            1.2347290932728479
+          ],
+          "distance": 1.2382752652468139
+        }
+      ],
+      "topology": {
+        "watertight": true,
+        "open_edges": [],
+        "nonmanifold_edges": [],
+        "inconsistent_winding_edges": [],
+        "degenerate_triangles": []
+      },
+      "inferred_base_z": -1.26300632,
+      "roof_vertical_support": {
+        "stable_candidate_count": 1406,
+        "quantiles_01_50_99": [
+          0.8748822987997571,
+          1.1177901653438,
+          1.2964342224890548
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "version": "no-explicit-knowledge",
+  "rules": [],
+  "experiences": [],
+  "note": "The model still has its inherent prior knowledge."
+}

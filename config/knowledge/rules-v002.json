@@ -1,0 +1,207 @@
+{
+  "version": "building-knowledge-v002",
+  "parent": "building-knowledge-v001",
+  "rules": [
+    {
+      "id": "K01",
+      "claim": "Preserve concave observed footprints; a minimum rectangle is only an orientation estimate.",
+      "layer": "engineering",
+      "constraint": "soft",
+      "source": "docs/RECONSTRUCTION_RULES_V2.md#1",
+      "applicability": "Boundary has coherent support",
+      "required_evidence": [
+        "boundary points",
+        "local density"
+      ],
+      "counterexample": "Sparse outlier clusters can make alpha boundaries unreliable",
+      "operators": [
+        "footprint"
+      ],
+      "validation_cases": [
+        "synthetic_L_footprint"
+      ],
+      "status": "requires_broad_validation"
+    },
+    {
+      "id": "K02",
+      "claim": "Planes need bounded local support; a lower annex must not suppress the whole main roof.",
+      "layer": "literature_and_project",
+      "constraint": "soft",
+      "source": "docs/BUILDING_RECONSTRUCTION_ALGORITHM.md; https://github.com/tudelft3d/City3D",
+      "applicability": "Piecewise planar multi-height roofs",
+      "required_evidence": [
+        "local residuals",
+        "plane adjacency"
+      ],
+      "counterexample": "Curved roofs violate planar representation",
+      "operators": [
+        "plane_selection",
+        "support_domains"
+      ],
+      "validation_cases": [
+        "historical_2000"
+      ],
+      "status": "seed"
+    },
+    {
+      "id": "K03",
+      "claim": "Missing returns are not evidence of empty space; inferred surfaces must be labeled.",
+      "layer": "engineering",
+      "constraint": "hard_reporting",
+      "source": "docs/RECONSTRUCTION_RULES_V2.md#9",
+      "applicability": "Partial scans",
+      "required_evidence": [
+        "visibility if available"
+      ],
+      "counterexample": "Known ray free-space supports an emptiness constraint",
+      "operators": [
+        "completion",
+        "feedback"
+      ],
+      "validation_cases": [
+        "missing_facade"
+      ],
+      "status": "reporting_invariant"
+    },
+    {
+      "id": "K04",
+      "claim": "An intended closed manifold needs coherent shared edges, winding and no self-intersections.",
+      "layer": "engineering",
+      "constraint": "hard",
+      "source": "docs/validation_rules.json",
+      "applicability": "Solid building output",
+      "required_evidence": [
+        "edge incidence",
+        "winding",
+        "intersection test"
+      ],
+      "counterexample": "Open roof-only references are not closed solids",
+      "operators": [
+        "assembly",
+        "validation"
+      ],
+      "validation_cases": [
+        "cube",
+        "open_cube",
+        "reversed_face"
+      ],
+      "status": "implemented_partially_self_intersection_pending"
+    },
+    {
+      "id": "K05",
+      "claim": "Orthogonality and vertical walls are defeasible priors, not universal architectural laws.",
+      "layer": "engineering",
+      "constraint": "soft",
+      "source": "docs/RECONSTRUCTION_RULES_V2.md",
+      "applicability": "Supported planar buildings",
+      "required_evidence": [
+        "observed directions",
+        "uncertainty"
+      ],
+      "counterexample": "Oblique walls, curved facades and roof overhangs",
+      "operators": [
+        "regularization",
+        "wall_completion"
+      ],
+      "validation_cases": [
+        "oblique_footprint"
+      ],
+      "status": "seed"
+    },
+    {
+      "id": "K06",
+      "claim": "Report all-input residuals and per-structure failures; global averages do not prove completeness.",
+      "layer": "engineering",
+      "constraint": "hard_reporting",
+      "source": "docs/RECONSTRUCTION_RULES_V2.md#5",
+      "applicability": "All candidates",
+      "required_evidence": [
+        "all original points",
+        "failure list"
+      ],
+      "counterexample": "Known sensor outliers may be reported separately but not silently discarded",
+      "operators": [
+        "evaluation",
+        "feedback"
+      ],
+      "validation_cases": [
+        "omitted_small_roof"
+      ],
+      "status": "implemented"
+    },
+    {
+      "id": "K07",
+      "claim": "Remove coplanar triangulation diagonals from structural-edge evaluation.",
+      "layer": "engineering",
+      "constraint": "hard_protocol",
+      "source": "docs/BUILDING_RECONSTRUCTION_ALGORITHM.md",
+      "applicability": "Local ECD protocol",
+      "required_evidence": [
+        "face normals",
+        "adjacency"
+      ],
+      "counterexample": "Official protocol may define edge extraction differently",
+      "operators": [
+        "edge_evaluation"
+      ],
+      "validation_cases": [
+        "triangulated_cube"
+      ],
+      "status": "local_protocol_not_official"
+    },
+    {
+      "id": "K08",
+      "claim": "Lowest observed return does not uniquely identify terrain or full building height.",
+      "layer": "engineering",
+      "constraint": "hard_reporting",
+      "source": "docs/项目理解与数据检查.md#5",
+      "applicability": "No terrain data",
+      "required_evidence": [
+        "ground source or uncertainty"
+      ],
+      "counterexample": "Trusted ground observations can constrain the base",
+      "operators": [
+        "base_completion"
+      ],
+      "validation_cases": [
+        "roof_only_scan"
+      ],
+      "status": "implemented_labeling"
+    },
+    {
+      "id": "K09",
+      "claim": "Roof elevation is a Z coordinate; facade height is roof elevation minus a supported base elevation. An input bbox center does not establish ground.",
+      "constraint": "hard_reporting_and_soft_guard",
+      "status": "coordinate_invariant_fact; detection thresholds remain hypotheses",
+      "source": "docs/DATASET_METHODS_V001.md; height-audit/findings.md (discovery evidence only for candidate design)",
+      "applicability": "Z-up coordinates with known shared transform; local stable roof support",
+      "required_evidence": [
+        "coordinate provenance",
+        "stable local roof observations",
+        "trusted ground if available"
+      ],
+      "counterexample": "Roof-only or elevated scans do not identify building base; legitimate high-elevation buildings must not trigger an absolute-Z rejection.",
+      "operators": [
+        "roof_support",
+        "height_sanity_guard",
+        "base_completion"
+      ],
+      "fallback": "Reject unsupported proposed height corrections and retain the original inference with uncertainty; do not set ground to zero or clamp by absolute Z."
+    }
+  ],
+  "experiences": [
+    {
+      "id": "X01",
+      "claim": "A failure-gated operator and an observed-footprint operator target different failure modes.",
+      "evidence_scope": "Prior discovery24+selection24 only",
+      "counterexample": "Recovering cases did not change geometry on common successes; shape improvement did not recover failures."
+    },
+    {
+      "id": "X02",
+      "claim": "An experience policy can change without improving the algorithm.",
+      "evidence_scope": "Prior policy describes hypotheses; no new-task outcome is used here.",
+      "counterexample": "A proposed gate may never activate or leave the underlying support shortage unresolved."
+    }
+  ],
+  "causal_warning": "This is an explicit rule/experience update; its benefit requires a matched no-explicit-knowledge condition."
+}

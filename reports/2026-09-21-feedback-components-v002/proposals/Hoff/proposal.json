@@ -1,0 +1,9 @@
+{
+  "type": "deterministic_operator_ablation_not_new_model_proposal",
+  "parent": "full",
+  "change": "Disable only the provisional-base relative roof-corner guard; all other inference operators unchanged.",
+  "parent_sha256": "174479d44b337e1f737ec804e15bf0db3e4f966297e15ca760c755e42666267d",
+  "no_threshold_tuning": true,
+  "no_ground_truth_used": true,
+  "interpretation": "Tests the operator, not the total causal contribution of knowledge or images."
+}

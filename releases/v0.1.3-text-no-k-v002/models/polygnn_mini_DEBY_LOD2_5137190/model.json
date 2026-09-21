@@ -1,0 +1,201 @@
+{
+  "id": "input",
+  "source": "D:\\codex\\lidar2building\\buildingworld-xyz-to-mesh\\work\\experiments\\2026-09-21\\feedback-components-v002\\text_no_k_compat\\samples\\polygnn_mini_DEBY_LOD2_5137190\\staged\\LiDAR_xyz\\input.xyz",
+  "vertices": [
+    [
+      4.584276561534718,
+      -0.7221561426204267,
+      1.7023060174768911
+    ],
+    [
+      4.578716579379902,
+      14.017213963822309,
+      1.7043360251696276
+    ],
+    [
+      -4.40706995105936,
+      14.06083843912185,
+      1.7010230849826715
+    ],
+    [
+      -4.537515686044563,
+      2.943297728304688,
+      1.6994421707008218
+    ],
+    [
+      -4.5824232341404345,
+      -13.982998689066575,
+      1.6970920192475685
+    ],
+    [
+      -4.351470129595313,
+      -14.051571802206501,
+      1.697167869255476
+    ],
+    [
+      4.491752756065779,
+      -14.069249694154285,
+      1.700431729856638
+    ],
+    [
+      4.584276561534718,
+      -0.7221561426204267,
+      -1.8285143223093954
+    ],
+    [
+      4.578716579379902,
+      14.017213963822309,
+      -1.8285143223093954
+    ],
+    [
+      -4.40706995105936,
+      14.06083843912185,
+      -1.8285143223093954
+    ],
+    [
+      -4.537515686044563,
+      2.943297728304688,
+      -1.8285143223093954
+    ],
+    [
+      -4.5824232341404345,
+      -13.982998689066575,
+      -1.8285143223093954
+    ],
+    [
+      -4.351470129595313,
+      -14.051571802206501,
+      -1.8285143223093954
+    ],
+    [
+      4.491752756065779,
+      -14.069249694154285,
+      -1.8285143223093954
+    ]
+  ],
+  "faces": [
+    [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    [
+      1,
+      0,
+      7,
+      8
+    ],
+    [
+      2,
+      1,
+      8,
+      9
+    ],
+    [
+      3,
+      2,
+      9,
+      10
+    ],
+    [
+      4,
+      3,
+      10,
+      11
+    ],
+    [
+      5,
+      4,
+      11,
+      12
+    ],
+    [
+      6,
+      5,
+      12,
+      13
+    ],
+    [
+      0,
+      6,
+      13,
+      7
+    ],
+    [
+      13,
+      12,
+      11,
+      10,
+      9,
+      8,
+      7
+    ]
+  ],
+  "semantics": [
+    "roof",
+    "wall",
+    "wall",
+    "wall",
+    "wall",
+    "wall",
+    "wall",
+    "wall",
+    "ground_assumed"
+  ],
+  "metrics": {
+    "input_points": 19184,
+    "roof_candidate_points": 358,
+    "plane_supports": [
+      355
+    ],
+    "plane_coefficients_z_eq_ax_by_c": [
+      [
+        0.0003693560399428055,
+        0.00013786622434014281,
+        1.7007123481808872
+      ]
+    ],
+    "active_roof_planes": [
+      0
+    ],
+    "candidate_planes": [
+      [
+        0.0003693560399428055,
+        0.00013786622434014281,
+        1.7007123481808872
+      ]
+    ],
+    "candidate_supports": [
+      355
+    ],
+    "selected_candidate_indices": [
+      0
+    ],
+    "vertices": 14,
+    "polygon_faces": 9,
+    "roof_faces": 1,
+    "nonmanifold_edges": 0,
+    "euler_characteristic": 2,
+    "signed_volume_coordinate_units_cubed": 901.0501892659956,
+    "surface_area_coordinate_units_squared": 772.4958957663551,
+    "roof_vertical_residual_median": 0.030551881291902117,
+    "roof_vertical_residual_p95": 0.07613009081169357,
+    "roof_within_020_coordinate_units": 1.0,
+    "xy_points_within_rectangle": 0.9918682235195997,
+    "prototype_fit_status": "main_roof_supported",
+    "provisional_base_z": -1.8285143223093954,
+    "base_rule": "input z quantile 0.001; lowest observed returns, NOT verified ground",
+    "footprint_rule": "convex completion hull of robust rectangle inliers; no empty-space carving",
+    "limitations": [
+      "Convex single-volume roof only; concave footprints/courtyards/extensions unsupported",
+      "Planes below max(12, 2.5 percent) support omitted; lower envelope cannot represent arbitrary stepped roofs",
+      "Input unit assumed meter for Blender display only",
+      "Residual is same-input fitting diagnostic, NOT ground-truth CD/ECD/NC",
+      "Lowest returns do not prove terrain elevation; flat base and vertical walls are completion priors"
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "registered_after_candidate_before_inspecting_full_scores": true,
+  "comparison": "full vs height_guard_off on same78",
+  "seed": 739,
+  "purpose": "Measure actual height-guard effect; retain failures and common-success differences",
+  "base_is_unverified_observation": true
+}

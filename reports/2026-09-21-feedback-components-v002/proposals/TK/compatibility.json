@@ -1,0 +1,9 @@
+{
+  "original_candidate_sha256": "3997e65a2402d072ac06b282e994e097dfd2f286fbc50d0fa9f2d465daf2ca41",
+  "repaired_candidate_sha256": "000dcff4ba00279bd952a94babe25805f851a3d40a038712830a2ee03da50552",
+  "change": "Two scalar 2D cross products expanded as equal determinants for NumPy 2.5.3.",
+  "no_geometry_threshold_changed": true,
+  "no_ground_truth_used": true,
+  "timing": "Before first evaluation; common compatibility rule prompted by text_no_k runtime exception.",
+  "raw_candidate_not_evaluated": true
+}

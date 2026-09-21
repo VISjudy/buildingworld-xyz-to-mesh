@@ -1,0 +1,832 @@
+{
+  "summaries": {
+    "baseline": {
+      "real_zurich": {
+        "attempted": 38,
+        "success": 37,
+        "failures": 1,
+        "topology_pass": 37,
+        "mean_success_only_not_used_for_paired_claim": {
+          "CD": 1.386679604139207,
+          "ECD": 1.9599286830946676,
+          "NC": 0.697054956577858,
+          "p95": 0.5106717730897096
+        }
+      },
+      "synthetic_mini": {
+        "attempted": 40,
+        "success": 34,
+        "failures": 6,
+        "topology_pass": 34,
+        "mean_success_only_not_used_for_paired_claim": {
+          "CD": 0.4176684875432366,
+          "ECD": 0.768234630841691,
+          "NC": 0.8916628193500856,
+          "p95": 0.8103908940515124
+        }
+      }
+    },
+    "F0": {
+      "real_zurich": {
+        "attempted": 38,
+        "success": 37,
+        "failures": 1,
+        "topology_pass": 37,
+        "mean_success_only_not_used_for_paired_claim": {
+          "CD": 1.3531428203689408,
+          "ECD": 1.8650567578068236,
+          "NC": 0.7162635905791982,
+          "p95": 0.4727884405568574
+        }
+      },
+      "synthetic_mini": {
+        "attempted": 40,
+        "success": 34,
+        "failures": 6,
+        "topology_pass": 34,
+        "mean_success_only_not_used_for_paired_claim": {
+          "CD": 0.30517860858374446,
+          "ECD": 0.4690109334150002,
+          "NC": 0.9191205508017619,
+          "p95": 0.7376067548098577
+        }
+      }
+    },
+    "F3": {
+      "real_zurich": {
+        "attempted": 38,
+        "success": 38,
+        "failures": 0,
+        "topology_pass": 38,
+        "mean_success_only_not_used_for_paired_claim": {
+          "CD": 1.4039833578660288,
+          "ECD": 1.9906770576095782,
+          "NC": 0.6966593683046104,
+          "p95": 0.5112842671257452
+        }
+      },
+      "synthetic_mini": {
+        "attempted": 40,
+        "success": 39,
+        "failures": 1,
+        "topology_pass": 39,
+        "mean_success_only_not_used_for_paired_claim": {
+          "CD": 0.4194985133135379,
+          "ECD": 0.7575888368053345,
+          "NC": 0.895192729343867,
+          "p95": 0.8500490040115205
+        }
+      }
+    },
+    "T": {
+      "real_zurich": {
+        "attempted": 38,
+        "success": 38,
+        "failures": 0,
+        "topology_pass": 37,
+        "mean_success_only_not_used_for_paired_claim": {
+          "CD": 1.3739961847926228,
+          "ECD": 1.9064295174574342,
+          "NC": 0.7171301946366281,
+          "p95": 0.4771223677149637
+        }
+      },
+      "synthetic_mini": {
+        "attempted": 40,
+        "success": 39,
+        "failures": 1,
+        "topology_pass": 39,
+        "mean_success_only_not_used_for_paired_claim": {
+          "CD": 0.30476133149539536,
+          "ECD": 0.44930799814881367,
+          "NC": 0.9222391709776272,
+          "p95": 0.7049432906432969
+        }
+      }
+    },
+    "TK": {
+      "real_zurich": {
+        "attempted": 38,
+        "success": 38,
+        "failures": 0,
+        "topology_pass": 38,
+        "mean_success_only_not_used_for_paired_claim": {
+          "CD": 1.4042481733259495,
+          "ECD": 1.9906561514654446,
+          "NC": 0.6967127628860653,
+          "p95": 0.5125644096568575
+        }
+      },
+      "synthetic_mini": {
+        "attempted": 40,
+        "success": 40,
+        "failures": 0,
+        "topology_pass": 40,
+        "mean_success_only_not_used_for_paired_claim": {
+          "CD": 0.3995377399298857,
+          "ECD": 0.7127468039105623,
+          "NC": 0.8994893193502073,
+          "p95": 0.8246227801314656
+        }
+      }
+    },
+    "FULL": {
+      "real_zurich": {
+        "attempted": 38,
+        "success": 38,
+        "failures": 0,
+        "topology_pass": 38,
+        "mean_success_only_not_used_for_paired_claim": {
+          "CD": 1.3708743474432432,
+          "ECD": 1.9165485604232784,
+          "NC": 0.7113956662378491,
+          "p95": 0.48540341396126757
+        }
+      },
+      "synthetic_mini": {
+        "attempted": 40,
+        "success": 40,
+        "failures": 0,
+        "topology_pass": 40,
+        "mean_success_only_not_used_for_paired_claim": {
+          "CD": 0.318882202527476,
+          "ECD": 0.4948622331376127,
+          "NC": 0.9169556451973149,
+          "p95": 0.7147123964966032
+        }
+      }
+    },
+    "Hoff": {
+      "real_zurich": {
+        "attempted": 38,
+        "success": 38,
+        "failures": 0,
+        "topology_pass": 38,
+        "mean_success_only_not_used_for_paired_claim": {
+          "CD": 1.3708743474432432,
+          "ECD": 1.9165485604232784,
+          "NC": 0.7113956662378491,
+          "p95": 0.48540341396126757
+        }
+      },
+      "synthetic_mini": {
+        "attempted": 40,
+        "success": 40,
+        "failures": 0,
+        "topology_pass": 40,
+        "mean_success_only_not_used_for_paired_claim": {
+          "CD": 0.318882202527476,
+          "ECD": 0.4948622331376127,
+          "NC": 0.9169556451973149,
+          "p95": 0.7147123964966032
+        }
+      }
+    },
+    "v051": {
+      "real_zurich": {
+        "attempted": 38,
+        "success": 37,
+        "failures": 1,
+        "topology_pass": 14,
+        "mean_success_only_not_used_for_paired_claim": {
+          "CD": 1.574120389528803,
+          "ECD": 2.427744069305257,
+          "NC": 0.663106399207883,
+          "p95": 0.43616848518230616
+        }
+      },
+      "synthetic_mini": {
+        "attempted": 40,
+        "success": 39,
+        "failures": 1,
+        "topology_pass": 14,
+        "mean_success_only_not_used_for_paired_claim": {
+          "CD": 0.214286355492909,
+          "ECD": 0.5998762439231418,
+          "NC": 0.9402503729445828,
+          "p95": 0.48065545222383665
+        }
+      }
+    },
+    "Traw": {
+      "real_zurich": {
+        "attempted": 38,
+        "success": 0,
+        "failures": 38,
+        "topology_pass": 0,
+        "mean_success_only_not_used_for_paired_claim": {
+          "CD": null,
+          "ECD": null,
+          "NC": null,
+          "p95": null
+        }
+      },
+      "synthetic_mini": {
+        "attempted": 40,
+        "success": 0,
+        "failures": 40,
+        "topology_pass": 0,
+        "mean_success_only_not_used_for_paired_claim": {
+          "CD": null,
+          "ECD": null,
+          "NC": null,
+          "p95": null
+        }
+      }
+    }
+  },
+  "comparisons": {
+    "image_added": {
+      "all78": {
+        "by_source": {
+          "real_zurich": {
+            "attempted": 38,
+            "common_success": 38,
+            "recovered": 0,
+            "new_failures": 0,
+            "baseline_failures": 0,
+            "candidate_failures": 0,
+            "new_topology_failures_on_common": 0,
+            "recovered_with_topology_failure": 0,
+            "paired_mean_delta": {
+              "CD": -0.0333738258827063,
+              "ECD": -0.07410759104216602,
+              "NC": 0.014682903351783858,
+              "p95": -0.027160995695589912
+            }
+          },
+          "synthetic_mini": {
+            "attempted": 40,
+            "common_success": 40,
+            "recovered": 0,
+            "new_failures": 0,
+            "baseline_failures": 0,
+            "candidate_failures": 0,
+            "new_topology_failures_on_common": 0,
+            "recovered_with_topology_failure": 0,
+            "paired_mean_delta": {
+              "CD": -0.0806555374024098,
+              "ECD": -0.21788457077294962,
+              "NC": 0.017466325847107705,
+              "p95": -0.10991038363486247
+            }
+          }
+        },
+        "decision": "eligible_pilot_candidate",
+        "scope": "paired development evidence, not official score or generalization proof"
+      },
+      "selection24": {
+        "by_source": {
+          "real_zurich": {
+            "attempted": 12,
+            "common_success": 12,
+            "recovered": 0,
+            "new_failures": 0,
+            "baseline_failures": 0,
+            "candidate_failures": 0,
+            "new_topology_failures_on_common": 0,
+            "recovered_with_topology_failure": 0,
+            "paired_mean_delta": {
+              "CD": -0.021645904836716915,
+              "ECD": -0.04331784186062718,
+              "NC": 0.01689348948674302,
+              "p95": -0.006698585038575326
+            }
+          },
+          "synthetic_mini": {
+            "attempted": 12,
+            "common_success": 12,
+            "recovered": 0,
+            "new_failures": 0,
+            "baseline_failures": 0,
+            "candidate_failures": 0,
+            "new_topology_failures_on_common": 0,
+            "recovered_with_topology_failure": 0,
+            "paired_mean_delta": {
+              "CD": -0.12828281164732783,
+              "ECD": -0.3802209636102034,
+              "NC": 0.02945911548432283,
+              "p95": -0.1848074406587806
+            }
+          }
+        },
+        "decision": "eligible_pilot_candidate",
+        "scope": "paired development evidence, not official score or generalization proof"
+      }
+    },
+    "explicit_knowledge_added": {
+      "all78": {
+        "by_source": {
+          "real_zurich": {
+            "attempted": 38,
+            "common_success": 38,
+            "recovered": 0,
+            "new_failures": 0,
+            "baseline_failures": 0,
+            "candidate_failures": 0,
+            "new_topology_failures_on_common": 0,
+            "recovered_with_topology_failure": 0,
+            "paired_mean_delta": {
+              "CD": 0.030251988533326727,
+              "ECD": 0.08422663400801077,
+              "NC": -0.020417431750562747,
+              "p95": 0.03544204194189388
+            }
+          },
+          "synthetic_mini": {
+            "attempted": 40,
+            "common_success": 39,
+            "recovered": 1,
+            "new_failures": 0,
+            "baseline_failures": 1,
+            "candidate_failures": 0,
+            "new_topology_failures_on_common": 0,
+            "recovered_with_topology_failure": 0,
+            "paired_mean_delta": {
+              "CD": 0.09713456368384109,
+              "ECD": 0.27204536395589,
+              "NC": -0.02425083035583006,
+              "p95": 0.1266749933766177
+            }
+          }
+        },
+        "decision": "not_promoted",
+        "scope": "paired development evidence, not official score or generalization proof"
+      },
+      "selection24": {
+        "by_source": {
+          "real_zurich": {
+            "attempted": 12,
+            "common_success": 12,
+            "recovered": 0,
+            "new_failures": 0,
+            "baseline_failures": 0,
+            "candidate_failures": 0,
+            "new_topology_failures_on_common": 0,
+            "recovered_with_topology_failure": 0,
+            "paired_mean_delta": {
+              "CD": 0.015806577074797188,
+              "ECD": 0.0804261925843567,
+              "NC": -0.025427240890793013,
+              "p95": 0.007702900650251954
+            }
+          },
+          "synthetic_mini": {
+            "attempted": 12,
+            "common_success": 12,
+            "recovered": 0,
+            "new_failures": 0,
+            "baseline_failures": 0,
+            "candidate_failures": 0,
+            "new_topology_failures_on_common": 0,
+            "recovered_with_topology_failure": 0,
+            "paired_mean_delta": {
+              "CD": 0.14215116442118714,
+              "ECD": 0.4213654863597367,
+              "NC": -0.03233465605536346,
+              "p95": 0.19619126553353317
+            }
+          }
+        },
+        "decision": "not_promoted",
+        "scope": "paired development evidence, not official score or generalization proof"
+      }
+    },
+    "height_guard_added": {
+      "all78": {
+        "by_source": {
+          "real_zurich": {
+            "attempted": 38,
+            "common_success": 38,
+            "recovered": 0,
+            "new_failures": 0,
+            "baseline_failures": 0,
+            "candidate_failures": 0,
+            "new_topology_failures_on_common": 0,
+            "recovered_with_topology_failure": 0,
+            "paired_mean_delta": {
+              "CD": 0.0,
+              "ECD": 0.0,
+              "NC": 0.0,
+              "p95": 0.0
+            }
+          },
+          "synthetic_mini": {
+            "attempted": 40,
+            "common_success": 40,
+            "recovered": 0,
+            "new_failures": 0,
+            "baseline_failures": 0,
+            "candidate_failures": 0,
+            "new_topology_failures_on_common": 0,
+            "recovered_with_topology_failure": 0,
+            "paired_mean_delta": {
+              "CD": 0.0,
+              "ECD": 0.0,
+              "NC": 0.0,
+              "p95": 0.0
+            }
+          }
+        },
+        "decision": "not_promoted",
+        "scope": "paired development evidence, not official score or generalization proof"
+      },
+      "selection24": {
+        "by_source": {
+          "real_zurich": {
+            "attempted": 12,
+            "common_success": 12,
+            "recovered": 0,
+            "new_failures": 0,
+            "baseline_failures": 0,
+            "candidate_failures": 0,
+            "new_topology_failures_on_common": 0,
+            "recovered_with_topology_failure": 0,
+            "paired_mean_delta": {
+              "CD": 0.0,
+              "ECD": 0.0,
+              "NC": 0.0,
+              "p95": 0.0
+            }
+          },
+          "synthetic_mini": {
+            "attempted": 12,
+            "common_success": 12,
+            "recovered": 0,
+            "new_failures": 0,
+            "baseline_failures": 0,
+            "candidate_failures": 0,
+            "new_topology_failures_on_common": 0,
+            "recovered_with_topology_failure": 0,
+            "paired_mean_delta": {
+              "CD": 0.0,
+              "ECD": 0.0,
+              "NC": 0.0,
+              "p95": 0.0
+            }
+          }
+        },
+        "decision": "not_promoted",
+        "scope": "paired development evidence, not official score or generalization proof"
+      }
+    },
+    "full_vs_initial": {
+      "all78": {
+        "by_source": {
+          "real_zurich": {
+            "attempted": 38,
+            "common_success": 37,
+            "recovered": 1,
+            "new_failures": 0,
+            "baseline_failures": 1,
+            "candidate_failures": 0,
+            "new_topology_failures_on_common": 0,
+            "recovered_with_topology_failure": 0,
+            "paired_mean_delta": {
+              "CD": -0.0350253263835398,
+              "ECD": -0.0863575129577598,
+              "NC": 0.014238472928957125,
+              "p95": -0.02658033568243635
+            }
+          },
+          "synthetic_mini": {
+            "attempted": 40,
+            "common_success": 34,
+            "recovered": 6,
+            "new_failures": 0,
+            "baseline_failures": 6,
+            "candidate_failures": 0,
+            "new_topology_failures_on_common": 0,
+            "recovered_with_topology_failure": 0,
+            "paired_mean_delta": {
+              "CD": -0.11073221577333421,
+              "ECD": -0.28690180611750127,
+              "NC": 0.022230987756224032,
+              "p95": -0.1502567402811139
+            }
+          }
+        },
+        "decision": "eligible_pilot_candidate",
+        "scope": "paired development evidence, not official score or generalization proof"
+      },
+      "selection24": {
+        "by_source": {
+          "real_zurich": {
+            "attempted": 12,
+            "common_success": 11,
+            "recovered": 1,
+            "new_failures": 0,
+            "baseline_failures": 1,
+            "candidate_failures": 0,
+            "new_topology_failures_on_common": 0,
+            "recovered_with_topology_failure": 0,
+            "paired_mean_delta": {
+              "CD": -0.026552348790150428,
+              "ECD": -0.08105442400923325,
+              "NC": 0.01552233143243083,
+              "p95": -0.005693688492842085
+            }
+          },
+          "synthetic_mini": {
+            "attempted": 12,
+            "common_success": 12,
+            "recovered": 0,
+            "new_failures": 0,
+            "baseline_failures": 0,
+            "candidate_failures": 0,
+            "new_topology_failures_on_common": 0,
+            "recovered_with_topology_failure": 0,
+            "paired_mean_delta": {
+              "CD": -0.18554416802396667,
+              "ECD": -0.4979897252855752,
+              "NC": 0.038582772992009934,
+              "p95": -0.24472208859116376
+            }
+          }
+        },
+        "decision": "eligible_pilot_candidate",
+        "scope": "paired development evidence, not official score or generalization proof"
+      }
+    },
+    "full_vs_previous_F3": {
+      "all78": {
+        "by_source": {
+          "real_zurich": {
+            "attempted": 38,
+            "common_success": 38,
+            "recovered": 0,
+            "new_failures": 0,
+            "baseline_failures": 0,
+            "candidate_failures": 0,
+            "new_topology_failures_on_common": 0,
+            "recovered_with_topology_failure": 0,
+            "paired_mean_delta": {
+              "CD": -0.033109010422785475,
+              "ECD": -0.07412849718629928,
+              "NC": 0.014736297933238841,
+              "p95": -0.0258808531644775
+            }
+          },
+          "synthetic_mini": {
+            "attempted": 40,
+            "common_success": 39,
+            "recovered": 1,
+            "new_failures": 0,
+            "baseline_failures": 1,
+            "candidate_failures": 0,
+            "new_topology_failures_on_common": 0,
+            "recovered_with_topology_failure": 0,
+            "paired_mean_delta": {
+              "CD": -0.10022296239865575,
+              "ECD": -0.25972070376735296,
+              "NC": 0.020705234022322962,
+              "p95": -0.13104525102211279
+            }
+          }
+        },
+        "decision": "eligible_pilot_candidate",
+        "scope": "paired development evidence, not official score or generalization proof"
+      },
+      "selection24": {
+        "by_source": {
+          "real_zurich": {
+            "attempted": 12,
+            "common_success": 12,
+            "recovered": 0,
+            "new_failures": 0,
+            "baseline_failures": 0,
+            "candidate_failures": 0,
+            "new_topology_failures_on_common": 0,
+            "recovered_with_topology_failure": 0,
+            "paired_mean_delta": {
+              "CD": -0.02119009638054418,
+              "ECD": -0.04277113147865214,
+              "NC": 0.01699178907070012,
+              "p95": -0.005219214451771911
+            }
+          },
+          "synthetic_mini": {
+            "attempted": 12,
+            "common_success": 12,
+            "recovered": 0,
+            "new_failures": 0,
+            "baseline_failures": 0,
+            "candidate_failures": 0,
+            "new_topology_failures_on_common": 0,
+            "recovered_with_topology_failure": 0,
+            "paired_mean_delta": {
+              "CD": -0.18554416802396667,
+              "ECD": -0.4979897252855752,
+              "NC": 0.038582772992009934,
+              "p95": -0.24472208859116376
+            }
+          }
+        },
+        "decision": "eligible_pilot_candidate",
+        "scope": "paired development evidence, not official score or generalization proof"
+      }
+    },
+    "full_vs_F0": {
+      "all78": {
+        "by_source": {
+          "real_zurich": {
+            "attempted": 38,
+            "common_success": 37,
+            "recovered": 1,
+            "new_failures": 0,
+            "baseline_failures": 1,
+            "candidate_failures": 0,
+            "new_topology_failures_on_common": 0,
+            "recovered_with_topology_failure": 0,
+            "paired_mean_delta": {
+              "CD": -0.0014885426132732389,
+              "ECD": 0.008514412330083602,
+              "NC": -0.004970161072382933,
+              "p95": 0.011302996850415697
+            }
+          },
+          "synthetic_mini": {
+            "attempted": 40,
+            "common_success": 34,
+            "recovered": 6,
+            "new_failures": 0,
+            "baseline_failures": 6,
+            "candidate_failures": 0,
+            "new_topology_failures_on_common": 0,
+            "recovered_with_topology_failure": 0,
+            "paired_mean_delta": {
+              "CD": 0.0017576631861579942,
+              "ECD": 0.012321891309189658,
+              "NC": -0.005226743695452376,
+              "p95": -0.07747260103945915
+            }
+          }
+        },
+        "decision": "not_promoted",
+        "scope": "paired development evidence, not official score or generalization proof"
+      },
+      "selection24": {
+        "by_source": {
+          "real_zurich": {
+            "attempted": 12,
+            "common_success": 11,
+            "recovered": 1,
+            "new_failures": 0,
+            "baseline_failures": 1,
+            "candidate_failures": 0,
+            "new_topology_failures_on_common": 0,
+            "recovered_with_topology_failure": 0,
+            "paired_mean_delta": {
+              "CD": 0.0012034226404518753,
+              "ECD": 0.03358336953618027,
+              "NC": -0.008692204752901172,
+              "p95": 0.0040708612391024464
+            }
+          },
+          "synthetic_mini": {
+            "attempted": 12,
+            "common_success": 12,
+            "recovered": 0,
+            "new_failures": 0,
+            "baseline_failures": 0,
+            "candidate_failures": 0,
+            "new_topology_failures_on_common": 0,
+            "recovered_with_topology_failure": 0,
+            "paired_mean_delta": {
+              "CD": -0.012035993015699032,
+              "ECD": -0.027485835417009042,
+              "NC": -0.001524024746287313,
+              "p95": -0.16412903671985712
+            }
+          }
+        },
+        "decision": "not_promoted",
+        "scope": "paired development evidence, not official score or generalization proof"
+      }
+    },
+    "full_vs_v051": {
+      "all78": {
+        "by_source": {
+          "real_zurich": {
+            "attempted": 38,
+            "common_success": 37,
+            "recovered": 1,
+            "new_failures": 0,
+            "baseline_failures": 1,
+            "candidate_failures": 0,
+            "new_topology_failures_on_common": 0,
+            "recovered_with_topology_failure": 0,
+            "paired_mean_delta": {
+              "CD": -0.17981268676502263,
+              "ECD": -0.47488036888667884,
+              "NC": 0.044187223126332324,
+              "p95": 0.06030131534951864
+            }
+          },
+          "synthetic_mini": {
+            "attempted": 40,
+            "common_success": 39,
+            "recovered": 1,
+            "new_failures": 0,
+            "baseline_failures": 1,
+            "candidate_failures": 0,
+            "new_topology_failures_on_common": 0,
+            "recovered_with_topology_failure": 0,
+            "paired_mean_delta": {
+              "CD": 0.10030533367007131,
+              "ECD": -0.1300591296679043,
+              "NC": -0.016004502719337434,
+              "p95": 0.22338161281321198
+            }
+          }
+        },
+        "decision": "not_promoted",
+        "scope": "paired development evidence, not official score or generalization proof"
+      },
+      "selection24": {
+        "by_source": {
+          "real_zurich": {
+            "attempted": 12,
+            "common_success": 11,
+            "recovered": 1,
+            "new_failures": 0,
+            "baseline_failures": 1,
+            "candidate_failures": 0,
+            "new_topology_failures_on_common": 0,
+            "recovered_with_topology_failure": 0,
+            "paired_mean_delta": {
+              "CD": -0.12376480616703957,
+              "ECD": -0.40960569333591595,
+              "NC": 0.04246995977012053,
+              "p95": 0.3616363325039296
+            }
+          },
+          "synthetic_mini": {
+            "attempted": 12,
+            "common_success": 11,
+            "recovered": 1,
+            "new_failures": 0,
+            "baseline_failures": 1,
+            "candidate_failures": 0,
+            "new_topology_failures_on_common": 0,
+            "recovered_with_topology_failure": 0,
+            "paired_mean_delta": {
+              "CD": 0.08291076469131155,
+              "ECD": -0.20259543418490988,
+              "NC": -0.008685486261497656,
+              "p95": 0.05850442164270184
+            }
+          }
+        },
+        "decision": "not_promoted",
+        "scope": "paired development evidence, not official score or generalization proof"
+      }
+    }
+  },
+  "preregistration": {
+    "id": "feedback-components-v002",
+    "initial_source_sha256": "8b69b7e4f842d9628085adacdc7b27f73c5772f77b1f3c7f10f053c20458053a",
+    "conditions": [
+      "text_no_k",
+      "text_k",
+      "full"
+    ],
+    "comparison": "text_k vs text_no_k for explicit knowledge bundle; full vs text_k for added images",
+    "feedback_source": "discovery24, numerical/geometric evidence identical in all conditions",
+    "candidate_budget": 1,
+    "max_changed_lines": 140,
+    "tool_call_limit": 10,
+    "syntax_checks": 1,
+    "seed": 739,
+    "model": "same inherited runtime; exact snapshot and token counts unavailable",
+    "evaluation": "all78; selection24 reported separately, still adaptive development across this project",
+    "knowledge_update": "K09 coordinate/height rule plus X01/X02 prior experience, conditional rather than absolute height thresholds",
+    "image_information_limit": "Added image evidence, not strictly information-equivalent or token-matched; one candidate cannot establish a causal modality effect",
+    "planned_but_not_completed": [
+      "remove geometry",
+      "remove normals",
+      "remove structure",
+      "remove topology",
+      "depth/normal raster maps",
+      "full prediction self-intersection"
+    ],
+    "manual_engineering_comparator": "unmodified archived v0.5.1, same preprocessing; do not attribute its historical improvements to this Harness"
+  },
+  "new_batch_attempts": 468,
+  "extra_checks": "1 direct historical-v051 replay + 1 FULL Z-translation inference",
+  "model_proposals": 3,
+  "deterministic_height_ablation": 1,
+  "compatibility_repairs": 2,
+  "old_results_reused_not_rerun": [
+    "baseline",
+    "F0",
+    "F3"
+  ],
+  "limits": [
+    "Single candidate per model condition; causal modality/knowledge effects are not established.",
+    "The no-knowledge condition still includes the model inherent prior knowledge.",
+    "T and TK have documented algebraically equal NumPy API repairs; raw T failure is retained.",
+    "All78 are development, selection24 is adaptive across project iterations; complete432/test130 remain locked.",
+    "No complete self-intersection check; no official score; distance in canonical units, not metres."
+  ]
+}

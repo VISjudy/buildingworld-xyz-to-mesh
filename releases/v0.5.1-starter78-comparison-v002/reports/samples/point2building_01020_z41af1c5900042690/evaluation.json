@@ -1,0 +1,628 @@
+{
+  "protocol": {
+    "id": "local-geometry-v1",
+    "official_equivalent": false,
+    "distance": "Euclidean, unsquared, source coordinate units",
+    "cd": "half the sum of two sampled nearest-neighbor mean distances",
+    "ecd": "same reduction on length-uniform structure-edge samples",
+    "normal": "bidirectional mean absolute dot at sampled nearest neighbors",
+    "edge_angle_degrees": 10.0,
+    "include_boundary_and_base_edges": true,
+    "samples": 10000,
+    "seed": 739,
+    "coverage_tolerance": 0.15,
+    "unit_status": "canonical input-only bbox diagonal 30; not metres",
+    "coordinate_protocol": "paired-lod2-data-v001"
+  },
+  "mesh_sha256": "4e1d7515061c07b596ad007e52847aee1982b5bbd9f0d596d80707d28351c78c",
+  "topology": {
+    "vertices": 18,
+    "polygon_faces": 23,
+    "triangles": 32,
+    "open_edges": [],
+    "nonmanifold_edges": [],
+    "inconsistent_winding_edges": [],
+    "degenerate_triangles": [],
+    "signed_volume": 246.0015739018327,
+    "watertight": true,
+    "self_intersection": {
+      "status": "not_checked",
+      "count": null
+    },
+    "full_solid_validated": false
+  },
+  "official": {
+    "CD": null,
+    "ECD": null,
+    "NC": null,
+    "V_Ratio": null,
+    "F_Ratio": null,
+    "Overall": null
+  },
+  "local_reference": {
+    "CD": 0.7689947476653902,
+    "NC": 0.6838082989530905,
+    "V_Ratio": 2.25,
+    "F_Ratio": 3.8333333333333335,
+    "ECD": 1.103583501294795,
+    "gt_mesh_sha256": "3df1fc1ad4a6e7097f8850fe5a64c34703c44a006fa06e6bbcfce113349161d9",
+    "not_official": true,
+    "gt_wireframe_sha256": "c7cff32217cfe19feaa74021c312ac3189fec4fb088a039846888e42df86cf33"
+  },
+  "observed": {
+    "all_points_to_surface": {
+      "count": 1784,
+      "mean": 0.023750154081660757,
+      "median": 0.017017262295962773,
+      "p95": 0.057474848675404554,
+      "max": 0.3612687079052823,
+      "coverage": 0.9910313901345291,
+      "tolerance": 0.15,
+      "exceed_count": 16
+    },
+    "worst_points": [
+      {
+        "index": 529,
+        "xyz": [
+          2.472366682170851,
+          0.09509102623734042,
+          -0.7188937300947176
+        ],
+        "distance": 0.3612687079052823,
+        "polygon_id": 18
+      },
+      {
+        "index": 780,
+        "xyz": [
+          7.797464151461914,
+          6.371098757901808,
+          -0.6884581013355172
+        ],
+        "distance": 0.3166001450952232,
+        "polygon_id": 9
+      },
+      {
+        "index": 577,
+        "xyz": [
+          3.613458997018936,
+          1.3312743673227658,
+          -0.7569208543560173
+        ],
+        "distance": 0.30442498675394186,
+        "polygon_id": 9
+      },
+      {
+        "index": 174,
+        "xyz": [
+          -4.754551311867021,
+          -8.558192361360637,
+          -0.7873564831152177
+        ],
+        "distance": 0.2928059548847822,
+        "polygon_id": 18
+      },
+      {
+        "index": 457,
+        "xyz": [
+          1.3312743673227658,
+          -1.4263653935601062,
+          -0.5895597195551249
+        ],
+        "distance": 0.2922498284272818,
+        "polygon_id": 9
+      },
+      {
+        "index": 818,
+        "xyz": [
+          9.509102623734043,
+          8.368010308885957,
+          -0.650430977073439
+        ],
+        "distance": 0.2800746701810251,
+        "polygon_id": 9
+      },
+      {
+        "index": 761,
+        "xyz": [
+          7.4171000465125525,
+          5.895643626715106,
+          -0.8101774007889627
+        ],
+        "distance": 0.26998503721103717,
+        "polygon_id": 18
+      },
+      {
+        "index": 127,
+        "xyz": [
+          -5.515279521765744,
+          -9.509102623734043,
+          -0.8177921118743748
+        ],
+        "distance": 0.26237032612562505,
+        "polygon_id": 18
+      },
+      {
+        "index": 363,
+        "xyz": [
+          -0.5705461574240425,
+          -3.613458997018936,
+          -0.8177921118743748
+        ],
+        "distance": 0.26237032612562505,
+        "polygon_id": 18
+      },
+      {
+        "index": 103,
+        "xyz": [
+          -5.895643626715106,
+          -9.984557754920743,
+          -0.871025442724786
+        ],
+        "distance": 0.2091369952752139,
+        "polygon_id": 18
+      },
+      {
+        "index": 716,
+        "xyz": [
+          6.656371836613829,
+          4.944733364341702,
+          -0.871025442724786
+        ],
+        "distance": 0.2091369952752139,
+        "polygon_id": 18
+      },
+      {
+        "index": 292,
+        "xyz": [
+          -2.28218462969617,
+          -5.800552600477766,
+          -0.9014610714839864
+        ],
+        "distance": 0.17870136651601354,
+        "polygon_id": 18
+      },
+      {
+        "index": 481,
+        "xyz": [
+          1.7116384722721276,
+          -0.8558192361360638,
+          -0.9014610714839864
+        ],
+        "distance": 0.17870136651601354,
+        "polygon_id": 18
+      },
+      {
+        "index": 601,
+        "xyz": [
+          4.184005154442978,
+          1.806729498509468,
+          -0.31570870747156754
+        ],
+        "distance": 0.17049824535802882,
+        "polygon_id": 9
+      },
+      {
+        "index": 692,
+        "xyz": [
+          6.085825679189787,
+          4.279096180680319,
+          -0.9242819891577314
+        ],
+        "distance": 0.15588044884226848,
+        "polygon_id": 18
+      },
+      {
+        "index": 1260,
+        "xyz": [
+          -0.9509102623734041,
+          -4.849642338104362,
+          1.1068493305461786
+        ],
+        "distance": 0.15526711471522173,
+        "polygon_id": 9
+      },
+      {
+        "index": 15,
+        "xyz": [
+          -8.177828256411276,
+          -6.180916705427127,
+          1.0840284128724336
+        ],
+        "distance": 0.1366833195793692,
+        "polygon_id": 15
+      },
+      {
+        "index": 1699,
+        "xyz": [
+          7.226917994037872,
+          10.935468017294149,
+          1.0688222062841004
+        ],
+        "distance": 0.13427912794353442,
+        "polygon_id": 10
+      },
+      {
+        "index": 995,
+        "xyz": [
+          -5.325097469291063,
+          -2.757639760882872,
+          1.0536159996957675
+        ],
+        "distance": 0.13395421918239828,
+        "polygon_id": 14
+      },
+      {
+        "index": 221,
+        "xyz": [
+          -3.4232769445442552,
+          -7.1318269678005315,
+          -0.9471029068306982
+        ],
+        "distance": 0.1330595311693017,
+        "polygon_id": 18
+      },
+      {
+        "index": 198,
+        "xyz": [
+          -4.184005154442978,
+          -8.082737230173935,
+          -0.9471029068306982
+        ],
+        "distance": 0.1330595311693017,
+        "polygon_id": 18
+      },
+      {
+        "index": 16,
+        "xyz": [
+          -8.558192361360637,
+          -6.656371836613829,
+          1.0840284128724336
+        ],
+        "distance": 0.13130032928574528,
+        "polygon_id": 15
+      },
+      {
+        "index": 456,
+        "xyz": [
+          0.3803641049493617,
+          4.088914128205638,
+          1.0536159996957675
+        ],
+        "distance": 0.1281735555745918,
+        "polygon_id": 12
+      },
+      {
+        "index": 387,
+        "xyz": [
+          -0.19018205247468084,
+          -3.898732075730957,
+          0.6047891417259056
+        ],
+        "distance": 0.12170555409442883,
+        "polygon_id": 9
+      },
+      {
+        "index": 1559,
+        "xyz": [
+          4.184005154442978,
+          1.4263653935601062,
+          1.137284959305379
+        ],
+        "distance": 0.11114293502351458,
+        "polygon_id": 3
+      },
+      {
+        "index": 740,
+        "xyz": [
+          7.036735941563191,
+          5.134915416816383,
+          0.07988481964861818
+        ],
+        "distance": 0.10962245383436789,
+        "polygon_id": 9
+      },
+      {
+        "index": 1782,
+        "xyz": [
+          9.12873851878468,
+          9.31892057125936,
+          -1.0764369173702908
+        ],
+        "distance": 0.10956907374248212,
+        "polygon_id": 10
+      },
+      {
+        "index": 935,
+        "xyz": [
+          -6.085825679189787,
+          -3.7085500232562763,
+          0.48306984227172495
+        ],
+        "distance": 0.10505194609809519,
+        "polygon_id": 14
+      },
+      {
+        "index": 849,
+        "xyz": [
+          -8.368010308885957,
+          -6.466189784139148,
+          1.0764369173695125
+        ],
+        "distance": 0.10315595714619483,
+        "polygon_id": 15
+      },
+      {
+        "index": 410,
+        "xyz": [
+          0.19018205247468084,
+          -2.8527307871202123,
+          -0.9775385355898986
+        ],
+        "distance": 0.10262390241010133,
+        "polygon_id": 18
+      },
+      {
+        "index": 1743,
+        "xyz": [
+          7.607282098987233,
+          5.515279521765744,
+          1.1068493305461786
+        ],
+        "distance": 0.10075723169884525,
+        "polygon_id": 9
+      },
+      {
+        "index": 28,
+        "xyz": [
+          -8.368010308885957,
+          -9.984557754920743,
+          0.07988481964861818
+        ],
+        "distance": 0.0973806091430803,
+        "polygon_id": 8
+      }
+    ],
+    "per_nearest_polygon": [
+      {
+        "polygon_id": 0,
+        "group": "roof",
+        "count": 1,
+        "mean": 0.03724429660732255,
+        "median": 0.03724429660732255,
+        "p95": 0.03724429660732255,
+        "max": 0.03724429660732255,
+        "coverage": 1.0,
+        "tolerance": 0.15,
+        "exceed_count": 0
+      },
+      {
+        "polygon_id": 1,
+        "group": "roof",
+        "count": 6,
+        "mean": 0.008888275158330579,
+        "median": 0.010554951213715353,
+        "p95": 0.015799948205098578,
+        "max": 0.016309719588916572,
+        "coverage": 1.0,
+        "tolerance": 0.15,
+        "exceed_count": 0
+      },
+      {
+        "polygon_id": 2,
+        "group": "roof",
+        "count": 237,
+        "mean": 0.01596614915733751,
+        "median": 0.013006653085645636,
+        "p95": 0.036327727378275235,
+        "max": 0.05878589300499454,
+        "coverage": 1.0,
+        "tolerance": 0.15,
+        "exceed_count": 0
+      },
+      {
+        "polygon_id": 3,
+        "group": "roof",
+        "count": 838,
+        "mean": 0.01939652613746234,
+        "median": 0.016131118297902626,
+        "p95": 0.04932451473021823,
+        "max": 0.11114293502351458,
+        "coverage": 1.0,
+        "tolerance": 0.15,
+        "exceed_count": 0
+      },
+      {
+        "polygon_id": 4,
+        "group": "roof",
+        "count": 22,
+        "mean": 0.012910899753845479,
+        "median": 0.010905474846366628,
+        "p95": 0.025333781664007515,
+        "max": 0.026505900813551173,
+        "coverage": 1.0,
+        "tolerance": 0.15,
+        "exceed_count": 0
+      },
+      {
+        "polygon_id": 5,
+        "group": "roof",
+        "count": 525,
+        "mean": 0.02183137929574798,
+        "median": 0.018881217593229013,
+        "p95": 0.04977669699368152,
+        "max": 0.07257987487280293,
+        "coverage": 1.0,
+        "tolerance": 0.15,
+        "exceed_count": 0
+      },
+      {
+        "polygon_id": 6,
+        "group": "roof",
+        "count": 44,
+        "mean": 0.02171562054420092,
+        "median": 0.022588414573690943,
+        "p95": 0.03949221990347817,
+        "max": 0.05113559342592708,
+        "coverage": 1.0,
+        "tolerance": 0.15,
+        "exceed_count": 0
+      },
+      {
+        "polygon_id": 7,
+        "group": "facade_completed",
+        "count": 1,
+        "mean": 0.02890585241513568,
+        "median": 0.02890585241513568,
+        "p95": 0.02890585241513568,
+        "max": 0.02890585241513568,
+        "coverage": 1.0,
+        "tolerance": 0.15,
+        "exceed_count": 0
+      },
+      {
+        "polygon_id": 8,
+        "group": "facade_completed",
+        "count": 8,
+        "mean": 0.06389892383696197,
+        "median": 0.07303029258477371,
+        "p95": 0.08885799836305139,
+        "max": 0.0973806091430803,
+        "coverage": 1.0,
+        "tolerance": 0.15,
+        "exceed_count": 0
+      },
+      {
+        "polygon_id": 9,
+        "group": "facade_completed",
+        "count": 45,
+        "mean": 0.07825715949366252,
+        "median": 0.06092182053503248,
+        "p95": 0.28981479677803046,
+        "max": 0.3166001450952232,
+        "coverage": 0.8666666666666667,
+        "tolerance": 0.15,
+        "exceed_count": 6
+      },
+      {
+        "polygon_id": 10,
+        "group": "facade_completed",
+        "count": 7,
+        "mean": 0.06189435664338953,
+        "median": 0.04253502155945152,
+        "p95": 0.1268661116832187,
+        "max": 0.13427912794353442,
+        "coverage": 1.0,
+        "tolerance": 0.15,
+        "exceed_count": 0
+      },
+      {
+        "polygon_id": 12,
+        "group": "facade_completed",
+        "count": 12,
+        "mean": 0.06237803384900373,
+        "median": 0.05081418525935448,
+        "p95": 0.10636843780634667,
+        "max": 0.1281735555745918,
+        "coverage": 1.0,
+        "tolerance": 0.15,
+        "exceed_count": 0
+      },
+      {
+        "polygon_id": 13,
+        "group": "facade_completed",
+        "count": 1,
+        "mean": 0.003547905007363753,
+        "median": 0.003547905007363753,
+        "p95": 0.003547905007363753,
+        "max": 0.003547905007363753,
+        "coverage": 1.0,
+        "tolerance": 0.15,
+        "exceed_count": 0
+      },
+      {
+        "polygon_id": 14,
+        "group": "facade_completed",
+        "count": 7,
+        "mean": 0.07680401513093589,
+        "median": 0.06334220968575766,
+        "p95": 0.12528353725710734,
+        "max": 0.13395421918239828,
+        "coverage": 1.0,
+        "tolerance": 0.15,
+        "exceed_count": 0
+      },
+      {
+        "polygon_id": 15,
+        "group": "facade_completed",
+        "count": 6,
+        "mean": 0.08474940242169886,
+        "median": 0.09721464037621314,
+        "p95": 0.13533757200596322,
+        "max": 0.1366833195793692,
+        "coverage": 1.0,
+        "tolerance": 0.15,
+        "exceed_count": 0
+      },
+      {
+        "polygon_id": 18,
+        "group": "ground_assumed",
+        "count": 21,
+        "mean": 0.14865282995465426,
+        "median": 0.1330595311693017,
+        "p95": 0.2928059548847822,
+        "max": 0.3612687079052823,
+        "coverage": 0.5238095238095238,
+        "tolerance": 0.15,
+        "exceed_count": 10
+      },
+      {
+        "polygon_id": 20,
+        "group": "ground_assumed",
+        "count": 1,
+        "mean": 0.057122521305379204,
+        "median": 0.057122521305379204,
+        "p95": 0.057122521305379204,
+        "max": 0.057122521305379204,
+        "coverage": 1.0,
+        "tolerance": 0.15,
+        "exceed_count": 0
+      },
+      {
+        "polygon_id": 21,
+        "group": "ground_assumed",
+        "count": 1,
+        "mean": 0.019095397044079254,
+        "median": 0.019095397044079254,
+        "p95": 0.019095397044079254,
+        "max": 0.019095397044079254,
+        "coverage": 1.0,
+        "tolerance": 0.15,
+        "exceed_count": 0
+      },
+      {
+        "polygon_id": 22,
+        "group": "ground_assumed",
+        "count": 1,
+        "mean": 0.04936735597719921,
+        "median": 0.04936735597719921,
+        "p95": 0.04936735597719921,
+        "max": 0.04936735597719921,
+        "coverage": 1.0,
+        "tolerance": 0.15,
+        "exceed_count": 0
+      }
+    ],
+    "estimated_normal_alignment": {
+      "status": "input_proxy_not_gt_NC",
+      "stable_points": 1617,
+      "fraction": 0.906390134529148,
+      "mean_abs_dot": 0.973605746470404
+    },
+    "reverse_distance": {
+      "status": "not_scored_without_visibility",
+      "reason": "Missing returns do not establish empty space"
+    }
+  },
+  "issues": [],
+  "input_sha256": "0d4c007a1482fc8c132450120b20fe58e702dcca80cfe4fe9b2f94dcb56f6580"
+}

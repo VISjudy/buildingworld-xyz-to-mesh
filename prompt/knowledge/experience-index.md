@@ -19,3 +19,14 @@
 | EXP-F002 | 零收益 / 已测范围 | 前48对学习的策略在新30对同起点提议未优于原始策略 | starter78-feedback-pilot/summary.json；policy_evolved.json |
 
 记忆检索使用条件和失败类型，不能按建筑 ID 编写重建特例。建筑知识库规则与实验经验分别冻结：`config/knowledge/rules.json` 是初始规则，经验条目不是自动生效的硬约束。
+
+## 反馈组成v002新增记录
+
+| ID | 状态 | 结论 |
+|---|---|---|
+| EXP-H002 | 假设 | 图像候选配对几何改善，因果未证实 |
+| EXP-L003 | 限制 | 标高不等于立面高度，底高通常未观测 |
+| EXP-F003 | 工程事实 | 本批高度检查开关零收益 |
+| EXP-C003 | 纠正 | API兼容修复与知识/反馈贡献分开 |
+
+证据统一见 `experiments/2026-09-21/feedback-components-v002/summary.md`。新规则 `config/knowledge/rules-v002.json` 仅用于v002，旧版本不变。

@@ -1,0 +1,19 @@
+{
+  "desktop": [
+    1440,
+    1080
+  ],
+  "mobile": [
+    390,
+    844
+  ],
+  "records": 78,
+  "linksChecked": 254,
+  "missingAssets": [],
+  "URLRestore": true,
+  "modeAndSevenViewControls": true,
+  "reviewPersistenceAndJSONExport": true,
+  "qaRatingIsNotResearchEvidence": true,
+  "mobileOverflow": false,
+  "pageErrors": []
+}

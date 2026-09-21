@@ -1,0 +1,46 @@
+const { chromium } = require('C:/Users/Lenovo/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+const fs=require('fs'), path=require('path'), {pathToFileURL,fileURLToPath}=require('url');
+(async()=>{
+ const root=path.resolve(__dirname,'../../..'),out=path.join(root,'reports/2026-09-21-feedback-components-v002');
+ const work=path.join(root,'work/experiments/2026-09-21/feedback-components-v002');
+ const browser=await chromium.launch({headless:true,channel:'msedge'});
+ const page=await browser.newPage({viewport:{width:1440,height:1080},acceptDownloads:true});
+ const errors=[];page.on('pageerror',e=>errors.push(e.message));
+ const url=pathToFileURL(path.join(out,'index.html')).href;
+ await page.goto(url);await page.locator('#count').waitFor();
+ if(await page.locator('article:visible').count()!==78)throw Error('Missing records');
+ await page.screenshot({path:path.join(out,'qa-desktop.png')});
+ const links=await page.locator('a[href],img[src]').evaluateAll(els=>els.map(e=>new URL(e.getAttribute('href')||e.getAttribute('src'),location.href).href));
+ const missing=links.filter(u=>u.startsWith('file:')&&!fs.existsSync(fileURLToPath(u)));
+ if(missing.length)throw Error('Missing local assets: '+missing.join(', '));
+ const id=await page.locator('article').first().getAttribute('data-id');
+ await page.fill('#query',id);await page.selectOption('#mode','ablation');await page.selectOption('#view','top');
+ if(await page.locator('article:visible').count()!==1)throw Error('Filter failed');
+ await page.reload();
+ if(await page.inputValue('#query')!==id||await page.inputValue('#mode')!=='ablation'||await page.inputValue('#view')!=='top')throw Error('URL restore failed');
+ const card=page.locator('article:visible');
+ const img=card.locator('img');await img.scrollIntoViewIfNeeded();await img.evaluate(i=>i.decode());
+ if(!(await img.getAttribute('src')).endsWith('_top.jpg'))throw Error('View not changed');
+ for(const view of ['oblique','opposite','top','front','back','left','right']){
+  await page.selectOption('#view',view);await img.evaluate(i=>i.decode());
+  if(!(await img.getAttribute('src')).endsWith('_'+view+'.jpg'))throw Error('View failed: '+view);
+ }
+ await page.selectOption('#view','oblique');
+ await card.locator('summary').click();
+ await card.locator('[data-rating]').selectOption('FULL');await card.locator('[data-comment]').fill('QA only: persistence and export, not a human rating');
+ await page.reload();await page.locator('article:visible summary').click();
+ if(await page.locator('article:visible [data-rating]').inputValue()!=='FULL')throw Error('Rating persistence failed');
+ const downloadPromise=page.waitForEvent('download');await page.locator('#export').click();const download=await downloadPromise;
+ const downloadPath=path.join(work,'qa-review-export.json');await download.saveAs(downloadPath);
+ const exported=JSON.parse(fs.readFileSync(downloadPath,'utf8'));
+ if(exported.reviews[id].preferred!=='FULL'||exported.status!=='human_feedback_not_ground_truth')throw Error('Export failed');
+ await page.locator('article:visible').screenshot({path:path.join(out,'qa-building-comparison.png')});
+ await page.fill('#query','not-a-building');if(await page.locator('article:visible').count())throw Error('Empty filter failed');
+ await page.setViewportSize({width:390,height:844});await page.goto(url);
+ const overflow=await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth);
+ if(overflow)throw Error('Mobile document overflow');
+ await page.screenshot({path:path.join(out,'qa-mobile.png')});
+ if(errors.length)throw Error(errors.join('\n'));
+ fs.writeFileSync(path.join(out,'browser-qa.json'),JSON.stringify({desktop:[1440,1080],mobile:[390,844],records:78,linksChecked:links.length,missingAssets:missing,URLRestore:true,modeAndSevenViewControls:true,reviewPersistenceAndJSONExport:true,qaRatingIsNotResearchEvidence:true,mobileOverflow:overflow,pageErrors:errors},null,2));
+ await browser.close();console.log('Report browser QA PASS');
+})().catch(e=>{console.error(e);process.exit(1)});

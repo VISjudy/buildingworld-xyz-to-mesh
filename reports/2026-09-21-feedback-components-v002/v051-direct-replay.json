@@ -1,0 +1,9 @@
+{
+  "wrapper_embedded_source_matches_exact_historical_bytes": true,
+  "sample_id": "point2building_02648_z478b924900000293",
+  "direct_raw_script_obj_sha256": "a3f6e351793e8b6adb17524f979a6018a6a6134d5b0d699d63b4ca36b44003bf",
+  "wrapper_obj_sha256": "a3f6e351793e8b6adb17524f979a6018a6a6134d5b0d699d63b4ca36b44003bf",
+  "direct_raw_script_obj_matches_wrapper_bytes": true,
+  "root_vs_historical_only_text_difference": "LOCAL_DEPS=Path(__file__).resolve().parent/'analysis/buildingworld/deps' changed to 'work/runtime/deps' in repository root script",
+  "validation_scope": "One successful sample interface equivalence plus bytewise embedded source check; all78 remains actual test batch"
+}
