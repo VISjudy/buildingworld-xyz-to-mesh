@@ -17,6 +17,8 @@
 | PolyGNN mini 作者资源 | dataset/external/polygnn_mini/raw/archives | 已完整下载 163,238,451 字节；已解压 200 对（train 100 / test 100），仿真 ALS |
 | 可直接使用的配对样例 | dataset/processed/facade_pairs_v001 | 78 对：真实 train 20 / test 18，仿真 train 20 / test 20；原 split 保留，无人工补面/补点 |
 | 完整真实质量集 | dataset/processed/point2building_hq_v001 | 363 对，作者标签 train 345 / test 18；项目训练 312 / 封存测试 51；当前不运行完整集算法实验 |
+| 完整本地仿真质量集 | dataset/processed/polygnn_mini_hq_v001/pairs | 已下载 mini 200 对中的全部 199 合格对；作者 train 100 / test 99，项目训练 120 / 测试 79 |
+| 当前统一集合入口 | dataset/processed/complete_pairs_v001 | 合计 562 对，分真实/仿真来源；项目训练 432 / 封存测试 130；78 入门样例是其子集 |
 | BuildingWorld 完整训练 | 未下载 | 官方 Hugging Face 需审核访问；不能绕过申请，也不将其列为当前本地数据 |
 
 Point2Building 论文研究 Zurich/Berlin/Tallinn，但实际下载包只包含 Zurich 数据，不能宣称三城均已获取。PolyGNN mini 的点云由 pyhelios 仿真，Mesh 源于巴伐利亚 LoD2 数据。原数据许可遵守各来源，仓库不再分发数据。
@@ -71,3 +73,15 @@ Point2Building 论文研究 Zurich/Berlin/Tallinn，但实际下载包只包含 
 - `manifests/starter78_development.json`：当前算法批处理入口，指向原 78 对，真实/仿真需分层报告。项目全训练和测试使用暂缓/封存角色与 stage_locked 双门禁。
 - 证据：`reports/2026-09-21-point2building-complete/summary.json`、`split-inventory.json`、`integrity-verification.json`。详细使用门槛：`../protocols/dataset-stages.md`。
 - 正式 SOTA 对比若用作者预训练 Point2Building 权重，51 对项目测试可能已在其训练中。须按项目训练划分重训，或用独立作者标准评测协议，不能把现成权重结果解释为公平未见泛化。
+
+## 补齐仿真数据后的统一集合（最新）
+
+用户补充完整集必须同时包含 Zurich 真实采集与合格仿真数据，并明确回复本轮先纳入已下载 mini 的全部合格数据。PolyGNN Munich 完整发布库不在本轮范围；不能把 mini 称为完整发布库。
+
+- `complete_pairs_v001/manifest.json` 统一登记全部 562 对，直接指向各来源文件，避免重复复制。`summary.json` 记录来源、哈希、数量与阶段。
+- 仿真 199/200 沿用原筛选门槛，全部通过新增 Blender 独立 QA；402 个原始解压文件重验大小/SHA256，导出 XYZ/OBJ 重读通过。1 个立面证据不足的原始配对保留。
+- 仿真原作者划分 100/99 保留。作者 test 中已有 20 对进入 78 入门集，项目用途转为开发/训练；剩下 79 对封存。归一化形状相似度和精确哈希未发现跨划分重复，缺源坐标故不宣称空间隔离。
+- 项目全训练 432 = 真实 312 + 仿真 120；封存测试 130 = 真实 51 + 仿真 79。训练包含全部入门 78，对测试重叠 0。
+- 统一入口 `complete_pairs_v001/manifests/starter78_development.json` 与上一版 starter 清单哈希相同。`real_zurich_*`、`synthetic_mini_*` 提供来源分组，`all_*` 用于编排；六份完整运行清单均被门禁阻止提前执行。
+- 真实和仿真不是相同坐标单位，最终按来源分别汇报准确度/失败率/成本，不把距离直接混合平均。
+- 证据：`reports/2026-09-21-real-synthetic-collection/`；前阶段真实组与全部历史数据保留。

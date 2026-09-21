@@ -1,0 +1,61 @@
+{
+  "scope": "all qualifying pairs in locally downloaded Zurich + PolyGNN mini packages",
+  "upstream_munich_full_included": false,
+  "scope_authorization": "User explicitly selected local mini only for this round on 2026-09-21",
+  "sources": {
+    "real_zurich": {
+      "qualified_pairs": 363,
+      "project_splits": {
+        "train": 312,
+        "test": 51
+      },
+      "author_splits": {
+        "testset": 18,
+        "trainset": 345
+      },
+      "starter_overlap": 38
+    },
+    "synthetic_mini": {
+      "qualified_pairs": 199,
+      "project_splits": {
+        "train": 120,
+        "test": 79
+      },
+      "author_splits": {
+        "testset": 99,
+        "trainset": 100
+      },
+      "starter_overlap": 40
+    }
+  },
+  "total_quality_pairs": 562,
+  "project_splits": {
+    "train": 432,
+    "test": 130
+  },
+  "starter78_count": 78,
+  "starter_test_overlap": 0,
+  "synthetic_raw_pairs": 200,
+  "synthetic_raw_files_verified": 402,
+  "synthetic_blender_pass": 199,
+  "synthetic_similarity_links": 0,
+  "synthetic_spatial_independence": "not established; original coordinates unavailable in mini",
+  "full_collection_reconstruction_runs": 0,
+  "input_hashes": {
+    "synthetic_audit": "1d7a72622cb6ff3ae3e94a1c5f6369fac13907d00ddd27706b82910624ba94e9",
+    "blender_audit": "cec117a33f7465e1a7a0fd984db5d318a94f1a6b50497e52c7164f1922201dbc",
+    "starter": "ebb1d3efe688a423b69cdeea613637489f7b431cadaea274f7c295a34c9e267e",
+    "real_summary": "dbc7cdb2872a9c850fe7d9c684e323eac731eba5a3ec07c5445e1b1785185ce5"
+  },
+  "manifest_hashes": {
+    "all_test.json": "6a99a6b434444b91e2210712f8741a1550c69be305ad5a44916ecc2a76f6c825",
+    "all_train.json": "a49427c061f7c9a0acc48894ea601a5250d2a73324ea36f9cab553296cfb7486",
+    "real_zurich_test.json": "c733e3fc59e67248d060271d84aa707936077d0047a7fac11aee360b1adb6727",
+    "real_zurich_train.json": "e78e15f9629d1c247fa3fa5340c303b24efaa0d255f81e1a1ed5bb7f570fc4cf",
+    "starter78_development.json": "21d84277e684eedff37469f8dcab3ab0663fb165339182b5498b42d66ac09b6e",
+    "synthetic_author_testset.json": "8ef2b0101369f5cd52ada62a1634f5dda7b568b7447627b39dbece14ed8f98b7",
+    "synthetic_author_trainset.json": "5ef29365825b8d543fd5fe789baede921a7cdae01a369d48693cac2eb9c4f843",
+    "synthetic_mini_test.json": "eaee32d8e517bb52fda88824d1e00e62f25fd259ceeacd15f6b1660225438e25",
+    "synthetic_mini_train.json": "ee7a4de53aa4d87cf48f181889068ca4ed04f7a4c70cef635b9826be393e351e"
+  }
+}

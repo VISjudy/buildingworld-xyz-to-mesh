@@ -64,3 +64,13 @@ Point2Building 论文还说明用参考轮廓提取独栋点云，因此实例�
 - `export_complete_data_report.py --dataset ... --verification ... --output ...`：依据核验结果创建新版本离线 HTML 报告。
 
 空间阈值为 200 源坐标单位；近似形状用排序的顶点对距离（容差 0.05 源单位、相对容差 0.005），哈希固定选择 20% 无入门样例的连通组作为测试。不同城市、阈值、网格版本变化须建立新版本，不能事后根据测试成绩调整划分。
+
+## 真实 + 仿真统一入库（同日补充）
+
+用户明确本轮仅纳入已下载 PolyGNN mini 的全部合格数据。完整本地集合 `../dataset/processed/complete_pairs_v001/` 共 562 对：Zurich 真实 363、mini 仿真 199，项目训练 432 / 封存测试 130。全部 78 入门样例包含在训练中，阶段安排不变。
+
+仿真文件单独保存在 `../dataset/processed/polygnn_mini_hq_v001/pairs/`。199 对均经过 Blender 补充复核，402 个原始文件经哈希复核。作者 train 100 / test 99 标签保留；20 个作者 test 已入门，故项目训练 120 / 测试 79。归一化形状对距离筛查使用绝对容差 1e-6、相对容差 1e-4，并核对点云/Mesh 精确哈希；不宣称 mini 空间隔离。
+
+新增入口：`export_paired_collection.py` 接收真实组件、仿真组件、原始提取目录、审核、Blender 复核与 starter 清单，完整核验后生成独立统一索引；`export_paired_collection_report.py` 生成新阶段报告并实际验证六份完整运行清单会被阶段门禁拒绝。仿真文件仍由 `export_facade_pairs.py --max-per-split 0` 全部导出。
+
+报告：[真实与仿真统一集合](../reports/2026-09-21-real-synthetic-collection/index.html)。[PolyGNN 作者说明](https://github.com/chenzhaiyu/polygnn)将 200 对 mini 与 [Munich 完整发布库](https://zenodo.org/records/14254264) 区分；本轮未下载后者。“全部”仅指用户确认的本地包覆盖范围。

@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "rows": [
+    {
+      "name": "desktop",
+      "width": 1440,
+      "height": 1100,
+      "overflow": false,
+      "keyboard_details": true,
+      "external_requests": [],
+      "errors": [],
+      "headline_verified": true,
+      "unrun_statement_present": true
+    },
+    {
+      "name": "mobile",
+      "width": 390,
+      "height": 844,
+      "overflow": false,
+      "keyboard_details": true,
+      "external_requests": [],
+      "errors": [],
+      "headline_verified": true,
+      "unrun_statement_present": true
+    }
+  ]
+}

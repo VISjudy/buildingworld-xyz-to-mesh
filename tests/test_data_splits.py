@@ -1,7 +1,7 @@
 import numpy as np
 import pytest
 from scipy.spatial.distance import pdist
-from harness.data_splits import grouped_holdout
+from harness.data_splits import grouped_holdout, author_holdout_without_starters
 from harness.io import write_json
 from harness.workflow import run_batch
 
@@ -30,6 +30,21 @@ def test_rigidly_transformed_reference_stays_in_starter_group():
     result = grouped_holdout(rows, {'original'})
     assert result['assignment']['rotated'] == 'train'
     assert result['assignment']['unseen'] == 'test'
+
+
+def test_synthetic_author_test_excludes_starters_and_similar_training_shapes():
+    def row(bid, author_split, distances):
+        return {'id': bid, 'author_split': author_split, 'shape_distances': distances,
+                'mesh_sha256': bid, 'point_sha256': bid}
+    rows = [row('train', 'trainset', [.1, .2, .3]),
+            row('similar_test', 'testset', [.1000001, .2000001, .3000001]),
+            row('starter_test', 'testset', [.4, .5, .6]),
+            row('unseen_test', 'testset', [.7, .8, .9])]
+    result = author_holdout_without_starters(rows, {'starter_test'})
+    assert result['assignment'] == {'train': 'train', 'similar_test': 'train',
+                                     'starter_test': 'train', 'unseen_test': 'test'}
+    assert result == author_holdout_without_starters(list(reversed(rows)), {'starter_test'})
+    assert result['policy']['spatial_isolation'].startswith('not_established')
 
 
 @pytest.mark.parametrize('role, locked', [('sealed_test', False), ('deferred_train', False), ('development', True)])

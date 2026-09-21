@@ -7,6 +7,7 @@
 - 派生数据 v001/v002 保留。用户确认 demo 为屋顶数据，v002 的 26 个几何筛选通过者不再解释为完整立面训练真值；只用于屋顶调试。
 - 新下载 Point2Building Zurich 28,415 对真实 ALS/Mesh，PolyGNN mini 200 对仿真 ALS/Mesh；已整理 78 对入门样例。详细审核等级见 `datasets.md`，不把“已下载”当“全库质量通过”。
 - Point2Building 完整质量子集 363 对已整理（项目训练 312 / 封存测试 51）。用户指定先在固定 78 对上迭代稳定，再测试完整集；当前尚未运行 78 对算法基准，也没有完整集重建成绩。阶段与测试重叠边界见 `../protocols/dataset-stages.md`。
+- 最新完整本地集合补齐 mini 仿真 199 对，统一为 562 对（432 训练 / 130 封存测试）；用户明确本轮不下载 Munich 完整发布库。入口 `../dataset/processed/complete_pairs_v001`；仅入门 78 当前可用，按真实/仿真分别评价。
 - 新实验 `work/experiments/2026-09-21/lod2-rsi-v001`；历史三栋 exact Git blob 算法复现、development20 固定基准、candidate001 凹轮廓。
 - candidate001：11 改善、6 持平、2 退化、1 失败，未采用。模型 2124 未产生。观测 P95 不能证明补全准确。
 - 20 栋为新授权开发样本，和历史训练 20 栋不是同组；输入 SHA 固定，不得互换。

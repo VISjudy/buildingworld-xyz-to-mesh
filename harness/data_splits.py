@@ -5,6 +5,54 @@ import numpy as np
 from scipy.spatial import cKDTree
 
 
+def author_holdout_without_starters(rows, starter_ids):
+    """Retain unused author-test groups, moving exposed/similar groups to train.
+
+    For normalized mini data, no source XY exists: never invent spatial isolation.
+    Distances must use that dataset's normalized coordinates, not physical metres.
+    """
+    rows = sorted(rows, key=lambda r: r['id'])
+    ids = {r['id'] for r in rows}
+    if len(ids) != len(rows) or not set(starter_ids) <= ids:
+        raise ValueError('Unique IDs and known starter membership required')
+    if any(r['author_split'] not in ['trainset', 'testset'] for r in rows):
+        raise ValueError('Unknown author split')
+    parent = list(range(len(rows)))
+
+    def find(i):
+        while parent[i] != i:
+            parent[i] = parent[parent[i]]
+            i = parent[i]
+        return i
+
+    links = []
+    for i, row in enumerate(rows):
+        a = np.asarray(row['shape_distances'])
+        for j in range(i):
+            b = np.asarray(rows[j]['shape_distances'])
+            if (row['mesh_sha256'] == rows[j]['mesh_sha256']
+                    or row['point_sha256'] == rows[j]['point_sha256']
+                    or (a.size and a.shape == b.shape and np.allclose(a, b, atol=1e-6, rtol=1e-4))):
+                x, y = find(i), find(j)
+                parent[max(x, y)] = min(x, y)
+                links.append([rows[j]['id'], row['id']])
+    groups = {}
+    for i, row in enumerate(rows):
+        groups.setdefault(find(i), []).append(row)
+    assignment, group_ids = {}, {}
+    for group in groups.values():
+        exposed = any(r['id'] in starter_ids or r['author_split'] == 'trainset' for r in group)
+        group_id = 'sim_group_' + hashlib.sha256('|'.join(r['id'] for r in group).encode()).hexdigest()[:16]
+        for r in group:
+            assignment[r['id']] = 'train' if exposed else 'test'
+            group_ids[r['id']] = group_id
+    return {'assignment': assignment, 'group_ids': group_ids, 'similarity_links': links,
+            'policy': {'keep_unexposed_author_test': True, 'starter_excluded_from_test': True,
+                       'shape_atol_normalized_units': 1e-6, 'shape_rtol': 1e-4,
+                       'spatial_isolation': 'not_established_source_coordinates_unavailable',
+                       'near_duplicate_check': 'conservative_proxy_not_exhaustive'}}
+
+
 def grouped_holdout(rows, starter_ids, separation=200., test_fraction=.2):
     """Rows contain id, center_xy, shape_distances and mesh_sha256.
 

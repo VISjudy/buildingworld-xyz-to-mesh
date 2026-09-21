@@ -1,0 +1,29 @@
+{
+  "blocked_manifests": [
+    {
+      "manifest": "all_train",
+      "message": "Evolution cannot consume sealed test manifests"
+    },
+    {
+      "manifest": "all_test",
+      "message": "Evolution cannot consume sealed test manifests"
+    },
+    {
+      "manifest": "real_zurich_train",
+      "message": "Evolution cannot consume sealed test manifests"
+    },
+    {
+      "manifest": "real_zurich_test",
+      "message": "Evolution cannot consume sealed test manifests"
+    },
+    {
+      "manifest": "synthetic_mini_train",
+      "message": "Evolution cannot consume sealed test manifests"
+    },
+    {
+      "manifest": "synthetic_mini_test",
+      "message": "Evolution cannot consume sealed test manifests"
+    }
+  ],
+  "reconstruction_executed": false
+}

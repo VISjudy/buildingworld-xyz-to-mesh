@@ -1,0 +1,14 @@
+{
+  "tests_passed": 21,
+  "tests_failed": 0,
+  "memory_validation_passed": true,
+  "visual_qa": "Desktop and mobile screenshots inspected; table counts and stage notes readable; no overflow or network requests.",
+  "code_sha256": {
+    "harness/data_splits.py": "f1c41f19ef226799a8265ad0f586b49733cfd6c72222282b6f1574c5da460bce",
+    "scripts/buildingworld/export_paired_collection.py": "a33d583fd48e79dfd3933e69f6b042ab1c8f5d9666d60453c7edc7fd12025fe3",
+    "scripts/buildingworld/export_paired_collection_report.py": "1f2d1291a7f98f0c8bd0cc016adb8abce9258a21cf2d8ab066135ddd827e9d4f",
+    "scripts/buildingworld/check_reference_meshes_blender.py": "0a28f64f416dd18fc0fd9a2fa1df2a4d9328f9e2dc04c917393ae4f155ded45e",
+    "scripts/buildingworld/export_facade_pairs.py": "8afc2965cb1fc204f8df4cf0c831e41bef78667ba263c244bb0d69a48eac0a4a"
+  },
+  "complete_collection_reconstruction_executed": false
+}
