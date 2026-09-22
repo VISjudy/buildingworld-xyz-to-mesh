@@ -1,0 +1,11 @@
+{
+  "trimesh_roundtrip_nonempty_checked": 3966,
+  "vertex_and_triangle_arrays_identical": true,
+  "empty_placeholders_checked": 34,
+  "source_coordinate_roundtrip_max_error": 4.9998210016610756e-09,
+  "algorithm_sha256": "8b69b7e4f842d9628085adacdc7b27f73c5772f77b1f3c7f10f053c20458053a",
+  "raw_inputs_unchanged": true,
+  "self_intersection": "not_checked",
+  "platform_acceptance": "not_tested",
+  "zip_verification": "summary.json"
+}

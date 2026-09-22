@@ -1,0 +1,27 @@
+{
+  "version": "v0.1.0-challenge4000-submission-v001",
+  "algorithm_sha256": "8b69b7e4f842d9628085adacdc7b27f73c5772f77b1f3c7f10f053c20458053a",
+  "package_sha256": "d5e709ae81fcf9aa36726c557989887b96e97bc2de52e3d994f245162a77ec97",
+  "files": {
+    "summary.md": "e9e19fdcf963bcec736d4599d4839f209a4e450a3c36e1e2d768c01f07da8b7e",
+    "reports/inputs.json": "e7ddfed9b37021f6678308c27bee66f9640ba55d8dd0dbd830161c4e974e1c86",
+    "reports/protocol.json": "f4ab544cdcdb181cdcebe4bfffa18045bf159d335eb6d68f58bcdaf59a126bba",
+    "reports/summary.json": "c063479899ab18e671d4c4b4333598baefaa343cdc150dbbfdfcd3db89f637f8",
+    "source/algorithm.py": "8b69b7e4f842d9628085adacdc7b27f73c5772f77b1f3c7f10f053c20458053a",
+    "source/official_save_mesh.py": "dd21894cbe4dd513ffed03d3e824ae11fb22657a01391d5839185ccf82f7c490",
+    "source/requirements-lock.txt": "580d9636b448611a7e3f79b4a593696d4c7d2a25914fb96d25608341ac91af83",
+    "source/run_submission.py": "8003147207eae5e9f4a0bccdc87369088895db312bbc93800784ab2c64c90cb7",
+    "source/harness/adapter.py": "b060b302c76d2f441c8f9b4f54510f5d5f1b9f6420c5704b9b17dedad88e3571",
+    "source/harness/data_splits.py": "f1c41f19ef226799a8265ad0f586b49733cfd6c72222282b6f1574c5da460bce",
+    "source/harness/derive.py": "174c9325d24454c04dc6822c408f173755b73a297929cb99b1e80bdaefe5442f",
+    "source/harness/evaluate.py": "4a0f98ed6b33798f05c9da6ac08e172cb23a3b08f5effb84998eb1a56803a2ce",
+    "source/harness/feedback.py": "132f79b8e1a3c9a4b19fbc16e8e10b4e27828df77bd7a4437f72b40bf0c0daff",
+    "source/harness/io.py": "3758c7c2b477609cd336146a92a0823e0f5a7330abfb66d0c101edb74e74f09a",
+    "source/harness/pilot_analysis.py": "fd714d1b6ed449986e75b7bece20c4c44e42122b0222c7ec6546c007dd90a8bd",
+    "source/harness/pilot_worker.py": "fedd404e6b1f9413442ae2f94b6dd5b2ffc1be6079715bdea8fad62c28dc90fb",
+    "source/harness/preprocess.py": "8b4b28c95075653ecb975da661c46d7e9a2f0e9340502baca3acf32811432460",
+    "source/harness/workflow.py": "fd3e2b5b585c64e146cb85c70a29f5579cd67492eadf9dc6e847439f245e6fa0",
+    "source/harness/__init__.py": "d556174a26aded25833cecb5dde836292c4fc6ae54e4bb435550faaea57ab7bf",
+    "source/harness/__main__.py": "4e207906757dce65d89196cceb538a0e8572ae0971f31f94eb8f3f7ccbb3e189"
+  }
+}

@@ -11,5 +11,6 @@
 | 统一数据方法与反馈小试 | 预处理、标准化、筛选规则、starter78、迁移 | ../docs/DATASET_METHODS_V001.md；../experiments/2026-09-21/starter78-feedback-pilot/summary.md |
 | 数据程序复现 | download_research_data、analyze_paired、export_facade、下载、配对 | ../docs/DATA_ACQUISITION.md |
 | 反馈组成与高度 | 消融、图像、综合反馈、v0.5.1、Z值、高度 | ../docs/FEEDBACK_COMPONENTS_V002.md；../experiments/2026-09-21/feedback-components-v002/summary.md |
+| 比赛提交包 | 提交、打包、ZIP、4000 | ../experiments/2026-09-22/initial-v010-test4000/summary.md |
 | 经验检索 | 成功、失败、回归、候选、经验 | knowledge/experience-index.md；knowledge/experiences.jsonl |
 | 记忆维护 | memory、记忆、记录、接续、归档 | protocols/memory-management.md |

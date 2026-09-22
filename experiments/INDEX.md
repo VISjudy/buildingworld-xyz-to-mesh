@@ -13,3 +13,5 @@
 基准复现、派生数据与第一候选共享本实验；跨日继续使用原目录，不复制整套实验。
 
 | feedback-components-v002 | 单候选探索已定案 | 综合反馈78/78当前拓扑通过；图像候选改善但因果未证实，高度检查零收益；v0.5.1纳入同样本比较 | experiments/2026-09-21/feedback-components-v002/summary.md；reports/2026-09-21-feedback-components-v002 |
+
+| initial-v010-test4000 | 本地生成与打包已定案，未上传 | 3966网格＋34失败空OBJ，4000同名文件ZIP校验通过 | experiments/2026-09-22/initial-v010-test4000/summary.md；reports/2026-09-22-initial-v010-test4000 |

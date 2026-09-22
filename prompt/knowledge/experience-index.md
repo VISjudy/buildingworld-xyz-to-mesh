@@ -30,3 +30,5 @@
 | EXP-C003 | 纠正 | API兼容修复与知识/反馈贡献分开 |
 
 证据统一见 `experiments/2026-09-21/feedback-components-v002/summary.md`。新规则 `config/knowledge/rules-v002.json` 仅用于v002，旧版本不变。
+
+| EXP-S007 | 工程验证 | 官方导出允许空OBJ表达失败；ZIP文件齐全与成功网格数必须分别报告 | reports/2026-09-22-initial-v010-test4000/summary.json |

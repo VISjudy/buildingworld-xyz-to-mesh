@@ -1,0 +1,10 @@
+{
+  "frozen_replay_id": "1",
+  "frozen_replay_OBJ_byte_identical": true,
+  "extra_QA_inferences": 1,
+  "python_AST": "passed",
+  "local_report_links_existing": 6,
+  "project_memory_check": "valid",
+  "browser_visual_QA": "blocked_by_browser_URL_security_policy; no workaround attempted",
+  "static_QA": "HTML links and source checks only; not a visual inspection"
+}

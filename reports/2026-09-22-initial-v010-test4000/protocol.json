@@ -1,0 +1,11 @@
+{
+  "date": "2026-09-22",
+  "workers": 6,
+  "algorithm_sha256": "8b69b7e4f842d9628085adacdc7b27f73c5772f77b1f3c7f10f053c20458053a",
+  "no_GT": true,
+  "source_url": "https://huggingface.co/spaces/BuildingWorld/10thLiDARConference",
+  "zip_layout": "1.obj ... 4000.obj, no folders",
+  "failure_policy": "official empty OBJ, failures retained",
+  "normalization": "input bbox diagonal 30; inverse transform on OBJ",
+  "user_authorization": "2026-09-22 explicit inference on challenge 4000; independent of locked paired-data stage"
+}
